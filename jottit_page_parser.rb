@@ -2,6 +2,8 @@
 
 require './meeting'
 require './node_additions'
+require './date_additions'
+require './string_additions'
 
 class JottitPageParser
   
@@ -29,6 +31,7 @@ class JottitPageParser
     @index_offered_by = nil
     @index_attendees = nil
     @index_speaker = nil
+    @found_links = []
   end
   
   def break_page_in_chapters
@@ -41,13 +44,16 @@ class JottitPageParser
     return if @index_h1.nil?
     get_main_content
     get_content_for_metadata
+    process_metadata
+    process_found_links
+    find_missing_links
   end
   
   def get_main_content
     header = @page_chapters[@index_h1][:header]
     contents = @page_chapters[@index_h1][:contents]
     @meeting.title = header.content
-    @links_in_title = header.css('a')
+    @found_links.concat(header.css('a').to_a)
     details = ""
     contents.each do |node|
       if @index_h1 == 0 && node_has_metadata?(node)
@@ -79,6 +85,58 @@ class JottitPageParser
     end
   end
   
+  def process_metadata
+    metadata_text = (@nodes_for_metadata.map {|n| n.text }).join("\n")
+    parse_date(metadata_text)
+    parse_time(metadata_text)
+    parse_venue(metadata_text)
+    @nodes_for_metadata.each do |node|
+      @found_links.concat(node.css('a').to_a)
+    end
+  end
+  
+  def process_found_links
+    # raise @found_links.inspect
+    puts "Found links #{@found_links.size} - #{@found_links.inspect}"
+    @found_links.each do |node|
+      # Video ...
+      if @meeting.video_url.nil? && node[:href] =~ /vimeo\.com/
+        @meeting.video_url = node[:href]
+      end
+      # Map ...
+      if @meeting.map_url.nil? && node[:href] =~ /g(oogle)?\.(com|es|co)\/maps/
+        @meeting.map_url = node[:href]
+      end
+    end
+  end
+  
+  # Sometimes, videos are in strange places...
+  
+  def find_missing_links
+    # TODO
+  end
+  
+  def parse_date(text)
+    date = Date.parse_madrid_rb_date(text)
+    if date
+      @meeting.meeting_date = date
+    end
+  end
+
+  def parse_time(text)
+    time = text.parse_madrid_rb_time
+    if time
+      @meeting.meeting_time = time
+    end
+  end
+
+  def parse_venue(text)
+    venue = text.parse_madrid_rb_venue
+    if venue
+      @meeting.venue = venue
+    end
+  end
+  
   # Tries to determine the indexes of the relevant chapters
   
   def find_indexes
@@ -96,14 +154,14 @@ class JottitPageParser
       end
     end
     puts "No h1 in page: #{@page_chapters.to_yaml}" if @index_h1.nil?
-    puts "Index of h1: #{@index_h1}"
+    # puts "Index of h1: #{@index_h1}"
   end
   
   # Returns true if the text inside the node contains relevant field content
   
   def node_has_metadata?(node)
     raw_text = node.content.downcase
-    puts "Find metadata in: #{raw_text}"
+    # puts "Find metadata in: #{raw_text}"
     return true if raw_text =~ /fecha\:\s/
     return true if raw_text =~ /hora\:\s/
     return true if raw_text =~ /lugar\:\s/

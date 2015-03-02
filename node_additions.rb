@@ -35,7 +35,7 @@ class Nokogiri::XML::Node
       else
         # Not a header. We add the node to the current one, if any
         if current_chapter_header || !exclude_orphans
-          current_chapter_nodes << node unless (!include_whitespace && node.is_whitespace?)
+          current_chapter_nodes << node unless (!include_whitespace && node.blank?)
         end
       end
     end
