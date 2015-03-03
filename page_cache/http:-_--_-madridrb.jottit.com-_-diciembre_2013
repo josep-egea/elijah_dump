@@ -1,0 +1,491 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+    <title>Madrid.rb: diciembre 2013</title> 
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="stylesheet" type="text/css" media="screen, projection" href="/static/css-generated.css?1422633894" />
+    <style type="text/css">
+        <!--
+
+    #header { background: #FEFFCF;} 
+    #header h1 a { 
+        font-family: "Lucida Grande", verdana, sans-serif;
+        color: #000; 
+        font-size: 100%; 
+        
+        letter-spacing: -1px; 
+        
+    } 
+    #header #subtitle { 
+        color: #656600; 
+        font-family: "Lucida Grande", verdana, sans-serif;
+        font-size: 100%; 
+        
+        letter-spacing: -1px; 
+        
+    } 
+    #title_and_subtitle a { 
+        font-family: "Lucida Grande", verdana, sans-serif;
+        color: #656600; 
+    }
+    #header #menu { 
+        font-family: "Lucida Grande", verdana, sans-serif;
+        color: #656600; 
+    }
+    * + html #header #menu a { font-size: 0.95em; }
+    * html #header #menu a { font-size: 0.95em; }
+    #header #menu a {
+        color: #656600; 
+    }
+    
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 { 
+        font-family: "Lucida Grande", verdana, sans-serif; 
+    }
+    #content h1 { font-size: 170%; }
+    #content h2 { font-size: 140%; }
+    #content h3 { font-size: 120%; }
+    #content h4 { font-size: 100%; }
+    #content h5 { font-size: 85%; }
+    #content h6 { font-size: 70%; }
+    #content { 
+        font-family: "Lucida Grande", verdana, sans-serif; 
+        font-size: 100%; 
+    }
+
+    #sidebar { font-family: "Lucida Grande", verdana, sans-serif }
+
+    -->
+    </style>
+    
+<link rel="alternate" type="application/atom+xml" title="Madrid.rb: Recent changes" href="http://madridrb.jottit.com/site/changes.atom" />
+<link rel="alternate" type="application/atom+xml" title="diciembre 2013: Recent changes" href="http://madridrb.jottit.com/diciembre_2013?m=history.atom" />
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-35364481-1']);
+  _gaq.push(['_setDomainName', 'jottit.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script></head>
+
+<body class="app">
+
+<div id="wrapper">
+
+
+
+<div id="header">
+    <div id="title_and_subtitle">
+        <h1><a id="title" href="http://madridrb.jottit.com/">Madrid.rb</a></h1>
+        <div id="subtitle">Mixing Ruby with beer on a monthly basis since 2006</div>
+    </div>
+
+    <div id="menu">
+    
+        <a href="http://madridrb.jottit.com/site/changes">recent changes</a> 
+    
+    
+    
+        <a href="http://madridrb.jottit.com/site/signin?return_to=diciembre_2013">sign in</a>
+    
+    </div>
+</div>
+
+<div id="content_wrapper">
+<div id="content">
+    
+
+
+
+
+
+
+
+
+    <p><strong>Fecha:</strong> Jueves, 26 de Diciembre de 2013 <br />
+<strong>Lugar:</strong> <a href="http://www.utopicus.es/" rel="nofollow">Utopic_US US3</a> (<a href="https://www.google.com/maps/preview#!q=Calle+Colegiata%2C+9%2C+Madrid%2C+Spain&data=!4m10!1m9!4m8!1m3!1d203964!2d-3.6795367!3d40.4378271!3m2!1i1436!2i806!4f13.1" rel="nofollow">c/ Colegiata 9</a>)<br />
+<strong>Hora:</strong> 19:45h<br />
+<strong>Video:</strong> <a href="http://vimeo.com/85642729" rel="nofollow">Vimeo</a></p>
+
+<h1>Catacrockea a cascoporro con redis</h1>
+
+<p>Todo el mundo está usando Redis, y con motivo: Es rápido, es fácil y es web scale. Pero Redis puede hacer muchas más cosas de las típicas para las que lo usa la comunidad Ruby. En esta charla hablaré sobre lo que se puede hacer con Redis, cómo lo están usando empresas como twitter o pinterest, las cosas que no deberías hacer con redis, algunos patrones interesantes de uso, y cómo lo estamos usando en teowaki para resolver un montón de problemas.</p>
+
+<h2>Javier Ramírez (<a href="https://twitter.com/supercoco9" rel="nofollow">@supercoco9</a>)</h2>
+
+<p>Desarrollador web, soñador y en general una persona feliz. Interesado en todo lo que tenga que ver con Internet y cómo está cambiando nuestra cultura y nuestra sociedad.
+Fundador de <a href="http://teowaki.com" rel="nofollow">teowaki.com</a>, donde intentamos hacer más felices a los desarrolladores ayudándoles a compartir información técnica, rumores y lifehacks con sus amigos desarrolladores.</p>
+
+<p>Vivo en Londres, pero puedes encontrarme en <a href="http://javier-ramirez.com" rel="nofollow">javier-ramirez.com</a> y como <a href="https://twitter.com/supercoco9" rel="nofollow">@supercoco9</a> en twitter.</p>
+
+<h2>Ofrecido por</h2>
+
+<p> 
+<a href="http://www.bebanjo.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/bebanjo.png" alt="BeBanjo" /></a>     
+<a href="http://www.prorubyteam.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/proruby.png" alt="ProRuby" /></a>     
+<a href="http://the-cocktail.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/tck.png" alt="The Cocktail" /></a>     
+<br />
+<br />
+<a href="http://aspgems.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/aspgems.png" alt="ASPgems" /></a>     
+<a href="http://www.lextrend.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/lextrend.png" alt="Lextrend" /></a>     </p>
+
+<h3>Asistentes</h3>
+
+<p><em>(<a href="?m=edit" rel="nofollow">Edit</a> this page and add yourself if you are planning to attend)</em></p>
+
+<p><strong>Amigos expatriados, háganlo saber así -> 🇯🇵</strong></p>
+
+<ul>
+<li>@supercoco9 🇬🇧</li>
+<li>@xemig  🇩🇪</li>
+<li>@ferblape</li>
+<li>@xuanxu</li>
+<li>@ciscou</li>
+<li>@amaiac</li>
+<li>@jerolba</li>
+<li>@happywebcoder 🇺🇸</li>
+<li><a href="https://twitter.com/elobatoss" rel="nofollow">@eLobatoss</a></li>
+<li>@rnaveiras 🇬🇧</li>
+<li>@porras 🇩🇪</li>
+<li>@valakirka 🇩🇪</li>
+<li>@voodoorai2000 🇯🇵</li>
+<li>@alexcocia</li>
+<li>@jaimeiniesta</li>
+<li>@istepaniuk</li>
+<li>@gootyfer</li>
+<li>@arpahector</li>
+<li>Unai Trecet</li>
+<li>@manute</li>
+<li>@kanedaki</li>
+<li>@dsaenztagarro</li>
+<li>@joshka20</li>
+<li><a href="https://twitter.com/carlossanchezp" rel="nofollow">@carlossanchezp</a></li>
+<li><a href="https://twitter.com/martincabrera" rel="nofollow">@martincabrera</a></li>
+<li><a href="https://twitter.com/elafo" rel="nofollow">@eLafo</a></li>
+<li>@dani_oton</li>
+<li><a href="https://twitter.com/oinak" rel="nofollow">@oinak</a></li>
+<li>@rocknrollesque</li>
+<li>@cavalle 🇬🇧</li>
+<li>@ArturoHerrero 🇬🇧</li>
+<li>@marcelinollano</li>
+<li>Javier Perez</li>
+<li><a href="https://twitter.com/pasku1" rel="nofollow">@pasku1</a></li>
+<li><a href="https://twitter.com/wchiquito" rel="nofollow">@wchiquito</a></li>
+<li>@murtr4</li>
+<li>@colgado</li>
+<li>@alejanderl</li>
+<li><a href="https://twitter.com/Serabe" rel="nofollow">@Serabe</a></li>
+<li>@javierhdez3</li>
+<li><a href="https://twitter.com/elreplicante" rel="nofollow">@elreplicante</a></li>
+<li><a href="https://twitter.com/cusna" rel="nofollow">@cusna</a></li>
+<li><a href="https://twitter.com/alejandrodob" rel="nofollow">@alejandrodob</a></li>
+<li>@_aitor <img src="http://usefulshortcuts.com/imgs/flags/is.png" alt="" /></li>
+<li>@begoesti  <img src="http://usefulshortcuts.com/imgs/flags/is.png" alt="" /></li>
+<li>@joseferrer</li>
+<li><a href="https://Twitter.com/lauralacarra" rel="nofollow">@lauralacarra</a></li>
+<li><a href="https://Twitter.com/germandz" rel="nofollow">@germandz</a></li>
+<li>Igor Rootsi <img src="http://usefulshortcuts.com/imgs/flags/ee.png" alt="" /></li>
+<li><a href="http://cortapincha.com" rel="nofollow">@happensesame</a></li>
+<li>@lparedesdev</li>
+<li><a href="https://twitter.com/MartaFonda" rel="nofollow">@MartaFonda</a></li>
+<li>@jglongaron</li>
+</ul>
+
+
+
+<div id="dateline">
+
+    changed <span id="datestr">February  3, 2014</span>
+
+    
+    <a accesskey="d" href="http://madridrb.jottit.com/diciembre_2013?m=delete">delete</a>
+    
+    <a accesskey="h" href="http://madridrb.jottit.com/diciembre_2013?m=history">history</a>
+    <a accesskey="e" href="http://madridrb.jottit.com/diciembre_2013?m=edit">edit</a>
+
+
+</div>
+
+
+</div> <!-- end #content -->
+<div id="footer">
+    <p>powered by <strong><a href="http://jottit.com/">Jottit</a></strong>, a <a href="http://theinfo.org">theinfo.org</a> production</p>
+    <p>(<a href="http://jottit.com/help">talk to us</a>)</p>
+</div>
+</div> <!-- end #content_wrapper -->
+
+<div id="sidebar">
+
+    <form action="" method="get" onsubmit="return Page.create();">
+    <div id="new_page">
+        <input accesskey="m" onclick="return Page.show_new();" type="button" value="Create a new page" />
+    </div>
+    <div id="new_page_input" style="display: none;">
+        <input type="text" id="new_page_name" name="name" value="" />
+        <input type="submit" value="Create" />
+        or <a href="#" onclick="return Page.hide_new();" accesskey="g">Close</a>
+    </div>
+    </form>
+
+<ul id="pages">
+
+    
+    <li><a href="http://madridrb.jottit.com/">Home</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/abril_2010">Abril 2010</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/abril_2011">Abril 2011</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/abril_2012">Abril 2012</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/abril_2013">Abril 2013</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/abril_2014">abril 2014</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/agosto_2011">Agosto 2011</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/agosto_2012">agosto 2012</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/agosto_2013">Agosto 2013</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/book_crossing">Book Crossing</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/diciembre_2010">Diciembre 2010</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/diciembre_2011">Diciembre 2011</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/diciembre_2012">Diciembre 2012</a></li>
+    
+
+    
+    <li><strong>diciembre 2013</strong></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/enero_2011">Enero 2011</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/enero_2012">Enero 2012</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/enero_2013">Enero 2013</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/enero_2014">enero 2014</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/euruko_2012">Euruko 2012</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/febrero_2011">Febrero 2011</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/febrero_2012">Febrero 2012</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/febrero_2013">Febrero 2013</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/febrero_2014">Febrero 2014</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/f%C3%BAtbol.rb_julio_2011">fútbol.rb julio 2011</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/julio_2011">Julio 2011</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/julio_2012">Julio 2012</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/julio_2013">Julio 2013</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/julio-agosto_2011">julio-agosto 2011</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/junio_2010">Junio 2010</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/junio_2011">Junio 2011</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/junio_2012">Junio 2012</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/junio_2013">Junio 2013</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/junio_2014">junio 2014</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/marzo_2011">Marzo 2011</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/marzo_2012">Marzo 2012</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/marzo_2013">Marzo 2013</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/marzo_2014">Marzo 2014</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/mayo_2010">Mayo 2010</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/mayo_2011">Mayo 2011</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/mayo_2012">Mayo 2012</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/mayo_2013">mayo 2013</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/mayo_2014">Mayo 2014</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/noviembre_2010">Noviembre 2010</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/noviembre_2011">Noviembre 2011</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/noviembre_2012">Noviembre 2012</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/noviembre_2013">Noviembre 2013</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/octubre_2011">Octubre 2011</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/octubre_2012">Octubre 2012</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/octubre_2013">octubre 2013</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/opurtunidad_de_ruby_on_rails_dublin">Opurtunidad de Ruby on Rails Dublin</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/resa">Resa</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/septiembre_2010">Septiembre 2010</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/septiembre_2011">Septiembre 2011</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/septiembre_2012">Septiembre 2012</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/septiembre_2013">Septiembre 2013</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/terracismo.rb">Terracismo.rb</a></li>
+    
+
+</ul>
+
+</div> <!-- end #sidebar --> 
+</div> <!-- end #wrapper --> 
+
+<script type="text/javascript" src="/static/js-generated.js?1422633894"></script>
+
+<script type="text/javascript">
+    AJS.exportToGlobalScope();
+    BASE_URL = "http://madridrb.jottit.com/";
+    Site.url = "http://madridrb.jottit.com/";
+</script>
+
+<script type="text/javascript">
+    Page.name = "diciembre_2013";
+    Page.url = "http://madridrb.jottit.com/diciembre_2013";
+    AJS.AEV(window, 'load', View.init);
+
+</script>
+
+</body>
+</html>

@@ -19,29 +19,31 @@ class JottitParser
   end
   
   def process_all_pages
-    puts("Processing all pages...")
+    puts("Processing Jottit pages...")
     uris = self.list
     total_uris = uris.size
     total_ok = 0
     total_ko = 0
+    meetings = []
     puts("Got #{total_uris} pages")
     uris.each do |uri|
       puts "Processing page: #{uri}..."
-#      begin
+      begin
         meeting = get_meeting(uri)
-        puts("Got it!") if meeting
-        write_meeting(meeting)
-        puts("Wrote it!")
-        total_ok += 1
-#      rescue
-#        puts "Failed for page #{uri}"
-#        puts $!
-#        total_ko += 1
-#        raise $!  # While developing, we want to stop at the first error
-#      end
+        if meeting
+          meetings << meeting
+          write_meeting(meeting)
+          total_ok += 1
+        end
+      rescue
+        puts "Failed for page #{uri}"
+        puts $!
+        total_ko += 1
+      end
     end
-    puts("Finished processing #{total_uris} pages.")
+    puts("Finished processing #{total_uris} pages from Jottit.")
     puts("OK:#{total_ok} - Failed:#{total_ko}")
+    return meetings
   end
   
   def get_meeting(uri)
@@ -53,7 +55,7 @@ class JottitParser
   end
   
   def write_meeting(meeting)
-    puts meeting.to_yaml
+    # puts meeting.to_yaml
   end
   
   private

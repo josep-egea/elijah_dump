@@ -14,6 +14,9 @@ class Nokogiri::XML::Node
   #     If true, the content before the first header is skipped. 
   #     If false, it's added with a nil header.
   #     Default: false
+  #   :include_whitespace
+  #     If false, blocks of blank text (spaces, tabs, newlines, etc) are skipped
+  #     Default: false
   
   def break_in_header_chapters(options = {})
     exclude_orphans = options[:exclude_orphans] || false
@@ -22,7 +25,6 @@ class Nokogiri::XML::Node
     current_chapter_header = nil
     current_chapter_nodes = []
     self.children.each do |node|
-      # puts node.name
       if node.name =~ /^h[1-9]$/
         # We have a new header. First, we store the current one, if any
         if current_chapter_header || !exclude_orphans
@@ -48,15 +50,5 @@ class Nokogiri::XML::Node
     # puts chapters.to_yaml
     return chapters
   end
-  
-  # Returns the concatenation of the plain text contents of the node and its children
-  
-  def flat_text
-    return self.xpath('.//text()').map(&:text).join(' ')
-  end
-  
-  def is_whitespace?
-    return (name == 'text' && content =~ /^\s*$/m)
-  end
-
+    
 end

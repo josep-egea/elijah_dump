@@ -29,6 +29,9 @@ class PageCache
   end
   
   def path_for_filename(filename)
+    if !File.directory?('page_cache')
+      Dir.mkdir('page_cache')
+    end
     return './page_cache/' + filename
   end
   

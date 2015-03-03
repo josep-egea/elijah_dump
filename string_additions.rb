@@ -16,5 +16,12 @@ class String
     return venue
   end
   
+  # Returns the first Twitter handle found in the receiver. 
+  
+  def find_twitter_handle
+    self.match(/(\@\w+)/i)
+    return $1
+  end
+  
 end
 

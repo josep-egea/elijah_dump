@@ -1,0 +1,487 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+    <title>Madrid.rb: Home</title> 
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="stylesheet" type="text/css" media="screen, projection" href="/static/css-generated.css?1422633894" />
+    <style type="text/css">
+        <!--
+
+    #header { background: #FEFFCF;} 
+    #header h1 a { 
+        font-family: "Lucida Grande", verdana, sans-serif;
+        color: #000; 
+        font-size: 100%; 
+        
+        letter-spacing: -1px; 
+        
+    } 
+    #header #subtitle { 
+        color: #656600; 
+        font-family: "Lucida Grande", verdana, sans-serif;
+        font-size: 100%; 
+        
+        letter-spacing: -1px; 
+        
+    } 
+    #title_and_subtitle a { 
+        font-family: "Lucida Grande", verdana, sans-serif;
+        color: #656600; 
+    }
+    #header #menu { 
+        font-family: "Lucida Grande", verdana, sans-serif;
+        color: #656600; 
+    }
+    * + html #header #menu a { font-size: 0.95em; }
+    * html #header #menu a { font-size: 0.95em; }
+    #header #menu a {
+        color: #656600; 
+    }
+    
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 { 
+        font-family: "Lucida Grande", verdana, sans-serif; 
+    }
+    #content h1 { font-size: 170%; }
+    #content h2 { font-size: 140%; }
+    #content h3 { font-size: 120%; }
+    #content h4 { font-size: 100%; }
+    #content h5 { font-size: 85%; }
+    #content h6 { font-size: 70%; }
+    #content { 
+        font-family: "Lucida Grande", verdana, sans-serif; 
+        font-size: 100%; 
+    }
+
+    #sidebar { font-family: "Lucida Grande", verdana, sans-serif }
+
+    -->
+    </style>
+    
+<link rel="alternate" type="application/atom+xml" title="Madrid.rb: Recent changes" href="http://madridrb.jottit.com/site/changes.atom" />
+<link rel="alternate" type="application/atom+xml" title="Home: Recent changes" href="http://madridrb.jottit.com/?m=history.atom" />
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-35364481-1']);
+  _gaq.push(['_setDomainName', 'jottit.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script></head>
+
+<body class="app">
+
+<div id="wrapper">
+
+
+
+<div id="header">
+    <div id="title_and_subtitle">
+        <h1><a id="title" href="http://madridrb.jottit.com/">Madrid.rb</a></h1>
+        <div id="subtitle">Mixing Ruby with beer on a monthly basis since 2006</div>
+    </div>
+
+    <div id="menu">
+    
+        <a href="http://madridrb.jottit.com/site/changes">recent changes</a> 
+    
+    
+    
+        <a href="http://madridrb.jottit.com/site/signin?return_to=">sign in</a>
+    
+    </div>
+</div>
+
+<div id="content_wrapper">
+<div id="content">
+    
+
+
+
+
+
+
+
+
+    <h1>Madrid.rb</h1>
+
+<h2>Debido a problemas de estabilidad en Jottit, hemos movido la página de Madrid.rb a http://www.madridrb.com/</h2>
+
+<p>Madrid.rb es el nombre del grupo de usuarios de Ruby de Madrid. Nos reunimos el último jueves de cada mes y cualquiera que tenga interés o curiosidad es bienvenido. No hace falta apuntarse en ningún sitio para asistir a las reuniones, simplemente aparece en el sitio que toque a la hora y el día indicados (si os apuntáis nos viene bien, para calcular). </p>
+
+<p>Para mantenerte al día de los detalles de las quedadas puedes suscribirte al <a href="http://groups.google.com/group/madrid-rb" rel="nofollow">grupo de google</a> o seguir <a href="http://twitter.com/madridrb" rel="nofollow">nuestro twitter</a>. Puede que nos encuentres en el IRC (<a href="irc://irc.freenode.net/madridrb" rel="nofollow">#madridrb</a> en freenode) y también tenemos <a href="http://vimeo.com/madridrb" rel="nofollow">cuenta en vimeo</a> donde colgamos los vídeos de las charlas.</p>
+
+<h2>Próximas reuniones</h2>
+
+<ul>
+<li><strong>2014-06-26</strong> - <a href="http://madridrb.jottit.com/junio_2014" class="internal" rel="nofollow">Junio 2014</a> - "RubyMotion, desarrollo móvil en Ruby", con <a href="https://twitter.com/MarkVillacampa" rel="nofollow">Marcos Villacampa</a></li>
+</ul>
+
+<p><a href="https://docs.google.com/spreadsheet/ccc?key=0AtoaQKrPtuYudDNXVkV3clZMUFBMUlNScTJGcUtiWFE" rel="nofollow">Posibles futuras charlas</a> (google docs).</p>
+
+<h2>Colaboran</h2>
+
+<p><a href="http://www.bebanjo.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/bebanjo.png" alt="BeBanjo" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.prorubyteam.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/proruby.png" alt="ProRuby" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://the-cocktail.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/tck.png" alt="The Cocktail" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<br />
+<br />
+<a href="http://aspgems.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/aspgems.png" alt="ASPgems" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.lextrend.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/lextrend.png" alt="Lextrend" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+<h2>El log</h2>
+
+<ul>
+<li><strong>2014-05-29</strong> - <a href="http://madridrb.jottit.com/mayo_2014" class="internal" rel="nofollow">Mayo 2014</a> - "¿TDD como problema?", con <a href="http://www.gerardobarcia.com/" rel="nofollow">Gerardo Barcia</a></li>
+<li><strong>2014-04-24</strong> - <a href="http://madridrb.jottit.com/abril_2014" class="internal" rel="nofollow">Abril 2014</a> - "Finding Restfulness", con <a href="http://twitter.com/samlown" rel="nofollow">Sam Lown</a></li>
+<li><strong>2014-03-27</strong> - <a href="http://madridrb.jottit.com/marzo_2014" class="internal" rel="nofollow">Marzo 2014</a> - "Ordenando las vistas. Decorator y Presenters", con <a href="http://twitter.com/carlossanchezp" rel="nofollow">Carlos Sánchez Pérez</a></li>
+<li><strong>2014-02-27</strong> - <a href="http://madridrb.jottit.com/febrero_2014" class="internal" rel="nofollow">Febrero 2014</a> - "Hacking Social: Tras las líneas enemigas", con <a href="http://twitter.com/eLafo" rel="nofollow">Javier Lafora</a></li>
+<li><strong>2014-01-30</strong> - <a href="http://madridrb.jottit.com/enero_2014" class="internal" rel="nofollow">Enero 2014</a> - "Lua for Rubyists", with <a href="http://twitter.com/otikik" rel="nofollow">Enrique García</a></li>
+<li><strong>2013-12-26</strong> - <a href="http://madridrb.jottit.com/diciembre_2013" class="internal" rel="nofollow">Diciembre 2013</a> - "Catacrockea a cascoporro con redis", con <a href="http://twitter.com/supercoco9" rel="nofollow">Javier Ramírez</a></li>
+<li><strong>2013-11-28</strong> - <a href="http://madridrb.jottit.com/noviembre_2013" class="internal" rel="nofollow">Noviembre 2013</a> - "Ruby y Ciencia", con <a href="http://twitter.com/xuanxu" rel="nofollow">Juanjo Bazán</a></li>
+<li><strong>2013-10-24</strong> - <a href="http://madridrb.jottit.com/octubre_2013" class="internal" rel="nofollow">Octubre 2013</a> - "Bajar del monorraíl: microservicios", con <a href="http://twitter.com/porras" rel="nofollow">Sergio Gil</a> y <a href="http://twitter.com/pellegrino" rel="nofollow">Vitor Pellegrino</a></li>
+<li><strong>2013-09-26</strong> - <a href="http://madridrb.jottit.com/septiembre_2013" class="internal" rel="nofollow">Septiembre 2013</a> - "Croupier: probabilidades, muestras y enumerables", con <a href="http://twitter.com/serabe" rel="nofollow">Sergio Arbeo</a></li>
+<li><strong>2013-08-29</strong> - <a href="http://madridrb.jottit.com/agosto_2013" class="internal" rel="nofollow">Agosto 2013</a> - "Terracismo-rb"</li>
+<li><strong>2013-07-25</strong> - <a href="http://madridrb.jottit.com/julio_2013" class="internal" rel="nofollow">Julio 2013</a> - "Explotando relaciones de forma escalable con Neo4j", con <a href="http://twitter.com/albertoperdomo" rel="nofollow">Alberto Perdomo</a></li>
+<li><strong>2013-06-27</strong> - <a href="http://madridrb.jottit.com/junio_2013" class="internal" rel="nofollow">Junio 2013</a> - "Introduction to RubyMotion", con <a href="http://twitter.com/lrz" rel="nofollow">Laurent Sansonetti</a></li>
+<li><strong>2013-05-30</strong> - <a href="http://madridrb.jottit.com/mayo_2013" class="internal" rel="nofollow">Mayo 2013</a> - "Mi dominio es mío y no lo comparto...", con <a href="http://twitter.com/jacegu" rel="nofollow">Javier Acero</a></li>
+<li><strong>2013-04-25</strong> - <a href="http://madridrb.jottit.com/abril_2013" class="internal" rel="nofollow">Abril 2013</a> - "Érase una vez, Ruby", con <a href="http://twitter.com/vmg" rel="nofollow">Vicent Martí</a></li>
+<li><strong>2013-03-21</strong> - <a href="http://madridrb.jottit.com/marzo_2013" class="internal" rel="nofollow">Marzo 2013</a> - "The Javascript Horror Show", con <a href="http://twitter.com/eamodeorubio" rel="nofollow">Enrique Amodeo</a></li>
+<li><strong>2013-02-28</strong> - <a href="http://madridrb.jottit.com/febrero_2013" class="internal" rel="nofollow">Febrero 2013</a> - "MongoDB &amp; Rails", con <a href="http://twitter.com/amaiac" rel="nofollow">Amaia Castro</a> y "Videojuegos en 2d + Competición", con <a href="http://twitter.com/acw5" rel="nofollow">Adam Williams</a></li>
+<li><strong>2013-01-31</strong> - <a href="http://madridrb.jottit.com/enero_2013" class="internal" rel="nofollow">Enero 2013</a> - "<em>Continuous Delivery</em> con Rails, Hudson y Heroku", con <a href="http://twitter.com/jmanrubia" rel="nofollow">Jorge Manrubia</a></li>
+<li><strong>2012-12-27</strong> - <a href="http://madridrb.jottit.com/diciembre_2012" class="internal" rel="nofollow">Diciembre 2012</a> - "Modelazos ActiveRecord", con <a href="http://twitter.com/cavalle" rel="nofollow">Luismi Cavallé</a></li>
+<li><strong>2012-11-29</strong> - <a href="http://madridrb.jottit.com/noviembre_2012" class="internal" rel="nofollow">Noviembre 2012</a> - "Coding Dojo", con <a href="http://twitter.com/otikik" rel="nofollow">Enrique García</a></li>
+<li><strong>2012-10-25</strong> - <a href="http://madridrb.jottit.com/octubre_2012" class="internal" rel="nofollow">Octubre 2012</a> - "Making code tastier through refactoring", con <a href="http://twitter.com/arctarus" rel="nofollow">Gabriel Ortuño</a></li>
+<li><strong>2012-09-27</strong> - <a href="http://madridrb.jottit.com/septiembre_2012" class="internal" rel="nofollow">Septiembre 2012</a> - "The Ruby Object Model", con <a href="http://twitter.com/eLafo" rel="nofollow">Javier Lafora</a></li>
+<li><strong>2012-08-30</strong> - <a href="http://madridrb.jottit.com/agosto_2012" class="internal" rel="nofollow">Agosto 2012</a> - "Introducción al testing y al TDD", con <a href="http://twitter.com/rnaveiras" rel="nofollow">Raúl Naveiras</a> y <a href="http://twitter.com/ferblape" rel="nofollow">Fernando Blat</a></li>
+<li><strong>2012-07-25</strong> - <a href="http://madridrb.jottit.com/julio_2012" class="internal" rel="nofollow">Julio 2012</a> - Terracismo-rb (no hay documentación gráfica)</li>
+<li><strong>2012-06-28</strong> - <a href="http://madridrb.jottit.com/junio_2012" class="internal" rel="nofollow">Junio 2012</a> - “Metapresentación” con <a href="https://twitter.com/#!/otikik" rel="nofollow">Enrique García</a></li>
+<li><strong>2012-05-31</strong> - <a href="http://madridrb.jottit.com/mayo_2012" class="internal" rel="nofollow">Mayo 2012</a> - “MacRuby y RubyMotion” con [Mark Villacampa]</li>
+<li><strong>2012-04-26</strong> - <a href="http://madridrb.jottit.com/abril_2012" class="internal" rel="nofollow">Abril 2012</a> - “Extending Ruby” con <a href="http://twitter.com/rnaveiras" rel="nofollow">Raúl Naveiras</a></li>
+<li><strong>2012-03-29</strong> - <a href="http://madridrb.jottit.com/marzo_2012" class="internal" rel="nofollow">Marzo 2012</a> - “¡Conquista el mundo con Vim y Tmux!” con <a href="http://twitter.com/ferdev" rel="nofollow">Fernando Espinosa</a></li>
+<li><strong>2012-02-23</strong> - <a href="http://madridrb.jottit.com/febrero_2012" class="internal" rel="nofollow">Febrero 2012</a> - “Lightning talks” (varios autores)</li>
+<li><strong>2012-01-27</strong> - <a href="http://madridrb.jottit.com/enero_2012" class="internal" rel="nofollow">Enero 2012</a> - “Backbone + Rails + Handlebars = Éxito” con <a href="https://twitter.com/#!/GermanDZ" rel="nofollow">German Del Zotto</a></li>
+<li><strong>2011-12-29</strong> - <a href="http://madridrb.jottit.com/diciembre_2011" class="internal" rel="nofollow">Diciembre 2011</a> - “Colaboración usando Eventos en Ruby” con <a href="http://twitter.com/cavalle" rel="nofollow">Luismi Cavallé</a></li>
+<li><strong>2011-11-24</strong> - <a href="http://madridrb.jottit.com/noviembre_2011" class="internal" rel="nofollow">Noviembre 2011</a> - “Cómo dejé de preocuparme por ser ágil y ahora no me importa en absoluto” con <a href="http://twitter.com/#!/calavera" rel="nofollow">David Calavera</a></li>
+<li><strong>2011-10-27</strong> - <a href="http://madridrb.jottit.com/octubre_2011" class="internal" rel="nofollow">Octubre 2011</a> - “JRuby en Webpop - Rhino y Akka” con <a href="http://mathias-biilmann.net/" rel="nofollow">Mathias Biilmann</a></li>
+<li><strong>2011-09-29</strong> - <a href="http://madridrb.jottit.com/septiembre_2011" class="internal" rel="nofollow">Septiembre 2011</a> - “Si yo fuera una API” con <a href="http://raimondgarcia.com" rel="nofollow">Raimond García</a></li>
+<li><strong>2011-08-25</strong> - <a href="http://madridrb.jottit.com/agosto_2011" class="internal" rel="nofollow">Agosto 2011</a> - Terracismo.rb</li>
+<li><strong>2011-07-28</strong> - <a href="http://madridrb.jottit.com/julio_2011" class="internal" rel="nofollow">Julio 2011</a> - Terracismo.rb</li>
+<li><strong>2011-07-20</strong> – Actividad especial: <a href="http://madridrb.jottit.com/f%C3%BAtbol.rb_julio_2011" class="internal" rel="nofollow">Fútbol.rb Julio 2011</a> – Partido de fútbol, ¡apúntate ya!</li>
+<li><strong>2011-06-30</strong> – <a href="http://madridrb.jottit.com/junio_2011" class="internal" rel="nofollow">Junio 2011</a> – “Streaming en Rails 3.1” con <a href="http://twitter.com/fxn" rel="nofollow">Xavier Noria</a></li>
+<li><strong>2011-05-26</strong> - <a href="http://madridrb.jottit.com/mayo_2011" class="internal" rel="nofollow">Mayo 2011</a> - “Sphinx vs Solr” con <a href="http://twitter.com/supercoco9" rel="nofollow">Javier Ramírez</a> y <a href="http://twitter.com/pacoguzman" rel="nofollow">Paco Guzmán</a><br /></li>
+<li><strong>2011-04-28</strong> - <a href="http://madridrb.jottit.com/abril_2011" class="internal" rel="nofollow">Abril 2011</a> - “Tries, la pronunciación se deja como ejercicio para el lector” con <a href="http://twitter.com/serabe" rel="nofollow">Sergio Arbeo</a><br /></li>
+<li><strong>2011-03-31</strong> - <a href="http://madridrb.jottit.com/marzo_2011" class="internal" rel="nofollow">Marzo 2011</a> - “<em>DOUBLE FEATURE</em>: Sequel + Pair Programming” con <a href="http://twitter.com/ferblape" rel="nofollow">Fernando Blat</a> y <a href="http://twitter.com/dias_jorge" rel="nofollow">Jorge Dias</a><br /></li>
+<li><strong>2011-02-24</strong> - <a href="http://madridrb.jottit.com/febrero_2011" class="internal" rel="nofollow">Febrero 2011</a> – “A g[r]eek talking about Heroku” con <a href="http://twitter.com/christos" rel="nofollow">Christos Zisopoulos</a></li>
+<li><strong>2011-01-27</strong> – <a href="http://madridrb.jottit.com/enero_2011" class="internal" rel="nofollow">Enero 2011</a> – “A [git] workflow” con <a href="http://twitter.com/porras" rel="nofollow">Sergio Gil</a></li>
+<li><strong>2010-12-30</strong> – <a href="http://madridrb.jottit.com/diciembre_2010" class="internal" rel="nofollow">Diciembre 2010</a> – “Coding Dojo” con <a href="http://twitter.com/ecomba" rel="nofollow">Enrique Comba</a></li>
+<li><strong>2010-11-25</strong> – <a href="http://madridrb.jottit.com/noviembre_2010" class="internal" rel="nofollow">Noviembre 2010</a> – “Fibers in Ruby 1.9” con <a href="http://twitter.com/hlame" rel="nofollow">Murray Steele</a></li>
+<li><strong>2010-11-03</strong> – <a href="https://rejectconf.jottit.com/" rel="nofollow">Octubre 2010</a> – “RejectConf</li>
+<li><strong>2010-09-30</strong> – <a href="http://madridrb.jottit.com/septiembre_2010" class="internal" rel="nofollow">Septiembre 2010</a> – “RabbitMQ + Ruby” con <a href="http://twitter.com/guillermooo" rel="nofollow">Guillermo Álvarez</a></li>
+<li><strong>2010-08-26</strong> – <a href="Terracismo.rb" rel="nofollow">Agosto 2010</a> – “Terracismo.rb”</li>
+<li><strong>2010-07-26</strong> – <a href="Terracismo.rb" rel="nofollow">Julio 2010</a> – “Terracismo.rb”</li>
+<li><strong>2010-06-24</strong> – <a href="http://madridrb.jottit.com/junio_2010" class="internal" rel="nofollow">Junio 2010</a> – “Planetaki powered by MongoDB” con <a href="http://twitter.com/samlown" rel="nofollow">Sam Lown</a></li>
+<li><strong>2010-05-27</strong> – <a href="http://madridrb.jottit.com/mayo_2010" class="internal" rel="nofollow">Mayo 2010</a> – “Madrid-rb Cine Club: Rails 3”</li>
+<li><strong>2010-04-29</strong> – <a href="http://madridrb.jottit.com/abril_2010" class="internal" rel="nofollow">Abril 2010</a> – “Por la gloria de REST” con <a href="http://twitter.com/cavalle" rel="nofollow">Luismi Cavallé</a></li>
+<li><strong>2010-03-25</strong> - <a href="https://groups.google.com/d/topic/madrid-rb/pa2-Eru151w/discussion" rel="nofollow">Marzo 2010</a> – “SEO para desarrolladores” con <a href="http://twitter.com/supercoco9" rel="nofollow">Javier Ramírez</a></li>
+<li><strong>2010-02-25</strong> – <a href="https://groups.google.com/d/topic/madrid-rb/1mQ9XN85Nkg/discussion" rel="nofollow">Febrero 2010</a> – “El stack de testing de aceptación de moda” con <a href="http://twitter.com/porras" rel="nofollow">Sergio Gil</a></li>
+<li><strong>2010-01-28</strong> – <a href="https://groups.google.com/d/topic/madrid-rb/6lYLCNOF2N4/discussion" rel="nofollow">Enero 2010</a> – “Chef” con <a href="http://twitter.com/therobot" rel="nofollow">Jacobo García</a></li>
+</ul>
+
+<p><em>En cuanto al resto del log… es que tenemos el logrotate puesto :P</em></p>
+
+
+
+<div id="dateline">
+
+    changed <span id="datestr">February 15</span>
+
+    
+    <a accesskey="h" href="http://madridrb.jottit.com/?m=history">history</a>
+    <a accesskey="e" href="http://madridrb.jottit.com/?m=edit">edit</a>
+
+
+</div>
+
+
+</div> <!-- end #content -->
+<div id="footer">
+    <p>powered by <strong><a href="http://jottit.com/">Jottit</a></strong>, a <a href="http://theinfo.org">theinfo.org</a> production</p>
+    <p>(<a href="http://jottit.com/help">talk to us</a>)</p>
+</div>
+</div> <!-- end #content_wrapper -->
+
+<div id="sidebar">
+
+    <form action="" method="get" onsubmit="return Page.create();">
+    <div id="new_page">
+        <input accesskey="m" onclick="return Page.show_new();" type="button" value="Create a new page" />
+    </div>
+    <div id="new_page_input" style="display: none;">
+        <input type="text" id="new_page_name" name="name" value="" />
+        <input type="submit" value="Create" />
+        or <a href="#" onclick="return Page.hide_new();" accesskey="g">Close</a>
+    </div>
+    </form>
+
+<ul id="pages">
+
+    
+    <li><strong>Home</strong></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/abril_2010">Abril 2010</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/abril_2011">Abril 2011</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/abril_2012">Abril 2012</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/abril_2013">Abril 2013</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/abril_2014">abril 2014</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/agosto_2011">Agosto 2011</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/agosto_2012">agosto 2012</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/agosto_2013">Agosto 2013</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/book_crossing">Book Crossing</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/diciembre_2010">Diciembre 2010</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/diciembre_2011">Diciembre 2011</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/diciembre_2012">Diciembre 2012</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/diciembre_2013">diciembre 2013</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/enero_2011">Enero 2011</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/enero_2012">Enero 2012</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/enero_2013">Enero 2013</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/enero_2014">enero 2014</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/euruko_2012">Euruko 2012</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/febrero_2011">Febrero 2011</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/febrero_2012">Febrero 2012</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/febrero_2013">Febrero 2013</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/febrero_2014">Febrero 2014</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/f%C3%BAtbol.rb_julio_2011">fútbol.rb julio 2011</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/julio_2011">Julio 2011</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/julio_2012">Julio 2012</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/julio_2013">Julio 2013</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/julio-agosto_2011">julio-agosto 2011</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/junio_2010">Junio 2010</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/junio_2011">Junio 2011</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/junio_2012">Junio 2012</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/junio_2013">Junio 2013</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/junio_2014">junio 2014</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/marzo_2011">Marzo 2011</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/marzo_2012">Marzo 2012</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/marzo_2013">Marzo 2013</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/marzo_2014">Marzo 2014</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/mayo_2010">Mayo 2010</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/mayo_2011">Mayo 2011</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/mayo_2012">Mayo 2012</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/mayo_2013">mayo 2013</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/mayo_2014">Mayo 2014</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/noviembre_2010">Noviembre 2010</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/noviembre_2011">Noviembre 2011</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/noviembre_2012">Noviembre 2012</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/noviembre_2013">Noviembre 2013</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/octubre_2011">Octubre 2011</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/octubre_2012">Octubre 2012</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/octubre_2013">octubre 2013</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/opurtunidad_de_ruby_on_rails_dublin">Opurtunidad de Ruby on Rails Dublin</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/resa">Resa</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/septiembre_2010">Septiembre 2010</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/septiembre_2011">Septiembre 2011</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/septiembre_2012">Septiembre 2012</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/septiembre_2013">Septiembre 2013</a></li>
+    
+
+    
+    <li><a href="http://madridrb.jottit.com/terracismo.rb">Terracismo.rb</a></li>
+    
+
+</ul>
+
+</div> <!-- end #sidebar --> 
+</div> <!-- end #wrapper --> 
+
+<script type="text/javascript" src="/static/js-generated.js?1422633894"></script>
+
+<script type="text/javascript">
+    AJS.exportToGlobalScope();
+    BASE_URL = "http://madridrb.jottit.com/";
+    Site.url = "http://madridrb.jottit.com/";
+</script>
+
+<script type="text/javascript">
+    Page.name = "";
+    Page.url = "http://madridrb.jottit.com/";
+    AJS.AEV(window, 'load', View.init);
+
+</script>
+
+</body>
+</html>

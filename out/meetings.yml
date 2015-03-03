@@ -1,0 +1,3894 @@
+---
+- !ruby/struct:Meeting
+  title: Por la gloria de REST
+  meeting_date: 2010-04-29
+  meeting_time: '19:45'
+  venue: Aula The Cocktail
+  details: ! '<p>Hace diez años Roy Fielding describía el concepto REST en la tesis
+    de su doctorado. Hace tres, Rails 1.2 abrazaba el concepto y lo convertía en una
+    de sus convenciones principales. Hoy, no hay servicio en Internet que se precie
+    que no tenga una API que no clame seguir los principios REST.</p>
+
+    <p>Sin embargo, el observador avezado encontrará que cada una de estas APIs implementa
+    su particular interpretación de estos principios. Desde simples RPCs en XML, pasando
+    por APIs estructuradas en recursos que además usan los verbos HTTP, hasta gloriosos
+    servicios en los que los recursos están hiperenlazados y son auto-descubribles,
+    el espectro de características de los servicios restful es amplio.</p>
+
+    <p>En esta charla repasaremos los principios originales y todas estas características
+    de las APIs restful. Lo haremos con un enfoque pragmático, desde las trincheras,
+    tomando como referencia la implementación de una API en Rails y su cliente en
+    Ruby.</p>
+
+    <h2>Recursos</h2>
+
+    <ul>
+
+    <li><a href="http://vimeo.com/12859503" rel="nofollow">Vídeo de la charla</a></li>
+
+    <li><a href="http://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm" rel="nofollow">Roy
+    Fielding''s dissertation about REST</a></li>
+
+    <li><a href="http://martinfowler.com/articles/richardsonMaturityModel.html" rel="nofollow">The
+    Richardson Maturity Model</a></li>
+
+    <li><a href="http://www.crummy.com/music/nst/lyrics.html#02" rel="nofollow">Theme
+    to Nowhere Standard Time</a></li>
+
+    </ul>'
+  speaker_name: Luismi Cavallé
+  speaker_handle: 
+  speaker_bio: <p>Desarrollador de software, lleva casi diez años en el oficio de
+    construir aplicaciones web y en la búsqueda del camino con menos fricción a la
+    excelencia. Todavía no lo ha encontrado, pero no pierde la fé. Actualmente está
+    en medio del desarrollo de las APIs de BeBanjo, experiencia de la que está disfrutando
+    como un enano.</p>
+  video_url: 
+  offered_by: 
+  offered_by_html: 
+  attendees: 
+  map_url: 
+- !ruby/struct:Meeting
+  title: Tries, la pronunciación se deja como ejercicio para el lector (vídeo)
+  meeting_date: 2011-04-28
+  meeting_time: '19:45'
+  venue: Utopic_US
+  details: ! '<p>Que sirva esto como mensaje tranquilizador: no habrá <em>demasiado</em>
+    contenido matemático en la charla. Hablaremos de complejidad y de estructuras
+    de datos, principalmente del trie.</p>
+
+    <p>Las estructuras de datos son como los gadgets de Batman: el batrepelente de
+    tiburones puede parecer lo más inútil del mundo hasta que el escualo se te engancha
+    a la pierna. Por suerte, las estructuras de datos no ocupan tanto lugar (el <em>Art
+    of Computer Programming</em> en tapa dura no cuenta) ni las tienes que llevar
+    en el <strike>cinturón</strike> batcinturón. Sospecho que tampoco sirve de mucho
+    contra los <a href="http://es.wikipedia.org/wiki/Selachimorpha" rel="nofollow">selacimorfos</a>
+    [<strong>Nota:</strong> Pedantería patrocinada por <em>Saber y Ganar</em>]</p>'
+  speaker_name: Sergio Arbeo
+  speaker_handle: ! '@Serabe'
+  speaker_bio: ! '<p>Sergio nació en Madrid, se crió en Madrid y vive en Madrid, pero
+    por culpa de sus abuelos paternos no es gato puro. Tuvo la <strike>desgracia</strike>
+    suerte de estudiar lo que quería desde pequeño: matemáticas. Friki de nacimiento,
+    vocación y oficio (¿hay algo más friki que un ex-presidente de una asociación
+    friki de la facultad de CC. Matemáticas?), aunque se programador sólo tiene las
+    dos últimas (admitís que trabaje en Java, ¿verdad?). El tiempo libre lo dedica
+    a sus tareas (siempre ha querido poner eso; bueno, eso y hablar de sí mismo en
+    tercera persona).</p>
+
+    <p>Twitter: <a href="http://twitter.com/Serabe" rel="nofollow">@serabe</a></p>'
+  video_url: http://vimeo.com/25850180
+  offered_by: 
+  offered_by_html: 
+  attendees:
+  - ! '@serabe'
+  - ! '@cavalle'
+  - ! '@ferblape'
+  - ! '@christos'
+  - ! '@samlown'
+  - ! '@lparedesdev'
+  - ! '@mr_solo'
+  - ! '@brunolerin'
+  - ! '@choski7'
+  - ! '@enriqueaf'
+  - ! '@xuanxu (nunca hay demasiado contenido matemático)'
+  - ! '@eamodeorubio'
+  - ! '@mcberros'
+  - ! '@ferdev'
+  - ! '@alvarodt'
+  - ! '@porras'
+  - ! '@ialcazar'
+  - ! '@danimata'
+  - ! '@valakirka'
+  - ! '@arctarus'
+  - ! '@apardo'
+  - ! '@1hourl8r'
+  - ! '@edu'
+  - ! '@supercoco9'
+  - ! '@alexeiras'
+  - ! '@miguellc'
+  - ! '@voodoorai2000'
+  - ! '@pacoguzman'
+  - ! '@yonosoytu'
+  - ! '@jaimeiniesta'
+  - ! '@amaiac'
+  - ! '@oinak'
+  - ! '@medinamanu'
+  - ! '@zipizap'
+  - ! '@wchiquito'
+  - ! '@tastytune'
+  - ! '@dias_jorge'
+  - ! '@duende13'
+  - ! '@javiervidal'
+  - ! '@afcapel'
+  - ! '@isanchezirtve'
+  map_url: http://maps.google.es/maps?f=q&source=embed&hl=es&geocode=&q=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid&sll=40.396764,-3.713379&sspn=10.504732,23.269043&ie=UTF8&hq=&hnear=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid,+Comunidad+de+Madrid&ll=40.413867,-3.706683&spn=0.036727,0.076818&z=14
+- !ruby/struct:Meeting
+  title: Extending Ruby
+  meeting_date: 2012-04-26
+  meeting_time: '19:45'
+  venue: Utopic_US, Calle Duque de Rivas 5, Madrid.
+  details: ! '<p>Esta charla será una introducción a las extensiones en C para Ruby.
+    Comenzando por el estilo clásico hasta FFI. Trataremos ventajas, inconvenientes
+    y trade-offs de las distintas técnicas.</p>
+
+    <p>Hablaré sobre temas como la traducción de tipos de datos en código C, gestión
+    de memoria, wadus...</p>'
+  speaker_name: Raúl Naveiras
+  speaker_handle: ! '@rnaveiras'
+  speaker_bio: ! '<p>Raúl comenzó a programar hace más de 15 años, durante los cuales
+    ha realizado todo tipo de proyectos y usando todo tipo de lenguajes. </p>
+
+    <p>Actualmente forma parte de un fantástico equipo trabajando como developer en
+    <a href="http://bebanjo.com" rel="nofollow">BeBanjo</a>.</p>'
+  video_url: http://vimeo.com/58873830
+  offered_by:
+  - http://www.vizzuality.com/
+  - http://www.bebanjo.com/
+  - http://www.prorubyteam.com/
+  - http://the-cocktail.com/
+  - http://aspgems.com/
+  - http://www.lciberica.es/
+  - http://www.lextrend.com/
+  offered_by_html: ! '<p><a href="http://www.vizzuality.com/" rel="nofollow"><img
+    width="150px" src="http://dl.dropbox.com/u/645329/logos/vizzuality.png" alt="Vizzuality"></a>     
+
+    <a href="http://www.bebanjo.com/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/bebanjo.png"
+    alt="BeBanjo"></a>     
+
+    <a href="http://www.prorubyteam.com/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/proruby.png"
+    alt="ProRuby"></a>     
+
+    <a href="http://the-cocktail.com/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/tck.png"
+    alt="The Cocktail"></a>     
+
+    <br>
+
+    <br>
+
+    <a href="http://aspgems.com/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/aspgems.png"
+    alt="ASPgems"></a>     
+
+    <a href="http://www.lciberica.es/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/lci.png"
+    alt="LCIberica"></a>     
+
+    <a href="http://www.lextrend.com/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/lextrend.png"
+    alt="Lextrend"></a>     </p>'
+  attendees: []
+  map_url: http://g.co/maps/4ktdg
+- !ruby/struct:Meeting
+  title: Érase una vez, Ruby
+  meeting_date: 2013-04-25
+  meeting_time: '19:45'
+  venue: Utopic_US
+  details: ! '<p>Esta charla es como un cuento de hadas. Es una charla sobre detalles
+    internos de la implementación de Ruby (MRI). Bueno, mejor olvídate de las hadas.
+    Hay un montón de cosas debajo de los intérpretes de Ruby que se usan en producción.
+    La capa de C que interactúa con el sistema operativo es un zafarrancho inescrutable,
+    lleno de bugs y problemas arcanos; el tipo de problemas que no levantan excepciones,
+    sino que matan procesos enteros. Esta es una charla sobre como descubrimos, nos
+    enfrentamos y solucionamos algunos de estos problemas inherentes a la implementación
+    de Ruby en GitHub.
+
+    Más bien una historia de miedo, vamos.</p>'
+  speaker_name: Vicent Martí
+  speaker_handle: ! '@vmg'
+  speaker_bio: <p>Vicent Martí es un tipo "to reshulón". Trabaja como ingeniero de
+    sistemas en <a href="https://github.com/" rel="nofollow">GitHub</a>, el host de
+    código más grande del mundo, concentrándose en problemas de seguridad y rendimiento
+    del backend. Es el maintainer, entre otras cosas, de libgit2, la librería detrás
+    de los clientes nativos GitHub for Windows y GitHub for Mac, y el propio backend
+    de GitHub. En ocasiones dice cosas muy interesantes.</p>
+  video_url: http://vimeo.com/66382610
+  offered_by:
+  - http://www.bebanjo.com/
+  - http://www.prorubyteam.com/
+  - http://the-cocktail.com/
+  - http://aspgems.com/
+  - http://www.lextrend.com/
+  offered_by_html: ! '<p> 
+
+    <a href="http://www.bebanjo.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/bebanjo.png"
+    alt="BeBanjo"></a>     
+
+    <a href="http://www.prorubyteam.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/proruby.png"
+    alt="ProRuby"></a>     
+
+    <a href="http://the-cocktail.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/tck.png"
+    alt="The Cocktail"></a>     
+
+    <br>
+
+    <br>
+
+    <a href="http://aspgems.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/aspgems.png"
+    alt="ASPgems"></a>     
+
+    <a href="http://www.lextrend.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/lextrend.png"
+    alt="Lextrend"></a>     </p>'
+  attendees:
+  - ! '@vmg'
+  - ! '@otikik'
+  - ! '@wchiquito'
+  - ! '@joseferrer'
+  - ! '@yonosoytu'
+  - ! '@erpheus'
+  - ! '@ferdev'
+  - ! '@viddobambam'
+  - ! '@fpurrinhos'
+  - ! '@mcberros'
+  - ! '@eamodeorubio'
+  - ! '@diec123'
+  - ! '@arctarus'
+  - ! '@ciscou'
+  - ! '@pasku1'
+  - ! '@acw5'
+  - ! '@atapiador'
+  - ! '@amaiac'
+  - ! '@dgc273'
+  - ! '@e_gimenez'
+  - ! '@emacip'
+  - ! '@amartinfraguas'
+  - ! '@joshka20'
+  - ! '@manu1621'
+  - ! '@xuanxu'
+  - ! '@jmanrubia'
+  - ! '@martincabrera'
+  - joseluis
+  - ! '@DonQuicong'
+  - ! '@carlossanchezp'
+  - ! '@alvarovmz'
+  - ! '@laura_morillo'
+  - ! '@javierhonduco'
+  - andresBarriga
+  - ! '@aalbagarcia'
+  - ! '@darkrodry'
+  - ! '@sailormercury'
+  - ! '@Zerpet'
+  - ! '@moises_macia'
+  - ! '@rosapolis'
+  - ! '@jorgeleria'
+  - ! '@vianasw'
+  - ! '@javiervidal'
+  - ! '@ernestomiguez'
+  - ! '@marcelinollano'
+  - ! '@thevaw'
+  - ! '@carlosble'
+  - ! '@luismierre'
+  - ! '@kaskito'
+  - ! '@rnaveiras'
+  - ! '@elridon'
+  - ! '@fxjade'
+  - ! '@borjafv'
+  - ! '@juanyque'
+  - ! '@zipizap'
+  map_url: http://maps.google.es/maps?f=q&source=embed&hl=es&geocode=&q=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid&sll=40.396764,-3.713379&sspn=10.504732,23.269043&ie=UTF8&hq=&hnear=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid,+Comunidad+de+Madrid&ll=40.413867,-3.706683&spn=0.036727,0.076818&z=14
+- !ruby/struct:Meeting
+  title: Finding Restfulness
+  meeting_date: 2014-04-24
+  meeting_time: '19:45'
+  venue: The Irish Rover
+  details: ! '<p>Like me, you may have noticed that something is a little "off" when
+    creating REST APIs in Ruby and Rails. In this talk we''ll take a journey to discover
+    some of the confusing parts of the existing popular solutions and take a good
+    look at the concept of interfaces orientated around resources. We''ll then discover
+    how the Restulfness library might be the panacea you can incorporate into your
+    own projects and help you find the RESTful zen you''ve been searching for.</p>
+
+    <h3>CAUTION, NEW VENUE!</h3>
+
+    <p><strong>Venue:</strong> <a href="http://www.theirishrover.com/" rel="nofollow">The
+    Irish Rover</a>
+
+    - <a href="https://www.google.com/maps/place/The+Irish+Rover/@40.4549437,-3.6936623,17z/data=!4m7!1m4!3m3!1s0xd422902b93a7b4f:0xcdf2773b21bd0810!2sAv+de+Brasil,+7!3b1!3m1!1s0x0:0xac5dccb9e6db0dd5"
+    rel="nofollow">Avenida de Brasil, 7</a></p>
+
+    <p><strong>Time:</strong> 19:45h<br>
+
+    <strong>Video:</strong> <a href="http://vimeo.com/96569880" rel="nofollow">Vimeo</a></p>
+
+    <h2>Offered by:</h2>
+
+    <p> 
+
+    <a href="http://www.bebanjo.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/bebanjo.png"
+    alt="BeBanjo"></a>     
+
+    <a href="http://www.prorubyteam.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/proruby.png"
+    alt="ProRuby"></a>     
+
+    <a href="http://the-cocktail.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/tck.png"
+    alt="The Cocktail"></a>     
+
+    <br>
+
+    <br>
+
+    <a href="http://aspgems.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/aspgems.png"
+    alt="ASPgems"></a>     
+
+    <a href="http://www.lextrend.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/lextrend.png"
+    alt="Lextrend"></a>     </p>'
+  speaker_name: Sam Lown
+  speaker_handle: ! '@samlown'
+  speaker_bio: <p>Sam, CTO and co-founder of <a href="http://www.cabify.es/" rel="nofollow">Cabify</a>,
+    is obsessed with finding elegant solutions to complex problems. He's been an active
+    member in the Ruby community in Madrid since 2006 and helped co-found APRODEWEB,
+    the organisation supporting La Conferencia Rails, SpainJS, and Madrid.rb. Sam
+    has been involved with the development of a number of gems, including <a href="https://github.com/couchrest/couchrest_model"
+    rel="nofollow"><code>couchrest_model</code></a>, <a href="https://github.com/samlown/translate_columns"
+    rel="nofollow"><code>translate_columns</code></a>, and now <a href="https://github.com/samlown/restfulness"
+    rel="nofollow"><code>restfulness</code></a>.</p>
+  video_url: http://vimeo.com/96569880
+  offered_by: 
+  offered_by_html: 
+  attendees:
+  - ! '@samlown'
+  - ! '@otikik'
+  - ! '@joseferrer'
+  - ! '@ferblape y una tarjeta SD'
+  - ! '@xuanxu'
+  - ! '@pantulis'
+  - ! '@fesotovi'
+  - ! '@xaibot'
+  - ! '@arpahector'
+  - ! '@amaiac'
+  - ! '@arctarus'
+  - ! '@ciscou'
+  - ! '@eLafo'
+  - ! '@patriciagao'
+  - ! '@DonQuicong'
+  - David Z.
+  - ! '@martincabrera'
+  - ! '@lparedesdev'
+  - josé luis
+  - ! '@serabe'
+  - ! '@amartinfraguas'
+  - ! '@carlossanchezp'
+  - ! '@based_err3'
+  - Gustavo
+  - ! '@mazur'
+  - Andres Barriga
+  - ! '@africajam'
+  - ! '@AlvarOS_anchez'
+  - ! '@MURTR4'
+  - ! '@jaimeiniesta'
+  - ! '@javiervidal'
+  - ! '@azaru'
+  - ! '@gootyfer'
+  - ! '@michaelkoper'
+  - ! '@omcateer'
+  - ! '@jfcalvo'
+  - ! '@mroguzman'
+  - Etienne L.
+  map_url: https://www.google.com/maps/place/The+Irish+Rover/@40.4549437,-3.6936623,17z/data=!4m7!1m4!3m3!1s0xd422902b93a7b4f:0xcdf2773b21bd0810!2sAv+de+Brasil,+7!3b1!3m1!1s0x0:0xac5dccb9e6db0dd5
+- !ruby/struct:Meeting
+  title: Terracismo-rb
+  meeting_date: 
+  meeting_time: '20:00'
+  venue: Terraza Valle Hermoso
+  details: <p>Siguiendo la tradición, en periodos estivales tratamos de soportar los
+    rigores del clima de la capital en una terraza, con una cerveza (o refresco) y
+    en compañía de lo más granado del rubismo madrileño (los que no han huido de Madrid,
+    vaya).</p>
+  speaker_name: 
+  speaker_handle: 
+  speaker_bio: 
+  video_url: 
+  offered_by: 
+  offered_by_html: 
+  attendees: []
+  map_url: http://maps.google.es/maps?q=Jardines+de+Per%C3%B3n&ie=UTF8&ll=40.452989,-3.695934&spn=0.01365,0.012381&fb=1&gl=es&cid=0,0,1081779755368921360&t=h&z=16&iwloc=A
+- !ruby/struct:Meeting
+  title: Una introducción al testing y al TDD.
+  meeting_date: 
+  meeting_time: '19:00'
+  venue: Utopic_US
+  details: ! '<p>Como continuación del <a href="http://javier-ramirez.com/curso-gratuito-solidario-ruby-on-rails.html"
+    rel="nofollow">curso gratuito de Ruby on Rails para programadores en paro</a>
+    que han ofrecido Javier Ramírez y cía, vamos a dar una pequeña introducción al
+    testing y al TDD en Ruby y Ruby on Rails, y así completar el ciclo de desarrollo
+    de una aplicación.</p>
+
+    <p>Invitamos tanto a los asistentes a ese curso como a cualquier otra persona
+    interesado en el tema del testing en Ruby y Ruby on Rails a que se pase. </p>
+
+    <h2>Fernando Blat (<a href="http://twitter.com/ferblape" rel="nofollow">@ferblape</a>)</h2>
+
+    <p><a href="http://fernando.blat.es" rel="nofollow">Fernando</a> lleva más de
+    7 años trabajando como desarrollador web. Aquí puedes encontrar una <a href="http://fernando.blat.es/me/projects"
+    rel="nofollow">lista de proyectos en los que ha participado</a>.</p>
+
+    <p>Actualmente trabaja con Raúl en <a href="http://bebanjo.com" rel="nofollow">BeBanjo</a>.</p>'
+  speaker_name: Raúl Naveiras
+  speaker_handle: ! '@rnaveiras'
+  speaker_bio: ! '<p>Raúl comenzó a programar hace más de 15 años, durante los cuales
+    ha realizado todo tipo de proyectos y usando todo tipo de lenguajes. </p>
+
+    <p>Actualmente forma parte de un fantástico equipo trabajando como developer en
+    <a href="http://bebanjo.com" rel="nofollow">BeBanjo</a>.</p>'
+  video_url: 
+  offered_by:
+  - http://www.vizzuality.com/
+  - http://www.bebanjo.com/
+  - http://www.prorubyteam.com/
+  - http://the-cocktail.com/
+  - http://aspgems.com/
+  - http://www.lciberica.es/
+  - http://www.lextrend.com/
+  offered_by_html: ! '<p><a href="http://www.vizzuality.com/" rel="nofollow"><img
+    width="150px" src="http://dl.dropbox.com/u/645329/logos/vizzuality.png" alt="Vizzuality"></a>     
+
+    <a href="http://www.bebanjo.com/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/bebanjo.png"
+    alt="BeBanjo"></a>     
+
+    <a href="http://www.prorubyteam.com/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/proruby.png"
+    alt="ProRuby"></a>     
+
+    <a href="http://the-cocktail.com/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/tck.png"
+    alt="The Cocktail"></a>     
+
+    <br>
+
+    <br>
+
+    <a href="http://aspgems.com/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/aspgems.png"
+    alt="ASPgems"></a>     
+
+    <a href="http://www.lciberica.es/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/lci.png"
+    alt="LCIberica"></a>     
+
+    <a href="http://www.lextrend.com/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/lextrend.png"
+    alt="Lextrend"></a>     </p>'
+  attendees:
+  - ! '@rnaveiras'
+  - ! '@ferblape'
+  - ! '@emacip'
+  - ! '@arctarus'
+  - ! '@joshka20'
+  - ! '@apenav'
+  - ! '@izgaka'
+  - ! '@JcEstebanGo'
+  - ! '@samlown'
+  - ! '@eyliss'
+  - ! '@amaiac'
+  - ! '@laura_morillo'
+  - ! '@fuzzyalej'
+  - ! '@eLafo'
+  - ! '@DonQuicong'
+  - ! '@MarkVillacampa'
+  - ! '@hopitawm'
+  - ! '@migupl'
+  - ! '@borjafv'
+  - ! '@juanyque'
+  - ! '@tomasborrella'
+  - ! '@jglongaron'
+  - ! '@sertorresalonso'
+  - ! '@osquitar7'
+  - ! '@fesotovi'
+  - ! '@carlossanchezp'
+  - ! '@malahe_jc'
+  - ! '@ciscou'
+  - ! '@sgmac'
+  - ! '@psgonza'
+  - ! '@fcofdezc'
+  - ! '@fjuan'
+  - ! '@manu1621'
+  - ! '@jdevega'
+  - ! '@xclickclickx'
+  map_url: http://maps.google.es/maps?f=q&source=embed&hl=es&geocode=&q=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid&sll=40.396764,-3.713379&sspn=10.504732,23.269043&ie=UTF8&hq=&hnear=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid,+Comunidad+de+Madrid&ll=40.413867,-3.706683&spn=0.036727,0.076818&z=14
+- !ruby/struct:Meeting
+  title: Terracismo-rb
+  meeting_date: 
+  meeting_time: '20:00'
+  venue: Terraza Valle HermosoRibera de Curtidores, 28
+  details: <p>En verano no hay charlas de madrid-rb, porque hay muy poca gente y está
+    todo el mundo de vacaciones. ¡Pero siempre queda alguien! Los que podamos, nos
+    reuniremos para tomar un vermut y unos altramuces con pepinillos en vinagre hablando
+    de cosicas divertidas de las que nos gustan.</p>
+  speaker_name: 
+  speaker_handle: 
+  speaker_bio: 
+  video_url: 
+  offered_by: 
+  offered_by_html: 
+  attendees:
+  - ! '@otikik'
+  - ! '@amaiac'
+  - ! '@joseferrer'
+  - ! '@adavideo'
+  - ! '@lparedesdev'
+  - ! '@afcapel'
+  - ! '@xuanxu'
+  map_url: https://maps.google.es/maps? ie=UTF8&q=Restaurante+El+Valle+Hermoso&fb=1&gl=es&hq=Restaurante+El+Valle+Hermoso&hnear=Madrid,+Comunidad+de+Madrid&ll=40.450082,-3.652439&spn=0.113386,0.253029&t=m&z=13&vpsrc=0&iwloc=A&cid=16033649943092139621
+- !ruby/struct:Meeting
+  title: 
+  meeting_date: 
+  meeting_time: 
+  venue: 
+  details: 
+  speaker_name: 
+  speaker_handle: 
+  speaker_bio: 
+  video_url: 
+  offered_by: 
+  offered_by_html: 
+  attendees: 
+  map_url: 
+- !ruby/struct:Meeting
+  title: Colaboración usando Eventos en Ruby
+  meeting_date: 2011-12-29
+  meeting_time: '19:45'
+  venue: Utopic_US, Calle de la Concepción Jerónima 22, Madrid.
+  details: ! '<p>A medida que nuestras aplicaciones evolucionan, resulta más difícil
+    gestionar la creciente complejidad y mantener el sistema mantenible. Llega un
+    punto en que tu aplicación monolítica es lo suficientemente grande como para que
+    resulte beneficioso separarla en varios componentes más simples, desacoplados
+    y cohesivos.</p>
+
+    <p>Una de las posibles maneras de integrar sistemas de este tipo es utilizar eventos,
+    es decir, en lugar de que los distintos componentes tengan que hacerse peticiones
+    entre ellos cuando necesitan saber algo de los demás, lo que hacen es lanzar eventos
+    informando al resto cuando las cosas cambian.</p>
+
+    <p>En esta charla exploraremos estas arquitecturas, sus beneficios y trade-offs,
+    y presentaré en sociedad <a href="https://github.com/cavalle/eventwire" rel="nofollow">Eventwire</a>,
+    una librería que facilita implementar sistemas de este tipo en Ruby utilizando
+    diferentes back-ends (RabbitMQ, Redis, ZeroMQ…)</p>'
+  speaker_name: Luismi Cavallé
+  speaker_handle: ! '@cavalle'
+  speaker_bio: <p>Luismi [<a href="https://twitter.com/cavalle" rel="nofollow">twitter</a>|<a
+    href="http://github.com/cavalle" rel="nofollow">github</a>|<a href="http://blog.lmcavalle.com"
+    rel="nofollow">blog</a>] es Lead Developer en <a href="http://bebanjo.com" rel="nofollow">BeBanjo</a>,
+    es autor de <a href="http://github.com/cavalle/steak" rel="nofollow">Steak</a>
+    y co-organiza <a href="http://madridrb.org" rel="nofollow">Madrid.rb</a>.</p>
+  video_url: 
+  offered_by:
+  - http://www.vizzuality.com/
+  - http://www.bebanjo.com/
+  - http://www.prorubyteam.com/
+  - http://the-cocktail.com/
+  - http://aspgems.com/
+  - http://www.lciberica.es/
+  - http://www.lextrend.com/
+  offered_by_html: ! '<p><a href="http://www.vizzuality.com/" rel="nofollow"><img
+    width="150px" src="http://dl.dropbox.com/u/645329/logos/vizzuality.png" alt="Vizzuality"></a>     
+
+    <a href="http://www.bebanjo.com/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/bebanjo.png"
+    alt="BeBanjo"></a>     
+
+    <a href="http://www.prorubyteam.com/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/proruby.png"
+    alt="ProRuby"></a>     
+
+    <a href="http://the-cocktail.com/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/tck.png"
+    alt="The Cocktail"></a>     
+
+    <br>
+
+    <br>
+
+    <a href="http://aspgems.com/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/aspgems.png"
+    alt="ASPgems"></a>     
+
+    <a href="http://www.lciberica.es/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/lci.png"
+    alt="LCIberica"></a>     
+
+    <a href="http://www.lextrend.com/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/lextrend.png"
+    alt="Lextrend"></a>     </p>'
+  attendees: []
+  map_url: http://maps.google.es/maps?f=q&source=embed&hl=es&geocode=&q=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid&sll=40.396764,-3.713379&sspn=10.504732,23.269043&ie=UTF8&hq=&hnear=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid,+Comunidad+de+Madrid&ll=40.413867,-3.706683&spn=0.036727,0.076818&z=14
+- !ruby/struct:Meeting
+  title: Modelotes ActiveRecord
+  meeting_date: 2012-12-27
+  meeting_time: '19:45'
+  venue: Utopic_US
+  details: ! '<p>“Skinny Controllers” es una práctica habitual en la comunidad Rails.
+    Todo el mundo parece de acuerdo en que resulta beneficioso mantener los controladores
+    lo más delgados posible. Sin embargo, lo que no genera tanto acuerdo es cómo de
+    grandes es razonable que sean nuestros modelos y qué podemos hacer para evitar
+    que acaben creciendo demasiado.</p>
+
+    <p>En esta charla exploraremos esta problemática y discutiremos algunas de las
+    variadas soluciones que propone la comunidad. En función de lo que permita el
+    tiempo hablaremos de <strong>Rails vs OOP</strong>, <strong>SOLID</strong>, <strong>ceremonia
+    vs esencia</strong>, <strong>cohesión</strong>, <strong>el coste de la indirección</strong>,
+    <strong>objetos de servicio (en varios sabores)</strong>, <strong>concerns</strong>,  <strong>DCI</strong>…</p>'
+  speaker_name: Luismi Cavallé
+  speaker_handle: ! '@cavalle'
+  speaker_bio: <p>Programador en <a href="http://bebanjo.com/" rel="nofollow">BeBanjo</a>.
+    Contribuidor Open-Source. Speaker ocasional. Y, claramente, hoy no muy inspirado
+    escribiendo esta descripción. Esperemos que lo esté el día de la charla.</p>
+  video_url: http://vimeo.com/57356569
+  offered_by:
+  - http://www.vizzuality.com/
+  - http://www.bebanjo.com/
+  - http://www.prorubyteam.com/
+  - http://the-cocktail.com/
+  - http://aspgems.com/
+  - http://www.lciberica.es/
+  - http://www.lextrend.com/
+  offered_by_html: ! '<p><a href="http://www.vizzuality.com/" rel="nofollow"><img
+    width="150px" src="http://dl.dropbox.com/u/645329/logos/vizzuality.png" alt="Vizzuality"></a>     
+
+    <a href="http://www.bebanjo.com/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/bebanjo.png"
+    alt="BeBanjo"></a>     
+
+    <a href="http://www.prorubyteam.com/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/proruby.png"
+    alt="ProRuby"></a>     
+
+    <a href="http://the-cocktail.com/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/tck.png"
+    alt="The Cocktail"></a>     
+
+    <br>
+
+    <br>
+
+    <a href="http://aspgems.com/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/aspgems.png"
+    alt="ASPgems"></a>     
+
+    <a href="http://www.lciberica.es/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/lci.png"
+    alt="LCIberica"></a>     
+
+    <a href="http://www.lextrend.com/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/lextrend.png"
+    alt="Lextrend"></a>     </p>'
+  attendees:
+  - ! '@cavalle'
+  - ! '@happywebcoder :('
+  - ! '@savicas :('
+  - ! '@amaiac'
+  - ! '@xuanxu'
+  - ! '@sowe'
+  - ! '@ferblape'
+  - ! '@elafo'
+  - ! '@christos'
+  - ! '@pasku1'
+  - ! '@eLobatoss'
+  - ! '@mgryszko'
+  - ! '@guillermooo'
+  - ! '@estereoeo'
+  - ! '@rnaveiras'
+  - ! '@ferdev'
+  - ! '@ltello'
+  - ! '@ArturoHerrero'
+  - ! '@colgado'
+  - ! '@laura_morillo'
+  - ! '@porras'
+  - ! '@DonQuicong'
+  - ! '@javierhonduco'
+  - ! '@valakirka'
+  - ! '@carlossanchezp'
+  - ! '@samlown (espero!)'
+  - ! '@grosshat'
+  - ! '@parean'
+  - ! '@afcapel'
+  - ! '@pacoguzman'
+  - ! '@dparracatalan'
+  - ! '@lacebes'
+  - ! '@_gaizka (si estoy en Madrid)'
+  - ! '@joseluis'
+  - ! '@ivanfdezperea'
+  - ! '@germandz'
+  - ! '@zipizap'
+  - ! '@alfredo_casado'
+  - ! '@doktor500'
+  - ! '@ecomba'
+  - ! '@xtremevoodoo'
+  - ! '@wchiquito'
+  map_url: http://maps.google.es/maps?f=q&source=embed&hl=es&geocode=&q=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid&sll=40.396764,-3.713379&sspn=10.504732,23.269043&ie=UTF8&hq=&hnear=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid,+Comunidad+de+Madrid&ll=40.413867,-3.706683&spn=0.036727,0.076818&z=14
+- !ruby/struct:Meeting
+  title: Catacrockea a cascoporro con redis
+  meeting_date: 2013-12-26
+  meeting_time: '19:45'
+  venue: Utopic_US US3 (c/ Colegiata 9)
+  details: ! '<p>Todo el mundo está usando Redis, y con motivo: Es rápido, es fácil
+    y es web scale. Pero Redis puede hacer muchas más cosas de las típicas para las
+    que lo usa la comunidad Ruby. En esta charla hablaré sobre lo que se puede hacer
+    con Redis, cómo lo están usando empresas como twitter o pinterest, las cosas que
+    no deberías hacer con redis, algunos patrones interesantes de uso, y cómo lo estamos
+    usando en teowaki para resolver un montón de problemas.</p>'
+  speaker_name: Javier Ramírez
+  speaker_handle: ! '@supercoco9'
+  speaker_bio: ! '<p>Desarrollador web, soñador y en general una persona feliz. Interesado
+    en todo lo que tenga que ver con Internet y cómo está cambiando nuestra cultura
+    y nuestra sociedad.
+
+    Fundador de <a href="http://teowaki.com" rel="nofollow">teowaki.com</a>, donde
+    intentamos hacer más felices a los desarrolladores ayudándoles a compartir información
+    técnica, rumores y lifehacks con sus amigos desarrolladores.</p>
+
+    <p>Vivo en Londres, pero puedes encontrarme en <a href="http://javier-ramirez.com"
+    rel="nofollow">javier-ramirez.com</a> y como <a href="https://twitter.com/supercoco9"
+    rel="nofollow">@supercoco9</a> en twitter.</p>'
+  video_url: http://vimeo.com/85642729
+  offered_by:
+  - http://www.bebanjo.com/
+  - http://www.prorubyteam.com/
+  - http://the-cocktail.com/
+  - http://aspgems.com/
+  - http://www.lextrend.com/
+  offered_by_html: ! '<p> 
+
+    <a href="http://www.bebanjo.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/bebanjo.png"
+    alt="BeBanjo"></a>     
+
+    <a href="http://www.prorubyteam.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/proruby.png"
+    alt="ProRuby"></a>     
+
+    <a href="http://the-cocktail.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/tck.png"
+    alt="The Cocktail"></a>     
+
+    <br>
+
+    <br>
+
+    <a href="http://aspgems.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/aspgems.png"
+    alt="ASPgems"></a>     
+
+    <a href="http://www.lextrend.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/lextrend.png"
+    alt="Lextrend"></a>     </p>'
+  attendees:
+  - ! "@supercoco9 \U0001F1EC\U0001F1E7"
+  - ! "@xemig  \U0001F1E9\U0001F1EA"
+  - ! '@ferblape'
+  - ! '@xuanxu'
+  - ! '@ciscou'
+  - ! '@amaiac'
+  - ! '@jerolba'
+  - ! "@happywebcoder \U0001F1FA\U0001F1F8"
+  - ! '@eLobatoss'
+  - ! "@rnaveiras \U0001F1EC\U0001F1E7"
+  - ! "@porras \U0001F1E9\U0001F1EA"
+  - ! "@valakirka \U0001F1E9\U0001F1EA"
+  - ! "@voodoorai2000 \U0001F1EF\U0001F1F5"
+  - ! '@alexcocia'
+  - ! '@jaimeiniesta'
+  - ! '@istepaniuk'
+  - ! '@gootyfer'
+  - ! '@arpahector'
+  - Unai Trecet
+  - ! '@manute'
+  - ! '@kanedaki'
+  - ! '@dsaenztagarro'
+  - ! '@joshka20'
+  - ! '@carlossanchezp'
+  - ! '@martincabrera'
+  - ! '@eLafo'
+  - ! '@dani_oton'
+  - ! '@oinak'
+  - ! '@rocknrollesque'
+  - ! "@cavalle \U0001F1EC\U0001F1E7"
+  - ! "@ArturoHerrero \U0001F1EC\U0001F1E7"
+  - ! '@marcelinollano'
+  - Javier Perez
+  - ! '@pasku1'
+  - ! '@wchiquito'
+  - ! '@murtr4'
+  - ! '@colgado'
+  - ! '@alejanderl'
+  - ! '@Serabe'
+  - ! '@javierhdez3'
+  - ! '@elreplicante'
+  - ! '@cusna'
+  - ! '@alejandrodob'
+  - ! '@_aitor '
+  - ! '@begoesti  '
+  - ! '@joseferrer'
+  - ! '@lauralacarra'
+  - ! '@germandz'
+  - ! 'Igor Rootsi '
+  - ! '@happensesame'
+  - ! '@lparedesdev'
+  - ! '@MartaFonda'
+  - ! '@jglongaron'
+  map_url: https://www.google.com/maps/preview#!q=Calle+Colegiata%2C+9%2C+Madrid%2C+Spain&data=!4m10!1m9!4m8!1m3!1d203964!2d-3.6795367!3d40.4378271!3m2!1i1436!2i806!4f13.1
+- !ruby/struct:Meeting
+  title: A [git] workflow
+  meeting_date: 2011-01-27
+  meeting_time: '19:45'
+  venue: Vivero de Empresas Puente de Vallecas
+  details: ! '<p>Todos sabemos usar Git (o estamos a un <a href="http://progit.org/"
+    rel="nofollow">libro</a> de distancia de ello) pero, ¿cómo sacarle mayor partido?
+    </p>
+
+    <p>Git es una herramienta flexible y <em>agnóstica de workflow</em>, lo que quiere
+    decir que podemos implementar nuestro flujo de trabajo, sea cual sea, sin tener
+    que “pelearnos” con Git para reflejar en nuestros repositorios nuestra forma de
+    trabajar. Al contrario, Git nos puede ayudar a estar seguros de que estamos siguiendo
+    nuestras propias reglas de trabajo.</p>
+
+    <p>En esta charla se propondrá un workflow, de los infinitos posibles a la hora
+    de desarrollar software, inspirado muy de cerca en el que usamos en BeBanjo para
+    desarrollar nuestros tres productos, basado a su vez en ideas ágiles como <em>continuous
+    delivery</em> y <em>kanban</em>, y se explicará también cómo hacer que Git no
+    sólo lo soporte sino que se convierta en la herramienta clave para llevarlo a
+    cabo.</p>
+
+    <p><strong>AVISO</strong>: Aunque a primera vista parece que esta charla no tiene
+    relación con Ruby, a su final habrá ingesta masiva de cerveza, quedando demostrada
+    así la falsedad de esa apariencia.</p>
+
+    <h2>Resources</h2>
+
+    <ul>
+
+    <li><a href="http://slidesha.re/gvbvl5" rel="nofollow">Slides de la charla</a></li>
+
+    <li>
+
+    <a href="http://bit.ly/gnPV10" rel="nofollow">Wallpaper de regalo</a> (cortesía
+    de <a href="http://twitter.com/bomberstudios" rel="nofollow">@bomberstudios</a>)</li>
+
+    </ul>'
+  speaker_name: Sergio Gil
+  speaker_handle: ! '@porras'
+  speaker_bio: <p>Desarrollador, ciclista urbano y del Atlético de Madrid. También
+    conocido como <a href="http://twitter.com/porras" rel="nofollow">@porras</a>,
+    es una presencia habitual desde los borrosos tiempos fundacionales en los eventos
+    de la rubysfera doméstica (Conferencia Rails, Madrid-rb). Ha aporreado líneas
+    de código en The Cocktail y en la actualidad en BeBanjo. Lleva años amenazando
+    con tocar el ukelele en su próxima charla. Quién sabe si esta vez será por fin
+    cierto.</p>
+  video_url: 
+  offered_by: 
+  offered_by_html: 
+  attendees:
+  - ! '@samlown'
+  - ! '@bomberstudios'
+  - ! '@edeleon'
+  - ! '@topowanda'
+  - ! '@elafo'
+  - ! '@valakirka'
+  - ! '@ferblape'
+  - ! '@batu'
+  - ! '@supercoco9'
+  - ! '@javiervidal'
+  - ! '@serabe'
+  - ! '@demimismo'
+  - ! '@xuanxu'
+  - ! '@fguillen (es broma, pero me encantaría)'
+  - ! '@yonosoytu'
+  - ! '@calavera (si @fguillen se apunta, yo también)'
+  - ! '@eamodeorubio'
+  - ! '@porras (si queda sitio)'
+  - ! '@wchiquito'
+  - ! '@pacoguzman'
+  - ! '@diec123'
+  - ! '@ialcazar'
+  - ! '@hylian'
+  - ! '@danimataonrails (hoy estoy optimista)'
+  - ! '@mikelci'
+  - ! '@otikik'
+  - ! '@dias_jorge'
+  - ! '@jjballano'
+  - ! '@kanedaki'
+  - ! '@rmoliva'
+  - ! '@_aitor (por un tratamiento digno a los expatriados)'
+  - ! '@vieron'
+  - ! '@jorgesancha (difícil, pero se intentará)'
+  - ! '@jorgegorka (vengo ex profeso de Logroño para oir la charla... como no sea
+    buena.... ;-)'
+  - ! '@ArturoHerrero'
+  - ! '@tinova79 (Logroñés no quita lo valiente)'
+  - ! '@sanyu'
+  - ! '@rafa.diaz'
+  - ! '@entantoencuanto'
+  - ! '@cavalle'
+  - ! '@raguilera82'
+  - ! '@earroyoron (eso de que todos sabemos usar GIT es algo temerario :o)'
+  - ! '@zipizap'
+  - ! '@rafadc'
+  - ! '@jnhidalgo'
+  - ! '@apradillap'
+  - ! '@samudeas'
+  - ! '@satrapa'
+  - ! '@grosshat'
+  - ! '@amaiac'
+  - ! '@therobot (hay cerveza gratis, ¿no?)'
+  - ! '@mgryszko'
+  - ! '@ikame'
+  - ! '@sigilioso'
+  - ! '@slavy'
+  - ! '@afcapel'
+  - ! '@arctarus'
+  - ! '@jvicenteherrera'
+  - ! '@dgilperez'
+  - ! '@niram (y las gaunas que tengo de ir)'
+  - ! '@frr149 (topo pythonista de incógnito)'
+  - ! '@pasku1'
+  - ! '@negrolongi'
+  - ! '@isanchezirtve'
+  - ! '@juanyque'
+  - ! '@ccunningham'
+  - ! '@sotmar'
+  - ! '@luisperalta'
+  - ! '@tomaszse'
+  - ! '@desarrolla2'
+  - ! '@miguellc'
+  - ! '@bisho'
+  map_url: http://maps.google.es/maps?f=q&source=s_q&hl=en&geocode=&q=Calle+de+la+Diligencia,+9,+Madrid&aq=0&sll=40.383103,-3.656814&sspn=0.009186,0.019205&g=Calle+de+la+Diligencia,+9,+28018+Madrid,+Comunidad+de+Madrid&ie=UTF8&hq=&hnear=Calle+de+la+Diligencia,+9,+28018+Madrid,+Comunidad+de+Madrid&ll=40.384164,-3.656602&spn=0.009186,0.019205&z=16
+- !ruby/struct:Meeting
+  title: Backbone + Rails + Handlebars = Éxito
+  meeting_date: 2012-01-26
+  meeting_time: '19:45'
+  venue: Utopic_US, Calle Duque de Rivas 5, Madrid.
+  details: ! '<p>En esta charla Germán nos contará su experiencia compartiendo plantillas
+    <a href="http://handlebarsjs.com/" rel="nofollow">handlebars</a> tanto en el servidor
+    (con Rails) como en el cliente (con <a href="http://backbonejs.org/" rel="nofollow">Backbone</a>).</p>
+
+    <h2>Material utilizado durante la presentación:</h2>
+
+    <p>Slides: <a href="http://hbsdemo.heroku.com/slides/" rel="nofollow">http://hbsdemo.heroku.com/slides/</a></p>
+
+    <p>Demo: <a href="http://hbsdemo.heroku.com" rel="nofollow">http://hbsdemo.heroku.com</a></p>
+
+    <p>Fuentes: <a href="https://github.com/germandz/hbs_demo" rel="nofollow">https://github.com/germandz/hbs_demo</a></p>'
+  speaker_name: German Del Zotto
+  speaker_handle: ! '@GermanDZ'
+  speaker_bio: ! '<p>Ésto es lo que cuenta German de sí mismo:</p>
+
+    <p>"Me gusta formar parte de equipos que resuelven problemas de negocios. Demasiado
+    pragmático y nuevo en el mundo Ruby/Rails. Ahora enfocado a que las ideas de los
+    emprendedores tecnológicos lleguen a buen puerto."</p>
+
+    <p>Actualmente German trabaja en <a href="http://1uptalent.com/" rel="nofollow">1uptalent</a>.</p>'
+  video_url: 
+  offered_by:
+  - http://www.vizzuality.com/
+  - http://www.bebanjo.com/
+  - http://www.prorubyteam.com/
+  - http://the-cocktail.com/
+  - http://aspgems.com/
+  - http://www.lciberica.es/
+  - http://www.lextrend.com/
+  offered_by_html: ! '<p><a href="http://www.vizzuality.com/" rel="nofollow"><img
+    width="150px" src="http://dl.dropbox.com/u/645329/logos/vizzuality.png" alt="Vizzuality"></a>     
+
+    <a href="http://www.bebanjo.com/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/bebanjo.png"
+    alt="BeBanjo"></a>     
+
+    <a href="http://www.prorubyteam.com/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/proruby.png"
+    alt="ProRuby"></a>     
+
+    <a href="http://the-cocktail.com/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/tck.png"
+    alt="The Cocktail"></a>     
+
+    <br>
+
+    <br>
+
+    <a href="http://aspgems.com/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/aspgems.png"
+    alt="ASPgems"></a>     
+
+    <a href="http://www.lciberica.es/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/lci.png"
+    alt="LCIberica"></a>     
+
+    <a href="http://www.lextrend.com/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/lextrend.png"
+    alt="Lextrend"></a>     </p>'
+  attendees:
+  - ! '@cavalle'
+  - ! '@christos'
+  - ! '@marcelinollano'
+  - ! '@miguellc'
+  - ! '@otikik'
+  - ! '@eamodeorubio'
+  - ! '@mcberros'
+  - ! '@arctarus'
+  - ! '@tomasborrella'
+  - ! '@germandz'
+  - ! '@pasku1'
+  - ! '@gnufede'
+  - ! '@serabe'
+  - ! '@ferdev'
+  - ! '@amaiac'
+  - ! '@oinak'
+  - ! '@aelena'
+  - ! '@emacip'
+  - ! '@topowanda'
+  - ! '@pantulis'
+  - ! '@el_verdor'
+  - ! '@juljimm'
+  - ! '@kanedaki'
+  - ! '@rafaelrebolleda'
+  - ! '@alexeiras'
+  - ! '@RafaDiazNovo'
+  - ! '@agilm'
+  - ! '@valakirka'
+  - ! '@mikelci'
+  - ! '@acw5'
+  - ! '@porras'
+  - ! '@edu'
+  - ! '@nestorsalceda'
+  - ! '@samlown'
+  - ! '@amuino'
+  - ! '@luisico'
+  - ! '@blogatclock'
+  - ! '@migupl'
+  - ! '@fsainz'
+  - ! '@ariera'
+  - ! '@wchiquito'
+  - ! '@adrianmg'
+  - ! '@dani_capello'
+  - ! '@rnaveiras'
+  - ! '@apardo'
+  - ! '@juanparraga'
+  - ! '@alexrodriguez'
+  - ! '@afcapel'
+  - ! '@satrapa'
+  - ! '@mikelodeon'
+  - ! '@zipizap'
+  map_url: http://g.co/maps/4ktdg
+- !ruby/struct:Meeting
+  title: Continuous Delivery con Rails, Hudson y Heroku
+  meeting_date: 2013-01-31
+  meeting_time: '19:45'
+  venue: Utopic_US
+  details: <p><em>Continuous Delivery</em> es una vuelta de tuerca a la práctica de
+    integración continua. Busca conseguir la liberación fiable y predecible de versiones
+    a través de la automatización total de los pasos implicados. En esta charla contaré
+    nuestras aventuras y desventuras al implementarla en una aplicación Rails que
+    corre sobre Heroku utilizando para ello Hudson y diversos sistemas de testing
+    como Jasmine, RSpec o Cucumber.</p>
+  speaker_name: Jorge Manrubia
+  speaker_handle: ! '@jmanrubia'
+  speaker_bio: <p>Jorge Manrubia es un desarrollador al que le encanta la programación
+    en general y Ruby en particular. Es cofundador de <a href="http://zendone.com"
+    rel="nofollow">zendone.com</a>, una proyecto personal de un grupo de amigos que
+    éstos días se está lanzando como producto. Podéis encontrarle en <a href="#//twitter.com/jmanrubia"
+    rel="nofollow">twitter</a> o en <a href="http://jorgemanrubia.net/" rel="nofollow">su
+    blog</a>.</p>
+  video_url: http://vimeo.com/60436802
+  offered_by:
+  - http://www.bebanjo.com/
+  - http://www.prorubyteam.com/
+  - http://the-cocktail.com/
+  - http://aspgems.com/
+  - http://www.lciberica.es/
+  - http://www.lextrend.com/
+  offered_by_html: ! '<p> 
+
+    <a href="http://www.bebanjo.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/bebanjo.png"
+    alt="BeBanjo"></a>     
+
+    <a href="http://www.prorubyteam.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/proruby.png"
+    alt="ProRuby"></a>     
+
+    <a href="http://the-cocktail.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/tck.png"
+    alt="The Cocktail"></a>     
+
+    <br>
+
+    <br>
+
+    <a href="http://aspgems.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/aspgems.png"
+    alt="ASPgems"></a>     
+
+    <a href="http://www.lciberica.es/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/lci.png"
+    alt="LCIberica"></a>     
+
+    <a href="http://www.lextrend.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/lextrend.png"
+    alt="Lextrend"></a>     </p>'
+  attendees:
+  - ! '@otikik'
+  - ! '@pasku1'
+  - ! '@serabe'
+  - ! '@enriqueaf'
+  - ! '@javier_dev'
+  - ! '@amaiac'
+  - ! '@eamodeorubio'
+  - ! '@mcberros'
+  - ! '@laura_morillo'
+  - ! '@joseluis'
+  - ! '@ivanfdezperea'
+  - ! '@jdevega'
+  - ! '@emacip'
+  - ! '@manolomaldonado'
+  - ! '@diec123 '
+  - ! '@adavideo'
+  - ! '@colgado'
+  - ! '@amartinfraguas'
+  - ! '@ferblape'
+  - ! '@mongemalo'
+  - ! '@DonQuicong'
+  - ! '@armeris'
+  - ! '@moises_macia'
+  - ! '@manu1621'
+  - ! '@acw5'
+  - ! '@juampy72'
+  - ! '@joshka20'
+  - ! '@dparracatalan'
+  - ! '@antarticonorte'
+  - ! '@ciscou'
+  - ! '@jfvaldesg'
+  - ! '@fesotovi'
+  - arctarus
+  map_url: http://maps.google.es/maps?f=q&source=embed&hl=es&geocode=&q=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid&sll=40.396764,-3.713379&sspn=10.504732,23.269043&ie=UTF8&hq=&hnear=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid,+Comunidad+de+Madrid&ll=40.413867,-3.706683&spn=0.036727,0.076818&z=14
+- !ruby/struct:Meeting
+  title: Lua for Rubysts
+  meeting_date: 2014-01-30
+  meeting_time: '19:45'
+  venue: Utopic_US US3 (c/ Colegiata 9)
+  details: ! '<p>Lua is a small, fast language that is discretely being embedded in
+    an increasing number of systems. On this talk, we''ll learn what problems does
+    it solve, what are its main assumptions, and how it compares with ruby. We''ll
+    also explore some of its real-life scenarios and tools where it''s used, and how
+    it can help you as ruby developers.</p>
+
+    <h3>Participants</h3>
+
+    <p><em>(<a href="?m=edit" rel="nofollow">Edit</a> this page and add yourself if
+    you are planning to attend)</em></p>
+
+    <ul>
+
+    <li>@otikik</li>
+
+    <li>@pasku1</li>
+
+    <li>@amaiac</li>
+
+    <li>@oinak</li>
+
+    <li>@xuanxu</li>
+
+    <li><a href="https://twitter.com/carlossanchezp" rel="nofollow">@carlossanchezp</a></li>
+
+    <li>@joseferrer</li>
+
+    <li><a href="https://twitter.com/serabe" rel="nofollow">@serabe</a></li>
+
+    <li><a href="https://twitter.com/viddobambam" rel="nofollow">@viddobambam</a></li>
+
+    <li>joseluis</li>
+
+    <li>djtachu</li>
+
+    <li><a href="https://twitter.com/arctarus" rel="nofollow">@arctarus</a></li>
+
+    <li>mroguzman</li>
+
+    <li><a href="https://twitter.com/argami_" rel="nofollow">@argami_</a></li>
+
+    <li><a href="https://twitter.com/Cesc_Vilanova" rel="nofollow">@cesc_vilanova</a></li>
+
+    <li><a href="https://twitter.com/ereslibre" rel="nofollow">@ereslibre</a></li>
+
+    <li><a href="https://twitter.com/ferblape" rel="nofollow">@ferblape</a></li>
+
+    <li><a href="https://twitter.com/aalbagarcia" rel="nofollow">@aalbagarcia</a></li>
+
+    <li>@ciscou</li>
+
+    <li><a href="https://twitter.com/javier_dev" rel="nofollow">@javier_dev</a></li>
+
+    <li>@alexrzl</li>
+
+    <li><a href="https://twitter.com/miguepiscy" rel="nofollow">@miguepiscy</a></li>
+
+    <li>@acw5</li>
+
+    <li>@lparedesdev</li>
+
+    </ul>'
+  speaker_name: Enrique García Cota
+  speaker_handle: ! '@otikik'
+  speaker_bio: ! '<p>I love programming; it''s a profession where you never stop learning.
+    I believe that software can change society, and I am fascinated by open source.
+    I have a very active <a href="https://github.com/kikito" rel="nofollow">github
+    account</a> with lots of incomplete projects, most of them in Lua.</p>
+
+    <p>I currently manage the <a href="https://madridrb.jottit.com" rel="nofollow">madridrb</a>
+    group and work as a web developer at <a href="http://www.3scale.net/" rel="nofollow">3scale</a>.</p>'
+  video_url: https://vimeo.com/88137764
+  offered_by:
+  - http://www.bebanjo.com/
+  - http://www.prorubyteam.com/
+  - http://the-cocktail.com/
+  - http://aspgems.com/
+  - http://www.lextrend.com/
+  offered_by_html: ! '<p> 
+
+    <a href="http://www.bebanjo.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/bebanjo.png"
+    alt="BeBanjo"></a>     
+
+    <a href="http://www.prorubyteam.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/proruby.png"
+    alt="ProRuby"></a>     
+
+    <a href="http://the-cocktail.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/tck.png"
+    alt="The Cocktail"></a>     
+
+    <br>
+
+    <br>
+
+    <a href="http://aspgems.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/aspgems.png"
+    alt="ASPgems"></a>     
+
+    <a href="http://www.lextrend.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/lextrend.png"
+    alt="Lextrend"></a>     </p>'
+  attendees: 
+  map_url: https://www.google.com/maps/preview#!q=Calle+Colegiata%2C+9%2C+Madrid%2C+Spain&data=!4m10!1m9!4m8!1m3!1d203964!2d-3.6795367!3d40.4378271!3m2!1i1436!2i806!4f13.1
+- !ruby/struct:Meeting
+  title: A g[r]eek talking about Heroku (vídeo)
+  meeting_date: 2011-02-24
+  meeting_time: '19:45'
+  venue: Utopic_US
+  details: ! '<p>Undoubtedly, Heroku is the new black. The Salesforce guys sure think
+    so, and so do all the cool kids on the ruby-block. So, you wonder, is it right
+    for you? </p>
+
+    <p>In this short talk I plan to recount my experience migrating <a href="http://jobandtalent.com"
+    rel="nofollow">Jobandtalent</a> to Heroku. </p>
+
+    <p>Time permiting, I will try to cover the following subjects, some superficially,
+    some in more detail:</p>
+
+    <ul>
+
+    <li>PostgreSQL; differences to MySQL, quirks, hidden features, performance considerations</li>
+
+    <li>Heroku''s read only file system, and how it might affect your application</li>
+
+    <li>Heroku Add-Ons. The Essential, The Nice-to-have, The Rest</li>
+
+    <li>Anecdotal tales of the platform''s quality of service and support </li>
+
+    </ul>
+
+    <p><strong>AVISO:</strong> El idioma de la charla será español, inglés, griego
+    o <em>spangreesh</em> en función del número de cervezas que lleve encima el ponente
+    al comienzo de la misma</p>
+
+    <h3>Resources</h3>
+
+    <ul>
+
+    <li><a href="http://vimeo.com/20768519" rel="nofollow">Vídeo de la charla</a></li>
+
+    </ul>'
+  speaker_name: Christos Zisopoulos
+  speaker_handle: ! '@christos'
+  speaker_bio: <p><a href="http://twitter.com/christos" rel="nofollow">Christos</a>
+    escapó hace algunos años del endogámico mundo de la television interactiva y de
+    la oscuridad de Londres. Ahora vive en Madrid, ha trabajado en The Cocktail y
+    actualmente en Jobandtalent como desarrollador Rails y ‘all around systems guy’.</p>
+  video_url: http://vimeo.com/20768519
+  offered_by: 
+  offered_by_html: 
+  attendees:
+  - ! '@christos'
+  - ! '@cavalle'
+  - ! '@porras'
+  - ! '@lorenzoplanas'
+  - ! '@serabe'
+  - ! '@therobot'
+  - ! '@diec123'
+  - ! '@jcea'
+  - ! '@otikik'
+  - ! '@izgaka'
+  - ! '@valakirka'
+  - ! '@amaiac'
+  - ! '@zipizap'
+  - ! '@arctarus'
+  - ! '@jjballano'
+  - ! '@dgilperez'
+  - ! '@eLafo'
+  - ! '@supercoco9'
+  - ! '@furilo'
+  - ! '@cantorrodista'
+  - ! '@batu'
+  - ! '@miguellc'
+  - ! '@hylian'
+  - ! '@topowanda'
+  - ! '@makotogim'
+  - ! '@samlown'
+  - ! '@enriqueaf'
+  - ! '@ialcazar'
+  - ! '@1hourl8r'
+  - ! '@ferdev'
+  - ! '@ltello'
+  - ! '@rafaelrebolleda'
+  - ! '@yonosoytu'
+  - ! '@wchiquito'
+  - ! '@javiervidal'
+  - ! '@eamodeorubio'
+  - ! '@apardo'
+  - ! '@marivas'
+  - ! '@trek1s'
+  - ! '@daniel.oton'
+  - ! '@edu'
+  - ! '@jglongaron'
+  - ! '@zipizap'
+  - ! '@xuanxu'
+  - ! '@lparedesdev'
+  - ! '@joseRGB'
+  - ! '@raulbarrosoleon'
+  - ! '@guillermooo'
+  map_url: http://maps.google.es/maps?f=q&source=embed&hl=es&geocode=&q=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid&sll=40.396764,-3.713379&sspn=10.504732,23.269043&ie=UTF8&hq=&hnear=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid,+Comunidad+de+Madrid&ll=40.413867,-3.706683&spn=0.036727,0.076818&z=14
+- !ruby/struct:Meeting
+  title: Lightning talks
+  meeting_date: 2012-02-23
+  meeting_time: '19:45'
+  venue: Utopic_US, Calle Duque de Rivas 5, Madrid.
+  details: ! '<p>Charlas de poco tiempo (5 minutos) para hablar de cualquier tema
+    relacionado con ruby.</p>
+
+    <p>El acceso es completamente abierto. Para apuntarte como ponente, <a href="?m=edit"
+    rel="nofollow">edita</a> esta página y apúntate a continuación.</p>
+
+    <p>La primera charla es de ejemplo, me temo. Pero puede usarse como plantilla.</p>
+
+    <ul>
+
+    <li>
+
+    <strong>My new gem</strong> - David Heinemeier Hansson</li>
+
+    <li>
+
+    <strong>La Falacia Fowler</strong> – Luismi Cavallé</li>
+
+    <li>
+
+    <strong>Perpetuum Temptationis</strong> - Enrique Comba Riepenhausen</li>
+
+    <li>
+
+    <strong>Cadenas, Símbolos y Sorpresas</strong> - Enrique García Cota</li>
+
+    <li>
+
+    <strong><a href="https://github.com/awilliams/ruby-openwrt" rel="nofollow">Ruby
+    on a Router</a></strong> - Adam Williams</li>
+
+    <li>
+
+    <strong>Utilizando R desde Ruby</strong> - Javier Vidal</li>
+
+    <li>
+
+    <strong>Indexing Nested Objects</strong> - Paco Guzmán</li>
+
+    </ul>'
+  speaker_name: 
+  speaker_handle: 
+  speaker_bio: 
+  video_url: 
+  offered_by:
+  - http://www.vizzuality.com/
+  - http://www.bebanjo.com/
+  - http://www.prorubyteam.com/
+  - http://the-cocktail.com/
+  - http://aspgems.com/
+  - http://www.lciberica.es/
+  - http://www.lextrend.com/
+  offered_by_html: ! '<p><a href="http://www.vizzuality.com/" rel="nofollow"><img
+    width="150px" src="http://dl.dropbox.com/u/645329/logos/vizzuality.png" alt="Vizzuality"></a>     
+
+    <a href="http://www.bebanjo.com/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/bebanjo.png"
+    alt="BeBanjo"></a>     
+
+    <a href="http://www.prorubyteam.com/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/proruby.png"
+    alt="ProRuby"></a>     
+
+    <a href="http://the-cocktail.com/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/tck.png"
+    alt="The Cocktail"></a>     
+
+    <br>
+
+    <br>
+
+    <a href="http://aspgems.com/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/aspgems.png"
+    alt="ASPgems"></a>     
+
+    <a href="http://www.lciberica.es/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/lci.png"
+    alt="LCIberica"></a>     
+
+    <a href="http://www.lextrend.com/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/lextrend.png"
+    alt="Lextrend"></a>     </p>'
+  attendees:
+  - ! '@cavalle'
+  - ! '@otikik'
+  - ! '@blogatclock'
+  - ! '@voodoorai2000'
+  - ! '@arctarus'
+  - ! '@rafadc'
+  - ! '@acw5'
+  - ! '@oinak'
+  - ! '@serabe'
+  - ! '@ecomba'
+  - ! '@supercoco9'
+  - ! '@pasku1'
+  - ! '@ArturoHerrero'
+  - ! '@emacip'
+  - ! '@kanedaki'
+  - ! '@pantulis'
+  - ! '@alexeiras'
+  - ! '@miguellc'
+  - ! '@oinak'
+  - ! '@celeduc'
+  - ! '@zipizap'
+  - ! '@javiervidal'
+  - ! '@jcea'
+  - ! '@ialcazar'
+  - ! '@pacoguzman'
+  - ! '@apenav'
+  - ! '@ciscou'
+  - ! '@jglongaron'
+  - ! '@el_verdor'
+  - ! '@rnaveiras'
+  - ! '@nestorsalceda'
+  - ! '@juli0castill0'
+  - ! '@eLafo'
+  - ! '@germandz'
+  - ! '@diec123'
+  - ! '@satrapa'
+  map_url: http://g.co/maps/4ktdg
+- !ruby/struct:Meeting
+  title: MongoDB & Rails
+  meeting_date: 2013-02-28
+  meeting_time: '19:45'
+  venue: Utopic_US
+  details: ! '<p>Introducción a MongoDB y a sus ventajas e inconvenientes respecto
+    a una base de datos relacional en aplicaciones Rails.</p>
+
+    <h1>Videojuegos 2D con Ruby + Competición</h1>
+
+    <p>Tradicionalmente no se usa Ruby para el desarrollo de videojuegos, pero en
+    esta charla veremos lo fácil que es crear un videojuego 2D con Ruby y también
+    las limitaciones que tiene. Al tener esa base, os voy a proponer una pequeña competición
+    de programación para todos en que se trata de programar el mejor tanque para una
+    batalla entre todos de los participantes. ¡Venid para ver los detalles!</p>
+
+    <h3>Adam Williams <a href="http://twitter.com/acw5" rel="nofollow">@acw5</a>
+
+    </h3>
+
+    <p>Adam Williams nació en Minneapolis, Minnesota y lleva 6 años viviendo en España.
+    Usa Ruby profesionalmente para hacer desarrollo con Rails y aparte tiene un proyecto
+    personal hecho con Sinatra y el api streaming de Twitter relacionado con el fútbol
+    <a href="http://imbetting.io" rel="nofollow">http://imbetting.io</a>.</p>
+
+    <p><a href="http://vimeo.com/62488793" rel="nofollow">Ver vídeo en Vimeo</a></p>
+
+    <hr>'
+  speaker_name: Amaia Castro
+  speaker_handle: ! '@amaiac'
+  speaker_bio: ! '<p>MicroBio: Actualmente desarrolladora Rails freelance y poco inspirada
+    para escribir bios, puedes ver más sobre mí en <a href="http://amaiacastro.com"
+    rel="nofollow">amaiacastro.com</a></p>
+
+    <p><a href="http://vimeo.com/62438637" rel="nofollow">Ver vídeo en Vimeo</a></p>
+
+    <hr>'
+  video_url: 
+  offered_by:
+  - http://www.bebanjo.com/
+  - http://www.prorubyteam.com/
+  - http://the-cocktail.com/
+  - http://aspgems.com/
+  - http://www.lciberica.es/
+  - http://www.lextrend.com/
+  offered_by_html: ! '<p> 
+
+    <a href="http://www.bebanjo.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/bebanjo.png"
+    alt="BeBanjo"></a>     
+
+    <a href="http://www.prorubyteam.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/proruby.png"
+    alt="ProRuby"></a>     
+
+    <a href="http://the-cocktail.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/tck.png"
+    alt="The Cocktail"></a>     
+
+    <br>
+
+    <br>
+
+    <a href="http://aspgems.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/aspgems.png"
+    alt="ASPgems"></a>     
+
+    <a href="http://www.lciberica.es/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/lci.png"
+    alt="LCIberica"></a>     
+
+    <a href="http://www.lextrend.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/lextrend.png"
+    alt="Lextrend"></a>     </p>'
+  attendees:
+  - ! '@otikik'
+  - ! '@amaiac'
+  - ! '@acw5'
+  - ! '@mcberros'
+  - ! '@eamodeorubio'
+  - ! '@colgado'
+  - ! '@ferblape'
+  - ! '@laura_morillo'
+  - ! '@jmanrubia'
+  - ! '@ivanfdezperea'
+  - ! '@ciscou'
+  - ! '@eLafo'
+  - ! '@christos'
+  - ! '@diec123'
+  - ! '@dgc273'
+  - ! '@zipizap'
+  - ! '@carlossanchezp'
+  - ! '@supercoco9'
+  - ! '@dparracatalan'
+  - ! '@pasku1'
+  - ! '@jmoratilla'
+  - ! '@joseluis'
+  - ! '@mikelodeon'
+  - ! '@antarticonorte'
+  - ! '@amartinfraguas'
+  - ! '@littlemove'
+  - ! '@jmdlta'
+  - ! '@javierhdez3'
+  - ! '@alvarosanmartin'
+  - ! '@afcapel'
+  - ! '@wchiquito'
+  - ! '@darkrodry'
+  - ! '@RaulFlint'
+  - ! '@algohace'
+  - ! '@samlown'
+  - ! '@jdevega'
+  - ! '@adrpz'
+  map_url: http://maps.google.es/maps?f=q&source=embed&hl=es&geocode=&q=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid&sll=40.396764,-3.713379&sspn=10.504732,23.269043&ie=UTF8&hq=&hnear=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid,+Comunidad+de+Madrid&ll=40.413867,-3.706683&spn=0.036727,0.076818&z=14
+- !ruby/struct:Meeting
+  title: ! 'Hacking social: tras las líneas enemigas'
+  meeting_date: 2014-02-27
+  meeting_time: '19:45'
+  venue: Utopic_US US3 (c/ Colegiata 9)
+  details: ! '<p>Como desarrolladores nos pasamos la mayoría del tiempo hackeando:
+    optimizando bases de datos, configurando servicios, integrándonos con APIs de
+    terceros. Normalmente nos sentimos mucho más cómodos trabajando con máquinas que
+    con personas. Sin embargo, tarde o temprano acabamos en un proyecto en el que
+    tenemos que gestionar un equipo, un cliente o, peor, a nuestro jefe.</p>
+
+    <p>Nadie nos explica cómo se hace y tenemos la idea de que esto puede ser la guerra.
+    Voy a intentar dar una visión diferente (y muy personal) de la que normalmente
+    tenemos acerca de este tipo de trabajo. Intentaré explicar por qué esto puede
+    llegar a ser un reto apasionante y por qué, en el fondo, no está tan alejado de
+    nuestro día a día como solemos creer.</p>
+
+    <p>Contaré lo que nadie me contó a mí y que hubiera agradecido que alguien me
+    hubiera contado en su momento.</p>
+
+    <h2>Ofrecido por:</h2>
+
+    <p> 
+
+    <a href="http://www.bebanjo.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/bebanjo.png"
+    alt="BeBanjo"></a>     
+
+    <a href="http://www.prorubyteam.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/proruby.png"
+    alt="ProRuby"></a>     
+
+    <a href="http://the-cocktail.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/tck.png"
+    alt="The Cocktail"></a>     
+
+    <br>
+
+    <br>
+
+    <a href="http://aspgems.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/aspgems.png"
+    alt="ASPgems"></a>     
+
+    <a href="http://www.lextrend.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/lextrend.png"
+    alt="Lextrend"></a>     </p>
+
+    <h3>Participantes</h3>
+
+    <p><em>(<a href="?m=edit" rel="nofollow">Edita</a> esta página y añádete a la
+    lista si tienes pensado asistir)</em></p>
+
+    <ul>
+
+    <li>@eLafo</li>
+
+    <li>@otikik</li>
+
+    <li>@carlossanchezp</li>
+
+    <li>@lparedesdev</li>
+
+    <li>@ferblape</li>
+
+    <li><a href="https://twitter.com/ViddoBamBam" rel="nofollow">@ViddoBamBam</a></li>
+
+    <li>@arpahector</li>
+
+    <li>@ciscou</li>
+
+    <li>@amaiac</li>
+
+    <li>@joseferrer</li>
+
+    <li>@diec123</li>
+
+    <li><a href="https://twitter.com/ops_robot" rel="nofollow">@ops_robot</a></li>
+
+    <li><a href="https://twitter.com/martincabrera" rel="nofollow">@martincabrera</a></li>
+
+    <li><a href="https://twitter.com/arctarus" rel="nofollow">@arctarus</a></li>
+
+    <li>@acw5</li>
+
+    <li>@alexcocia</li>
+
+    <li>@demimismo</li>
+
+    <li><a href="https://twitter.com/christos" rel="nofollow">@christos</a></li>
+
+    <li>josé luis</li>
+
+    <li><a href="https://twitter.com/eduard_io" rel="nofollow">@eduard_io</a></li>
+
+    <li>@rocknrollesque</li>
+
+    <li>Andrés Barriga</li>
+
+    <li>@JackLondon84</li>
+
+    <li>@fjuan</li>
+
+    <li>César</li>
+
+    <li>@Rebequilla_p</li>
+
+    <li><a href="https://twitter.com/javier_dev" rel="nofollow">@javier_dev</a></li>
+
+    <li><a href="https://twitter.com/elreplicante" rel="nofollow">@elreplicante</a></li>
+
+    <li><a href="https://twitter.com/estoyausente" rel="nofollow">@estoyausente</a></li>
+
+    <li>@alejandrodob</li>
+
+    <li><a href="https://twitter.com/sergioshernand" rel="nofollow">@sergioshernand</a></li>
+
+    <li><a href="https://twitter.com/enderfx" rel="nofollow">@enderfx</a></li>
+
+    <li><a href="http://twitter.com/azaru" rel="nofollow">@azaru</a></li>
+
+    <li><a href="http://twitter.com/carlossicre" rel="nofollow">@carlossicre</a></li>
+
+    <li>Alex_r</li>
+
+    <li>@_abnz</li>
+
+    </ul>'
+  speaker_name: Javier Lafora
+  speaker_handle: ! '@eLafo'
+  speaker_bio: <p>Cervecero y guitarrista aficionado. Tras cuatro años estudiando
+    medicina, decidí dejarlo para dedicarme al mundo de la informática. Sin un rumbo
+    definido y por casualidad acabé dedicándome al desarrollo web en rails. He encontrado
+    en el desarrollo web una forma de costear mis vicios y mis aficiones. En caso
+    de que estallara un apocalipsis zombie, sería de muy poca ayuda. Quedáis avisados...</p>
+  video_url: http://vimeo.com/88232111
+  offered_by: 
+  offered_by_html: 
+  attendees: 
+  map_url: https://www.google.com/maps/preview#!q=Calle+Colegiata%2C+9%2C+Madrid%2C+Spain&data=!4m10!1m9!4m8!1m3!1d203964!2d-3.6795367!3d40.4378271!3m2!1i1436!2i806!4f13.1
+- !ruby/struct:Meeting
+  title: ¡¡Partido de fútbol!!
+  meeting_date: 
+  meeting_time: 
+  venue: Polideportivo La Elipa, pista 1-A (entrada por calle Alcalde Garrido Juaristi)
+  details: ! '<p><em>Formato</em>: Fútbol 7, repasen el libro de táctica</p>
+
+    <p><em>Observaciones</em>: Llevad una camiseta negra y otra roja, se hacen los
+    equipos a pares-nones, los de @fxn van de negro (si no le dejamos estrenar su
+    segunda equipación del Barça le da algo) y los otros de rojo. Teniendo en cuenta
+    las camisetas de las últimas conferencias rails y eurukos será fácil ;)</p>
+
+    <p>Si es posible botas sin tacos que en ese campo no hacen falta y somos muy torpes
+    y nos hacemos daño.</p>
+
+    <p>Integran la convocatoria:</p>
+
+    <ol>
+
+    <li>@porras</li>
+
+    <li>@valakirka</li>
+
+    <li>@therobot</li>
+
+    <li>@xuanxu</li>
+
+    <li>@emacip</li>
+
+    <li>@danimataonrails (la araña de sanse)</li>
+
+    <li>@elafo</li>
+
+    <li>@voodoorai2000</li>
+
+    <li>@jglongaron</li>
+
+    <li>@raulbarrosoleon (soy malo, pero me sé las reglas)</li>
+
+    <li>@fxn (soy bueno llevando el botijo)</li>
+
+    <li>@pacoguzman</li>
+
+    <li>@ltello</li>
+
+    <li>@jjballano</li>
+
+    <li>@juanyque (soy bueno bebiendo el botijo)</li>
+
+    <li>@txarly</li>
+
+    <li>@tomasborrella (el cojo de Cáceres) </li>
+
+    <li>@amaiac</li>
+
+    <li>@floydzy</li>
+
+    </ol>'
+  speaker_name: 
+  speaker_handle: 
+  speaker_bio: 
+  video_url: 
+  offered_by: 
+  offered_by_html: 
+  attendees: 
+  map_url: 
+- !ruby/struct:Meeting
+  title: Terracismo-rb
+  meeting_date: 
+  meeting_time: '20:00'
+  venue: Terraza Valle Hermoso
+  details: ! '<p>Siguiendo la tradición, en periodos estivales tratamos de soportar
+    los rigores del clima de la capital en una terraza, con una cerveza (o refresco)
+    y en compañía de lo más granado del rubismo madrileño (los que no han huido de
+    Madrid, vaya).</p>
+
+    <ul>
+
+    <li>@eamodeorubio (resistiendo en Madrid)</li>
+
+    <li>@serabe</li>
+
+    <li>
+
+    <del>@christos</del> (can''t make it)</li>
+
+    <li>@zipizap (acudiendo a la llamada)</li>
+
+    <li>@otikik</li>
+
+    </ul>'
+  speaker_name: 
+  speaker_handle: 
+  speaker_bio: 
+  video_url: 
+  offered_by: 
+  offered_by_html: 
+  attendees: 
+  map_url: http://maps.google.es/maps?q=Jardines+de+Per%C3%B3n&ie=UTF8&ll=40.452989,-3.695934&spn=0.01365,0.012381&fb=1&gl=es&cid=0,0,1081779755368921360&t=h&z=16&iwloc=A
+- !ruby/struct:Meeting
+  title: Terracismo-rb
+  meeting_date: 
+  meeting_time: '20:00'
+  venue: Terraza Valle Hermoso
+  details: ! '<p>En presencia de luz solar, cuerpo humano es capaz de sintetizar vitamina
+    D a partir del colesterol. Y en Julio, en Madrid, hay gran abundancia de luz solar.
+    Lo que podría mermar considerablemente las reservas de colesterol del organismo.</p>
+
+    <p>Para combatir esta trágica y desconocida dolencia veraniega, madrid-rb ofrece
+    el servicio público terracismo-rb.</p>
+
+    <p>Terracismo-rb te permite reponer tus maltrechas reservas de colesterol, consumiendo
+    cervezas y/o refrescos, con la excusa de reunirte con afamados rubystas (o quien
+    quiera venir; es un evento abierto).</p>'
+  speaker_name: 
+  speaker_handle: 
+  speaker_bio: 
+  video_url: 
+  offered_by: 
+  offered_by_html: 
+  attendees:
+  - ! '@otikik'
+  - ! '@amaiac'
+  - ! '@serabe'
+  - ! '@ArturoHerrero'
+  - ! '@emacip'
+  - ! '@samlown'
+  - ! '@celeduc'
+  - ! '@ialcazar'
+  - ! '@christos'
+  - ! '@arctarus'
+  - ! '@eamodeorubio (yo no me pierdo el terracismo!)'
+  - ! '@apenav (intentaré llegar)'
+  - ! '@laura_morillo'
+  - ! '@ciscou'
+  map_url: http://maps.google.es/maps?q=Jardines+de+Per%C3%B3n&ie=UTF8&ll=40.452989,-3.695934&spn=0.01365,0.012381&fb=1&gl=es&cid=0,0,1081779755368921360&t=h&z=16&iwloc=A
+- !ruby/struct:Meeting
+  title: Explotando relaciones de forma escalable con Neo4j
+  meeting_date: 2013-07-25
+  meeting_time: '19:45'
+  venue: 
+  details: ! '<p>Las bases de datos de grafos no son tan populares entre otras bases
+    de datos NoSQL, pero su adopción está creciendo rápidamente. Este tipo de base
+    de datos es una navaja suiza para datos altamente interrelacionados (linked data).</p>
+
+    <p>En esta charla veremos algunos conceptos básicos de teoría de grafos. Con Neo4j,
+    la base de datos de grafos más popular, exploraremos el modelado y veremos lo
+    fácil que es hacer consultas en base a relaciones. Como último paso comentaremos
+    las opciones para usarlo en Ruby. </p>
+
+    <h2>Extra</h2>
+
+    <p>Tambíen haremos una batalla de <a href="https://groups.google.com/forum/?hl=en#!topic/madrid-rb/0H84KsjkuV0"
+    rel="nofollow">RTanque</a> en la que puedes participar.</p>'
+  speaker_name: Alberto Perdomo
+  speaker_handle: ! '@albertoperdomo'
+  speaker_bio: <p>Co-fundador y desarrollador Ruby en <a href="http://www.aentos.com/"
+    rel="nofollow">Aentos</a>. Actualmente trabajando en nuestro producto <a href="http://www.graphenedb.com/"
+    rel="nofollow">GrapheneDB</a>, un servicio hospedado para la base de datos de
+    grafos <a href="http://www.neo4j.org/" rel="nofollow">Neo4j</a>.</p>
+  video_url: https://vimeo.com/71801624
+  offered_by:
+  - http://www.bebanjo.com/
+  - http://www.prorubyteam.com/
+  - http://the-cocktail.com/
+  - http://aspgems.com/
+  - http://www.lextrend.com/
+  offered_by_html: ! '<p> 
+
+    <a href="http://www.bebanjo.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/bebanjo.png"
+    alt="BeBanjo"></a>     
+
+    <a href="http://www.prorubyteam.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/proruby.png"
+    alt="ProRuby"></a>     
+
+    <a href="http://the-cocktail.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/tck.png"
+    alt="The Cocktail"></a>     
+
+    <br>
+
+    <br>
+
+    <a href="http://aspgems.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/aspgems.png"
+    alt="ASPgems"></a>     
+
+    <a href="http://www.lextrend.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/lextrend.png"
+    alt="Lextrend"></a>     </p>'
+  attendees:
+  - ! '@albertoperdomo'
+  - ! '@otikik'
+  - ! '@amaiac'
+  - ! '@ciscou'
+  - ! '@eLafo'
+  - ! '@DonQuicong'
+  - ! '@samlown'
+  - ! '@acw5'
+  - ! '@carlossanchezp'
+  - ! '@fjuan'
+  - ! '@imanolcg'
+  - ! '@xuanxu'
+  - ! '@canalsinruido'
+  - ! '@pasku1'
+  - AndresBarriga
+  - ! '@joseferrer'
+  - ! '@Based_err3'
+  - ! '@emacip'
+  - ! '@atapiador'
+  map_url: http://maps.google.es/maps?f=q&source=embed&hl=es&geocode=&q=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid&sll=40.396764,-3.713379&sspn=10.504732,23.269043&ie=UTF8&hq=&hnear=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid,+Comunidad+de+Madrid&ll=40.413867,-3.706683&spn=0.036727,0.076818&z=14
+- !ruby/struct:Meeting
+  title: Terracismo-rb
+  meeting_date: 
+  meeting_time: '20:00'
+  venue: Terraza Valle Hermoso
+  details: ! '<p>Siguiendo la tradición, en periodos estivales tratamos de soportar
+    los rigores del clima de la capital en una terraza, con una cerveza (o refresco)
+    y en compañía de lo más granado del rubismo madrileño (los que no han huido de
+    Madrid, vaya).</p>
+
+    <ul>
+
+    <li>@eamodeorubio (resistiendo en Madrid)</li>
+
+    <li>@serabe</li>
+
+    <li>@christos</li>
+
+    <li>@zipizap (acudiendo a la llamada)</li>
+
+    <li>@otikik</li>
+
+    </ul>'
+  speaker_name: 
+  speaker_handle: 
+  speaker_bio: 
+  video_url: 
+  offered_by: 
+  offered_by_html: 
+  attendees: 
+  map_url: http://maps.google.es/maps?q=Jardines+de+Per%C3%B3n&ie=UTF8&ll=40.452989,-3.695934&spn=0.01365,0.012381&fb=1&gl=es&cid=0,0,1081779755368921360&t=h&z=16&iwloc=A
+- !ruby/struct:Meeting
+  title: Planetaki powered by MongoDB
+  meeting_date: 2010-06-24
+  meeting_time: '19:45'
+  venue: Aula The Cocktail
+  details: ! '<p>Durante el último año, Sam Lown ha estado trabajado en la nueva versión
+    de Planetaki, agregador de websites para personas que no quieren interfaces complejas,
+    y desde hace unos días el fruto de su trabajo está en producción. El nuevo Planetaki
+    es realmente rápido.</p>
+
+    <p>En esta charla Sam nos hablará de las tecnologías clave que han hecho posible
+    esta mejora: MongoDB y RabbitMQ y de la arquitectura soportada por ellas.</p>'
+  speaker_name: Samuel Lown
+  speaker_handle: ! '@samlown'
+  speaker_bio: ! '<p><a href="http://twitter.com/samlown" rel="nofollow">Samuel Lown</a>
+    is a 28 year old freelance agile backend developer and information architect based
+    in Madrid. He creates systems that convert data into useful information. His current
+    programming language of choice is Ruby and, while not programming, he also manages
+    Linux servers and avidly supports Open Source and Free-software development.</p>
+
+    <p>He has considerable experience in developing for internationalisation and fiscal/e-commerce
+    systems. Additionally he spends some of his time providing hosting support for
+    a selection of websites.</p>'
+  video_url: 
+  offered_by: 
+  offered_by_html: 
+  attendees: 
+  map_url: 
+- !ruby/struct:Meeting
+  title: Streaming en Rails 3.1
+  meeting_date: 2011-06-30
+  meeting_time: '19:45'
+  venue: Utopic_US
+  details: ! '<p>Madrid.rb se viste de gala para recibir a un miembro del core de
+    Rails [1]</p>
+
+    <p>Entre las novedades de Rails 3.1 se encuentra el soporte para hacer streaming
+    de respuestas.</p>
+
+    <p>En esta charla veremos qué es el streaming, cuándo usarlo, implicaciones prácticas,
+    setups de servidores, y echaremos un vistazo a su implementación</p>'
+  speaker_name: Xavier Noria
+  speaker_handle: ! '@fxn'
+  speaker_bio: ! '<p>Xavier es un veterano de nuestra comunidad. Es el autor de <a
+    href="http://contributors.rubyonrails.org/" rel="nofollow">Rails Contributors</a>,
+    fue premiado con un <a href="http://rubyheroes.com/heroes" rel="nofollow">Ruby
+    Hero Award</a> en 2010, y es actualmente miembro del <a href="http://rubyonrails.org/core"
+    rel="nofollow">core team</a> de Rails. Estudiante perpetuo, orgulloso padre de
+    una maravillosa niña, trabaja como consultor independiente de Ruby on Rails en
+    Barcelona.</p>
+
+    <p>Xavier es <a href="https://twitter.com/fxn" rel="nofollow">@fxn</a> en Twitter
+    y puedes conocer más sobre él en su <a href="http://hashref.com/" rel="nofollow">website
+    personal</a>.</p>'
+  video_url: 
+  offered_by:
+  - http://www.vizzuality.com/
+  - http://www.bebanjo.com/
+  - http://www.prorubyteam.com/
+  - http://the-cocktail.com/
+  - http://aspgems.com/
+  - http://www.utopicus.es/
+  offered_by_html: ! '<p><a href="http://www.vizzuality.com/" rel="nofollow"><img
+    width="150px" src="http://dl.dropbox.com/u/645329/logos/vizzuality.png" alt="Vizzuality"></a>    
+
+    <a href="http://www.bebanjo.com/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/bebanjo.png"
+    alt="BeBanjo"></a>    
+
+    <a href="http://www.prorubyteam.com/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/proruby.png"
+    alt="ProRuby"></a><br>
+
+    <a href="http://the-cocktail.com/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/tck.png"
+    alt="The Cocktail"></a>    
+
+    <a href="http://aspgems.com/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/aspgems.png"
+    alt="ASPgems"></a>    
+
+    <a href="http://www.utopicus.es/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/utopicus.png"
+    alt="utopic_US"></a>    </p>'
+  attendees:
+  - ! '@fxn'
+  - ! '@cavalle'
+  - ! '@christos'
+  - ! '@hylian'
+  - ! '@ferflafe'
+  - ! '@ferdev'
+  - ! '@lparedesdev (a esta sí que sí)'
+  - ! '@izgaka'
+  - ! '@porras'
+  - ! '@pacoguzman'
+  - ! '@cantorrodista'
+  - ! '@emacip'
+  - ! '@supercoco9'
+  - ! '@ltello'
+  - ! '@Serabe'
+  - ! '@amaiac'
+  - ! '@pantulis'
+  - ! '@otikik'
+  - ! '@xuanxu'
+  - ! '@diec123'
+  - ! '@valakirka'
+  - ! '@batu'
+  - ! '@yonosoytu'
+  - ! '@miguellc'
+  - ! '@arctarus'
+  - ! '@edu'
+  - ! '@jacegu'
+  - ! '@ialcazar'
+  - ! '@samlown'
+  - ! '@eLafo'
+  - ! '@biilmann'
+  - ! '@blogatclock'
+  - ! '@josemspain'
+  - ! '@raulbarrosoleon'
+  - ! '@rafadc'
+  - ! '@jgarcial'
+  - ! '@jmanrubia'
+  - ! '@kanedaki'
+  - ! '@alvarodt'
+  - ! '@donquicong'
+  - ! '@javiervidal'
+  - ! '@rafadiaznovo'
+  - ! '@jorgesancha'
+  - ! '@demimismo'
+  - ! '@oinak'
+  - ! '@guillermooo'
+  - ! '@wchiquito'
+  - ! '@1hourl8r'
+  - ! '@voodoorai2000'
+  - ! '@afcapel'
+  - ! '@dgilperez'
+  - ! '@makotogim'
+  - ! '@carlosve_ucv'
+  - ! '@acw5'
+  - ! '@miquelcamps'
+  - ! '@juanfranlopez'
+  - ! '@ciscou'
+  map_url: http://maps.google.es/maps?f=q&source=embed&hl=es&geocode=&q=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid&sll=40.396764,-3.713379&sspn=10.504732,23.269043&ie=UTF8&hq=&hnear=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid,+Comunidad+de+Madrid&ll=40.413867,-3.706683&spn=0.036727,0.076818&z=14
+- !ruby/struct:Meeting
+  title: Metapresentación
+  meeting_date: 2012-06-28
+  meeting_time: '19:45'
+  venue: Utopic_US
+  details: ! '<p>Una presentación técnica sobre presentaciones técnicas.</p>
+
+    <p>En esta presentación veremos algunas sencillas pautas para realizar presentaciones
+    de tipo técnico de forma efectiva.</p>
+
+    <p>Puede contener trazas de filmografía de los 80.</p>'
+  speaker_name: Enrique García Cota
+  speaker_handle: ! '@otikik'
+  speaker_bio: ! '<p>Enrique lleva 3 años trabajando en Ruby, aunque lleva trabajando
+    más tiempo en proyectos web. En su tiempo libre experimenta lenguajes de programación,
+    programa videojuegos y a veces le da el Sol. Preguntadle sobre Lua y tendréis
+    charla para un rato.</p>
+
+    <p>Enrique es <a href="https://twitter.com/#!/otikik" rel="nofollow">@otikik</a>
+    en Twitter y <a href="http://github.com/kikito" rel="nofollow">kikito</a> en github.</p>'
+  video_url: 
+  offered_by:
+  - http://www.vizzuality.com/
+  - http://www.bebanjo.com/
+  - http://www.prorubyteam.com/
+  - http://the-cocktail.com/
+  - http://aspgems.com/
+  - http://www.lciberica.es/
+  - http://www.lextrend.com/
+  offered_by_html: ! '<p><a href="http://www.vizzuality.com/" rel="nofollow"><img
+    width="150px" src="http://dl.dropbox.com/u/645329/logos/vizzuality.png" alt="Vizzuality"></a>     
+
+    <a href="http://www.bebanjo.com/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/bebanjo.png"
+    alt="BeBanjo"></a>     
+
+    <a href="http://www.prorubyteam.com/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/proruby.png"
+    alt="ProRuby"></a>     
+
+    <a href="http://the-cocktail.com/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/tck.png"
+    alt="The Cocktail"></a>     
+
+    <br>
+
+    <br>
+
+    <a href="http://aspgems.com/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/aspgems.png"
+    alt="ASPgems"></a>     
+
+    <a href="http://www.lciberica.es/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/lci.png"
+    alt="LCIberica"></a>     
+
+    <a href="http://www.lextrend.com/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/lextrend.png"
+    alt="Lextrend"></a>     </p>'
+  attendees:
+  - ! '@otikik'
+  - ! '@pasku1'
+  - ! '@zipizap'
+  - ! '@serabe'
+  - ! '@arctarus'
+  - ! '@ArturoHerrero'
+  - ! '@xuanxu'
+  - ! '@nestorsalceda'
+  - ! '@andres'
+  - ! '@amaiac'
+  - ! '@laura_morillo'
+  - ! '@apenav'
+  - ! '@diec123'
+  map_url: http://maps.google.es/maps?f=q&source=embed&hl=es&geocode=&q=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid&sll=40.396764,-3.713379&sspn=10.504732,23.269043&ie=UTF8&hq=&hnear=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid,+Comunidad+de+Madrid&ll=40.413867,-3.706683&spn=0.036727,0.076818&z=14
+- !ruby/struct:Meeting
+  title: Introduction to RubyMotion
+  meeting_date: 
+  meeting_time: '19:45'
+  venue: Utopic_US (map)
+  details: <p>In this talk, Laurent will introduce what RubyMotion is, how it works,
+    and what you can do with it.</p>
+  speaker_name: Laurent Sansonetti
+  speaker_handle: ! '@lrz'
+  speaker_bio: <p>Laurent is the founder of <a href="http://www.hipbyte.com/" rel="nofollow">HipByte</a>
+    and lead developer of <a href="http://www.rubymotion.com/" rel="nofollow">RubyMotion</a>.
+    He worked at Apple for 7 years as a senior software engineer, on both <a href="http://www.apple.com/ilife/"
+    rel="nofollow">iLife</a> and <a href="http://www.apple.com/osx/" rel="nofollow">OS
+    X</a>. A long time rubyist, he created and still maintains the <a href="http://macruby.org/"
+    rel="nofollow">MacRuby</a> project. In a previous life, he worked on <a href="https://www.hex-rays.com/products/ida/index.shtml"
+    rel="nofollow">IDA Pro</a> and was an active contributor to <a href="http://rubycocoa.sourceforge.net/"
+    rel="nofollow">RubyCocoa</a> and <a href="http://www.gnome.org/" rel="nofollow">GNOME</a>.</p>
+  video_url: 
+  offered_by:
+  - http://www.bebanjo.com/
+  - http://www.prorubyteam.com/
+  - http://the-cocktail.com/
+  - http://aspgems.com/
+  - http://www.lextrend.com/
+  offered_by_html: ! '<p> 
+
+    <a href="http://www.bebanjo.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/bebanjo.png"
+    alt="BeBanjo"></a>     
+
+    <a href="http://www.prorubyteam.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/proruby.png"
+    alt="ProRuby"></a>     
+
+    <a href="http://the-cocktail.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/tck.png"
+    alt="The Cocktail"></a>     
+
+    <br>
+
+    <br>
+
+    <a href="http://aspgems.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/aspgems.png"
+    alt="ASPgems"></a>     
+
+    <a href="http://www.lextrend.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/lextrend.png"
+    alt="Lextrend"></a>     </p>'
+  attendees:
+  - ! '@lrz'
+  - ! '@otikik'
+  - ! '@pasku1'
+  - ! '@xuanxu'
+  - ! '@MarkVillacampa'
+  - ! '@javierhonduco'
+  - ! '@fpurrinhos'
+  - ! '@christos'
+  - ! '@rafadc'
+  - ! '@jmanrubia'
+  - ! '@ialcazar'
+  - ! '@pantulis'
+  - ! '@e_gimenez'
+  - ! '@manu1621'
+  - ! '@jfvaldesg'
+  - ! '@lorenzoplanas'
+  - ! '@jfcalvo'
+  - ! '@carlossanchezp'
+  - joseluis
+  - ! '@jorgesancha'
+  - ! '@fjuan'
+  - ! '@frsevillano'
+  - ! '@acw5'
+  - ! '@martincabrera'
+  - ! '@bomberstudios'
+  - ! '@fesja'
+  - ! '@ferdev'
+  - ! '@javier'
+  - ! '@mmahr'
+  - ! '@fesotovi'
+  - ! '@ciscou'
+  - ! '@joshka20'
+  - ! '@Rosapolis'
+  - ! '@joseferrer'
+  - ! '@dogeatcat'
+  - ! '@luisrecuenco'
+  - ! '@sergiou87'
+  - ! '@jorgeleria'
+  - ! '@vianasw'
+  - ! '@mcberros'
+  - ! '@eamodeorubio'
+  - ! '@lascorbe'
+  - ! '@arctarus'
+  - ! '@manolomaldonado'
+  - ! '@michaelkoper'
+  - ! '@thisincludes'
+  - ! '@keyvanakbary'
+  - ! '@antoniojrossi'
+  map_url: http://maps.google.es/maps?f=q&source=embed&hl=es&geocode=&q=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid&sll=40.396764,-3.713379&sspn=10.504732,23.269043&ie=UTF8&hq=&hnear=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid,+Comunidad+de+Madrid&ll=40.413867,-3.706683&spn=0.036727,0.076818&z=14
+- !ruby/struct:Meeting
+  title: RubyMotion, desarrollo móvil en Ruby
+  meeting_date: 2014-06-26
+  meeting_time: '19:45'
+  venue: The Irish Rover
+  details: ! '<p>Introducción al desarrollo móvil en RubyMotion, toolchain, primeros
+    pasos, y por qué es una herramienta perfecta para desarrolladores de Ruby.</p>
+
+    <h3>CUIDADO, SITIO NUEVO!</h3>
+
+    <p><strong>Lugar:</strong> <a href="http://www.theirishrover.com/" rel="nofollow">The
+    Irish Rover</a>
+
+    - <a href="https://www.google.com/maps/place/The+Irish+Rover/@40.4549437,-3.6936623,17z/data=!4m7!1m4!3m3!1s0xd422902b93a7b4f:0xcdf2773b21bd0810!2sAv+de+Brasil,+7!3b1!3m1!1s0x0:0xac5dccb9e6db0dd5"
+    rel="nofollow">Avenida de Brasil, 7</a></p>
+
+    <p><strong>Hora:</strong> 19:45h<br>
+
+    <strong>Video:</strong> <a href="https://vimeo.com/110196699" rel="nofollow">Vimeo</a></p>
+
+    <h2>Ofrecido por:</h2>
+
+    <p> 
+
+    <a href="http://www.bebanjo.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/bebanjo.png"
+    alt="BeBanjo"></a>     
+
+    <a href="http://www.prorubyteam.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/proruby.png"
+    alt="ProRuby"></a>     
+
+    <a href="http://the-cocktail.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/tck.png"
+    alt="The Cocktail"></a>     
+
+    <br>
+
+    <br>
+
+    <a href="http://aspgems.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/aspgems.png"
+    alt="ASPgems"></a>     
+
+    <a href="http://www.lextrend.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/lextrend.png"
+    alt="Lextrend"></a>     </p>'
+  speaker_name: Marcos Villacampa
+  speaker_handle: ! '@MarkVillacampa'
+  speaker_bio: <p>Developer en <a href="http://www.cabify.es/" rel="nofollow">Cabify</a>,
+    lleva trabajando con RubyMotion desde que fue presentado hace 2 años. Apasionado
+    del hardware, las startups, el TDD y DHH.</p>
+  video_url: https://vimeo.com/110196699
+  offered_by: 
+  offered_by_html: 
+  attendees:
+  - (@MarkVillacampa)
+  - ! '@otikik'
+  - ! '@Serabe'
+  - ! '@carlossanchezp'
+  - ! '@samlown'
+  - ! '@fesotovi'
+  - ! '@acw5'
+  - ! '@lparedesdev'
+  - ! '@oinak'
+  - ! '@arpahector'
+  - ! '@arctarus'
+  - David Z
+  - ! '@martincabrera'
+  - ! '@servatj'
+  - ! '@jfvaldesg'
+  - ! '@joseferrer'
+  - ! '@jacklondon84'
+  - ! '@patriciagao'
+  - ! '@josal'
+  - Andrés Barriga
+  - ! '@oinak'
+  - Gustavo Caso
+  - jose luis
+  - ! '@Juanchote'
+  - ! '@gerardobarciap'
+  - ! '@SebasDesimone'
+  - ! '@apradillap'
+  - ! '@javier_dev'
+  - ! '@raulmarcosl'
+  - ! '@martafonda'
+  - ! '@lapenya'
+  - ! '@jamarinhidalgo'
+  - ! '@azaru'
+  - ! '@gootyfer'
+  - ! '@based_err3'
+  - ! '@colgado'
+  - ! '@_abnz'
+  - ! '@doktor500'
+  - ! '@laura_morillo'
+  - ! '@amartinfraguas'
+  - ! '@jorgesangarr'
+  map_url: https://www.google.com/maps/place/The+Irish+Rover/@40.4549437,-3.6936623,17z/data=!4m7!1m4!3m3!1s0xd422902b93a7b4f:0xcdf2773b21bd0810!2sAv+de+Brasil,+7!3b1!3m1!1s0x0:0xac5dccb9e6db0dd5
+- !ruby/struct:Meeting
+  title: ! 'DOUBLE FEATURE:  Sequel (vídeo) + Pair Programming (vídeo)'
+  meeting_date: 2011-03-31
+  meeting_time: '19:45'
+  venue: Utopic_US
+  details: ! '<p>Estrenamos formato con dos medias charlas en lugar de una:</p>
+
+    <h2>Sequel: una alternativa a Active Record</h2>
+
+    <p>Los que trabajamos con Ruby on Rails estamos acostumbrados a utilizar
+
+    ActiveRecord para "hablar" con la base de datos. Y con razón, Active
+
+    Record es muy potente y completo, y de verdad facilita la vida del
+
+    programador. Pero está bien, de vez en cuando, mirar alrededor y ver
+
+    alternativas, sobre todo porque te llevas gratas sorpresas.</p>
+
+    <p><a href="http://sequel.rubyforge.org/" rel="nofollow">Sequel</a> es un "toolkit"
+    escrito en Ruby
+
+    para conectarse e interactuar contra una base de datos, mucho más
+
+    flexible y configurable que ActiveRecord, aunque con el mismo
+
+    potencial y la misma magia.</p>
+
+    <p>El objetivo de esta charla es darlo a conocer e introducir sus
+
+    conceptos básicos, intentando que os quedéis con el mismo buen sabor
+
+    de boca con el que me quedé yo cuando empecé a utilizarlo.</p>
+
+    <h3>Fernando Blat</h3>
+
+    <p>Fernando Blat es un informático criado a base de horchata y paellas,
+
+    emigrado a Madrid para poder trabajar en desarrollo web para pequeñas
+
+    consultoras y start-ups, mientras hacía sus pinitos con algún que otro
+
+    proyecto personal. Lo podéis seguir en twitter en <a href="http://twitter.com/ferblape"
+    rel="nofollow">@ferblape</a></p>
+
+    <h3>Recursos</h3>
+
+    <ul>
+
+    <li><a href="http://vimeo.com/madridrb/blat-mar11" rel="nofollow">Vídeo de la
+    charla</a></li>
+
+    <li><a href="http://www.slideshare.net/ferblape/sequel-madridrb" rel="nofollow">Slides
+    de la charla</a></li>
+
+    </ul>
+
+    <h2>Pair programming: una forma de desarrollar software</h2>
+
+    <p>La idea de la charla es dar a conocer el pair programming como una herramienta
+    de trabajo y como poder aprovecharla en nuestro trabajo en el día a día. Intentaré
+    explicar desde mi experiencia personal las ventajas y desventajas prácticas del
+    pair programming y en qué situaciones nos puede resultar más ventajoso. Repasaremos
+    algunos conceptos básicos, distintas modalidades y setups de trabajo distintos,
+    tanto para trabajar en un local como en remoto. </p>
+
+    <h3>Jorge Dias</h3>
+
+    <p>Jorge Dias nació en Venezuela, después de graduarse vino a España a buscar
+    nuevas oportunidades. Conoció Ruby gracias a un amigo y descubrió un mundo distinto
+    de la programación. Le interesan los procesos de desarrollo de software y la organización
+    de la información.<br>Blog: <a href="http://mrdias.com" rel="nofollow">http://mrdias.com</a>.
+    Twitter: <a href="http://twitter.com/dias_jorge" rel="nofollow">@dias_jorge</a></p>
+
+    <h3>Recursos</h3>
+
+    <ul>
+
+    <li><a href="http://vimeo.com/madridrb/jorge-mar11" rel="nofollow">Vídeo de la
+    charla</a></li>
+
+    <li><a href="http://diasjorge.github.com/pair-programming-slides" rel="nofollow">Slides
+    de la charla</a></li>
+
+    </ul>'
+  speaker_name: 
+  speaker_handle: 
+  speaker_bio: 
+  video_url: http://vimeo.com/22808010
+  offered_by: 
+  offered_by_html: 
+  attendees:
+  - ! '@ferblape'
+  - ! '@christos'
+  - ! '@dias_jorge'
+  - ! '@cavalle'
+  - ! '@ferdev'
+  - ! '@1hourl8r'
+  - ! '@Serabe'
+  - ! '@izgaka'
+  - ! '@pacoguzman'
+  - ! '@ialcazar'
+  - ! '@batu'
+  - ! '@cantorrodista'
+  - ! '@arctarus'
+  - ! '@diec123'
+  - ! '@dgilperez'
+  - ! '@eLafo'
+  - ! '@valakirka'
+  - ! '@hylian'
+  - ! '@tomasborrella'
+  - ! '@eamodeorubio'
+  - ! '@mcberros'
+  - ! '@voodoorai2000'
+  - ! '@trek1s'
+  - ! '@yonosoytu'
+  - ! '@supercoco9'
+  - ! '@amaiac'
+  - ! '@zipizap'
+  - ! '@miguellc'
+  - ! '@raulbarrosoleon'
+  - ! '@otikik'
+  - ! '@lparedesdev'
+  - ! '@wchiquito'
+  - ! '@samlown'
+  - ! '@despo'
+  - ! '@ecomba'
+  - ! '@GermanDZ'
+  - ! '@jmbeas'
+  - ! '@jjballano'
+  - ! '@fjuan'
+  - ! '@porras'
+  - ! '@lorenzoplanas'
+  - ! '@apardo'
+  - ! '@aitorgrandes'
+  - ! '@andres'
+  - ! '@bishboria'
+  - ! '@iwiznia'
+  - ! '@adamwilliams'
+  - ! '@afcapel'
+  - ! '@isanchezirtve'
+  - ! '@joseRGB'
+  - ! '@zirodev'
+  - ! '@jcea'
+  map_url: http://maps.google.es/maps?f=q&source=embed&hl=es&geocode=&q=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid&sll=40.396764,-3.713379&sspn=10.504732,23.269043&ie=UTF8&hq=&hnear=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid,+Comunidad+de+Madrid&ll=40.413867,-3.706683&spn=0.036727,0.076818&z=14
+- !ruby/struct:Meeting
+  title: ¡Conquista el mundo con Vim y Tmux!
+  meeting_date: 2012-03-29
+  meeting_time: '19:45'
+  venue: Utopic_US, Calle Duque de Rivas 5, Madrid.
+  details: <p>En esta charla intentaré mostrar los motivos que me han hecho considerar
+    vim el mejor editor de código que he probado hasta el momento, mostrando todas
+    su bondades, y cómo su uso conjunto con Tmux consiguen crear un entorno de desarrollo
+    muy ágil, potente y listo para ser usado (junto con todos tus settings) en cualquier
+    ordenador con conexión a internet :-)</p>
+  speaker_name: Fernando Espinosa Jiménez
+  speaker_handle: ! '@ferdev'
+  speaker_bio: ! '<p>Fernando empezó a utilizar ordenadores con seis años, y no ha
+    parado desde entonces. Esos felices años en la escuela con bocadillos de nutella,
+    BASIC, LOGO y Accu-Type, fueron seguidos por una época oscura en empresas de consultoría,
+    como Soluziona o Indra, donde pasó 10 años trabajando con Java (ok, un par de
+    años fueron de .NET).</p>
+
+    <p>Cansado de la burocracia, ineficiencia y políticas de trabajo anticuadas, empezó
+    su propia compañía con algunos amigos y, algo más tarde, se especializó como freelance
+    de Rails. Gracias a esto, tuvo la suerte de cruzarse con <a href="http://vizzuality.com/"
+    rel="nofollow">Vizzuality</a>, compañía en la que disfruta desarrollando proyectos
+    internacionales que merecen la pena.</p>'
+  video_url: 
+  offered_by:
+  - http://www.vizzuality.com/
+  - http://www.bebanjo.com/
+  - http://www.prorubyteam.com/
+  - http://the-cocktail.com/
+  - http://aspgems.com/
+  - http://www.lciberica.es/
+  - http://www.lextrend.com/
+  offered_by_html: ! '<p><a href="http://www.vizzuality.com/" rel="nofollow"><img
+    width="150px" src="http://dl.dropbox.com/u/645329/logos/vizzuality.png" alt="Vizzuality"></a>     
+
+    <a href="http://www.bebanjo.com/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/bebanjo.png"
+    alt="BeBanjo"></a>     
+
+    <a href="http://www.prorubyteam.com/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/proruby.png"
+    alt="ProRuby"></a>     
+
+    <a href="http://the-cocktail.com/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/tck.png"
+    alt="The Cocktail"></a>     
+
+    <br>
+
+    <br>
+
+    <a href="http://aspgems.com/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/aspgems.png"
+    alt="ASPgems"></a>     
+
+    <a href="http://www.lciberica.es/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/lci.png"
+    alt="LCIberica"></a>     
+
+    <a href="http://www.lextrend.com/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/lextrend.png"
+    alt="Lextrend"></a>     </p>'
+  attendees:
+  - ! '@otikik'
+  - ! '@nestorsalceda'
+  - ! '@luisico'
+  - ! '@dani_oton'
+  - ! '@javiacei'
+  - ! '@moises_macia'
+  - ! '@xuanxu'
+  - ! '@arctarus'
+  - ! '@pasku1'
+  - ! '@ArturoHerrero'
+  - ! '@emacip'
+  - ! '@demimismo'
+  - ! '@cavalle'
+  - ! '@topochan'
+  - ! '@migupl'
+  - ! '@acw5'
+  - ! '@el_verdor (iré a la mani)'
+  - ! '@lopezsilvita'
+  - ! '@novia713'
+  - ! '@taggito'
+  - ! '@oinak'
+  - ! '@apenav'
+  - ! '@sanmeda'
+  - ! '@ecomba (no 100%, pero intentare)'
+  - ! '@andreacadarso'
+  - ! '@amida (Demasiada espera en el metro por la huelga, no podré asistir)'
+  - ! '@fsainz'
+  - ! '@ariera'
+  - ! '@ereslibre'
+  - ! '@fothdev'
+  - ! '@celeduc'
+  - ! '@javier'
+  - ! '@davidsingal'
+  - ! '@marcelinollano'
+  - ! '@jpgerek'
+  - ! '@rnaveiras'
+  - ! '@eferro'
+  - ! '@ciscou'
+  - ! '@jglongaron
+
+    @javierhonduco '
+  map_url: http://g.co/maps/4ktdg
+- !ruby/struct:Meeting
+  title: The Javascript Horror Show
+  meeting_date: 2013-03-21
+  meeting_time: '19:45'
+  venue: Utopic_US
+  details: <p>¿Programador de Ruby? ¿Te ves forzado a hacer algunas cosillas con JavaScript?
+    ¿Piensas que te basta con saber algo jQuery, backbone o programar en CoffeeScript?
+    En esta charla el ponente mostrará los WTFs más comunes e importantes de JS y
+    tratará de explicar porqué se producen. Abstenerse programadores sensibles o con
+    problemas cardíacos.</p>
+  speaker_name: Enrique Amodeo
+  speaker_handle: ! '@eamodeorubio'
+  speaker_bio: ! '<p>Freelance independiente con 12 años de experiencia, experto en
+    JS y Rubista en sus ratos libres. Lleva practicando TDD/BDD y agilismo desde 2005.
+    Coorganizador de <a href="madridjs.org" rel="nofollow">MadridJS</a> y de la conferencia
+    internacional <a href="http://spainjs.org/" rel="nofollow">SpainJS</a>. Ha escrito
+    <a href="https://leanpub.com/introduccion_apis_rest" rel="nofollow">el primer
+    libro sobre APIs REST/Hypermedia en español</a> (que él sepa): . De vez en cuando
+    se deja caer con alguna charla, ya sea en algún grupo local o en alguna conferencia.
+    Actualmente proporciona coaching sobre JS, TDD/BDD y diseño de APIs web. Si te
+    lo encuentras en un bar, invítale a una caña.</p>'
+  video_url: http://vimeo.com/63884581
+  offered_by:
+  - http://www.bebanjo.com/
+  - http://www.prorubyteam.com/
+  - http://the-cocktail.com/
+  - http://aspgems.com/
+  - http://www.lciberica.es/
+  - http://www.lextrend.com/
+  offered_by_html: ! '<p> 
+
+    <a href="http://www.bebanjo.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/bebanjo.png"
+    alt="BeBanjo"></a>     
+
+    <a href="http://www.prorubyteam.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/proruby.png"
+    alt="ProRuby"></a>     
+
+    <a href="http://the-cocktail.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/tck.png"
+    alt="The Cocktail"></a>     
+
+    <br>
+
+    <br>
+
+    <a href="http://aspgems.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/aspgems.png"
+    alt="ASPgems"></a>     
+
+    <a href="http://www.lciberica.es/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/lci.png"
+    alt="LCIberica"></a>     
+
+    <a href="http://www.lextrend.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/lextrend.png"
+    alt="Lextrend"></a>     </p>'
+  attendees:
+  - ! '@aeroalquimia'
+  - ! '@otikik'
+  - ! '@eamodeorubio'
+  - ! '@amaiac'
+  - ! '@pasku1'
+  - ! '@rnaveiras'
+  - ! '@mcberros'
+  - ! '@pacoguzman'
+  - ! '@colgado'
+  - ! '@antarticonorte'
+  - ! '@germandz'
+  - ! '@amartinfraguas'
+  - ! '@jmanrubia'
+  - ! '@javierhdez3'
+  - joseluis
+  - ! '@samlown'
+  - ! '@juergas'
+  - ! '@diec123'
+  - ! '@ciscou'
+  - ! '@rafadiaznovo'
+  - ! '@carlossanchezp'
+  - ! '@oinak'
+  - ! '@carlosonsoft'
+  - ! '@antoniodfr'
+  - ! '@mr_solo'
+  - ! '@matallo'
+  - ! '@acw5'
+  - ! '@adrpz'
+  - ! '@algohace'
+  - ! '@laura_morillo'
+  - ! '@joseferrer'
+  map_url: http://maps.google.es/maps?f=q&source=embed&hl=es&geocode=&q=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid&sll=40.396764,-3.713379&sspn=10.504732,23.269043&ie=UTF8&hq=&hnear=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid,+Comunidad+de+Madrid&ll=40.413867,-3.706683&spn=0.036727,0.076818&z=14
+- !ruby/struct:Meeting
+  title: Ordenando las vistas. Decorator y Presenters
+  meeting_date: 2014-03-27
+  meeting_time: '19:45'
+  venue: Utopic_US US3 (c/ Colegiata 9)
+  details: ! '<p>Todos usamos Vistas en nuestros proyectos, está claro, pero la cuestión
+    es, ¿cómo las estamos utilizando? En mi opinión, nos encontramos con vistas demasiado
+    sobrecargadas de lógica y las complementamos con helpers para ayudar, pero ¿es
+    la única alternativa?. En esta charla quiero aportar algunas ideas de cómo y cuándo
+    hacer uso de algunos patrones interesantes para ordenar nuestras vistas, Decorador
+    y Presenter, pero hablaré también de Exhibit, introducido por Avdi Grimm, que
+    merece la pena conocer.</p>
+
+    <h2>Ofrecido por:</h2>
+
+    <p> 
+
+    <a href="http://www.bebanjo.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/bebanjo.png"
+    alt="BeBanjo"></a>     
+
+    <a href="http://www.prorubyteam.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/proruby.png"
+    alt="ProRuby"></a>     
+
+    <a href="http://the-cocktail.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/tck.png"
+    alt="The Cocktail"></a>     
+
+    <br>
+
+    <br>
+
+    <a href="http://aspgems.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/aspgems.png"
+    alt="ASPgems"></a>     
+
+    <a href="http://www.lextrend.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/lextrend.png"
+    alt="Lextrend"></a>     </p>
+
+    <h3>Participantes</h3>
+
+    <p><em>(<a href="?m=edit" rel="nofollow">Edita</a> esta página y añádete a la
+    lista si tienes pensado asistir)</em></p>
+
+    <ul>
+
+    <li>@carlossanchezp</li>
+
+    <li>@otikik</li>
+
+    <li>@ciscou</li>
+
+    <li>@xuanxu</li>
+
+    <li>@sergioshernand</li>
+
+    <li>@diec123</li>
+
+    <li>@amaiac</li>
+
+    <li>@patriciagao</li>
+
+    <li>@Rebequilla_p</li>
+
+    <li>@fandrod</li>
+
+    <li>@martincabrera</li>
+
+    <li>@martafonda</li>
+
+    <li>@oinak</li>
+
+    <li>@dtorrado</li>
+
+    <li>@lpareredesdev</li>
+
+    <li>joseluis</li>
+
+    <li>@jacklondon84</li>
+
+    <li>@cesc_vilanova</li>
+
+    <li>@laura_morillo</li>
+
+    <li><a href="https://twitter.com/arctarus" rel="nofollow">@arctarus</a></li>
+
+    <li><a href="https://twitter.com/joshka20" rel="nofollow">@joshka20</a></li>
+
+    <li>@Adrian_Pita</li>
+
+    <li>@djtachu</li>
+
+    <li>@mazur</li>
+
+    <li>@jcr</li>
+
+    <li>@dsromero_</li>
+
+    <li><a href="https://twitter.com/weapp" rel="nofollow">@weapp</a></li>
+
+    <li><a href="https://twitter.com/Rosapolis" rel="nofollow">@Rosapolis</a></li>
+
+    <li>@samlown</li>
+
+    <li>@amoyse</li>
+
+    <li>@algohace</li>
+
+    </ul>'
+  speaker_name: Carlos Sánchez Pérez
+  speaker_handle: ! '@carlossanchezp'
+  speaker_bio: <p>Desarrollador web, intentando ser pragmático con la tecnología para
+    poder tomar decisiones correctas en cada proyecto. Me gusta explicar las cosas
+    tal como yo las entiendo en mi blog, pero si con ello contribuyo a que otros se
+    beneficien de lo que cuento, me doy por satisfecho. Apasionado de las cosas que
+    hago. Me puedes encontrar en <a href="http://carlossanchezperez.wordpress.com/"
+    rel="nofollow">mi Blog</a> y en twitter como (<a href="https://twitter.com/carlossanchezp"
+    rel="nofollow">@carlossanchezp</a>)</p>
+  video_url: 
+  offered_by: 
+  offered_by_html: 
+  attendees: 
+  map_url: https://www.google.com/maps/preview#!q=Calle+Colegiata%2C+9%2C+Madrid%2C+Spain&data=!4m10!1m9!4m8!1m3!1d203964!2d-3.6795367!3d40.4378271!3m2!1i1436!2i806!4f13.1
+- !ruby/struct:Meeting
+  title: ! 'Madrid-rb Cine Club: Rails 3'
+  meeting_date: 2010-05-27
+  meeting_time: '19:45'
+  venue: Aula The Cocktail
+  details: ! '<p>Rails 3 está a la vuelta de la esquina y para preparar su llegada
+    en la próxima reunión del grupo proyectaremos y charlaremos acerca de estos Railscasts:</p>
+
+    <ul>
+
+    <li>Rails 3 Beta and RVM</li>
+
+    <li>Bundler</li>
+
+    <li>Active Record Queries in Rails 3</li>
+
+    <li>Routing in Rails 3</li>
+
+    <li>XSS Protection in Rails 3</li>
+
+    <li>Action Mailer in Rails 3</li>
+
+    <li>ERB Blocks in Rails 3</li>
+
+    <li>Validations in Rails 3</li>
+
+    <li>Advanced Queries in Rails 3</li>
+
+    </ul>
+
+    <p>Nos vemos!</p>'
+  speaker_name: 
+  speaker_handle: 
+  speaker_bio: 
+  video_url: 
+  offered_by: 
+  offered_by_html: 
+  attendees: 
+  map_url: 
+- !ruby/struct:Meeting
+  title: Solr vs Sphinx
+  meeting_date: 2011-05-26
+  meeting_time: '19:45'
+  venue: Utopic_US
+  details: ! '<h2>Cosicas de Sphinx que lo mismo no sabías</h2>
+
+    <p>Desde que @pablete nos presentó Sphinx en la conferencia rails 2007, hemos
+    sido muchos los que nos hemos decantado por esta opción a la hora de implementar
+    búsqueda de texto libre en nuestra aplicación. Sin embargo, gracias a lo fácil
+    que es la integración mediante thinking sphinx, en muchos casos no se sabe muy
+    bien cómo funciona sphinx por debajo, y qué cosas se pueden hacer con él más allá
+    de los ejemplos simplones de la documentación de thinking sphinx.</p>
+
+    <p>En esta charla, aprovecharé para contar un poco cómo funciona Sphinx, algunas
+    de las cosas que podemos hacer con él y que no se usan demasiado, y las posibles
+    implicaciones en rendimiento de utilizar funcionalidades como el resaltado de
+    ocurrencias en los resultados de búsqueda.</p>
+
+    <h3>Javier Ramírez</h3>
+
+    <p>Javier Ramírez habla mucho… ya os daréis cuenta. Vive en <a href="http://javier-ramirez.com"
+    rel="nofollow">http://javier-ramirez.com</a> y veranea en <a href="http://twitter.com/supercoco9"
+    rel="nofollow">http://twitter.com/supercoco9</a></p>
+
+    <h2>Introducción a Solr-Lucene en Rails con Sunspot</h2>
+
+    <p>No tan conocido como Sphinx para montar tu buscador en aplicaciones Rails pero
+    basado en una solución muy potente y compleja como Solr-Lucene os contaré como
+    montar tu buscador utilizando la gema Sunspot en tu aplicación Rails. Como introducción
+    contaré una notas básicas sobre configuración y utilización de la gema, sin centrarnos
+    en detalles de Solr-Lucene.</p>
+
+    <h3>Paco Guzmán</h3>
+
+    <p>Paco Guzmán… (habla poco). De los más rápidos encontrando nuevas gemas, early
+    adopter sin complejos, podéis encontrarme diciendo alguna bobada como <a href="http://twitter.com/pacoguzman"
+    rel="nofollow">@pacoguzman</a></p>'
+  speaker_name: 
+  speaker_handle: 
+  speaker_bio: 
+  video_url: 
+  offered_by: 
+  offered_by_html: 
+  attendees:
+  - ! '@supercoco9'
+  - ! '@pacoguzman'
+  - ! '@cavalle'
+  - ! '@ecomba (al final no puedo ir)'
+  - ! '@dgilperez'
+  - ! '@xuanxu'
+  - ! '@alvarodt'
+  - ! '@yonosoytu'
+  - ! '@javier'
+  - ! '@eamodeorubio'
+  - ! '@mcberros'
+  - ! '@ferdev (tampoco puedo ir)'
+  - ! '@javiervidal'
+  - ! '@amaiac'
+  - ! '@izgaka'
+  - ! '@topowanda'
+  - ! '@miguellc'
+  - ! '@elafo'
+  - ! '@voodoorai2000'
+  - ! '@arctarus'
+  - ! '@lparedesdev (no me da la vida)'
+  - ! '@diec123'
+  - ! '@josemspain'
+  - ! '@blogatclock'
+  - ! '@slavy'
+  - ! '@sigilioso'
+  - ! '@ikame'
+  - ! '@vitiman'
+  - ! '@oinak'
+  - ! '@emacip'
+  - ! '@apardo'
+  - ! '@acw5'
+  - ! '@chemaaa'
+  - ! '@jcea'
+  - ! '@wchiquito'
+  - ! '@ciscou'
+  - ! '@andres'
+  - ! '@otikik'
+  - ! '@jerolba'
+  - ! '@kanedaki'
+  - ! '@samlown'
+  map_url: http://maps.google.es/maps?f=q&source=embed&hl=es&geocode=&q=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid&sll=40.396764,-3.713379&sspn=10.504732,23.269043&ie=UTF8&hq=&hnear=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid,+Comunidad+de+Madrid&ll=40.413867,-3.706683&spn=0.036727,0.076818&z=14
+- !ruby/struct:Meeting
+  title: ! 'MacRuby y RubyMotion: Programando aplicaciones en Ruby para iOS y Mac'
+  meeting_date: 2012-05-31
+  meeting_time: '19:45'
+  venue: Utopic_US, Calle Duque de Rivas 5, Madrid.
+  details: ! '<p>Esta charla será una introducción a la programación de aplicaciones
+    nativas para iOS y Mac con MacRuby y RubyMotion. Introducción a la api de Cocoa,
+    ventajas y desventajas, futuro y sobretodo ejemplos de código.</p>
+
+    <h2>Bookcrossing</h2>
+
+    <p>No olvidéis que este mes estrenamos <a href="https://madridrb.jottit.com/book_crossing"
+    rel="nofollow">el intercambio de libros</a>.</p>'
+  speaker_name: Mark Villacampa
+  speaker_handle: ! '@MarkVillacampa'
+  speaker_bio: <p>Pese a acabar de cumplir 20 años, Marcos lleva más de 5 años en
+    el mundo de la programación, aunque solo hace un año que le picó el gusanillo
+    de Ruby. Actualmente compagina sus estudios de Ingeniería Industrial en la Universidad
+    Carlos III con sus proyectos personales relacionados con la programación.</p>
+  video_url: 
+  offered_by:
+  - http://www.vizzuality.com/
+  - http://www.bebanjo.com/
+  - http://www.prorubyteam.com/
+  - http://the-cocktail.com/
+  - http://aspgems.com/
+  - http://www.lciberica.es/
+  - http://www.lextrend.com/
+  offered_by_html: ! '<p></p>
+
+    <p><a href="http://www.vizzuality.com/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/vizzuality.png"
+    alt="Vizzuality"></a>     
+
+    <a href="http://www.bebanjo.com/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/bebanjo.png"
+    alt="BeBanjo"></a>     
+
+    <a href="http://www.prorubyteam.com/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/proruby.png"
+    alt="ProRuby"></a>     
+
+    <a href="http://the-cocktail.com/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/tck.png"
+    alt="The Cocktail"></a>     
+
+    <br>
+
+    <br>
+
+    <a href="http://aspgems.com/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/aspgems.png"
+    alt="ASPgems"></a>     
+
+    <a href="http://www.lciberica.es/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/lci.png"
+    alt="LCIberica"></a>     
+
+    <a href="http://www.lextrend.com/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/lextrend.png"
+    alt="Lextrend"></a>     </p>'
+  attendees:
+  - ! '@iamzenitram'
+  - ! '@victorianoi'
+  - ! '@ferblape'
+  - ! '@pantulis'
+  - ! '@serabe'
+  - ! '@pasku1'
+  - ! '@mikelodeon'
+  - ! '@JuanmaGomeR'
+  - ! '@ialcazar'
+  - ! '@yonosoytu'
+  - ! '@dereck'
+  - ! '@Armeris'
+  - ! '@fuzzyalej'
+  - ! '@emacip'
+  - ! '@kanedaki'
+  - ! '@tomasborrella'
+  - ! '@egimenez_com'
+  - ! '@wchiquito'
+  - ! '@lh2ol'
+  - ! '@migupl'
+  - ! '@christos'
+  - ! '@ferdev'
+  - ! '@ereslibre'
+  - ! '@leonardomenezes'
+  - ! '@fesotovi'
+  - ! '@raulriera'
+  - ! '@mr_solo'
+  - ! '@keyvanakbary'
+  - ! '@pepgomez'
+  - ! '@christos'
+  - ! '@jpgerek'
+  - ! '@rnaveiras'
+  - ! '@jalbertopaz'
+  map_url: http://g.co/maps/4ktdg
+- !ruby/struct:Meeting
+  title: Mi dominio es mío y no lo comparto...
+  meeting_date: 2013-05-30
+  meeting_time: '19:45'
+  venue: Utopic_US
+  details: ! '<p>¿Qué es realmente la lógica de negocio? ¿Qué es un modelo de dominio?
+    ¿Qué verdades se esconden detrás de patrones como “fat model - skinny controller”?
+    ¿Cómo afecta el uso de un framework como Rails a la hora de implementar nuestro
+    dominio?</p>
+
+    <p>En esta charla abordaremos los problemas que surgen cuando ponemos una herramienta
+    en el centro de nuestra aplicación y debatiremos si el precio que pagamos por
+    los raíles resulta demasiado alto.</p>'
+  speaker_name: Javier Acero
+  speaker_handle: ! '@jacegu'
+  speaker_bio: <p>Programador. Enamorado de Ruby y del código limpio. Ha pasado los
+    últimos años  ayudando a startups a lanzar la primera versión de sus productos
+    al mercado de la mano de <a href="http://patheleven.com/" rel="nofollow">patheleven</a>.</p>
+  video_url: https://vimeo.com/69157481
+  offered_by:
+  - http://www.bebanjo.com/
+  - http://www.prorubyteam.com/
+  - http://the-cocktail.com/
+  - http://aspgems.com/
+  - http://www.lextrend.com/
+  offered_by_html: ! '<p> 
+
+    <a href="http://www.bebanjo.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/bebanjo.png"
+    alt="BeBanjo"></a>     
+
+    <a href="http://www.prorubyteam.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/proruby.png"
+    alt="ProRuby"></a>     
+
+    <a href="http://the-cocktail.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/tck.png"
+    alt="The Cocktail"></a>     
+
+    <br>
+
+    <br>
+
+    <a href="http://aspgems.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/aspgems.png"
+    alt="ASPgems"></a>     
+
+    <a href="http://www.lextrend.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/lextrend.png"
+    alt="Lextrend"></a>     </p>'
+  attendees:
+  - ! '@jacegu'
+  - ! '@otikik'
+  - ! '@wchiquito'
+  - ! '@mgryszko'
+  - ! '@joseferrer'
+  - ! '@etdsoft'
+  - ! '@atapiador'
+  - ! '@eamodeorubio'
+  - ! '@mcberros'
+  - ! '@moises_macia'
+  - ! '@amartinfraguas'
+  - ! '@pasku1'
+  - ! '@eferro'
+  - ! '@jmanrubia'
+  - joseluis
+  - ! '@fpurrinhos'
+  - ! '@carlossanchezp'
+  - ! '@javierhdez3'
+  - ! '@diec123'
+  - ! '@jfcalvo'
+  - ! '@comolohashecho'
+  - ! '@antoniojrossi'
+  - ! '@AlvarOS_anchez'
+  - ! '@dadelmo'
+  - ! '@keyvanakbary'
+  - ! '@sergioshernand'
+  - ! '@fxjade'
+  - ! '@ferblape'
+  - ! '@jfvaldesg'
+  - ! '@martincabrera'
+  - ! '@nhpatt'
+  - ! '@ViddoBamBam'
+  - ! '@eLafo'
+  - ! '@jpgerek'
+  - ! '@istepaniuk'
+  - ! '@fjuan'
+  - ! '@doktor500'
+  - ! '@jorgeleria'
+  - ! '@vianasw'
+  - ! '@Rosapolis'
+  - ! '@christos'
+  - rnaveiras
+  - ! '@amaiac'
+  - ! '@arctarus'
+  - ! '@satrapa'
+  - ! '@xuanxu'
+  - ! '@laura_morillo'
+  - ! '@javier_dev'
+  - ! '@antarticonorte'
+  - ! '@pepetox'
+  map_url: http://maps.google.es/maps?f=q&source=embed&hl=es&geocode=&q=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid&sll=40.396764,-3.713379&sspn=10.504732,23.269043&ie=UTF8&hq=&hnear=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid,+Comunidad+de+Madrid&ll=40.413867,-3.706683&spn=0.036727,0.076818&z=14
+- !ruby/struct:Meeting
+  title: ¿TDD como problema?
+  meeting_date: 2014-05-29
+  meeting_time: '19:45'
+  venue: The Irish Rover
+  details: ! '<p>David Heinemeier(DHH), un importante referente de la comunidad de
+    desarrollo de Ruby y creador de Rails, ha generado mucha polémica entorno al mundo
+    de los Tests. DHH afirmó que TDD está en vías de extinción  — al menos para él
+    —, lo cual ha tenido una repercusión considerable a nivel mundial. ¿Está realmente
+    TDD muerto? ¿Que conclusiones podemos sacar? ¿Cómo afecta esto al entorno Español?...
+    ¡anótate al debate y lo averiguaremos juntos!.</p>
+
+    <h3>CUIDADO, SITIO NUEVO!</h3>
+
+    <p><strong>Lugar:</strong> <a href="http://www.theirishrover.com/" rel="nofollow">The
+    Irish Rover</a>
+
+    - <a href="https://www.google.com/maps/place/The+Irish+Rover/@40.4549437,-3.6936623,17z/data=!4m7!1m4!3m3!1s0xd422902b93a7b4f:0xcdf2773b21bd0810!2sAv+de+Brasil,+7!3b1!3m1!1s0x0:0xac5dccb9e6db0dd5"
+    rel="nofollow">Avenida de Brasil, 7</a></p>
+
+    <p><strong>Hora:</strong> 19:45h<br>
+
+    <strong>Video:</strong> <a href="http://vimeo.com/99116904" rel="nofollow">vimeo</a></p>
+
+    <h2>Ofrecido por:</h2>
+
+    <p> 
+
+    <a href="http://www.bebanjo.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/bebanjo.png"
+    alt="BeBanjo"></a>     
+
+    <a href="http://www.prorubyteam.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/proruby.png"
+    alt="ProRuby"></a>     
+
+    <a href="http://the-cocktail.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/tck.png"
+    alt="The Cocktail"></a>     
+
+    <br>
+
+    <br>
+
+    <a href="http://aspgems.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/aspgems.png"
+    alt="ASPgems"></a>     
+
+    <a href="http://www.lextrend.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/lextrend.png"
+    alt="Lextrend"></a>     </p>'
+  speaker_name: Gerardo Barcia (gerardobarcia.com)
+  speaker_handle: http://www.gerardobarcia.com
+  speaker_bio: <p>Gerardo Barcia es  ingeniero en informática, gerente de proyectos,
+    orador, instructor, emprendedor, escritor, desarrollador, bloguero, lector, soñador,
+    líder y libre pensador. Le apasionan los negocios, el desarrollo de software,
+    la gerencia estratégica y la gerencia de proyectos.</p>
+  video_url: http://vimeo.com/99116904
+  offered_by: 
+  offered_by_html: 
+  attendees:
+  - ! '@otikik'
+  - Gerardo Barcia
+  - ! '@apradillap'
+  - ! '@martincabrera'
+  - ! '@eduard_io'
+  - ! '@pasku1'
+  - ! '@sergiobaro'
+  - ! '@acw5'
+  - Andrés Barriga
+  - ! '@fesotovi'
+  - ! '@ltello'
+  - ! '@patriciagao'
+  - joseluis
+  - ! '@lparedesdev'
+  - ! '@ciscou'
+  - ! '@Rebequilla_p'
+  - ! '@arctarus'
+  - ! '@Juanxote'
+  - ! '@servatj'
+  - Andres
+  - ! '@samlown'
+  - ! '@apenav'
+  - ! '@mroguzman'
+  - ! '@jfcalvo'
+  - ! '@colgado'
+  - ! '@jamarinhidalgo'
+  - ! '@based_err3'
+  - ! '@_abnz'
+  - Álex
+  - ! '@rul_foo '
+  - ! '@demimismo'
+  map_url: https://www.google.com/maps/place/The+Irish+Rover/@40.4549437,-3.6936623,17z/data=!4m7!1m4!3m3!1s0xd422902b93a7b4f:0xcdf2773b21bd0810!2sAv+de+Brasil,+7!3b1!3m1!1s0x0:0xac5dccb9e6db0dd5
+- !ruby/struct:Meeting
+  title: Fibers in Ruby 1.9
+  meeting_date: 2010-11-25
+  meeting_time: '19:45'
+  venue: Aula The Cocktail
+  details: ! '<p>In tonight''s talk Murray Steele is going to tell you about fibers,
+    a new feature in ruby 1.9 that provides an alternative to threads for doing concurrency.
+    He''ll cover some of the background behind what fibers are, the fibers api so
+    you know how to use them and some examples of places where fibers are being used.</p>
+
+    <p>At the end of the talk, if you''re interested he can talk a little about Ruby
+    Manor as it''s not a traditional conference and he''d love it if other rubyists
+    picked up the idea and ran their own Ruby Manor style events.</p>
+
+    <h2>Resources</h2>
+
+    <ul>
+
+    <li><a href="http://dl.dropbox.com/u/645329/Some%20rough%20fibrous%20material%20-%20Madrid.rb%20-%20Nov%202010.key"
+    rel="nofollow">Some rough fibrous material - Madrid.rb - Nov 2010.key</a></li>
+
+    <li><a href="http://dl.dropbox.com/u/645329/Some%20rough%20fibrous%20material%20-%20Madrid.rb%20-%20Nov%202010.pdf"
+    rel="nofollow">Some rough fibrous material - Madrid.rb - Nov 2010.pdf</a></li>
+
+    </ul>'
+  speaker_name: Murray Steele
+  speaker_handle: 
+  speaker_bio: ! '<p>Murray Steele has been using ruby for almost 7 years, and getting
+    paid to do so for the last 5. In that time he''s become a passionate rubyist and
+    this has led him to become the current organiser of the London Ruby User Group,
+    a position he''s held for 4 years. He''s also co-organised two day-long ruby conferences
+    in London; Ruby Manor in 2008 and Ruby Manor 2: Manor Harder in 2009.</p>'
+  video_url: 
+  offered_by: 
+  offered_by_html: 
+  attendees: 
+  map_url: 
+- !ruby/struct:Meeting
+  title: Cómo dejé de preocuparme por ser ágil y ahora no me importa en absoluto
+  meeting_date: 2011-11-24
+  meeting_time: '19:45'
+  venue: Utopic_US, Calle de la Concepción Jerónima 22, Madrid.
+  details: ! '<p>En esta charla Calavera nos explicará por qué la agilidad está sobrevalorada.</p>
+
+    <p>¡Zasca!</p>'
+  speaker_name: David Calavera
+  speaker_handle: ! '@calavera'
+  speaker_bio: <p><a href="http://twitter.com/#!/calavera" rel="nofollow">David</a>
+    Es un miembro del <a href="http://jruby.org/" rel="nofollow">JRuby</a> development
+    team y PMC en <a href="http://abdera.apache.org/" rel="nofollow">Apache Abdera</a>.
+    Es también el desarrollador principal de <a href="https://github.com/trinidad/trinidad"
+    rel="nofollow">Trinidad</a>. Actualmente trabaja en <a href="http://www.engineyard.com/"
+    rel="nofollow">Engine Yard</a>.</p>
+  video_url: 
+  offered_by:
+  - http://www.vizzuality.com/
+  - http://www.bebanjo.com/
+  - http://www.prorubyteam.com/
+  - http://the-cocktail.com/
+  - http://aspgems.com/
+  - http://www.lciberica.es/
+  offered_by_html: ! '<p><a href="http://www.vizzuality.com/" rel="nofollow"><img
+    width="150px" src="http://dl.dropbox.com/u/645329/logos/vizzuality.png" alt="Vizzuality"></a>
+      <a href="http://www.bebanjo.com/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/bebanjo.png"
+    alt="BeBanjo"></a>   <a href="http://www.prorubyteam.com/" rel="nofollow"><img
+    width="150px" src="http://dl.dropbox.com/u/645329/logos/proruby.png" alt="ProRuby"></a>
+
+    <br>
+
+    <a href="http://the-cocktail.com/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/tck.png"
+    alt="The Cocktail"></a>   <a href="http://aspgems.com/" rel="nofollow"><img width="150px"
+    src="http://dl.dropbox.com/u/645329/logos/aspgems.png" alt="ASPgems"></a>   <a
+    href="http://www.lciberica.es/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/lci.png"
+    alt="LCIberica"></a>    </p>'
+  attendees: []
+  map_url: http://maps.google.es/maps?f=q&source=embed&hl=es&geocode=&q=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid&sll=40.396764,-3.713379&sspn=10.504732,23.269043&ie=UTF8&hq=&hnear=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid,+Comunidad+de+Madrid&ll=40.413867,-3.706683&spn=0.036727,0.076818&z=14
+- !ruby/struct:Meeting
+  title: Coding Dojo en Madrid-rb
+  meeting_date: 2012-11-29
+  meeting_time: '19:45'
+  venue: Utopic_US
+  details: <p>En esta ocasión haremos un <a href="http://codingdojo.org/" rel="nofollow">Coding
+    Dojo</a>. Un coding dojo es un tipo de reunión en la cual un grupo de programadores
+    resuelve un problema de forma iterativa. El objetivo es pasarlo bien y practicar
+    algunas técnicas de programación.</p>
+  speaker_name: Enrique García
+  speaker_handle: ! '@otikik'
+  speaker_bio: ! '<p>Enrique lleva 3 años desarrollando profesionalmente en ruby.
+    Si le tiráis un poco de la lengua os hablará de otros lenguajes, o de su oscuro
+    pasado en el mundo de la consultoría. Le gusta <a href="https://github.com/kikito"
+    rel="nofollow">desarrollar código open source</a>, y es el coordinador de madrid-rb.</p>
+
+    <p>Hoy, buscado por recruiters, sobrevive como freelance de fortuna. Si usted
+    tiene algún proyecto y se lo encuentra, tal vez pueda contratarlo.</p>'
+  video_url: https://vimeo.com/52987852
+  offered_by:
+  - http://www.vizzuality.com/
+  - http://www.bebanjo.com/
+  - http://www.prorubyteam.com/
+  - http://the-cocktail.com/
+  - http://aspgems.com/
+  - http://www.lciberica.es/
+  - http://www.lextrend.com/
+  offered_by_html: ! '<p><a href="http://www.vizzuality.com/" rel="nofollow"><img
+    width="150px" src="http://dl.dropbox.com/u/645329/logos/vizzuality.png" alt="Vizzuality"></a>     
+
+    <a href="http://www.bebanjo.com/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/bebanjo.png"
+    alt="BeBanjo"></a>     
+
+    <a href="http://www.prorubyteam.com/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/proruby.png"
+    alt="ProRuby"></a>     
+
+    <a href="http://the-cocktail.com/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/tck.png"
+    alt="The Cocktail"></a>     
+
+    <br>
+
+    <br>
+
+    <a href="http://aspgems.com/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/aspgems.png"
+    alt="ASPgems"></a>     
+
+    <a href="http://www.lciberica.es/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/lci.png"
+    alt="LCIberica"></a>     
+
+    <a href="http://www.lextrend.com/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/lextrend.png"
+    alt="Lextrend"></a>     </p>'
+  attendees:
+  - ! '@otikik'
+  - ! '@pasku1'
+  - ! '@jmanrubia'
+  - ! '@acw5'
+  - ! '@arctarus'
+  - ! '@earroyoron'
+  - ! '@jdevega'
+  - ! '@ferblape'
+  - ! '@ciscou'
+  - ! '@zipizap'
+  - ! '@desarrolla2'
+  - etd
+  - ! '@fjuan'
+  - ! '@dparracatalan'
+  - ! '@carlossanchezp'
+  - ! '@africajam'
+  - ! '@eamoderubio'
+  - ! '@mcberros'
+  - ! '@amaiac'
+  - ! '@laura_morillo'
+  - ! '@cesar_somapop'
+  map_url: http://maps.google.es/maps?f=q&source=embed&hl=es&geocode=&q=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid&sll=40.396764,-3.713379&sspn=10.504732,23.269043&ie=UTF8&hq=&hnear=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid,+Comunidad+de+Madrid&ll=40.413867,-3.706683&spn=0.036727,0.076818&z=14
+- !ruby/struct:Meeting
+  title: Ruby y Ciencia
+  meeting_date: 2013-11-28
+  meeting_time: '19:45'
+  venue: Utopic_US US3 (c/ Colegiata 9)
+  details: ! "<p>En el mundo científico hoy en día, en todos los campos de investigación
+    existen tareas que necesitan programación y desarrollos a medida a la hora de
+    analizar datos o producir resultados. Sin embargo cuando un científico sin experiencia
+    en programación se encuentra con un problema que requiere código en casi ningún
+    caso utiliza Ruby ¿Por qué? \nEn esta charla intentaremos responder a esta pregunta,
+    veremos cual es el estado actual de Ruby como herramienta para usos científicos
+    e intentaremos ver qué podemos hacer para convertir a Ruby en el lenguaje preferido
+    para la ciencia.</p>"
+  speaker_name: Juanjo Bazán
+  speaker_handle: ! '@xuanxu'
+  speaker_bio: <p>Juanjo es miembro del equipo de <a href="http://www.prorubyteam.com"
+    rel="nofollow">ProRuby</a>. Lleva ya unos cuantos años infiltrado en la comunidad
+    ruby, ayudando a fundar el madrid.rb, y a organizar la extinta Conferencia Rails
+    y alguna Euruko. En sus ratos libres utiliza ruby para colaborar en proyectos
+    de investigación en campos tan diversos como astrofísica, genómica o sociología.
+    Está orgulloso de haber colado en Rails <a href="https://github.com/rails/rails/commit/8270e4a8ce8337fca98030953922e5992b06a3dd"
+    rel="nofollow">un método que no hace nada</a>.</p>
+  video_url: https://vimeo.com/84568788
+  offered_by:
+  - http://www.bebanjo.com/
+  - http://www.prorubyteam.com/
+  - http://the-cocktail.com/
+  - http://aspgems.com/
+  - http://www.lextrend.com/
+  offered_by_html: ! '<p> 
+
+    <a href="http://www.bebanjo.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/bebanjo.png"
+    alt="BeBanjo"></a>     
+
+    <a href="http://www.prorubyteam.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/proruby.png"
+    alt="ProRuby"></a>     
+
+    <a href="http://the-cocktail.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/tck.png"
+    alt="The Cocktail"></a>     
+
+    <br>
+
+    <br>
+
+    <a href="http://aspgems.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/aspgems.png"
+    alt="ASPgems"></a>     
+
+    <a href="http://www.lextrend.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/lextrend.png"
+    alt="Lextrend"></a>     </p>'
+  attendees:
+  - ! '@martincabrera'
+  - ! '@otikik'
+  - ! '@xuanxu'
+  - ! '@chsanch'
+  - ! '@samlown'
+  - ! '@michaelkoper'
+  - ! '@ciscou'
+  - ! '@gootyfer'
+  - ! '@demimismo'
+  - ! '@mroguzman'
+  - ! '@amartinfraguas'
+  - ! '@rul_foo'
+  - ! '@oinak'
+  - ! '@lparedesdev'
+  - ! '@diec123'
+  - jose_luis
+  - manu
+  - ! '@elreplicante'
+  - ! '@joseferrer'
+  - ! '@laura_morillo'
+  - ! '@martafonda'
+  - ! '@forkmyreligion'
+  - ! '@MarkVillacampa'
+  - ! '@christos'
+  - djtachu
+  - ! '@acw5'
+  - ! '@alejandrodob'
+  - ! '@jglongaron'
+  - ! '@jfcalvo'
+  map_url: https://www.google.com/maps/preview#!q=Calle+Colegiata%2C+9%2C+Madrid%2C+Spain&data=!4m10!1m9!4m8!1m3!1d203964!2d-3.6795367!3d40.4378271!3m2!1i1436!2i806!4f13.1
+- !ruby/struct:Meeting
+  title: JRuby en Webpop - Rhino y Akka
+  meeting_date: 2011-10-27
+  meeting_time: '19:45'
+  venue: Utopic_US, Calle de la Concepción Jerónima 22, Madrid.
+  details: <p>Una presentacion sobre como usamos JRuby (y por qué lo usamos) en Webpop,
+    con el enfoque en interoperación de librerías de java (o scala) y JRuby. </p>
+  speaker_name: Mathias Biilmann
+  speaker_handle: http://mathias-biilmann.net/
+  speaker_bio: <p><a href="http://mathias-biilmann.net/" rel="nofollow">Mathias</a>
+    es un desarrollador "full-stack", feliz trasteando con cualquier cosa - desde
+    automatización de infraestructuras a transiciones CSS, con todo lo que hay entremedias.
+    Es el cofundador de <a href="http://www.webpop.com" rel="nofollow">Webpop</a>
+    y pronto lanzará <a href="http://www.eventsourcehq.com" rel="nofollow">EventSource
+    HQ</a>.</p>
+  video_url: 
+  offered_by:
+  - http://www.vizzuality.com/
+  - http://www.bebanjo.com/
+  - http://www.prorubyteam.com/
+  - http://the-cocktail.com/
+  - http://aspgems.com/
+  - http://www.lciberica.es/
+  offered_by_html: ! '<p><a href="http://www.vizzuality.com/" rel="nofollow"><img
+    width="150px" src="http://dl.dropbox.com/u/645329/logos/vizzuality.png" alt="Vizzuality"></a>
+    <a href="http://www.bebanjo.com/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/bebanjo.png"
+    alt="BeBanjo"></a> <a href="http://www.prorubyteam.com/" rel="nofollow"><img width="150px"
+    src="http://dl.dropbox.com/u/645329/logos/proruby.png" alt="ProRuby"></a>
+
+    <br>
+
+    <a href="http://the-cocktail.com/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/tck.png"
+    alt="The Cocktail"></a> <a href="http://aspgems.com/" rel="nofollow"><img width="150px"
+    src="http://dl.dropbox.com/u/645329/logos/aspgems.png" alt="ASPgems"></a> <a href="http://www.lciberica.es/"
+    rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/lci.png"
+    alt="LCIberica"></a>    </p>'
+  attendees: []
+  map_url: http://maps.google.es/maps?f=q&source=embed&hl=es&geocode=&q=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid&sll=40.396764,-3.713379&sspn=10.504732,23.269043&ie=UTF8&hq=&hnear=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid,+Comunidad+de+Madrid&ll=40.413867,-3.706683&spn=0.036727,0.076818&z=14
+- !ruby/struct:Meeting
+  title: Making code tastier through Refactoring
+  meeting_date: 2012-10-25
+  meeting_time: '19:45'
+  venue: Utopic_US
+  details: <p>Todos hemos trabajando alguna vez con una aplicación con código legacy.
+    Refactoring es una técnica que nos permite reestructurar y rediseñar el código
+    de nuestra aplicación sin modificar su comportamiento de forma que sea más legible
+    y más fácil de mantener. Veremos las ventajas e inconvenientes de refactoring
+    así como algunas de las técnicas principales que se aplican durante una refactorización.</p>
+  speaker_name: Gabriel Ortuño
+  speaker_handle: ! '@arctarus'
+  speaker_bio: ! '<p>Desde que llegué a Madrid a finales de 2006 he hecho un viaje
+    por el mundo de la programación que me ha llevado desde el front-end hasta el
+    back-end debido principalmente al haber descubierto ruby por el camino hace ya
+    5 años. Desde ese momento me empecé a interesar por las metodologías ágiles, el
+    TDD y por el refactoring.</p>
+
+    <p>Últimamente he ayudado a organizar la Confenrencia Rails 2011 y la Spain.js,
+    trabajo en <a href="http://aspgems.com/" rel="nofollow">ASPgems</a> y tengo un
+    pet project dedicado al mundo de la cocina llamado <a href="http://rezets.com/"
+    rel="nofollow">rezets.com</a>.</p>'
+  video_url: https://vimeo.com/52987852
+  offered_by:
+  - http://www.vizzuality.com/
+  - http://www.bebanjo.com/
+  - http://www.prorubyteam.com/
+  - http://the-cocktail.com/
+  - http://aspgems.com/
+  - http://www.lciberica.es/
+  - http://www.lextrend.com/
+  offered_by_html: ! '<p><a href="http://www.vizzuality.com/" rel="nofollow"><img
+    width="150px" src="http://dl.dropbox.com/u/645329/logos/vizzuality.png" alt="Vizzuality"></a>     
+
+    <a href="http://www.bebanjo.com/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/bebanjo.png"
+    alt="BeBanjo"></a>     
+
+    <a href="http://www.prorubyteam.com/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/proruby.png"
+    alt="ProRuby"></a>     
+
+    <a href="http://the-cocktail.com/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/tck.png"
+    alt="The Cocktail"></a>     
+
+    <br>
+
+    <br>
+
+    <a href="http://aspgems.com/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/aspgems.png"
+    alt="ASPgems"></a>     
+
+    <a href="http://www.lciberica.es/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/lci.png"
+    alt="LCIberica"></a>     
+
+    <a href="http://www.lextrend.com/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/lextrend.png"
+    alt="Lextrend"></a>     </p>'
+  attendees:
+  - ! '@otikik'
+  - ! '@arctarus'
+  - ! '@ferblape'
+  - ! '@emacip'
+  - ! '@eLafo'
+  - ! '@ciscou'
+  - ! '@jglongaron'
+  - ! '@pasku1'
+  - ! '@diec123'
+  - ! '@keyvanakbary'
+  - ! '@carlossanchezp'
+  - ! '@ltello'
+  - ! '@apenav'
+  - ! '@anler'
+  - ! '@migupl'
+  - ! '@moises_macia'
+  - ! '@celeduc'
+  - ! '@joaquinzrr'
+  - ! '@manolomaldonado'
+  - ! '@oinak'
+  - ! '@DonQuicong'
+  - ! '@dparracatalan'
+  - ! '@hopitawm'
+  - ! '@jdevega'
+  - ! '@acw5'
+  - ! '@entantoencuanto'
+  - ! '@joshka20'
+  map_url: http://maps.google.es/maps?f=q&source=embed&hl=es&geocode=&q=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid&sll=40.396764,-3.713379&sspn=10.504732,23.269043&ie=UTF8&hq=&hnear=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid,+Comunidad+de+Madrid&ll=40.413867,-3.706683&spn=0.036727,0.076818&z=14
+- !ruby/struct:Meeting
+  title: ! 'Bajar del monorraíl: microservicios'
+  meeting_date: 2013-10-24
+  meeting_time: '19:45'
+  venue: Utopic_US US3 (c/ Colegiata 9)
+  details: ! '<p>Durante 6 años, <a href="https://soundcloud.com/" rel="nofollow">SoundCloud</a>
+    ha corrido sobre Rails, mientras crecía de 0 a millones de usuarios. También,
+    de un puñado de gente a más de 200 empleados. Como parte del reto, tuvimos que
+    separar nuestra aplicación Rails monolítica en muchos microservicios. En esta
+    charla compartiremos lo que hemos aprendido acerca de ejecutar e integrar servicios,
+    mientras escalábamos no sólo en tráfico sino también en tamaño del equipo.</p>
+
+    <h2>Vitor Pellegrino (<a href="https://twitter.com/pellegrino" rel="nofollow">@pellegrino</a>)</h2>
+
+    <p>Vitor cambió Brasil por Berlín para trabajar en SoundCloud. Tiene un montón
+    de experiencia trabajando con Ruby y Rails para distintas compañías en Brasil
+    y EEUU. Se muere de ganas de dar su primera charla en español. Sólo conoce los
+    callos de oídas, pero para cuando esta charla llegue ese problema ya estará solucionado
+    (o a punto de solucionarse).</p>'
+  speaker_name: Sergio Gil
+  speaker_handle: ! '@porras'
+  speaker_bio: <p>Sergio es un viejo conocido del grupo y ya ha hablado en un par
+    de ocasiones. Lleva unos cuantos años dándole al Ruby en compañías bien conocidas
+    para la comunidad como <a href="http://the-cocktail.com/" rel="nofollow">The Cocktail</a>
+    y <a href="http://www.bebanjo.com/" rel="nofollow">BeBanjo</a>. Se mudó a Berlín
+    por amor al currywurst, la cosa se le complicó y acabó trabajando en SoundCloud.
+    Si para la fecha el Atleti sigue por delante del Madrid en la liga, dará la charla
+    de rojiblanco.</p>
+  video_url: http://vimeo.com/78712143
+  offered_by:
+  - http://www.bebanjo.com/
+  - http://www.prorubyteam.com/
+  - http://the-cocktail.com/
+  - http://aspgems.com/
+  - http://www.lextrend.com/
+  offered_by_html: ! '<p> 
+
+    <a href="http://www.bebanjo.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/bebanjo.png"
+    alt="BeBanjo"></a>     
+
+    <a href="http://www.prorubyteam.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/proruby.png"
+    alt="ProRuby"></a>     
+
+    <a href="http://the-cocktail.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/tck.png"
+    alt="The Cocktail"></a>     
+
+    <br>
+
+    <br>
+
+    <a href="http://aspgems.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/aspgems.png"
+    alt="ASPgems"></a>     
+
+    <a href="http://www.lextrend.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/lextrend.png"
+    alt="Lextrend"></a>     </p>'
+  attendees:
+  - ! '@martincabrera'
+  - ! '@porras'
+  - ! '@pellegrino'
+  - ! '@otikik'
+  - ! '@joseferrer'
+  - ! '@arctarus'
+  - ! '@xuanxu'
+  - ! '@serabe'
+  - ! '@_gaizka'
+  - ! '@fertapric'
+  - ! '@diec123'
+  - ! '@pantulis'
+  - ! '@pasku1'
+  - ! '@AlvarOS_anchez'
+  - ! '@antoniojrossi'
+  - ! '@colgado'
+  - ! '@lparedesdev'
+  - ! '@alexeiras'
+  - ! '@amaiac'
+  - ! '@michaelkoper'
+  - ! '@ViddoBamBam'
+  - ! '@patriciagao'
+  - ! '@amartinj'
+  - ! '@lorenzoplanas'
+  - ! '@carlossanchezp'
+  - ! '@jorgealvarez'
+  - ! '@imanolcg'
+  - ! '@sergioshernand'
+  - ! '@mroguzman'
+  - ! '@amartinfraguas'
+  - ! '@borjafv'
+  - ! '@jglongaron'
+  - ! '@samlown'
+  - ! '@sesperanto'
+  - ! '@jmanrubia'
+  - ! '@ereslibre'
+  - ! '@aalmenar'
+  - ! '@rocknrollesque'
+  - ! '@arpahector'
+  - ! '@lacebes'
+  - ! '@oinak'
+  - ! '@crdelossantos'
+  - ! '@littlemove'
+  - ! '@mazur'
+  - ! '@algohace'
+  - ! '@e_gimenez'
+  - ! '@wchiquito'
+  - ! '@jfcalvo'
+  - ! '@ciscou'
+  - ! '@acw5'
+  - ! '@eferro'
+  map_url: https://www.google.com/maps/preview#!q=Calle+Colegiata%2C+9%2C+Madrid%2C+Spain&data=!4m10!1m9!4m8!1m3!1d203964!2d-3.6795367!3d40.4378271!3m2!1i1436!2i806!4f13.1
+- !ruby/struct:Meeting
+  title: ! 'RabbitMQ + Ruby #'
+  meeting_date: 2010-09-30
+  meeting_time: '19:45'
+  venue: ! 'Lugar: Aula The Cocktail'
+  details: ! '<ul>
+
+    <li>RabbitMQ ¿Qué es? ¿Cómo funciona? AMQP, XMPP, y otras siglas</li>
+
+    <li>¿Cómo lo hace? Ejemplos desde cero</li>
+
+    <li>Day by day. Integración y uso en aplicaciones. Librerías</li>
+
+    </ul>'
+  speaker_name: Guillermo Álvarez
+  speaker_handle: ! '@guillermooo'
+  speaker_bio: ! '<p>Madrid, 1983 - 2087. Curioso de la informática/electrónica/robótica/tecnología
+    desde los 16 años. Programador ruby/rails desde 2007 en lacoctelera.com y jobandtalent.com.
+    Actualmente Freelance trabajando para justlanded.com</p>
+
+    <p><a href="http://cientifico.net" rel="nofollow">http://cientifico.net</a><br>
+
+    <a href="http://twitter.com/guillermooo" rel="nofollow">http://twitter.com/guillermooo</a><br>
+
+    <a href="http://github.com/guillermo" rel="nofollow">http://github.com/guillermo</a><br>
+
+    <a href="http://www.flickr.com/photos/cientifico" rel="nofollow">http://www.flickr.com/photos/cientifico</a><br>
+
+    <a href="http://barrapunto.com/~alvarezzz" rel="nofollow">http://barrapunto.com/~alvarezzz</a><br></p>'
+  video_url: 
+  offered_by: 
+  offered_by_html: 
+  attendees: 
+  map_url: 
+- !ruby/struct:Meeting
+  title: Si yo fuera una API
+  meeting_date: 2011-09-29
+  meeting_time: '19:45'
+  venue: Utopic_US
+  details: ! "<p>En esta charla filosofaremos sobre APIs en un mundo Railero.\nSu
+    implementación en cliente y en servidor,\nlos entresijos del testing, métodos
+    de autenticación,\nbuenas y malas prácticas, como comunicarte con los desarrolladores
+    externos, \ny algún que otro sibaritismo, con la ayuda de unos amigos muy especiales...</p>"
+  speaker_name: Raimond García
+  speaker_handle: http://raimondgarcia.com
+  speaker_bio: ! "<p><a href=\"http://raimondgarcia.com\" rel=\"nofollow\">Rai</a>
+    es un desarrollador web Freelance,\napasionado del testing, Kanban y de la democracia
+    líquida,\nactualmente da cursos de Ruby on Rails cuando no está manisfestándose
+    por el 15M, \nmontando Referendums nacionales, o persiguiendo su vocación de director
+    de cine.</p>"
+  video_url: 
+  offered_by:
+  - http://www.vizzuality.com/
+  - http://www.bebanjo.com/
+  - http://www.prorubyteam.com/
+  - http://the-cocktail.com/
+  - http://aspgems.com/
+  - http://www.lciberica.es/
+  offered_by_html: ! '<p><a href="http://www.vizzuality.com/" rel="nofollow"><img
+    width="150px" src="http://dl.dropbox.com/u/645329/logos/vizzuality.png" alt="Vizzuality"></a>    
+
+    <a href="http://www.bebanjo.com/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/bebanjo.png"
+    alt="BeBanjo"></a>    
+
+    <a href="http://www.prorubyteam.com/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/proruby.png"
+    alt="ProRuby"></a>
+
+    <br>
+
+    <a href="http://the-cocktail.com/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/tck.png"
+    alt="The Cocktail"></a>    
+
+    <a href="http://aspgems.com/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/aspgems.png"
+    alt="ASPgems"></a>    
+
+    <a href="http://www.lciberica.es/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/lci.png"
+    alt="LCIberica"></a>    </p>'
+  attendees: []
+  map_url: http://maps.google.es/maps?f=q&source=embed&hl=es&geocode=&q=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid&sll=40.396764,-3.713379&sspn=10.504732,23.269043&ie=UTF8&hq=&hnear=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid,+Comunidad+de+Madrid&ll=40.413867,-3.706683&spn=0.036727,0.076818&z=14
+- !ruby/struct:Meeting
+  title: The Ruby Object Model
+  meeting_date: 2012-09-27
+  meeting_time: '19:45'
+  venue: Utopic_US
+  details: <p>En ruby todo es un objeto, ¿pero es todo el mismo objeto? Con esta charla
+    voy a intentar explicar el modelado de objetos de ruby, o lo que es lo mismo,
+    explicar qué es lo que está haciendo ruby por debajo cuando defines una clase,
+    creas una instancia, incluyes un módulo...</p>
+  speaker_name: Javier Lafora
+  speaker_handle: ! '@eLafo'
+  speaker_bio: <p>Soy un ex-estudiante de medicina que, tras cuatro años de carrera,
+    decidió cambiar de aires y dedicarse a la informática. Llevo programando desde
+    los 10 años y he pasado por Basic, Pascal, C, C++, PHP, Python, Java y Ruby. En
+    la actualidad soy desarrollador web en <a href="http://aspgems.com" rel="nofollow">ASPgems</a>.
+    Fuera de este mundo de frikis con gafas de pasta y bolis de cuatro colores, soy
+    un apasionado de la F1, la guitarra, el poker y la cerveza.</p>
+  video_url: 
+  offered_by:
+  - http://www.vizzuality.com/
+  - http://www.bebanjo.com/
+  - http://www.prorubyteam.com/
+  - http://the-cocktail.com/
+  - http://aspgems.com/
+  - http://www.lciberica.es/
+  - http://www.lextrend.com/
+  offered_by_html: ! '<p><a href="http://www.vizzuality.com/" rel="nofollow"><img
+    width="150px" src="http://dl.dropbox.com/u/645329/logos/vizzuality.png" alt="Vizzuality"></a>     
+
+    <a href="http://www.bebanjo.com/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/bebanjo.png"
+    alt="BeBanjo"></a>     
+
+    <a href="http://www.prorubyteam.com/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/proruby.png"
+    alt="ProRuby"></a>     
+
+    <a href="http://the-cocktail.com/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/tck.png"
+    alt="The Cocktail"></a>     
+
+    <br>
+
+    <br>
+
+    <a href="http://aspgems.com/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/aspgems.png"
+    alt="ASPgems"></a>     
+
+    <a href="http://www.lciberica.es/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/lci.png"
+    alt="LCIberica"></a>     
+
+    <a href="http://www.lextrend.com/" rel="nofollow"><img width="150px" src="http://dl.dropbox.com/u/645329/logos/lextrend.png"
+    alt="Lextrend"></a>     </p>'
+  attendees:
+  - ! '@otikik'
+  - ! '@joshka20'
+  - ! '@elafo'
+  - ! '@mr_solo'
+  - ! '@therobot '
+  - ! '@supercoco9'
+  - ! '@oinak'
+  - ! '@laura_morillo'
+  - ! '@jdevega'
+  - ! '@arctarus'
+  - ! '@manu1621'
+  - ! '@moises_macia'
+  - ! '@zipizap'
+  - ! '@acasado'
+  - ! '@MarkVillacampa'
+  - ! '@nestorsalceda'
+  - ! '@carlossanchezp'
+  - ! '@argami_'
+  - ! '@ArturoHerrero'
+  - ! '@jmdlta'
+  - ! '@amaiac'
+  - ! '@fesotovi'
+  - ! '@ferblape'
+  - ! '@emacip'
+  - ! '@ltello'
+  - ! '@malahe_jc'
+  - ! '@informaticatres'
+  - ! '@acw5'
+  - ! '@wchiquito'
+  - ! '@entantoencuanto'
+  - ! '@capitan_ted'
+  - ! '@dparracatalan'
+  - ! '@ignaciodejuan'
+  - ! '@mikelodeon'
+  - ! '@diec123'
+  - ! '@ciscou'
+  - ! '@christos'
+  - ! '@oinak'
+  map_url: http://maps.google.es/maps?f=q&source=embed&hl=es&geocode=&q=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid&sll=40.396764,-3.713379&sspn=10.504732,23.269043&ie=UTF8&hq=&hnear=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid,+Comunidad+de+Madrid&ll=40.413867,-3.706683&spn=0.036727,0.076818&z=14
+- !ruby/struct:Meeting
+  title: ! 'Croupier: probabilidades, muestras y enumerables.'
+  meeting_date: 2013-10-24
+  meeting_time: '19:45'
+  venue: Utopic_US US3 (c/ Colegiata 9)
+  details: ! '<p>Croupier es una gema que permite trabajar con muestras aleatorias
+    de forma fácil. Como no sólo de distribuciones de probabilidad viven los datos
+    aleatorios, también cuenta con otro tipo de "distribuciones" (por ejemplo, tarjetas
+    de crédito).</p>
+
+    <p>En esta charla veremos no sólo cómo trabajar con la gema sino cómo son sus
+    tripas y cómo añadir nuestras propias distribuciones. Todo nos servirá como excusa
+    para familiarizarnos con la creación de Enumerators.</p>
+
+    <h2>Extra</h2>
+
+    <p>Haremos la segunda batalla de <a href="https://groups.google.com/forum/?hl=en#!topic/madrid-rb/0H84KsjkuV0"
+    rel="nofollow">RTanque</a> en la que todo el mundo puede participar.</p>'
+  speaker_name: Sergio Arbeo
+  speaker_handle: ! '@serabe'
+  speaker_bio: <p>Matemático de formación y programador de vocación, llevo en la comunidad
+    Ruby ya unos añitos, dando mi primera charla sobre JRuby en la Conferencia Rails
+    2009. Desde entonces he dado varias charlas relacionadas con el mundo de desarrollo,
+    en distintos lugares, como el GDG de Madrid, la facultad de Matemáticas, Madrid
+    on Rails o el grupo local de programadores en Ruby de Madrid.</p>
+  video_url: http://vimeo.com/78610616
+  offered_by:
+  - http://www.bebanjo.com/
+  - http://www.prorubyteam.com/
+  - http://the-cocktail.com/
+  - http://aspgems.com/
+  - http://www.lextrend.com/
+  offered_by_html: ! '<p> 
+
+    <a href="http://www.bebanjo.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/bebanjo.png"
+    alt="BeBanjo"></a>     
+
+    <a href="http://www.prorubyteam.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/proruby.png"
+    alt="ProRuby"></a>     
+
+    <a href="http://the-cocktail.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/tck.png"
+    alt="The Cocktail"></a>     
+
+    <br>
+
+    <br>
+
+    <a href="http://aspgems.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/aspgems.png"
+    alt="ASPgems"></a>     
+
+    <a href="http://www.lextrend.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/lextrend.png"
+    alt="Lextrend"></a>     </p>'
+  attendees:
+  - ! '@serabe'
+  - ! '@otikik'
+  - ! '@pasku1'
+  - ! '@lparedesdev'
+  - ! '@colgado'
+  - ! '@ciscou'
+  - ! '@acw5'
+  - ! '@carlossanchezp'
+  - ! '@DonQuicong'
+  - ! '@amaiac'
+  - ! '@moises_macia'
+  - ! '@sergioshernand'
+  - ! '@imanolcg'
+  - joseluis
+  - ! '@e_gimenez'
+  - ! '@ViddoBamBam'
+  - ! '@kask'
+  - ! '@rul_foo'
+  - ! '@martincabrera'
+  - ! '@juanjo_ma'
+  - ! '@fjuan'
+  - ! '@diec123'
+  - ! '@jfcalvo'
+  - ! '@algohace'
+  - ! '@mroguzman'
+  - ! '@mazur'
+  - ! '@jglongaron'
+  map_url: https://www.google.com/maps/preview#!q=Calle+Colegiata%2C+9%2C+Madrid%2C+Spain&data=!4m10!1m9!4m8!1m3!1d203964!2d-3.6795367!3d40.4378271!3m2!1i1436!2i806!4f13.1
+- !ruby/struct:Meeting
+  title: Terracismo-rb
+  meeting_date: 
+  meeting_time: '20:00'
+  venue: Terraza Valle Hermoso
+  details: <p>Siguiendo la tradición, en periodos estivales tratamos de soportar los
+    rigores del clima de la capital en una terraza, con una cerveza (o refresco) y
+    en compañía de lo más granado del rubismo madrileño (los que no han huido de Madrid,
+    vaya).</p>
+  speaker_name: 
+  speaker_handle: 
+  speaker_bio: 
+  video_url: 
+  offered_by: 
+  offered_by_html: 
+  attendees: 
+  map_url: 

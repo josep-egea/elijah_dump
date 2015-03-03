@@ -1,16 +1,22 @@
-class Meeting
 
-  attr_accessor :title
-  attr_accessor :meeting_date
-  attr_accessor :meeting_time
-  attr_accessor :venue
-  attr_accessor :details
-  attr_accessor :speaker_name
-  attr_accessor :speaker_handle
-  attr_accessor :speaker_bio
-  attr_accessor :video_url
-  attr_accessor :offered_by
-  attr_accessor :attendees
-  attr_accessor :map_url
+class Meeting < Struct.new(:title, :meeting_date, :meeting_time, :venue, :details, :speaker_name, :speaker_handle, :speaker_bio, :video_url, :offered_by, :offered_by_html, :attendees, :map_url)
+
+  def to_json(*a)
+    h = {}
+    each_pair do |k, v|
+      h[k.to_s] = v unless v.nil?
+    end
+    h.to_json(a)
+  end
   
 end
+
+class Date
+  
+  def to_json(*a)
+    return self.to_s.to_json(a)
+  end
+  
+end
+
+
