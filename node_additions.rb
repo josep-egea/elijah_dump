@@ -21,11 +21,12 @@ class Nokogiri::XML::Node
   def break_in_header_chapters(options = {})
     exclude_orphans = options[:exclude_orphans] || false
     include_whitespace = options[:include_whitespace] || false
+    ignore_headers_beyond_level = options[:ignore_headers_beyond_level] || 9
     chapters = []
     current_chapter_header = nil
     current_chapter_nodes = []
     self.children.each do |node|
-      if node.name =~ /^h[1-9]$/
+      if node.name =~ /^h[1-#{ignore_headers_beyond_level}]$/
         # We have a new header. First, we store the current one, if any
         if current_chapter_header || !exclude_orphans
           unless !include_whitespace && current_chapter_nodes.empty?

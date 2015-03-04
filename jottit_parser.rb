@@ -19,7 +19,7 @@ class JottitParser
   end
   
   def process_all_pages
-    puts("Processing Jottit pages...")
+    puts("Processing #{parser_name} pages...")
     uris = self.list
     total_uris = uris.size
     total_ok = 0
@@ -27,21 +27,25 @@ class JottitParser
     meetings = []
     puts("Got #{total_uris} pages")
     uris.each do |uri|
-      puts "Processing page: #{uri}..."
-      begin
-        meeting = get_meeting(uri)
-        if meeting
-          meetings << meeting
-          write_meeting(meeting)
-          total_ok += 1
+      if omit_uri?(uri)
+        puts "Ignoring page: #{uri}..."
+      else
+        puts "Processing page: #{uri}..."
+        begin
+          meeting = get_meeting(uri)
+          if meeting
+            meetings << meeting
+            write_meeting(meeting)
+            total_ok += 1
+          end
+        rescue
+          puts "Failed for page #{uri}"
+          puts $!
+          total_ko += 1
         end
-      rescue
-        puts "Failed for page #{uri}"
-        puts $!
-        total_ko += 1
       end
     end
-    puts("Finished processing #{total_uris} pages from Jottit.")
+    puts("Finished processing #{total_uris} pages from #{parser_name}.")
     puts("OK:#{total_ok} - Failed:#{total_ko}")
     return meetings
   end
@@ -60,6 +64,10 @@ class JottitParser
   
   private
   
+  def parser_name
+    return 'Jottit'
+  end
+  
   def page_fetcher
     if @page_fetcher.nil?
       @page_fetcher = PageFetcher.new
@@ -72,6 +80,10 @@ class JottitParser
       @page_parser = JottitPageParser.new
     end
     return @page_parser
+  end
+  
+  def omit_uri?(uri)
+    return false
   end
   
 end

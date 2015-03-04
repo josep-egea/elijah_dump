@@ -1,12 +1,18 @@
 require './jottit_parser.rb'
+require './github_parser.rb'
 require 'yaml'
+
+meetings = []
 
 puts("Processing Madrid.rb pages...")
 
 jp = JottitParser.new
-meetings = jp.process_all_pages
+meetings.concat(jp.process_all_pages)
 
-puts("Writing reesults...")
+gp = GithubParser.new
+meetings.concat(gp.process_all_pages)
+
+puts("Writing results...")
 
 if !File.directory?('out')
   Dir.mkdir('out')

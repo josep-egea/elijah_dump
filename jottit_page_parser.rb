@@ -98,7 +98,7 @@ class JottitPageParser
     speaker = header.content
     bio = []
     # If the handle is appended, we remove it
-    @meeting.speaker_name = speaker.gsub(/\s*(\()?\s*\@\w+\s*(\))?/, '')
+    @meeting.speaker_name = speaker.gsub(/\s*(\()?\s*\@\w+\s*(\))?/, '').strip
     # Now we look for the handle in the header
     handle_str = nil
     # First, as a link
@@ -126,7 +126,7 @@ class JottitPageParser
     @page_chapters[@index_attendees][:contents].each do |node|
       items.concat(node.css('li'))
     end
-    @meeting.attendees = items.map {|i| i.text }
+    @meeting.attendees = items.map {|i| i.text.strip }
   end
   
   def process_offered_by

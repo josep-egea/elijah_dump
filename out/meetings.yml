@@ -48,6 +48,7 @@
   offered_by_html: 
   attendees: 
   map_url: 
+  slides_url: 
 - !ruby/struct:Meeting
   title: Tries, la pronunciación se deja como ejercicio para el lector (vídeo)
   meeting_date: 2011-04-28
@@ -122,6 +123,7 @@
   - ! '@afcapel'
   - ! '@isanchezirtve'
   map_url: http://maps.google.es/maps?f=q&source=embed&hl=es&geocode=&q=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid&sll=40.396764,-3.713379&sspn=10.504732,23.269043&ie=UTF8&hq=&hnear=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid,+Comunidad+de+Madrid&ll=40.413867,-3.706683&spn=0.036727,0.076818&z=14
+  slides_url: 
 - !ruby/struct:Meeting
   title: Extending Ruby
   meeting_date: 2012-04-26
@@ -175,6 +177,7 @@
     alt="Lextrend"></a>     </p>'
   attendees: []
   map_url: http://g.co/maps/4ktdg
+  slides_url: 
 - !ruby/struct:Meeting
   title: Érase una vez, Ruby
   meeting_date: 2013-04-25
@@ -282,6 +285,7 @@
   - ! '@juanyque'
   - ! '@zipizap'
   map_url: http://maps.google.es/maps?f=q&source=embed&hl=es&geocode=&q=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid&sll=40.396764,-3.713379&sspn=10.504732,23.269043&ie=UTF8&hq=&hnear=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid,+Comunidad+de+Madrid&ll=40.413867,-3.706683&spn=0.036727,0.076818&z=14
+  slides_url: 
 - !ruby/struct:Meeting
   title: Finding Restfulness
   meeting_date: 2014-04-24
@@ -381,6 +385,7 @@
   - ! '@mroguzman'
   - Etienne L.
   map_url: https://www.google.com/maps/place/The+Irish+Rover/@40.4549437,-3.6936623,17z/data=!4m7!1m4!3m3!1s0xd422902b93a7b4f:0xcdf2773b21bd0810!2sAv+de+Brasil,+7!3b1!3m1!1s0x0:0xac5dccb9e6db0dd5
+  slides_url: 
 - !ruby/struct:Meeting
   title: Terracismo-rb
   meeting_date: 
@@ -398,6 +403,7 @@
   offered_by_html: 
   attendees: []
   map_url: http://maps.google.es/maps?q=Jardines+de+Per%C3%B3n&ie=UTF8&ll=40.452989,-3.695934&spn=0.01365,0.012381&fb=1&gl=es&cid=0,0,1081779755368921360&t=h&z=16&iwloc=A
+  slides_url: 
 - !ruby/struct:Meeting
   title: Una introducción al testing y al TDD.
   meeting_date: 
@@ -496,6 +502,7 @@
   - ! '@jdevega'
   - ! '@xclickclickx'
   map_url: http://maps.google.es/maps?f=q&source=embed&hl=es&geocode=&q=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid&sll=40.396764,-3.713379&sspn=10.504732,23.269043&ie=UTF8&hq=&hnear=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid,+Comunidad+de+Madrid&ll=40.413867,-3.706683&spn=0.036727,0.076818&z=14
+  slides_url: 
 - !ruby/struct:Meeting
   title: Terracismo-rb
   meeting_date: 
@@ -520,6 +527,7 @@
   - ! '@afcapel'
   - ! '@xuanxu'
   map_url: https://maps.google.es/maps? ie=UTF8&q=Restaurante+El+Valle+Hermoso&fb=1&gl=es&hq=Restaurante+El+Valle+Hermoso&hnear=Madrid,+Comunidad+de+Madrid&ll=40.450082,-3.652439&spn=0.113386,0.253029&t=m&z=13&vpsrc=0&iwloc=A&cid=16033649943092139621
+  slides_url: 
 - !ruby/struct:Meeting
   title: 
   meeting_date: 
@@ -534,6 +542,7 @@
   offered_by_html: 
   attendees: 
   map_url: 
+  slides_url: 
 - !ruby/struct:Meeting
   title: Colaboración usando Eventos en Ruby
   meeting_date: 2011-12-29
@@ -596,6 +605,7 @@
     alt="Lextrend"></a>     </p>'
   attendees: []
   map_url: http://maps.google.es/maps?f=q&source=embed&hl=es&geocode=&q=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid&sll=40.396764,-3.713379&sspn=10.504732,23.269043&ie=UTF8&hq=&hnear=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid,+Comunidad+de+Madrid&ll=40.413867,-3.706683&spn=0.036727,0.076818&z=14
+  slides_url: 
 - !ruby/struct:Meeting
   title: Modelotes ActiveRecord
   meeting_date: 2012-12-27
@@ -694,6 +704,7 @@
   - ! '@xtremevoodoo'
   - ! '@wchiquito'
   map_url: http://maps.google.es/maps?f=q&source=embed&hl=es&geocode=&q=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid&sll=40.396764,-3.713379&sspn=10.504732,23.269043&ie=UTF8&hq=&hnear=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid,+Comunidad+de+Madrid&ll=40.413867,-3.706683&spn=0.036727,0.076818&z=14
+  slides_url: 
 - !ruby/struct:Meeting
   title: Catacrockea a cascoporro con redis
   meeting_date: 2013-12-26
@@ -789,17 +800,18 @@
   - ! '@elreplicante'
   - ! '@cusna'
   - ! '@alejandrodob'
-  - ! '@_aitor '
-  - ! '@begoesti  '
+  - ! '@_aitor'
+  - ! '@begoesti'
   - ! '@joseferrer'
   - ! '@lauralacarra'
   - ! '@germandz'
-  - ! 'Igor Rootsi '
+  - Igor Rootsi
   - ! '@happensesame'
   - ! '@lparedesdev'
   - ! '@MartaFonda'
   - ! '@jglongaron'
   map_url: https://www.google.com/maps/preview#!q=Calle+Colegiata%2C+9%2C+Madrid%2C+Spain&data=!4m10!1m9!4m8!1m3!1d203964!2d-3.6795367!3d40.4378271!3m2!1i1436!2i806!4f13.1
+  slides_url: 
 - !ruby/struct:Meeting
   title: A [git] workflow
   meeting_date: 2011-01-27
@@ -925,6 +937,7 @@
   - ! '@miguellc'
   - ! '@bisho'
   map_url: http://maps.google.es/maps?f=q&source=s_q&hl=en&geocode=&q=Calle+de+la+Diligencia,+9,+Madrid&aq=0&sll=40.383103,-3.656814&sspn=0.009186,0.019205&g=Calle+de+la+Diligencia,+9,+28018+Madrid,+Comunidad+de+Madrid&ie=UTF8&hq=&hnear=Calle+de+la+Diligencia,+9,+28018+Madrid,+Comunidad+de+Madrid&ll=40.384164,-3.656602&spn=0.009186,0.019205&z=16
+  slides_url: 
 - !ruby/struct:Meeting
   title: Backbone + Rails + Handlebars = Éxito
   meeting_date: 2012-01-26
@@ -1036,6 +1049,7 @@
   - ! '@mikelodeon'
   - ! '@zipizap'
   map_url: http://g.co/maps/4ktdg
+  slides_url: 
 - !ruby/struct:Meeting
   title: Continuous Delivery con Rails, Hudson y Heroku
   meeting_date: 2013-01-31
@@ -1101,7 +1115,7 @@
   - ! '@jdevega'
   - ! '@emacip'
   - ! '@manolomaldonado'
-  - ! '@diec123 '
+  - ! '@diec123'
   - ! '@adavideo'
   - ! '@colgado'
   - ! '@amartinfraguas'
@@ -1121,6 +1135,7 @@
   - ! '@fesotovi'
   - arctarus
   map_url: http://maps.google.es/maps?f=q&source=embed&hl=es&geocode=&q=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid&sll=40.396764,-3.713379&sspn=10.504732,23.269043&ie=UTF8&hq=&hnear=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid,+Comunidad+de+Madrid&ll=40.413867,-3.706683&spn=0.036727,0.076818&z=14
+  slides_url: 
 - !ruby/struct:Meeting
   title: Lua for Rubysts
   meeting_date: 2014-01-30
@@ -1226,6 +1241,7 @@
     alt="Lextrend"></a>     </p>'
   attendees: 
   map_url: https://www.google.com/maps/preview#!q=Calle+Colegiata%2C+9%2C+Madrid%2C+Spain&data=!4m10!1m9!4m8!1m3!1d203964!2d-3.6795367!3d40.4378271!3m2!1i1436!2i806!4f13.1
+  slides_url: 
 - !ruby/struct:Meeting
   title: A g[r]eek talking about Heroku (vídeo)
   meeting_date: 2011-02-24
@@ -1323,6 +1339,7 @@
   - ! '@raulbarrosoleon'
   - ! '@guillermooo'
   map_url: http://maps.google.es/maps?f=q&source=embed&hl=es&geocode=&q=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid&sll=40.396764,-3.713379&sspn=10.504732,23.269043&ie=UTF8&hq=&hnear=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid,+Comunidad+de+Madrid&ll=40.413867,-3.706683&spn=0.036727,0.076818&z=14
+  slides_url: 
 - !ruby/struct:Meeting
   title: Lightning talks
   meeting_date: 2012-02-23
@@ -1442,6 +1459,7 @@
   - ! '@diec123'
   - ! '@satrapa'
   map_url: http://g.co/maps/4ktdg
+  slides_url: 
 - !ruby/struct:Meeting
   title: MongoDB & Rails
   meeting_date: 2013-02-28
@@ -1549,6 +1567,7 @@
   - ! '@jdevega'
   - ! '@adrpz'
   map_url: http://maps.google.es/maps?f=q&source=embed&hl=es&geocode=&q=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid&sll=40.396764,-3.713379&sspn=10.504732,23.269043&ie=UTF8&hq=&hnear=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid,+Comunidad+de+Madrid&ll=40.413867,-3.706683&spn=0.036727,0.076818&z=14
+  slides_url: 
 - !ruby/struct:Meeting
   title: ! 'Hacking social: tras las líneas enemigas'
   meeting_date: 2014-02-27
@@ -1684,6 +1703,7 @@
   offered_by_html: 
   attendees: 
   map_url: https://www.google.com/maps/preview#!q=Calle+Colegiata%2C+9%2C+Madrid%2C+Spain&data=!4m10!1m9!4m8!1m3!1d203964!2d-3.6795367!3d40.4378271!3m2!1i1436!2i806!4f13.1
+  slides_url: 
 - !ruby/struct:Meeting
   title: ¡¡Partido de fútbol!!
   meeting_date: 
@@ -1750,6 +1770,7 @@
   offered_by_html: 
   attendees: 
   map_url: 
+  slides_url: 
 - !ruby/struct:Meeting
   title: Terracismo-rb
   meeting_date: 
@@ -1783,6 +1804,7 @@
   offered_by_html: 
   attendees: 
   map_url: http://maps.google.es/maps?q=Jardines+de+Per%C3%B3n&ie=UTF8&ll=40.452989,-3.695934&spn=0.01365,0.012381&fb=1&gl=es&cid=0,0,1081779755368921360&t=h&z=16&iwloc=A
+  slides_url: 
 - !ruby/struct:Meeting
   title: Terracismo-rb
   meeting_date: 
@@ -1820,6 +1842,7 @@
   - ! '@laura_morillo'
   - ! '@ciscou'
   map_url: http://maps.google.es/maps?q=Jardines+de+Per%C3%B3n&ie=UTF8&ll=40.452989,-3.695934&spn=0.01365,0.012381&fb=1&gl=es&cid=0,0,1081779755368921360&t=h&z=16&iwloc=A
+  slides_url: 
 - !ruby/struct:Meeting
   title: Explotando relaciones de forma escalable con Neo4j
   meeting_date: 2013-07-25
@@ -1892,6 +1915,7 @@
   - ! '@emacip'
   - ! '@atapiador'
   map_url: http://maps.google.es/maps?f=q&source=embed&hl=es&geocode=&q=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid&sll=40.396764,-3.713379&sspn=10.504732,23.269043&ie=UTF8&hq=&hnear=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid,+Comunidad+de+Madrid&ll=40.413867,-3.706683&spn=0.036727,0.076818&z=14
+  slides_url: 
 - !ruby/struct:Meeting
   title: Terracismo-rb
   meeting_date: 
@@ -1923,6 +1947,7 @@
   offered_by_html: 
   attendees: 
   map_url: http://maps.google.es/maps?q=Jardines+de+Per%C3%B3n&ie=UTF8&ll=40.452989,-3.695934&spn=0.01365,0.012381&fb=1&gl=es&cid=0,0,1081779755368921360&t=h&z=16&iwloc=A
+  slides_url: 
 - !ruby/struct:Meeting
   title: Planetaki powered by MongoDB
   meeting_date: 2010-06-24
@@ -1951,6 +1976,7 @@
   offered_by_html: 
   attendees: 
   map_url: 
+  slides_url: 
 - !ruby/struct:Meeting
   title: Streaming en Rails 3.1
   meeting_date: 2011-06-30
@@ -2061,6 +2087,7 @@
   - ! '@juanfranlopez'
   - ! '@ciscou'
   map_url: http://maps.google.es/maps?f=q&source=embed&hl=es&geocode=&q=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid&sll=40.396764,-3.713379&sspn=10.504732,23.269043&ie=UTF8&hq=&hnear=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid,+Comunidad+de+Madrid&ll=40.413867,-3.706683&spn=0.036727,0.076818&z=14
+  slides_url: 
 - !ruby/struct:Meeting
   title: Metapresentación
   meeting_date: 2012-06-28
@@ -2129,6 +2156,7 @@
   - ! '@apenav'
   - ! '@diec123'
   map_url: http://maps.google.es/maps?f=q&source=embed&hl=es&geocode=&q=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid&sll=40.396764,-3.713379&sspn=10.504732,23.269043&ie=UTF8&hq=&hnear=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid,+Comunidad+de+Madrid&ll=40.413867,-3.706683&spn=0.036727,0.076818&z=14
+  slides_url: 
 - !ruby/struct:Meeting
   title: Introduction to RubyMotion
   meeting_date: 
@@ -2223,6 +2251,7 @@
   - ! '@keyvanakbary'
   - ! '@antoniojrossi'
   map_url: http://maps.google.es/maps?f=q&source=embed&hl=es&geocode=&q=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid&sll=40.396764,-3.713379&sspn=10.504732,23.269043&ie=UTF8&hq=&hnear=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid,+Comunidad+de+Madrid&ll=40.413867,-3.706683&spn=0.036727,0.076818&z=14
+  slides_url: 
 - !ruby/struct:Meeting
   title: RubyMotion, desarrollo móvil en Ruby
   meeting_date: 2014-06-26
@@ -2316,6 +2345,7 @@
   - ! '@amartinfraguas'
   - ! '@jorgesangarr'
   map_url: https://www.google.com/maps/place/The+Irish+Rover/@40.4549437,-3.6936623,17z/data=!4m7!1m4!3m3!1s0xd422902b93a7b4f:0xcdf2773b21bd0810!2sAv+de+Brasil,+7!3b1!3m1!1s0x0:0xac5dccb9e6db0dd5
+  slides_url: 
 - !ruby/struct:Meeting
   title: ! 'DOUBLE FEATURE:  Sequel (vídeo) + Pair Programming (vídeo)'
   meeting_date: 2011-03-31
@@ -2461,6 +2491,7 @@
   - ! '@zirodev'
   - ! '@jcea'
   map_url: http://maps.google.es/maps?f=q&source=embed&hl=es&geocode=&q=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid&sll=40.396764,-3.713379&sspn=10.504732,23.269043&ie=UTF8&hq=&hnear=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid,+Comunidad+de+Madrid&ll=40.413867,-3.706683&spn=0.036727,0.076818&z=14
+  slides_url: 
 - !ruby/struct:Meeting
   title: ¡Conquista el mundo con Vim y Tmux!
   meeting_date: 2012-03-29
@@ -2558,8 +2589,9 @@
   - ! '@ciscou'
   - ! '@jglongaron
 
-    @javierhonduco '
+    @javierhonduco'
   map_url: http://g.co/maps/4ktdg
+  slides_url: 
 - !ruby/struct:Meeting
   title: The Javascript Horror Show
   meeting_date: 2013-03-21
@@ -2645,6 +2677,7 @@
   - ! '@laura_morillo'
   - ! '@joseferrer'
   map_url: http://maps.google.es/maps?f=q&source=embed&hl=es&geocode=&q=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid&sll=40.396764,-3.713379&sspn=10.504732,23.269043&ie=UTF8&hq=&hnear=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid,+Comunidad+de+Madrid&ll=40.413867,-3.706683&spn=0.036727,0.076818&z=14
+  slides_url: 
 - !ruby/struct:Meeting
   title: Ordenando las vistas. Decorator y Presenters
   meeting_date: 2014-03-27
@@ -2765,6 +2798,7 @@
   offered_by_html: 
   attendees: 
   map_url: https://www.google.com/maps/preview#!q=Calle+Colegiata%2C+9%2C+Madrid%2C+Spain&data=!4m10!1m9!4m8!1m3!1d203964!2d-3.6795367!3d40.4378271!3m2!1i1436!2i806!4f13.1
+  slides_url: 
 - !ruby/struct:Meeting
   title: ! 'Madrid-rb Cine Club: Rails 3'
   meeting_date: 2010-05-27
@@ -2804,6 +2838,7 @@
   offered_by_html: 
   attendees: 
   map_url: 
+  slides_url: 
 - !ruby/struct:Meeting
   title: Solr vs Sphinx
   meeting_date: 2011-05-26
@@ -2891,6 +2926,7 @@
   - ! '@kanedaki'
   - ! '@samlown'
   map_url: http://maps.google.es/maps?f=q&source=embed&hl=es&geocode=&q=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid&sll=40.396764,-3.713379&sspn=10.504732,23.269043&ie=UTF8&hq=&hnear=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid,+Comunidad+de+Madrid&ll=40.413867,-3.706683&spn=0.036727,0.076818&z=14
+  slides_url: 
 - !ruby/struct:Meeting
   title: ! 'MacRuby y RubyMotion: Programando aplicaciones en Ruby para iOS y Mac'
   meeting_date: 2012-05-31
@@ -2980,6 +3016,7 @@
   - ! '@rnaveiras'
   - ! '@jalbertopaz'
   map_url: http://g.co/maps/4ktdg
+  slides_url: 
 - !ruby/struct:Meeting
   title: Mi dominio es mío y no lo comparto...
   meeting_date: 2013-05-30
@@ -3077,6 +3114,7 @@
   - ! '@antarticonorte'
   - ! '@pepetox'
   map_url: http://maps.google.es/maps?f=q&source=embed&hl=es&geocode=&q=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid&sll=40.396764,-3.713379&sspn=10.504732,23.269043&ie=UTF8&hq=&hnear=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid,+Comunidad+de+Madrid&ll=40.413867,-3.706683&spn=0.036727,0.076818&z=14
+  slides_url: 
 - !ruby/struct:Meeting
   title: ¿TDD como problema?
   meeting_date: 2014-05-29
@@ -3162,9 +3200,10 @@
   - ! '@based_err3'
   - ! '@_abnz'
   - Álex
-  - ! '@rul_foo '
+  - ! '@rul_foo'
   - ! '@demimismo'
   map_url: https://www.google.com/maps/place/The+Irish+Rover/@40.4549437,-3.6936623,17z/data=!4m7!1m4!3m3!1s0xd422902b93a7b4f:0xcdf2773b21bd0810!2sAv+de+Brasil,+7!3b1!3m1!1s0x0:0xac5dccb9e6db0dd5
+  slides_url: 
 - !ruby/struct:Meeting
   title: Fibers in Ruby 1.9
   meeting_date: 2010-11-25
@@ -3202,6 +3241,7 @@
   offered_by_html: 
   attendees: 
   map_url: 
+  slides_url: 
 - !ruby/struct:Meeting
   title: Cómo dejé de preocuparme por ser ágil y ahora no me importa en absoluto
   meeting_date: 2011-11-24
@@ -3241,6 +3281,7 @@
     alt="LCIberica"></a>    </p>'
   attendees: []
   map_url: http://maps.google.es/maps?f=q&source=embed&hl=es&geocode=&q=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid&sll=40.396764,-3.713379&sspn=10.504732,23.269043&ie=UTF8&hq=&hnear=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid,+Comunidad+de+Madrid&ll=40.413867,-3.706683&spn=0.036727,0.076818&z=14
+  slides_url: 
 - !ruby/struct:Meeting
   title: Coding Dojo en Madrid-rb
   meeting_date: 2012-11-29
@@ -3315,6 +3356,7 @@
   - ! '@laura_morillo'
   - ! '@cesar_somapop'
   map_url: http://maps.google.es/maps?f=q&source=embed&hl=es&geocode=&q=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid&sll=40.396764,-3.713379&sspn=10.504732,23.269043&ie=UTF8&hq=&hnear=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid,+Comunidad+de+Madrid&ll=40.413867,-3.706683&spn=0.036727,0.076818&z=14
+  slides_url: 
 - !ruby/struct:Meeting
   title: Ruby y Ciencia
   meeting_date: 2013-11-28
@@ -3395,6 +3437,7 @@
   - ! '@jglongaron'
   - ! '@jfcalvo'
   map_url: https://www.google.com/maps/preview#!q=Calle+Colegiata%2C+9%2C+Madrid%2C+Spain&data=!4m10!1m9!4m8!1m3!1d203964!2d-3.6795367!3d40.4378271!3m2!1i1436!2i806!4f13.1
+  slides_url: 
 - !ruby/struct:Meeting
   title: JRuby en Webpop - Rhino y Akka
   meeting_date: 2011-10-27
@@ -3433,6 +3476,7 @@
     alt="LCIberica"></a>    </p>'
   attendees: []
   map_url: http://maps.google.es/maps?f=q&source=embed&hl=es&geocode=&q=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid&sll=40.396764,-3.713379&sspn=10.504732,23.269043&ie=UTF8&hq=&hnear=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid,+Comunidad+de+Madrid&ll=40.413867,-3.706683&spn=0.036727,0.076818&z=14
+  slides_url: 
 - !ruby/struct:Meeting
   title: Making code tastier through Refactoring
   meeting_date: 2012-10-25
@@ -3517,6 +3561,7 @@
   - ! '@entantoencuanto'
   - ! '@joshka20'
   map_url: http://maps.google.es/maps?f=q&source=embed&hl=es&geocode=&q=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid&sll=40.396764,-3.713379&sspn=10.504732,23.269043&ie=UTF8&hq=&hnear=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid,+Comunidad+de+Madrid&ll=40.413867,-3.706683&spn=0.036727,0.076818&z=14
+  slides_url: 
 - !ruby/struct:Meeting
   title: ! 'Bajar del monorraíl: microservicios'
   meeting_date: 2013-10-24
@@ -3625,6 +3670,7 @@
   - ! '@acw5'
   - ! '@eferro'
   map_url: https://www.google.com/maps/preview#!q=Calle+Colegiata%2C+9%2C+Madrid%2C+Spain&data=!4m10!1m9!4m8!1m3!1d203964!2d-3.6795367!3d40.4378271!3m2!1i1436!2i806!4f13.1
+  slides_url: 
 - !ruby/struct:Meeting
   title: ! 'RabbitMQ + Ruby #'
   meeting_date: 2010-09-30
@@ -3659,6 +3705,7 @@
   offered_by_html: 
   attendees: 
   map_url: 
+  slides_url: 
 - !ruby/struct:Meeting
   title: Si yo fuera una API
   meeting_date: 2011-09-29
@@ -3704,6 +3751,7 @@
     alt="LCIberica"></a>    </p>'
   attendees: []
   map_url: http://maps.google.es/maps?f=q&source=embed&hl=es&geocode=&q=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid&sll=40.396764,-3.713379&sspn=10.504732,23.269043&ie=UTF8&hq=&hnear=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid,+Comunidad+de+Madrid&ll=40.413867,-3.706683&spn=0.036727,0.076818&z=14
+  slides_url: 
 - !ruby/struct:Meeting
   title: The Ruby Object Model
   meeting_date: 2012-09-27
@@ -3759,7 +3807,7 @@
   - ! '@joshka20'
   - ! '@elafo'
   - ! '@mr_solo'
-  - ! '@therobot '
+  - ! '@therobot'
   - ! '@supercoco9'
   - ! '@oinak'
   - ! '@laura_morillo'
@@ -3794,6 +3842,7 @@
   - ! '@christos'
   - ! '@oinak'
   map_url: http://maps.google.es/maps?f=q&source=embed&hl=es&geocode=&q=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid&sll=40.396764,-3.713379&sspn=10.504732,23.269043&ie=UTF8&hq=&hnear=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid,+Comunidad+de+Madrid&ll=40.413867,-3.706683&spn=0.036727,0.076818&z=14
+  slides_url: 
 - !ruby/struct:Meeting
   title: ! 'Croupier: probabilidades, muestras y enumerables.'
   meeting_date: 2013-10-24
@@ -3875,6 +3924,7 @@
   - ! '@mazur'
   - ! '@jglongaron'
   map_url: https://www.google.com/maps/preview#!q=Calle+Colegiata%2C+9%2C+Madrid%2C+Spain&data=!4m10!1m9!4m8!1m3!1d203964!2d-3.6795367!3d40.4378271!3m2!1i1436!2i806!4f13.1
+  slides_url: 
 - !ruby/struct:Meeting
   title: Terracismo-rb
   meeting_date: 
@@ -3892,3 +3942,490 @@
   offered_by_html: 
   attendees: 
   map_url: 
+  slides_url: 
+- !ruby/struct:Meeting
+  title: Hackeando redacciones con Ruby
+  meeting_date: 2014-10-30
+  meeting_time: '20:00'
+  venue: The Irish Rover @ Avenida de Brasil, 7
+  details: <p>El Open Data prometía abrir las administraciones a los ciudadanos y
+    generar una ola de transparencia. Pero los datos más jugosos no están en la superficie,
+    esperando para ser tratados de forma estructurada y en formatos reutilizables,
+    sino que se esconden en tablas imposibles y PDFs puñeteros. Hablaremos de cómo
+    aplicar Ruby a la extracción y tratamiento de información pública para realizar
+    investigaciones (con ejemplos internacionales y del trabajo que realizamos en
+    <a href="http://www.civio.es/">Civio</a>) y cómo los informáticos se han convertido
+    en un elemento indispensable –y codiciado- en las redacciones. </p>
+  speaker_name: David Cabo
+  speaker_handle: ! '@dcabo'
+  speaker_bio: <p>David Cabo es un ingeniero informático que, después de diez años
+    en trabajos aburridos para otros, decidió dedicarse a tiempo completo a intentar
+    aplicar la tecnología para mejorar la participación y la rendición de cuentas
+    en España. Ahora trabaja junto a periodistas en la Fundación <a href="http://www.civio.es/">Civio</a>
+    creando proyectos como <a href="http://www.elindultometro.es/">El Indultómetro</a>,
+    <a href="http://dondevanmisimpuestos.es/">Dónde van mis impuestos</a> o <a href="http://quienmanda.es/">Quién
+    Manda</a>.</p>
+  video_url: https://vimeo.com/111778599
+  offered_by:
+  - http://bebanjo.com
+  - http://www.prorubyteam.com/
+  - http://the-cocktail.com/
+  - http://aspgems.com
+  - http://www.lextrend.com/
+  offered_by_html: ! '<p><a href="http://bebanjo.com"><img src="https://camo.githubusercontent.com/07309bc929d7124994da0c22842cdec705e7eead/687474703a2f2f6d616472696472622e6769746875622e696f2f696d616765732f73706f6e736f72732f626562616e6a6f2e706e67"
+    alt="Bebanjo" data-canonical-src="http://madridrb.github.io/images/sponsors/bebanjo.png"></a>
+
+       
+
+    <a href="http://www.prorubyteam.com/"><img src="https://camo.githubusercontent.com/0bb7e6e71807135dd88e331ef24070f1bab22f3f/687474703a2f2f6d616472696472622e6769746875622e696f2f696d616765732f73706f6e736f72732f70726f727562792e706e67"
+    alt="ProRuby team" data-canonical-src="http://madridrb.github.io/images/sponsors/proruby.png"></a>
+
+       </p>
+
+    <p><a href="http://the-cocktail.com/"><img src="https://camo.githubusercontent.com/36adf6c809c1cd9918a97ffec534da595fe64bde/687474703a2f2f6d616472696472622e6769746875622e696f2f696d616765732f73706f6e736f72732f74636b2e706e67"
+    alt="The cocktail" data-canonical-src="http://madridrb.github.io/images/sponsors/tck.png"></a>
+
+       
+
+    <a href="http://aspgems.com"><img src="https://camo.githubusercontent.com/864f709369c351ac326cee54d37b2a8c11b7d184/687474703a2f2f6d616472696472622e6769746875622e696f2f696d616765732f73706f6e736f72732f61737067656d732e706e67"
+    alt="ASP Gems" data-canonical-src="http://madridrb.github.io/images/sponsors/aspgems.png"></a></p>
+
+    <p><a href="http://www.lextrend.com/"><img src="https://camo.githubusercontent.com/ea8f137cab17d468a6b51132ac9c106738e33e54/687474703a2f2f6d616472696472622e6769746875622e696f2f696d616765732f73706f6e736f72732f6c65787472656e642e706e67"
+    alt="Lextrend" data-canonical-src="http://madridrb.github.io/images/sponsors/lextrend.png"></a></p>'
+  attendees:
+  - ! '@otikik'
+  - ! '@dcabo'
+  - ! '@fesotovi'
+  - ! '@amaia'
+  - ! '@lascar'
+  - ! '@ferblape'
+  - ! '@javiervidal'
+  - ! '@diec123'
+  - ! '@martincabrera'
+  - ! '@joseferrer'
+  - ! '@xuanxu'
+  - ! '@camumino'
+  - ! '@jamarinhidalgo'
+  - davidz
+  - ! '@moises_macia'
+  - ! '@javiacei'
+  - ! '@javimbk'
+  - ! '@santiriera626'
+  - Gustavo Caso
+  - ! '@ciscou'
+  - ! '@colgado'
+  - ! '@lorenzoplanas'
+  - ! '@kavajaga'
+  - ! '@elobatoss'
+  - ! '@raulmarcosl'
+  - ! '@researcheneur'
+  - ! '@josep_egea'
+  - ! '@pablolavegui'
+  - ! '@eLafo'
+  - ! '@javiersevilla'
+  - Jorge Ruiz
+  - ! '@juancho'
+  - JRodriguez
+  - ! '@acid_janko'
+  - ! '@laura_morillo'
+  - ! '@jorgesanzx'
+  - ! '@arctarus'
+  - ! '@pepetox'
+  map_url: https://www.google.com/maps/place/The+Irish+Rover/@40.454843,-3.693945,17z/data=!3m1!4b1!4m2!3m1!1s0xd422902b93a59c5:0xac5dccb9e6db0dd5
+  slides_url: https://dl.dropboxusercontent.com/u/531246/Periodismo%20y%20Ruby.pdf
+- !ruby/struct:Meeting
+  title: Integración Continua fuera de la alargada sombra de Jenkins
+  meeting_date: 2014-09-25
+  meeting_time: '20:00'
+  venue: The Irish Rover @ Avenida de Brasil, 7
+  details: <p>En <a href="http://www.bebanjo.com/">BeBanjo</a> algunas de nuestras
+    aplicaciones tienen suites de tests, llamémoslas "curiosas", y por unas o por
+    otras la agilidad en el desarrollo se estaba viendo afectad por una Integración
+    Continua que no estaba a la altura. Os contaré nuestra andadura hacia una solución
+    que creemos escalable y ágil sin muchas pretensiones; pero con detalles técnicos
+    que me han parecido muy interesantes.</p>
+  speaker_name: Paco Guzmán
+  speaker_handle: ! '@pacoguzman'
+  speaker_bio: ! '<p>Conozco Rails desde hace unos pocos de años, desde su versión
+    1.2.6. Ingeniero Superior de Telecomunicaciones nunca me sentí cómodo con las
+    ondas ni procesando señales con Matlab. Pongo todas mis ganas y entusiasmo haciendo
+    desarrollo web y mucho deporte. Me puedo picar contigo en Strava en un santiamén.</p>
+
+    <p>Vivo en Bronxtoles y puedes encontrarme en <a href="https://twitter.com/pacoguzman">twitter</a>
+    o en <a href="https://github.com/pacoguzman">github</a>.</p>'
+  video_url: https://vimeo.com/110343463/
+  offered_by:
+  - http://bebanjo.com
+  - http://www.prorubyteam.com/
+  - http://the-cocktail.com/
+  - http://aspgems.com
+  - http://www.lextrend.com/
+  offered_by_html: ! '<p><a href="http://bebanjo.com"><img src="https://camo.githubusercontent.com/07309bc929d7124994da0c22842cdec705e7eead/687474703a2f2f6d616472696472622e6769746875622e696f2f696d616765732f73706f6e736f72732f626562616e6a6f2e706e67"
+    alt="Bebanjo" data-canonical-src="http://madridrb.github.io/images/sponsors/bebanjo.png"></a>
+
+       
+
+    <a href="http://www.prorubyteam.com/"><img src="https://camo.githubusercontent.com/0bb7e6e71807135dd88e331ef24070f1bab22f3f/687474703a2f2f6d616472696472622e6769746875622e696f2f696d616765732f73706f6e736f72732f70726f727562792e706e67"
+    alt="ProRuby team" data-canonical-src="http://madridrb.github.io/images/sponsors/proruby.png"></a>
+
+       </p>
+
+    <p><a href="http://the-cocktail.com/"><img src="https://camo.githubusercontent.com/36adf6c809c1cd9918a97ffec534da595fe64bde/687474703a2f2f6d616472696472622e6769746875622e696f2f696d616765732f73706f6e736f72732f74636b2e706e67"
+    alt="The cocktail" data-canonical-src="http://madridrb.github.io/images/sponsors/tck.png"></a>
+
+       
+
+    <a href="http://aspgems.com"><img src="https://camo.githubusercontent.com/864f709369c351ac326cee54d37b2a8c11b7d184/687474703a2f2f6d616472696472622e6769746875622e696f2f696d616765732f73706f6e736f72732f61737067656d732e706e67"
+    alt="ASP Gems" data-canonical-src="http://madridrb.github.io/images/sponsors/aspgems.png"></a></p>
+
+    <p><a href="http://www.lextrend.com/"><img src="https://camo.githubusercontent.com/ea8f137cab17d468a6b51132ac9c106738e33e54/687474703a2f2f6d616472696472622e6769746875622e696f2f696d616765732f73706f6e736f72732f6c65787472656e642e706e67"
+    alt="Lextrend" data-canonical-src="http://madridrb.github.io/images/sponsors/lextrend.png"></a></p>'
+  attendees:
+  - ! '@otikik'
+  - ! '@pacoguzman'
+  - ! '@xuanxu'
+  - ! '@christos'
+  - ! '@arctarus'
+  - ! '@EnriqueSanchezB'
+  - ! '@joseferrer'
+  - ! '@etdsoft'
+  - ! '@manupaisable'
+  - ! '@based_err3'
+  - ! '@vierarb'
+  - ! '@mgryszko'
+  - ! '@fesotovi'
+  - ! '@lascar'
+  - ! '@javiervidal'
+  - ! '@juanyque'
+  - ! '@carlossanchezp'
+  - ! '@martincabrera'
+  - ! '@amaiac'
+  - ! '@ciscou'
+  - ! '@javiacei'
+  - ! '@moises_macia'
+  - ! '@patriciagao'
+  - ! '@amoyse'
+  - ! '@GustavoCsso'
+  - ! '@Juanxote'
+  - ! '@makiolo'
+  - ! '@josep_egea'
+  - ! '@azaru'
+  - ! '@jamarinhidalgo'
+  - ! '@diec123'
+  - ! '@oinak'
+  - ! '@serabe'
+  - ! '@mroguzman'
+  - ! '@alexdev_ || @alexperezpaya'
+  - ! '@laura_morillo'
+  map_url: https://www.google.com/maps/place/The+Irish+Rover/@40.454843,-3.693945,17z/data=!3m1!4b1!4m2!3m1!1s0xd422902b93a59c5:0xac5dccb9e6db0dd5
+  slides_url: 
+- !ruby/struct:Meeting
+  title: Terracismo.rb
+  meeting_date: 2014-07-31
+  meeting_time: '20:00'
+  venue: The Irish Rover @ Avenida de Brasil, 7
+  details: ! '<p>No todo el mundo se va de vacaciones a la vez. Y los que se quedan
+    en Madrid, puede que echen de menos un Madrid.rb.</p>
+
+    <p>Para eso existe el Terracismo.rb.</p>
+
+    <p>En una reunión normal de Madrid.rb hay una charla dada por algún ponente, seguida
+    de unas preguntas, y luego charlas con comida y bebida, mayormente cervezas.</p>
+
+    <p>Terracismo.rb es más minimalista; no hay charla ni ponente, vamos directamente
+    a las cervezas. Todos son bienvenidos. Juntemos nuestros jarros de cerveza y llamemos
+    al Capitán Planeta, para que nos haga una tarde digna del mejor terracismo.</p>'
+  speaker_name: 
+  speaker_handle: 
+  speaker_bio: 
+  video_url: 
+  offered_by: 
+  offered_by_html: 
+  attendees:
+  - ! '@vierarb'
+  - ! '@based_err3'
+  - ! '@fesotovi'
+  - ! '@Juanchote'
+  - ! '@javvarcar'
+  - ! '@paucc (quizás)'
+  - ! '@amaiac'
+  - ! '@samlown'
+  - Gustavo Caso
+  - ! '@lascar'
+  - ! '@colgado (mi primer terracismo.rb!!!)'
+  map_url: https://www.google.com/maps/place/The+Irish+Rover/@40.454843,-3.693945,17z/data=!3m1!4b1!4m2!3m1!1s0xd422902b93a59c5:0xac5dccb9e6db0dd5
+  slides_url: 
+- !ruby/struct:Meeting
+  title: Terracismo.rb
+  meeting_date: 2014-08-28
+  meeting_time: '20:00'
+  venue: The Irish Rover @ Avenida de Brasil, 7
+  details: ! '<p>Madrid está estupendo en Agosto. Lugares que habitualmente están
+    masificados de gente y tráfico, tienen unos niveles de ocupación mucho más razonables.</p>
+
+    <p>Además, el tiempo es menos caluroso de lo que cabría esperar. Hace una temperatura
+    estupenda para ir a un bar o una terracita al aire libre, tomarse algo y charlar.</p>
+
+    <p>Y en eso consiste el terracismo.rb. Nos reunimos y charlamos en agradable compañía,
+    sin ponente ni charla ni nada. Todo el mundo es bienvenido.</p>'
+  speaker_name: 
+  speaker_handle: 
+  speaker_bio: 
+  video_url: 
+  offered_by: 
+  offered_by_html: 
+  attendees:
+  - ! '@otikik'
+  - ! '@joseferrer'
+  - ! '@etdsoft'
+  - ! '@fesotovi'
+  - ! '@aalbagarcia'
+  - ! '@lascar'
+  - ! '@josema_guzman'
+  - ! '@Bartman'
+  - ! '@CarlosSicre'
+  - ! '@etnlmy'
+  - ! '@josep_egea'
+  - ! '@gootyfer'
+  map_url: https://www.google.com/maps/place/The+Irish+Rover/@40.454843,-3.693945,17z/data=!3m1!4b1!4m2!3m1!1s0xd422902b93a59c5:0xac5dccb9e6db0dd5
+  slides_url: 
+- !ruby/struct:Meeting
+  title: ! 'Deuda técnica: achicando agua, que el barco se hunde'
+  meeting_date: 2014-11-27
+  meeting_time: '20:00'
+  venue: The Irish Rover @ Avenida de Brasil, 7
+  details: <p>El concepto de deuda técnica no es nuevo. En todos los proyectos quien
+    más quien menos, tenemos deuda técnica, pero ¿dónde se encuentra? ¿de dónde viene?
+    ¿por qué se crea? y sobre todo, ¿se puede gestionar? Contaré cuáles han sido mis
+    experiencias a lo largo de mi vida como desarrollador y lo que he aprendido durante
+    este tiempo.</p>
+  speaker_name: Javier Lafora
+  speaker_handle: ! '@elafo'
+  speaker_bio: <p>Músico y cervecero aficionado, ha encontrado en el desarrollo web
+    y la programación en general una pasión que le permite costearse sus vicios y
+    sus hobbies.</p>
+  video_url: https://vimeo.com/117102377
+  offered_by:
+  - http://bebanjo.com
+  - http://www.prorubyteam.com/
+  - http://the-cocktail.com/
+  - http://aspgems.com
+  - http://www.lextrend.com/
+  offered_by_html: ! '<p><a href="http://bebanjo.com"><img src="https://camo.githubusercontent.com/07309bc929d7124994da0c22842cdec705e7eead/687474703a2f2f6d616472696472622e6769746875622e696f2f696d616765732f73706f6e736f72732f626562616e6a6f2e706e67"
+    alt="Bebanjo" data-canonical-src="http://madridrb.github.io/images/sponsors/bebanjo.png"></a>
+
+       
+
+    <a href="http://www.prorubyteam.com/"><img src="https://camo.githubusercontent.com/0bb7e6e71807135dd88e331ef24070f1bab22f3f/687474703a2f2f6d616472696472622e6769746875622e696f2f696d616765732f73706f6e736f72732f70726f727562792e706e67"
+    alt="ProRuby team" data-canonical-src="http://madridrb.github.io/images/sponsors/proruby.png"></a>
+
+       </p>
+
+    <p><a href="http://the-cocktail.com/"><img src="https://camo.githubusercontent.com/36adf6c809c1cd9918a97ffec534da595fe64bde/687474703a2f2f6d616472696472622e6769746875622e696f2f696d616765732f73706f6e736f72732f74636b2e706e67"
+    alt="The cocktail" data-canonical-src="http://madridrb.github.io/images/sponsors/tck.png"></a>
+
+       
+
+    <a href="http://aspgems.com"><img src="https://camo.githubusercontent.com/864f709369c351ac326cee54d37b2a8c11b7d184/687474703a2f2f6d616472696472622e6769746875622e696f2f696d616765732f73706f6e736f72732f61737067656d732e706e67"
+    alt="ASP Gems" data-canonical-src="http://madridrb.github.io/images/sponsors/aspgems.png"></a></p>
+
+    <p><a href="http://www.lextrend.com/"><img src="https://camo.githubusercontent.com/ea8f137cab17d468a6b51132ac9c106738e33e54/687474703a2f2f6d616472696472622e6769746875622e696f2f696d616765732f73706f6e736f72732f6c65787472656e642e706e67"
+    alt="Lextrend" data-canonical-src="http://madridrb.github.io/images/sponsors/lextrend.png"></a></p>'
+  attendees:
+  - ! '@otikik'
+  - ! '@eLafo'
+  - ! '@ciscou'
+  - ! '@lascar'
+  - ! '@fesotovi'
+  - ! '@etdsoft'
+  - ! '@licysca'
+  - ! '@vierarb'
+  - ! '@colgado'
+  - ! '@joseferrer'
+  - ! '@juanyque'
+  - ! '@diec123'
+  - ! '@rsanvidal'
+  - ! '@eLobatoss'
+  - braisomary@gmail.com
+  - alia-del-crys
+  - ! '@jamarinhidalgo'
+  - ! '@carlossanchezp'
+  - ! '@Rebequilla_p'
+  - ! '@amaiac'
+  - ! '@josep_egea'
+  - Marvin
+  - ! '@jorgesanzx'
+  - ! '@nolita'
+  - Julio
+  - Marwan
+  - Erkan
+  - ! '@juanignaciosl'
+  - ! '@nhpatt'
+  - ! '@mroguzman'
+  - ! '@stevenleeg'
+  - ! '@sergioshernand'
+  - davidz
+  map_url: https://www.google.com/maps/place/The+Irish+Rover/@40.454843,-3.693945,17z/data=!3m1!4b1!4m2!3m1!1s0xd422902b93a59c5:0xac5dccb9e6db0dd5
+  slides_url: 
+- !ruby/struct:Meeting
+  title: Event your life with Kafka
+  meeting_date: 2014-12-29
+  meeting_time: '19:45'
+  venue: The Irish Rover @ Avenida de Brasil, 7
+  details: <p>En esta charla analizaremos un poco qué es <a href="http://kafka.apache.org/">Apache
+    Kafka</a>, qué problemas trata de resolver, lo compararemos a alto nivel con otras
+    posibles soluciones, veremos algunos ejemplos de configuración y como usarlo desde
+    Ruby mediante <a href="https://github.com/bpot/poseidon">Poseidon</a>. Y luego
+    beberemos unas cañas para celebrar mi primera charla ever :D</p>
+  speaker_name: Mari Carmen Gutierrez De La Ossa
+  speaker_handle: ! '@valakirka'
+  speaker_bio: ! '<p>bio: Me llamo Mari y soy desarrolladora Ruby desde hace 4 años.
+    Actualmente vivo y trabajo en Berlin, donde paso mi tiempo entre currywursts,
+    nieve, bräuereis, y reuniones del grupo de usuarios de Ruby. Pero siempre vuelvo
+    a casa por Navidad, como el Almendro!</p>'
+  video_url: https://vimeo.com/117742863
+  offered_by:
+  - http://bebanjo.com
+  - http://www.prorubyteam.com/
+  - http://the-cocktail.com/
+  - http://aspgems.com
+  - http://www.lextrend.com/
+  offered_by_html: ! '<p><a href="http://bebanjo.com"><img src="https://camo.githubusercontent.com/07309bc929d7124994da0c22842cdec705e7eead/687474703a2f2f6d616472696472622e6769746875622e696f2f696d616765732f73706f6e736f72732f626562616e6a6f2e706e67"
+    alt="Bebanjo" data-canonical-src="http://madridrb.github.io/images/sponsors/bebanjo.png"></a>
+
+       
+
+    <a href="http://www.prorubyteam.com/"><img src="https://camo.githubusercontent.com/0bb7e6e71807135dd88e331ef24070f1bab22f3f/687474703a2f2f6d616472696472622e6769746875622e696f2f696d616765732f73706f6e736f72732f70726f727562792e706e67"
+    alt="ProRuby team" data-canonical-src="http://madridrb.github.io/images/sponsors/proruby.png"></a>
+
+       </p>
+
+    <p><a href="http://the-cocktail.com/"><img src="https://camo.githubusercontent.com/36adf6c809c1cd9918a97ffec534da595fe64bde/687474703a2f2f6d616472696472622e6769746875622e696f2f696d616765732f73706f6e736f72732f74636b2e706e67"
+    alt="The cocktail" data-canonical-src="http://madridrb.github.io/images/sponsors/tck.png"></a>
+
+       
+
+    <a href="http://aspgems.com"><img src="https://camo.githubusercontent.com/864f709369c351ac326cee54d37b2a8c11b7d184/687474703a2f2f6d616472696472622e6769746875622e696f2f696d616765732f73706f6e736f72732f61737067656d732e706e67"
+    alt="ASP Gems" data-canonical-src="http://madridrb.github.io/images/sponsors/aspgems.png"></a></p>
+
+    <p><a href="http://www.lextrend.com/"><img src="https://camo.githubusercontent.com/ea8f137cab17d468a6b51132ac9c106738e33e54/687474703a2f2f6d616472696472622e6769746875622e696f2f696d616765732f73706f6e736f72732f6c65787472656e642e706e67"
+    alt="Lextrend" data-canonical-src="http://madridrb.github.io/images/sponsors/lextrend.png"></a></p>'
+  attendees:
+  - ! '@otikik'
+  - ! '@valakirka'
+  - ! '@amaiac'
+  - ! '@rnaveiras'
+  - ! '@oinak'
+  - ! '@colgado'
+  - ! '@porras'
+  - ! '@Serabe'
+  - ! '@xuanxu'
+  - ! '@supercoco9'
+  - ! '@christos'
+  - ! '@doktor500'
+  - ! '@eLafo'
+  - ! '@vierarb'
+  - ! '@marcelinollano'
+  - ! '@carlossanchezp'
+  - ! '@ArturoHerrero'
+  - ! '@_pablo_alonso'
+  - ! '@cavalle'
+  - ! '@dhh'
+  - ! '@gootyfer'
+  - ! '@joseferrer'
+  - ! '@borjagvo'
+  - ! '@jamarinhidalgo'
+  - ! '@javier_dev'
+  - ! '@lhitokiri'
+  - ! '@xaibot'
+  map_url: https://www.google.com/maps/place/The+Irish+Rover/@40.454843,-3.693945,17z/data=!3m1!4b1!4m2!3m1!1s0xd422902b93a59c5:0xac5dccb9e6db0dd5
+  slides_url: 
+- !ruby/struct:Meeting
+  title: Hacking your bank with Ruby and reverse engineering
+  meeting_date: 2015-01-29
+  meeting_time: '19:45'
+  venue: The Irish Rover @ Avenida de Brasil, 7
+  details: <p>Os contaremos la historia que hay detrás de <a href="https://github.com/ismaGNU/bank_scrap">bank_scrap</a>,
+    una gema Ruby para acceder a información bancaria como transacciones o saldos
+    de diferentes bancos. Desde como utilizamos ingeniería inversa sobre una aplicación
+    móvil, hasta como creamos una abstracción para ampliar bank_scrap a múltiples
+    bancos.</p>
+  speaker_name: Javier Cuevas
+  speaker_handle: ! '@javier_dev'
+  speaker_bio: <p>Javier Cuevas es CEO de <a href="http://diacode.com/">Diacode</a>,
+    empresa de consultoría Ruby on Rails fundada en 2010, y CTO de <a href="https://gudog.com/">Gudog</a>,
+    startup con 2 años de vida que ofrece una alternativa a las residencias caninas
+    en Europa ("Airbnb para perros").</p>
+  video_url: https://vimeo.com/120834134
+  offered_by:
+  - http://bebanjo.com
+  - http://www.prorubyteam.com/
+  - http://the-cocktail.com/
+  - http://aspgems.com
+  - http://www.lextrend.com/
+  - http://codecantor.com/
+  offered_by_html: ! '<p><a href="http://bebanjo.com"><img src="https://camo.githubusercontent.com/07309bc929d7124994da0c22842cdec705e7eead/687474703a2f2f6d616472696472622e6769746875622e696f2f696d616765732f73706f6e736f72732f626562616e6a6f2e706e67"
+    alt="Bebanjo" data-canonical-src="http://madridrb.github.io/images/sponsors/bebanjo.png"></a>
+
+       
+
+    <a href="http://www.prorubyteam.com/"><img src="https://camo.githubusercontent.com/0bb7e6e71807135dd88e331ef24070f1bab22f3f/687474703a2f2f6d616472696472622e6769746875622e696f2f696d616765732f73706f6e736f72732f70726f727562792e706e67"
+    alt="ProRuby team" data-canonical-src="http://madridrb.github.io/images/sponsors/proruby.png"></a>
+
+       </p>
+
+    <p><a href="http://the-cocktail.com/"><img src="https://camo.githubusercontent.com/36adf6c809c1cd9918a97ffec534da595fe64bde/687474703a2f2f6d616472696472622e6769746875622e696f2f696d616765732f73706f6e736f72732f74636b2e706e67"
+    alt="The cocktail" data-canonical-src="http://madridrb.github.io/images/sponsors/tck.png"></a>
+
+       
+
+    <a href="http://aspgems.com"><img src="https://camo.githubusercontent.com/864f709369c351ac326cee54d37b2a8c11b7d184/687474703a2f2f6d616472696472622e6769746875622e696f2f696d616765732f73706f6e736f72732f61737067656d732e706e67"
+    alt="ASP Gems" data-canonical-src="http://madridrb.github.io/images/sponsors/aspgems.png"></a></p>
+
+    <p><a href="http://www.lextrend.com/"><img src="https://camo.githubusercontent.com/ea8f137cab17d468a6b51132ac9c106738e33e54/687474703a2f2f6d616472696472622e6769746875622e696f2f696d616765732f73706f6e736f72732f6c65787472656e642e706e67"
+    alt="Lextrend" data-canonical-src="http://madridrb.github.io/images/sponsors/lextrend.png"></a>
+
+       
+
+    <a href="http://codecantor.com/"><img src="https://camo.githubusercontent.com/3e8ac32e3ec979be915ae11e002c36700d6c71b5/687474703a2f2f6d616472696472622e6769746875622e696f2f696d616765732f73706f6e736f72732f636f646563616e746f722e706e67"
+    alt="Codecantor" data-canonical-src="http://madridrb.github.io/images/sponsors/codecantor.png"></a></p>'
+  attendees:
+  - ! '@otikik'
+  - ! '@javier_dev'
+  - ! '@carlossanchezp'
+  - ! '@martincabrera'
+  - ! '@javivelasco'
+  - ! '@lascar'
+  - ! '@samlown'
+  - ! '@ferblape'
+  - ! '@josep_egea'
+  - ! '@joseferrer'
+  - ! '@jamarinhidalgo'
+  - ! '@ciscou'
+  - David Z
+  - ! '@vierarb'
+  - ! '@colgado'
+  - ! '@fesotovi'
+  - ! '@javiacei'
+  - ! '@moises_macia'
+  - ! '@raulmarcosl'
+  - ! '@jsayar'
+  - ! '@diec123'
+  - ! '@spejman'
+  - ! '@sergiogomez'
+  - ! '@ch3lu'
+  - ! '@DazLamas'
+  - ! '@arctarus'
+  - ! '@santiriera626'
+  - ! '@camumino'
+  - ! '@pepetrigo'
+  - ! '@jcollazos89'
+  - ! '@ddiegomez'
+  - ! '@juanxote'
+  - ! '@rrasmo'
+  - ! '@sergioshernand'
+  - ! '@patriciagao'
+  - ! '@licysca'
+  - ! '@wyrmxd'
+  map_url: https://www.google.com/maps/place/The+Irish+Rover/@40.454843,-3.693945,17z/data=!3m1!4b1!4m2!3m1!1s0xd422902b93a59c5:0xac5dccb9e6db0dd5
+  slides_url: 
