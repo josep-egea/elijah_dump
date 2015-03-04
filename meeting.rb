@@ -1,5 +1,5 @@
 
-class Meeting < Struct.new(:title, :meeting_date, :meeting_time, :venue, :details, :speaker_name, :speaker_handle, :speaker_bio, :video_url, :offered_by, :offered_by_html, :attendees, :map_url, :slides_url)
+class Meeting < Struct.new(:title, :meeting_date, :meeting_time, :venue, :details, :speaker_name, :speaker_handle, :speaker_bio, :video_url, :offered_by, :offered_by_html, :attendees, :map_url, :slides_url, :original_url)
 
   def to_json(*a)
     h = {}

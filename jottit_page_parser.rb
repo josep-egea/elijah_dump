@@ -8,12 +8,15 @@ require './string_additions'
 class JottitPageParser
   
   @page_data = nil
+  @original_url = nil
   @page_doc = nil
   @page_content = nil
   @meeting = nil
   
-  def parse_page(page_data)
+  def parse_page(page_data, uri)
     set_page_data(page_data)
+    @original_url = uri
+    @meeting.original_url = @original_url
     break_page_in_chapters
     parse_chapters
     return @meeting

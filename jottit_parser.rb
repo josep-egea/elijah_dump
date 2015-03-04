@@ -53,7 +53,7 @@ class JottitParser
   def get_meeting(uri)
     page_data = page_fetcher.get_page(uri)
     if page_data
-      meeting = page_parser.parse_page(page_data)
+      meeting = page_parser.parse_page(page_data, uri)
     end
     return meeting
   end

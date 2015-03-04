@@ -29,6 +29,8 @@ The output file contains an array of meetings. For each of them, these fields ca
 *	`offered_by_html`
 *	`attendees`
 *	`map_url`
+*	`slides_url`
+*	`original_url`
 
 These fields contain raw HTML: `details`, `speaker_bio`, `offered_by_html`. The rest contain plain text.
 
@@ -52,7 +54,7 @@ For the same price, the cached pages are included too!!
 
 *	Sections not identified as speaker, attendees, etc are just appended to `details`.
 
-*	Right now, It only gets pages from Jottit (no GitHub pages yet!)
+*	<strike>Right now, It only gets pages from Jottit (no GitHub pages yet!)</strike> Pages from GitHub now work!
 
 ## Author
 
