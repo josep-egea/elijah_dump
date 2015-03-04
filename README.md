@@ -10,7 +10,7 @@ Gets a list of pages and tries to convert them. If successful, writes the result
 
 **WARNING** It overwrites existing versions of these files!
 
-It will create the `out` directory if it doesn't exists yet.
+It will create the `out` directory if it doesn't exist yet.
 
 ## Output data
 
