@@ -14,29 +14,39 @@ It will create the `out` directory if it doesn't exist yet.
 
 ## Output data
 
-The output file contains an array of meetings. For each of them, these fields can be present (if not, they are empty or haven't been correctly parsed).
+The output file contains an array of meetings. For each of them, these fields can be present (when they're not, they have no value or haven't been correctly parsed).
 
 *	`title`
 *	`details`
 *	`meeting_date`
 *	`meeting_time`
-*	`venue`
-*	`speaker_name`
-*	`speaker_handle`
-*	`speaker_bio`
-*	`video_url`
 *	`offered_by`
 *	`offered_by_html`
 *	`attendees`
+*	`venue`
 *	`map_url`
-*	`slides_url`
 *	`original_url`
-
-These fields contain raw HTML: `details`, `speaker_bio`, `offered_by_html`. The rest contain plain text.
+*	`topics` 
 
 `attendees` contains a list of (usually) Twitter handles or (sometimes) plain names.
 
-`offered_by` contains a list of the sponsors' urls. `offered_by_html` contains the raw HTML (normally with images).
+`offered_by` contains a list of the sponsors' urls. `offered_by_html` contains the raw HTML for that info (normally with images).
+
+`topics` contains an array or topics (talks) that took place during the meeting. Each topic can include:
+
+*	`title`
+*	`details`	
+*	`video_url`
+*	`slides_url`
+*	`speakers` 
+
+Again, `speakers` is an array that contains the list of speakers for a given topic. Each can include:
+
+*	`speaker_name`
+*	`speaker_handle`
+*	`speaker_bio`
+
+These fields contain raw HTML: `details`, `speaker_bio`, `offered_by_html`. The rest contain plain text.
 
 ### Page caching
 
@@ -50,9 +60,9 @@ For the same price, the cached pages are included too!!
 
 ## Current issues
 
-*	Assumes one talk per meeting. In meetings with more than one talk (or more than one speaker), speaker data is not accurate.
-
 *	Sections not identified as speaker, attendees, etc are just appended to `details`.
+
+*	<strike>Assumes one talk per meeting. In meetings with more than one talk (or more than one speaker), speaker data is not accurate.</strike> It now supports multi topic (talk) and multi speaker.
 
 *	<strike>Right now, It only gets pages from Jottit (no GitHub pages yet!)</strike> Pages from GitHub now work!
 

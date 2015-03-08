@@ -15,56 +15,24 @@ class GithubPageParser < JottitPageParser
   def set_page_data(page_data)
     @page_data = page_data
     @page_doc = Nokogiri::HTML(@page_data)
-    # raise @page_doc.content
-    # raise @page_doc.to_yaml
     @page_content = @page_doc.at_css('.markdown-body')
-    # raise @page_content.content
     @meeting = Meeting.new()
     @nodes_for_metadata = []
     @index_h1 = nil
     @index_offered_by = nil
     @index_attendees = nil
-    @index_speaker = nil
-    @index_resources = nil
-    @found_links = []
-    @additional_indexes_for_main = []
   end
 
-  def process_main_content
-    header = @page_chapters[@index_h1][:header]
-    contents = @page_chapters[@index_h1][:contents]
-    if header
-      @meeting.title = header.content.strip
-    else
-      @meeting.title = 'Terracismo.rb'
+  def include_topic_node_in_main_content?(node)
+    if @index_h1 == 0 && node_has_metadata?(node)
+      # These are not really details
+      @nodes_for_metadata << node
+      return false
     end
-    details = []
-    contents.each do |node|
-      case node.name
-      when 'hr'
-        next  # Ignore rules
-      when 'h3'
-        if (link = node.at_css('a[2]'))
-          @meeting.video_url = link[:href] if node.text =~ /v(í|i)deo/i
-          @meeting.slides_url = link[:href] if node.text =~ /slide/i
-        end
-      else
-        unless header.nil? && node_has_metadata?(node)
-          # This condition prevents the metadata block in Terracismo.rb from showing up
-          details << node.to_html
-        end
-      end
+    if node.name == 'hr' || node.name == 'h3'
+      return false
     end
-    # If we have resources, we add after the content
-    if @index_resources
-      details << html_for_chapter_index(@index_resources)
-    end
-    # Last, if we have unassigned chapter, we add them too...
-    @additional_indexes_for_main.each do |idx|
-      details << html_for_chapter_index(idx)
-    end
-    @meeting.details = details.join("\n")
-    @found_links.concat(header.css('a').to_a) unless header.nil?
+    return true
   end
 
   def process_metadata
@@ -73,23 +41,20 @@ class GithubPageParser < JottitPageParser
     parse_date(metadata_node.at_css('td[1]').text)
     parse_time(metadata_node.at_css('td[2]').text)
     parse_venue(metadata_node.at_css('td[3]').text)
+    # We use a dummy topic to collect the links in the metadata
+    topic = Topic.new
     @nodes_for_metadata.each do |node|
-      @found_links.concat(node.css('a').to_a)
+      topic.found_links.concat(node.css('a').to_a)
+    end
+    process_found_links(topic)
+    if !is_multi_topic?
+      # If the single topic lacks video or slides links, we try to get them from metadata
+      ftopic = @meeting.topics.first
+      ftopic.video_url ||= topic.video_url
+      ftopic.slides_url ||= topic.slides_url
     end
   end
-  
-  def get_content_for_metadata
-    if @nodes_for_metadata.nil? || @nodes_for_metadata.empty?
-      # If present, metadata is always in the first chapter
-      @page_chapters[0][:contents].each do |node|
-        if node_has_metadata?(node)
-          @nodes_for_metadata << node
-        end
-      end
-    end
-    raise "No contents for metadata in page!" if @nodes_for_metadata.nil? || @nodes_for_metadata.empty?
-  end
-  
+    
   def parse_date(text)
     date = Date.strptime(text, '%Y-%m-%d')
     if date
@@ -112,38 +77,49 @@ class GithubPageParser < JottitPageParser
     end
   end
   
+  def clean_links_from_header(node)
+    if node.nil?
+      return "Terracismo.rb"
+    else
+      super
+    end
+  end
+  
   def find_indexes
     omit_speaker = false
+    # Create the first topic
+    @meeting.topics << Topic.new
+    current_topic_index = 0
     @page_chapters.each_index do |idx|
       h = @page_chapters[idx][:header]
       if h
         hcontent = h.content
-        @index_offered_by = idx if hcontent =~ /Ofrecido por/i || hcontent =~ /Offered by/i
-        @index_attendees = idx if hcontent =~ /Apúntense/i
-        @index_resources = idx if !omit_speaker && (hcontent =~ /Recursos/i || hcontent =~ /Resources/i)
-        if h.name == 'h2' && @index_h1.nil? && ![@index_offered_by, @index_attendees, @index_attendees].include?(idx) 
+        if hcontent =~ /Ofrecido por/i || hcontent =~ /Offered by/i
+          @index_offered_by = idx
+          next
+        end
+        if hcontent =~ /Apúntense/i
+          @index_attendees = idx
+          next
+        end
+        if !omit_speaker && hcontent =~ /(Recursos|Resources)/i
+          @meeting.topics[current_topic_index].resource_indexes << idx
+          next
+        end
+        if h.name == 'h2' && @index_h1.nil?
           # In Github pages the title is the first h2!!
           return if omit_meeting?(hcontent)
           @index_h1 = idx
           omit_speaker = meeting_without_speaker?(hcontent)
+          next
         end
-        if    !omit_speaker &&
-              @index_speaker.nil? &&
-              @index_h1 && 
-              idx != @index_h1 &&
-              idx != @index_offered_by &&
-              idx != @index_attendees &&
-              idx != @index_resources
-          @index_speaker = idx
+        if  !omit_speaker &&
+            @meeting.topics[current_topic_index].speaker_indexes.empty?
+          @meeting.topics[current_topic_index].speaker_indexes << idx
+          next
         end
-        if    idx != @index_h1 &&
-              idx != @index_offered_by &&
-              idx != @index_attendees &&
-              idx != @index_resources &&
-              idx != @index_speaker
-          # This chapter isn't used in any special way. We will add it at the end of main
-          @additional_indexes_for_main << idx
-        end
+        # This chapter isn't used in any special way. We will add it to the current topic
+        @meeting.topics[current_topic_index].additional_indexes << idx
       end
     end
     if @index_h1.nil?

@@ -116,10 +116,98 @@
 
 
 
-    <p><strong>Fecha:</strong> Jueves, 28 de Febrero de 2013<br />
+    <h1><em>DOUBLE FEATURE</em>:  MongoDB &amp; Rails (<a href="http://vimeo.com/62438637" rel="nofollow">vídeo</a>) &amp; Videojuegos 2D con Ruby + Competición (<a href="http://vimeo.com/62488793" rel="nofollow">vídeo</a>)</h1>
+
+<p><strong>Fecha:</strong> Jueves, 28 de Febrero de 2013<br />
 <strong>Lugar:</strong> <a href="http://www.utopicus.es/" rel="nofollow">Utopic_US</a> (<a href="http://maps.google.es/maps?f=q&source=embed&hl=es&geocode=&q=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid&sll=40.396764,-3.713379&sspn=10.504732,23.269043&ie=UTF8&hq=&hnear=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid,+Comunidad+de+Madrid&ll=40.413867,-3.706683&spn=0.036727,0.076818&z=14" rel="nofollow">mapa</a>)<br />
 <strong>Hora:</strong> 19:45h<br />
 <strong>Vídeos:</strong> (ver más abajo)</p>
+
+<hr />
+
+<h1>MongoDB &amp; Rails</h1>
+
+<p>Introducción a MongoDB y a sus ventajas e inconvenientes respecto a una base de datos relacional en aplicaciones Rails.</p>
+
+<h3>Amaia Castro <a href="http://www.twitter.com/amaiac" rel="nofollow">@amaiac</a></h3>
+
+<p>MicroBio: Actualmente desarrolladora Rails freelance y poco inspirada para escribir bios, puedes ver más sobre mí en <a href="http://amaiacastro.com" rel="nofollow">amaiacastro.com</a></p>
+
+<p><a href="http://vimeo.com/62438637" rel="nofollow">Ver vídeo en Vimeo</a></p>
+
+<hr />
+
+<h1>Videojuegos 2D con Ruby + Competición</h1>
+
+<p>Tradicionalmente no se usa Ruby para el desarrollo de videojuegos, pero en esta charla veremos lo fácil que es crear un videojuego 2D con Ruby y también las limitaciones que tiene. Al tener esa base, os voy a proponer una pequeña competición de programación para todos en que se trata de programar el mejor tanque para una batalla entre todos de los participantes. ¡Venid para ver los detalles!</p>
+
+<h3>Adam Williams <a href="http://twitter.com/acw5" rel="nofollow">@acw5</a></h3>
+
+<p>Adam Williams nació en Minneapolis, Minnesota y lleva 6 años viviendo en España. Usa Ruby profesionalmente para hacer desarrollo con Rails y aparte tiene un proyecto personal hecho con Sinatra y el api streaming de Twitter relacionado con el fútbol <a href="http://imbetting.io" rel="nofollow">http://imbetting.io</a>.</p>
+
+<p><a href="http://vimeo.com/62488793" rel="nofollow">Ver vídeo en Vimeo</a></p>
+
+<hr />
+
+<h2>Ofrecido por</h2>
+
+<p> 
+<a href="http://www.bebanjo.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/bebanjo.png" alt="BeBanjo" /></a>     
+<a href="http://www.prorubyteam.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/proruby.png" alt="ProRuby" /></a>     
+<a href="http://the-cocktail.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/tck.png" alt="The Cocktail" /></a>     
+<br />
+<br />
+<a href="http://aspgems.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/aspgems.png" alt="ASPgems" /></a>     
+<a href="http://www.lciberica.es/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/lci.png" alt="LCIberica" /></a>     
+<a href="http://www.lextrend.com/" rel="nofollow"><img width="150px" src="http://madridrb.github.com/images/sponsors/lextrend.png" alt="Lextrend" /></a>     </p>
+
+<h3>Asistentes</h3>
+
+<p><em>(<a href="?m=edit" rel="nofollow">Edita</a> la página y añádete si tienes previsto venir)</em></p>
+
+<ul>
+<li>@otikik</li>
+<li>@amaiac</li>
+<li>@acw5</li>
+<li>@mcberros</li>
+<li>@eamodeorubio</li>
+<li>@colgado</li>
+<li>@ferblape</li>
+<li>@laura_morillo</li>
+<li>@jmanrubia</li>
+<li>@ivanfdezperea</li>
+<li>@ciscou</li>
+<li>@eLafo</li>
+<li>@christos</li>
+<li>@diec123</li>
+<li>@dgc273</li>
+<li>@zipizap</li>
+<li><a href="https://twitter.com/carlossanchezp" rel="nofollow">@carlossanchezp</a></li>
+<li><a href="https://twitter.com/supercoco9" rel="nofollow">@supercoco9</a></li>
+<li>@dparracatalan</li>
+<li>@pasku1</li>
+<li>@jmoratilla</li>
+<li>@joseluis</li>
+<li>@mikelodeon</li>
+<li>@antarticonorte</li>
+<li>@amartinfraguas</li>
+<li><a href="https://twitter.com/littlemove" rel="nofollow">@littlemove</a></li>
+<li>@jmdlta</li>
+<li>@javierhdez3</li>
+<li>@alvarosanmartin</li>
+<li>@afcapel</li>
+<li><a href="https://twitter.com/wchiquito" rel="nofollow">@wchiquito</a></li>
+<li>@darkrodry</li>
+<li><a href="https://twitter.com/RaulFlint" rel="nofollow">@RaulFlint</a></li>
+<li>@algohace</li>
+<li>@samlown</li>
+<li><a href="https://twitter.com/jdevega" rel="nofollow">@jdevega</a></li>
+<li><a href="https://twitter.com/adrpz" rel="nofollow">@adrpz</a>
+<strong>Fecha:</strong> Jueves, 28 de Febrero de 2013<br />
+<strong>Lugar:</strong> <a href="http://www.utopicus.es/" rel="nofollow">Utopic_US</a> (<a href="http://maps.google.es/maps?f=q&source=embed&hl=es&geocode=&q=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid&sll=40.396764,-3.713379&sspn=10.504732,23.269043&ie=UTF8&hq=&hnear=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid,+Comunidad+de+Madrid&ll=40.413867,-3.706683&spn=0.036727,0.076818&z=14" rel="nofollow">mapa</a>)<br />
+<strong>Hora:</strong> 19:45h<br />
+<strong>Vídeos:</strong> (ver más abajo)</li>
+</ul>
 
 <hr />
 
@@ -207,7 +295,7 @@
 
 <div id="dateline">
 
-    changed <span id="datestr">March 24, 2013</span>
+    changed <span id="datestr"><span id="count">1</span> <span id="unit">day</span> ago</span>
 
     
     <a accesskey="d" href="http://madridrb.jottit.com/febrero_2013?m=delete">delete</a>

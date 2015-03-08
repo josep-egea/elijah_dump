@@ -116,9 +116,11 @@
 
 
 
-    <h2>Madrid.rb Coding Dojo <em>(Special Christmas edition)</em></h2>
+    <h1>Coding Dojo</h1>
 
-<h4><strong>**UPDATE**</strong> Esta vez no quedamos en <del>The Cocktail</del> sino en <a href="http://www.utopicus.es/" rel="nofollow"><strong>Utopic_US</strong></a> (<a href="http://maps.google.es/maps?f=q&source=s_q&hl=es&geocode=&q=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid&sll=40.396764,-3.713379&sspn=10.504732,23.269043&ie=UTF8&hq=&hnear=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid,+Comunidad+de+Madrid&lr=lang_es|lang_en&view=map" rel="nofollow">mapa</a>) – Dec 30th – 19:45h</h4>
+<p><strong>Fecha:</strong> Dec 30th
+<strong>Hora:</strong> 19:45h
+<strong>Lugar:</strong> <a href="http://www.utopicus.es/" rel="nofollow"><strong>Utopic_US</strong></a></p>
 
 <p><strong>ZOMG!</strong> Para la quedada de Diciembre del grupo de usuarios de Ruby de Madrid, contagiados por el espíritu festivo propio de las fechas, proponemos acabar el año con estrella invitada y actividad especial. </p>
 
@@ -132,7 +134,7 @@
 
 <h3>Asistentes</h3>
 
-<p><em>(Edita la página y añádete si tienes previsto venir. No pasa nada si no estás seguro, es para asegurarnos de que hay espacio para todos)</em></p>
+<p><em>(<a href="?m=edit" rel="nofollow">Edita</a> la página y añádete si tienes previsto venir)</em></p>
 
 <ul>
 <li>@ecomba</li>
@@ -142,7 +144,7 @@
 <li>@Serabe</li>
 <li>@guillermooo</li>
 <li>@yonosoytu</li>
-<li>grusso</li>
+<li>@grusso</li>
 <li>@valakirka</li>
 <li>@enriqueaf</li>
 <li>@Laura_Morillo</li>
@@ -163,7 +165,7 @@
 <li>@mcberros</li>
 <li>@ialcazar</li>
 <li>@AlfredoCasado</li>
-<li>perezcc</li>
+<li>@perezcc</li>
 <li>@Zipizap</li>
 <li>@raguilera82</li>
 </ul>
@@ -172,7 +174,7 @@
 
 <div id="dateline">
 
-    changed <span id="datestr">February 18, 2011</span>
+    changed <span id="datestr"><span id="count">1</span> <span id="unit">day</span> ago</span>
 
     
     <a accesskey="d" href="http://madridrb.jottit.com/diciembre_2010?m=delete">delete</a>

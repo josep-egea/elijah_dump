@@ -1,5 +1,5 @@
 
-class Meeting < Struct.new(:title, :meeting_date, :meeting_time, :venue, :details, :speaker_name, :speaker_handle, :speaker_bio, :video_url, :offered_by, :offered_by_html, :attendees, :map_url, :slides_url, :original_url)
+module SparseJson
 
   def to_json(*a)
     h = {}
@@ -7,6 +7,17 @@ class Meeting < Struct.new(:title, :meeting_date, :meeting_time, :venue, :detail
       h[k.to_s] = v unless v.nil?
     end
     h.to_json(a)
+  end
+  
+end
+
+class Meeting < Struct.new(:title, :meeting_date, :meeting_time, :venue, :details, :offered_by, :offered_by_html, :attendees, :map_url, :original_url, :topics)
+  
+  include SparseJson
+  
+  def initialize(*args)
+    super
+    self[:topics] = []
   end
   
 end

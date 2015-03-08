@@ -25,6 +25,9 @@ class JottitParser
     total_ok = 0
     total_ko = 0
     meetings = []
+    @venue_maps = {}
+    @speaker_handles = {}
+    @speaker_bios = {}
     puts("Got #{total_uris} pages")
     uris.each do |uri|
       if omit_uri?(uri)
@@ -35,6 +38,7 @@ class JottitParser
           meeting = get_meeting(uri)
           if meeting
             meetings << meeting
+            update_master_dict(meeting)
             write_meeting(meeting)
             total_ok += 1
           end
@@ -44,6 +48,10 @@ class JottitParser
           total_ko += 1
         end
       end
+    end
+    # Fill the missing data, if we can
+    meetings.each do |meeting|
+      fill_missing_data(meeting)
     end
     puts("Finished processing #{total_uris} pages from #{parser_name}.")
     puts("OK:#{total_ok} - Failed:#{total_ko}")
@@ -60,6 +68,39 @@ class JottitParser
   
   def write_meeting(meeting)
     # puts meeting.to_yaml
+  end
+  
+  # Records some repetitive data, like map urls for venues and speaker handles
+  
+  def update_master_dict(meeting)
+    if meeting.venue && meeting.map_url && @venue_maps[meeting.venue].nil?
+      @venue_maps[meeting.venue] = meeting.map
+    end
+    meeting.topics.each do |topic|
+      topic.speakers.each do |speaker|
+        if speaker.speaker_name
+          if speaker.speaker_handle && @speaker_handles[speaker.speaker_name].nil?
+            @speaker_handles[speaker.speaker_name] = speaker.speaker_handle
+          end
+          if speaker.speaker_bio && @speaker_bios[speaker.speaker_name].nil?
+            @speaker_bios[speaker.speaker_name] = speaker.speaker_bio
+          end
+        end
+      end
+    end
+  end
+  
+  # If the meeting lacks data like map urls or speaker handles, tries to get it from the dict created from other meetings
+  def fill_missing_data(meeting)
+    meeting.map_url ||= @venue_maps[meeting.venue] unless meeting.venue.nil?
+    meeting.topics.each do |topic|
+      topic.speakers.each do |speaker|
+        if speaker.speaker_name
+          speaker.speaker_handle ||= @speaker_handles[speaker.speaker_name]
+          speaker.speaker_bio ||= @speaker_bios[speaker.speaker_name]
+        end
+      end
+    end
   end
   
   private
@@ -83,6 +124,10 @@ class JottitParser
   end
   
   def omit_uri?(uri)
+    return true if uri =~ /jottit.com\/euruko/
+    return true if uri =~ /jottit.com\/opurtunidad_de_ruby_on_rails_dublin/
+    return true if uri =~ /jottit.com\/resa/
+    return true if uri =~ /jottit.com\/book_crossing/
     return false
   end
   
