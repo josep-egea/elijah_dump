@@ -35,7 +35,6 @@
 
       <ul>
 
-      <li><a href="http://vimeo.com/12859503" rel="nofollow">Vídeo de la charla</a></li>
 
       <li><a href="http://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm" rel="nofollow">Roy
       Fielding''s dissertation about REST</a></li>
@@ -69,8 +68,6 @@
 
       ## Recursos
 
-
-      - [Vídeo de la charla](http://vimeo.com/12859503)
 
       - [Roy Fielding''s dissertation about REST](http://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm)
 
@@ -548,32 +545,33 @@
   topics:
   - !ruby/struct:Topic
     title: Finding Restfulness
-    details: ! '<p>Like me, you may have noticed that something is a little "off"
-      when creating REST APIs in Ruby and Rails. In this talk we''ll take a journey
-      to discover some of the confusing parts of the existing popular solutions and
-      take a good look at the concept of interfaces orientated around resources. We''ll
-      then discover how the Restulfness library might be the panacea you can incorporate
-      into your own projects and help you find the RESTful zen you''ve been searching
-      for.</p>
-
-      <p><strong>Venue:</strong> <a href="http://www.theirishrover.com/" rel="nofollow">The
-      Irish Rover</a>
-
-      - <a href="https://www.google.com/maps/place/The+Irish+Rover/@40.4549437,-3.6936623,17z/data=!4m7!1m4!3m3!1s0xd422902b93a7b4f:0xcdf2773b21bd0810!2sAv+de+Brasil,+7!3b1!3m1!1s0x0:0xac5dccb9e6db0dd5"
-      rel="nofollow">Avenida de Brasil, 7</a></p>
-
-      <p><strong>Time:</strong> 19:45h<br>
-
-      <strong>Video:</strong> <a href="http://vimeo.com/96569880" rel="nofollow">Vimeo</a></p>'
-    details_md: ! "Like me, you may have noticed that something is a little \"off\"
+    details: ! "<p>Like me, you may have noticed that something is a little \"off\"
       when creating REST APIs in Ruby and Rails. In this talk we'll take a journey
       to discover some of the confusing parts of the existing popular solutions and
       take a good look at the concept of interfaces orientated around resources. We'll
       then discover how the Restulfness library might be the panacea you can incorporate
       into your own projects and help you find the RESTful zen you've been searching
-      for.\n\n**Venue:** [The Irish Rover](http://www.theirishrover.com/)- [Avenida
-      de Brasil, 7](https://www.google.com/maps/place/The+Irish+Rover/@40.4549437,-3.6936623,17z/data=!4m7!1m4!3m3!1s0xd422902b93a7b4f:0xcdf2773b21bd0810!2sAv+de+Brasil,+7!3b1!3m1!1s0x0:0xac5dccb9e6db0dd5)\n\n**Time:**
-      19:45h  \n**Video:** [Vimeo](http://vimeo.com/96569880)\n\n"
+      for.</p>\n<p><strong>Venue:</strong> <a href=\"http://www.theirishrover.com/\"
+      rel=\"nofollow\">The Irish Rover</a>\n- <a href=\"https://www.google.com/maps/place/The+Irish+Rover/@40.4549437,-3.6936623,17z/data=!4m7!1m4!3m3!1s0xd422902b93a7b4f:0xcdf2773b21bd0810!2sAv+de+Brasil,+7!3b1!3m1!1s0x0:0xac5dccb9e6db0dd5\"
+      rel=\"nofollow\">Avenida de Brasil, 7</a></p>\n<p><strong>Time:</strong> 19:45h<br>\n
+      </p>"
+    details_md: ! 'Like me, you may have noticed that something is a little "off"
+      when creating REST APIs in Ruby and Rails. In this talk we''ll take a journey
+      to discover some of the confusing parts of the existing popular solutions and
+      take a good look at the concept of interfaces orientated around resources. We''ll
+      then discover how the Restulfness library might be the panacea you can incorporate
+      into your own projects and help you find the RESTful zen you''ve been searching
+      for.
+
+
+      **Venue:** [The Irish Rover](http://www.theirishrover.com/)- [Avenida de Brasil,
+      7](https://www.google.com/maps/place/The+Irish+Rover/@40.4549437,-3.6936623,17z/data=!4m7!1m4!3m3!1s0xd422902b93a7b4f:0xcdf2773b21bd0810!2sAv+de+Brasil,+7!3b1!3m1!1s0x0:0xac5dccb9e6db0dd5)
+
+
+      **Time:** 19:45h
+
+
+'
     video_url: http://vimeo.com/96569880
     slides_url: 
     speakers:
@@ -2049,7 +2047,6 @@
 
       <ul>
 
-      <li><a href="http://vimeo.com/20768519" rel="nofollow">Vídeo de la charla</a></li>
 
       </ul>'
     details_md: ! "Undoubtedly, Heroku is the new black. The Salesforce guys sure
@@ -2062,8 +2059,7 @@
       Heroku Add-Ons. The Essential, The Nice-to-have, The Rest\n- Anecdotal tales
       of the platform's quality of service and support \n\n**AVISO:** El idioma de
       la charla será español, inglés, griego o _spangreesh_ en función del número
-      de cervezas que lleve encima el ponente al comienzo de la misma\n\n### Resources\n\n-
-      [Vídeo de la charla](http://vimeo.com/20768519)\n"
+      de cervezas que lleve encima el ponente al comienzo de la misma\n\n### Resources\n\n"
     video_url: http://vimeo.com/20768519
     slides_url: 
     speakers:
@@ -2355,14 +2351,11 @@
         inspirada para escribir bios, puedes ver más sobre mí en <a href="http://amaiacastro.com"
         rel="nofollow">amaiacastro.com</a></p>
 
-        <p><a href="http://vimeo.com/62438637" rel="nofollow">Ver vídeo en Vimeo</a></p>
+        <p></p>
 
         <hr>'
       speaker_bio_md: ! 'MicroBio: Actualmente desarrolladora Rails freelance y poco
         inspirada para escribir bios, puedes ver más sobre mí en [amaiacastro.com](http://amaiacastro.com)
-
-
-        [Ver vídeo en Vimeo](http://vimeo.com/62438637)
 
 
         * * *
@@ -2405,16 +2398,13 @@
         y aparte tiene un proyecto personal hecho con Sinatra y el api streaming de
         Twitter relacionado con el fútbol <a href="http://imbetting.io" rel="nofollow">http://imbetting.io</a>.</p>
 
-        <p><a href="http://vimeo.com/62488793" rel="nofollow">Ver vídeo en Vimeo</a></p>
+        <p></p>
 
         <hr>'
       speaker_bio_md: ! 'Adam Williams nació en Minneapolis, Minnesota y lleva 6 años
         viviendo en España. Usa Ruby profesionalmente para hacer desarrollo con Rails
         y aparte tiene un proyecto personal hecho con Sinatra y el api streaming de
         Twitter relacionado con el fútbol [http://imbetting.io](http://imbetting.io).
-
-
-        [Ver vídeo en Vimeo](http://vimeo.com/62488793)
 
 
         * * *
@@ -3517,22 +3507,24 @@
   topics:
   - !ruby/struct:Topic
     title: RubyMotion, desarrollo móvil en Ruby
-    details: ! '<p>Introducción al desarrollo móvil en RubyMotion, toolchain, primeros
-      pasos, y por qué es una herramienta perfecta para desarrolladores de Ruby.</p>
+    details: ! "<p>Introducción al desarrollo móvil en RubyMotion, toolchain, primeros
+      pasos, y por qué es una herramienta perfecta para desarrolladores de Ruby.</p>\n<p><strong>Lugar:</strong>
+      <a href=\"http://www.theirishrover.com/\" rel=\"nofollow\">The Irish Rover</a>\n-
+      <a href=\"https://www.google.com/maps/place/The+Irish+Rover/@40.4549437,-3.6936623,17z/data=!4m7!1m4!3m3!1s0xd422902b93a7b4f:0xcdf2773b21bd0810!2sAv+de+Brasil,+7!3b1!3m1!1s0x0:0xac5dccb9e6db0dd5\"
+      rel=\"nofollow\">Avenida de Brasil, 7</a></p>\n<p><strong>Hora:</strong> 19:45h<br>\n
+      </p>"
+    details_md: ! 'Introducción al desarrollo móvil en RubyMotion, toolchain, primeros
+      pasos, y por qué es una herramienta perfecta para desarrolladores de Ruby.
 
-      <p><strong>Lugar:</strong> <a href="http://www.theirishrover.com/" rel="nofollow">The
-      Irish Rover</a>
 
-      - <a href="https://www.google.com/maps/place/The+Irish+Rover/@40.4549437,-3.6936623,17z/data=!4m7!1m4!3m3!1s0xd422902b93a7b4f:0xcdf2773b21bd0810!2sAv+de+Brasil,+7!3b1!3m1!1s0x0:0xac5dccb9e6db0dd5"
-      rel="nofollow">Avenida de Brasil, 7</a></p>
+      **Lugar:** [The Irish Rover](http://www.theirishrover.com/)- [Avenida de Brasil,
+      7](https://www.google.com/maps/place/The+Irish+Rover/@40.4549437,-3.6936623,17z/data=!4m7!1m4!3m3!1s0xd422902b93a7b4f:0xcdf2773b21bd0810!2sAv+de+Brasil,+7!3b1!3m1!1s0x0:0xac5dccb9e6db0dd5)
 
-      <p><strong>Hora:</strong> 19:45h<br>
 
-      <strong>Video:</strong> <a href="https://vimeo.com/110196699" rel="nofollow">Vimeo</a></p>'
-    details_md: ! "Introducción al desarrollo móvil en RubyMotion, toolchain, primeros
-      pasos, y por qué es una herramienta perfecta para desarrolladores de Ruby.\n\n**Lugar:**
-      [The Irish Rover](http://www.theirishrover.com/)- [Avenida de Brasil, 7](https://www.google.com/maps/place/The+Irish+Rover/@40.4549437,-3.6936623,17z/data=!4m7!1m4!3m3!1s0xd422902b93a7b4f:0xcdf2773b21bd0810!2sAv+de+Brasil,+7!3b1!3m1!1s0x0:0xac5dccb9e6db0dd5)\n\n**Hora:**
-      19:45h  \n**Video:** [Vimeo](https://vimeo.com/110196699)\n\n"
+      **Hora:** 19:45h
+
+
+'
     video_url: https://vimeo.com/110196699
     slides_url: 
     speakers:
@@ -3659,8 +3651,6 @@
 
       <ul>
 
-      <li><a href="http://vimeo.com/madridrb/blat-mar11" rel="nofollow">Vídeo de la
-      charla</a></li>
 
       <li><a href="http://www.slideshare.net/ferblape/sequel-madridrb" rel="nofollow">Slides
       de la charla</a></li>
@@ -3685,8 +3675,6 @@
 
       ### Recursos
 
-
-      - [Vídeo de la charla](http://vimeo.com/madridrb/blat-mar11)
 
       - [Slides de la charla](http://www.slideshare.net/ferblape/sequel-madridrb)
 
@@ -3738,8 +3726,6 @@
 
       <ul>
 
-      <li><a href="http://vimeo.com/madridrb/jorge-mar11" rel="nofollow">Vídeo de
-      la charla</a></li>
 
       <li><a href="http://diasjorge.github.com/pair-programming-slides" rel="nofollow">Slides
       de la charla</a></li>
@@ -3755,8 +3741,6 @@
 
       ### Recursos
 
-
-      - [Vídeo de la charla](http://vimeo.com/madridrb/jorge-mar11)
 
       - [Slides de la charla](http://diasjorge.github.com/pair-programming-slides)
 
@@ -4725,30 +4709,32 @@
   topics:
   - !ruby/struct:Topic
     title: ¿TDD como problema?
-    details: ! '<p>David Heinemeier(DHH), un importante referente de la comunidad
+    details: ! "<p>David Heinemeier(DHH), un importante referente de la comunidad
       de desarrollo de Ruby y creador de Rails, ha generado mucha polémica entorno
       al mundo de los Tests. DHH afirmó que TDD está en vías de extinción  — al menos
       para él —, lo cual ha tenido una repercusión considerable a nivel mundial. ¿Está
       realmente TDD muerto? ¿Que conclusiones podemos sacar? ¿Cómo afecta esto al
-      entorno Español?... ¡anótate al debate y lo averiguaremos juntos!.</p>
-
-      <p><strong>Lugar:</strong> <a href="http://www.theirishrover.com/" rel="nofollow">The
-      Irish Rover</a>
-
-      - <a href="https://www.google.com/maps/place/The+Irish+Rover/@40.4549437,-3.6936623,17z/data=!4m7!1m4!3m3!1s0xd422902b93a7b4f:0xcdf2773b21bd0810!2sAv+de+Brasil,+7!3b1!3m1!1s0x0:0xac5dccb9e6db0dd5"
-      rel="nofollow">Avenida de Brasil, 7</a></p>
-
-      <p><strong>Hora:</strong> 19:45h<br>
-
-      <strong>Video:</strong> <a href="http://vimeo.com/99116904" rel="nofollow">vimeo</a></p>'
-    details_md: ! "David Heinemeier(DHH), un importante referente de la comunidad
+      entorno Español?... ¡anótate al debate y lo averiguaremos juntos!.</p>\n<p><strong>Lugar:</strong>
+      <a href=\"http://www.theirishrover.com/\" rel=\"nofollow\">The Irish Rover</a>\n-
+      <a href=\"https://www.google.com/maps/place/The+Irish+Rover/@40.4549437,-3.6936623,17z/data=!4m7!1m4!3m3!1s0xd422902b93a7b4f:0xcdf2773b21bd0810!2sAv+de+Brasil,+7!3b1!3m1!1s0x0:0xac5dccb9e6db0dd5\"
+      rel=\"nofollow\">Avenida de Brasil, 7</a></p>\n<p><strong>Hora:</strong> 19:45h<br>\n
+      </p>"
+    details_md: ! 'David Heinemeier(DHH), un importante referente de la comunidad
       de desarrollo de Ruby y creador de Rails, ha generado mucha polémica entorno
       al mundo de los Tests. DHH afirmó que TDD está en vías de extinción — al menos
       para él —, lo cual ha tenido una repercusión considerable a nivel mundial. ¿Está
       realmente TDD muerto? ¿Que conclusiones podemos sacar? ¿Cómo afecta esto al
-      entorno Español?... ¡anótate al debate y lo averiguaremos juntos!.\n\n**Lugar:**
-      [The Irish Rover](http://www.theirishrover.com/)- [Avenida de Brasil, 7](https://www.google.com/maps/place/The+Irish+Rover/@40.4549437,-3.6936623,17z/data=!4m7!1m4!3m3!1s0xd422902b93a7b4f:0xcdf2773b21bd0810!2sAv+de+Brasil,+7!3b1!3m1!1s0x0:0xac5dccb9e6db0dd5)\n\n**Hora:**
-      19:45h  \n**Video:** [vimeo](http://vimeo.com/99116904)\n\n"
+      entorno Español?... ¡anótate al debate y lo averiguaremos juntos!.
+
+
+      **Lugar:** [The Irish Rover](http://www.theirishrover.com/)- [Avenida de Brasil,
+      7](https://www.google.com/maps/place/The+Irish+Rover/@40.4549437,-3.6936623,17z/data=!4m7!1m4!3m3!1s0xd422902b93a7b4f:0xcdf2773b21bd0810!2sAv+de+Brasil,+7!3b1!3m1!1s0x0:0xac5dccb9e6db0dd5)
+
+
+      **Hora:** 19:45h
+
+
+'
     video_url: http://vimeo.com/99116904
     slides_url: 
     speakers:

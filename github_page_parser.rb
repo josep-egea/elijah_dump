@@ -32,7 +32,7 @@ class GithubPageParser < JottitPageParser
     if node.name == 'hr' || node.name == 'h3'
       return false
     end
-    return true
+    super
   end
 
   def process_metadata

@@ -1,3 +1,5 @@
+# encoding: utf-8
+
 # Parses a page, using one of its specialized helper classes
 
 require './meeting'
@@ -67,7 +69,7 @@ class JottitPageParser
           # These are not really details
           @nodes_for_metadata << node
         else
-          details << node.to_html
+          details << filter_node_for_final_output(node)
         end
       end
       @meeting.title = clean_links_from_header(header)
@@ -105,7 +107,7 @@ class JottitPageParser
       end
       contents.each do |node|
         if include_topic_node_in_main_content?(node)
-          details << node.to_html
+          details << filter_node_for_final_output(node)
         end
         topic.found_links.concat(node.css('a').to_a)
       end
@@ -120,9 +122,8 @@ class JottitPageParser
       # These are not really details
       @nodes_for_metadata << node
       return false
-    else
-      return true
     end
+    return true
   end
   
   def process_speakers(topic)
@@ -152,7 +153,7 @@ class JottitPageParser
       handle_str = find_speaker_handle_in_node_list(contents) if handle_str.nil?
       # And the bio
       contents.each do |node|
-        bio << node.to_html
+        bio << filter_node_for_final_output(node)
         topic.found_links.concat(node.css('a').to_a)
       end
     end
@@ -264,6 +265,27 @@ class JottitPageParser
   
   def remove_duplicate_topics
     @meeting.topics.uniq!
+  end
+  
+  # Removes content that we don't want in the final output, like video links
+  
+  def filter_node_for_final_output(node)
+    dnode = node.dup
+    # First, we look for the bare link
+    if (a = dnode.at_css('a')) && a[:href] =~ /vimeo/
+      # Then, we look for a parent, <li> element
+      a = a.parent if a.parent.name == 'li'
+      # Then we remove it
+      a.remove
+    end
+    # Now we look for stale labels
+    dnode.css('strong').each do |sn|
+      if sn.content =~ /(video|vídeo)\:/i
+        sn.remove
+      end
+    end
+    # No more filters. We return the remaining text
+    return dnode.to_html
   end
   
   def generate_markdown
@@ -431,7 +453,7 @@ class JottitPageParser
   
   # Returns the html of a nodes array
   def html_for_nodes(nodes)
-    (nodes.map {|node| node.to_html}).join("\n")
+    (nodes.map {|node| filter_node_for_final_output(node)}).join("\n")
   end
   
   # Returns the html for a chapter index
@@ -442,7 +464,7 @@ class JottitPageParser
     contents = @page_chapters[idx][:contents]
     res << header.to_html if header
     if contents
-      res.concat(contents.map {|node| node.to_html})
+      res.concat(contents.map {|node| filter_node_for_final_output(node)})
     end
     return res.join("\n")
   end
