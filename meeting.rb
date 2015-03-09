@@ -11,7 +11,7 @@ module SparseJson
   
 end
 
-class Meeting < Struct.new(:title, :meeting_date, :meeting_time, :venue, :details, :offered_by, :offered_by_html, :attendees, :map_url, :original_url, :topics)
+class Meeting < Struct.new(:title, :meeting_date, :meeting_time, :venue, :details, :details_md, :offered_by, :offered_by_html, :attendees, :map_url, :original_url, :topics)
   
   include SparseJson
   

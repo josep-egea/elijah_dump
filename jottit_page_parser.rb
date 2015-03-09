@@ -6,6 +6,7 @@ require './speaker'
 require './node_additions'
 require './date_additions'
 require './string_additions'
+require 'reverse_markdown'
 
 class JottitPageParser
   
@@ -53,6 +54,7 @@ class JottitPageParser
     process_attendees
     process_offered_by
     remove_duplicate_topics
+    generate_markdown
   end
   
   def process_main_header
@@ -261,6 +263,22 @@ class JottitPageParser
   
   def remove_duplicate_topics
     @meeting.topics.uniq!
+  end
+  
+  def generate_markdown
+    if @meeting.details
+      @meeting.details_md = ReverseMarkdown.convert(@meeting.details)
+    end
+    @meeting.topics.each do |topic|
+      if topic.details
+        topic.details_md = ReverseMarkdown.convert(topic.details)
+      end
+      topic.speakers.each do |speaker|
+        if speaker.speaker_bio
+          speaker.speaker_bio_md = ReverseMarkdown.convert(speaker.speaker_bio)
+        end
+      end
+    end
   end
   
   # Tries to determine the indexes of the relevant chapters

@@ -18,6 +18,7 @@ The output file contains an array of meetings. For each of them, these fields ca
 
 *	`title`
 *	`details`
+*	`details_md`
 *	`meeting_date`
 *	`meeting_time`
 *	`offered_by`
@@ -36,6 +37,7 @@ The output file contains an array of meetings. For each of them, these fields ca
 
 *	`title`
 *	`details`	
+*	`details_md`
 *	`video_url`
 *	`slides_url`
 *	`speakers` 
@@ -45,8 +47,21 @@ Again, `speakers` is an array that contains the list of speakers for a given top
 *	`speaker_name`
 *	`speaker_handle`
 *	`speaker_bio`
+*	`speaker_bio_md`
 
-These fields contain raw HTML: `details`, `speaker_bio`, `offered_by_html`. The rest contain plain text.
+These fields contain raw HTML: `details`, `speaker_bio`, `offered_by_html`. 
+
+These fields contain Markdown: `details_md` (both in a `meeting` and in each `topic`) and `speaker_bio_md`.
+
+The rest contain plain text.
+
+### Markdown conversion
+
+Fields with HTML are converted back to Markdown thanks to [reverse_markdown](https://github.com/xijo/reverse_markdown).
+
+Original pages were written in Markdown but the parsing uses Nokogiri to navigate through the raw HTML, so the results are in HTML too. However, Markdown source is preferred to repopulate the new site.
+
+Fortunately, reverse_markdown seems to perform a great job at reverting the process.
 
 ### Page caching
 

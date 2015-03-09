@@ -1,6 +1,6 @@
 require './meeting'
 
-class Topic < Struct.new(:title, :details, :video_url, :slides_url, :speakers)
+class Topic < Struct.new(:title, :details, :details_md, :video_url, :slides_url, :speakers)
 
   include SparseJson
 
