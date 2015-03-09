@@ -233,6 +233,7 @@
     - !ruby/object:Nokogiri::XML::Element {}
     - !ruby/object:Nokogiri::XML::Element {}
     - !ruby/object:Nokogiri::XML::Element {}
+    - !ruby/object:Nokogiri::XML::Element {}
 - !ruby/struct:Meeting
   title: Extending Ruby
   meeting_date: 2012-04-26
@@ -322,6 +323,7 @@
     resource_indexes: []
     additional_indexes: []
     found_links:
+    - !ruby/object:Nokogiri::XML::Element {}
     - !ruby/object:Nokogiri::XML::Element {}
     - !ruby/object:Nokogiri::XML::Element {}
     - !ruby/object:Nokogiri::XML::Element {}
@@ -467,7 +469,8 @@
     - 2
     resource_indexes: []
     additional_indexes: []
-    found_links: []
+    found_links:
+    - !ruby/object:Nokogiri::XML::Element {}
 - !ruby/struct:Meeting
   title: Finding Restfulness
   meeting_date: 2014-04-24
@@ -604,6 +607,10 @@
     additional_indexes:
     - 1
     found_links:
+    - !ruby/object:Nokogiri::XML::Element {}
+    - !ruby/object:Nokogiri::XML::Element {}
+    - !ruby/object:Nokogiri::XML::Element {}
+    - !ruby/object:Nokogiri::XML::Element {}
     - !ruby/object:Nokogiri::XML::Element {}
     - !ruby/object:Nokogiri::XML::Element {}
     - !ruby/object:Nokogiri::XML::Element {}
@@ -790,6 +797,10 @@
     resource_indexes: []
     additional_indexes: []
     found_links:
+    - !ruby/object:Nokogiri::XML::Element {}
+    - !ruby/object:Nokogiri::XML::Element {}
+    - !ruby/object:Nokogiri::XML::Element {}
+    - !ruby/object:Nokogiri::XML::Element {}
     - !ruby/object:Nokogiri::XML::Element {}
     - !ruby/object:Nokogiri::XML::Element {}
     - !ruby/object:Nokogiri::XML::Element {}
@@ -1063,6 +1074,12 @@
     - !ruby/object:Nokogiri::XML::Element {}
     - !ruby/object:Nokogiri::XML::Element {}
     - !ruby/object:Nokogiri::XML::Element {}
+    - !ruby/object:Nokogiri::XML::Element {}
+    - !ruby/object:Nokogiri::XML::Element {}
+    - !ruby/object:Nokogiri::XML::Element {}
+    - !ruby/object:Nokogiri::XML::Element {}
+    - !ruby/object:Nokogiri::XML::Element {}
+    - !ruby/object:Nokogiri::XML::Element {}
 - !ruby/struct:Meeting
   title: Modelotes ActiveRecord
   meeting_date: 2012-12-27
@@ -1199,6 +1216,7 @@
     resource_indexes: []
     additional_indexes: []
     found_links:
+    - !ruby/object:Nokogiri::XML::Element {}
     - !ruby/object:Nokogiri::XML::Element {}
     - !ruby/object:Nokogiri::XML::Element {}
     - !ruby/object:Nokogiri::XML::Element {}
@@ -1344,7 +1362,10 @@
     - 2
     resource_indexes: []
     additional_indexes: []
-    found_links: []
+    found_links:
+    - !ruby/object:Nokogiri::XML::Element {}
+    - !ruby/object:Nokogiri::XML::Element {}
+    - !ruby/object:Nokogiri::XML::Element {}
 - !ruby/struct:Meeting
   title: A [git] workflow
   meeting_date: 2011-01-27
@@ -1534,6 +1555,7 @@
     - !ruby/object:Nokogiri::XML::Element {}
     - !ruby/object:Nokogiri::XML::Element {}
     - !ruby/object:Nokogiri::XML::Element {}
+    - !ruby/object:Nokogiri::XML::Element {}
 - !ruby/struct:Meeting
   title: Backbone + Rails + Handlebars = Éxito
   meeting_date: 2012-01-26
@@ -1700,6 +1722,7 @@
     - !ruby/object:Nokogiri::XML::Element {}
     - !ruby/object:Nokogiri::XML::Element {}
     - !ruby/object:Nokogiri::XML::Element {}
+    - !ruby/object:Nokogiri::XML::Element {}
 - !ruby/struct:Meeting
   title: Continuous Delivery con Rails, Hudson y Heroku
   meeting_date: 2013-01-31
@@ -1820,6 +1843,9 @@
     - !ruby/object:Nokogiri::XML::Element {}
     - !ruby/object:Nokogiri::XML::Element {}
     - !ruby/object:Nokogiri::XML::Element {}
+    - !ruby/object:Nokogiri::XML::Element {}
+    - !ruby/object:Nokogiri::XML::Element {}
+    - !ruby/object:Nokogiri::XML::Element {}
 - !ruby/struct:Meeting
   title: Lua for Rubysts
   meeting_date: 2014-01-30
@@ -1926,7 +1952,10 @@
     - 2
     resource_indexes: []
     additional_indexes: []
-    found_links: []
+    found_links:
+    - !ruby/object:Nokogiri::XML::Element {}
+    - !ruby/object:Nokogiri::XML::Element {}
+    - !ruby/object:Nokogiri::XML::Element {}
 - !ruby/struct:Meeting
   title: A g[r]eek talking about Heroku
   meeting_date: 2011-02-24
@@ -2061,6 +2090,7 @@
     - 2
     additional_indexes: []
     found_links:
+    - !ruby/object:Nokogiri::XML::Element {}
     - !ruby/object:Nokogiri::XML::Element {}
     - !ruby/object:Nokogiri::XML::Element {}
     - !ruby/object:Nokogiri::XML::Element {}
@@ -2315,7 +2345,7 @@
 
 
 '
-    video_url: 
+    video_url: http://vimeo.com/62438637
     slides_url: 
     speakers:
     - !ruby/struct:Speaker
@@ -2344,7 +2374,9 @@
     - 2
     resource_indexes: []
     additional_indexes: []
-    found_links: []
+    found_links:
+    - !ruby/object:Nokogiri::XML::Element {}
+    - !ruby/object:Nokogiri::XML::Element {}
   - !ruby/struct:Topic
     title: Videojuegos 2D con Ruby + Competición
     details: <p>Tradicionalmente no se usa Ruby para el desarrollo de videojuegos,
@@ -2362,7 +2394,7 @@
 
 
 '
-    video_url: 
+    video_url: http://vimeo.com/62488793
     slides_url: 
     speakers:
     - !ruby/struct:Speaker
@@ -2394,7 +2426,9 @@
     - 4
     resource_indexes: []
     additional_indexes: []
-    found_links: []
+    found_links:
+    - !ruby/object:Nokogiri::XML::Element {}
+    - !ruby/object:Nokogiri::XML::Element {}
 - !ruby/struct:Meeting
   title: ! 'Hacking social: tras las líneas enemigas'
   meeting_date: 2014-02-27
@@ -2865,6 +2899,9 @@
     - 3
     found_links:
     - !ruby/object:Nokogiri::XML::Element {}
+    - !ruby/object:Nokogiri::XML::Element {}
+    - !ruby/object:Nokogiri::XML::Element {}
+    - !ruby/object:Nokogiri::XML::Element {}
 - !ruby/struct:Meeting
   title: Terracismo-rb
   meeting_date: 
@@ -2993,7 +3030,8 @@
     - 1
     resource_indexes: []
     additional_indexes: []
-    found_links: []
+    found_links:
+    - !ruby/object:Nokogiri::XML::Element {}
 - !ruby/struct:Meeting
   title: Streaming en Rails 3.1
   meeting_date: 2011-06-30
@@ -3148,6 +3186,11 @@
     found_links:
     - !ruby/object:Nokogiri::XML::Element {}
     - !ruby/object:Nokogiri::XML::Element {}
+    - !ruby/object:Nokogiri::XML::Element {}
+    - !ruby/object:Nokogiri::XML::Element {}
+    - !ruby/object:Nokogiri::XML::Element {}
+    - !ruby/object:Nokogiri::XML::Element {}
+    - !ruby/object:Nokogiri::XML::Element {}
 - !ruby/struct:Meeting
   title: Metapresentación
   meeting_date: 2012-06-28
@@ -3255,6 +3298,8 @@
     resource_indexes: []
     additional_indexes: []
     found_links:
+    - !ruby/object:Nokogiri::XML::Element {}
+    - !ruby/object:Nokogiri::XML::Element {}
     - !ruby/object:Nokogiri::XML::Element {}
     - !ruby/object:Nokogiri::XML::Element {}
 - !ruby/struct:Meeting
@@ -3383,7 +3428,15 @@
     - 2
     resource_indexes: []
     additional_indexes: []
-    found_links: []
+    found_links:
+    - !ruby/object:Nokogiri::XML::Element {}
+    - !ruby/object:Nokogiri::XML::Element {}
+    - !ruby/object:Nokogiri::XML::Element {}
+    - !ruby/object:Nokogiri::XML::Element {}
+    - !ruby/object:Nokogiri::XML::Element {}
+    - !ruby/object:Nokogiri::XML::Element {}
+    - !ruby/object:Nokogiri::XML::Element {}
+    - !ruby/object:Nokogiri::XML::Element {}
 - !ruby/struct:Meeting
   title: RubyMotion, desarrollo móvil en Ruby
   meeting_date: 2014-06-26
@@ -3503,6 +3556,7 @@
     additional_indexes:
     - 1
     found_links:
+    - !ruby/object:Nokogiri::XML::Element {}
     - !ruby/object:Nokogiri::XML::Element {}
     - !ruby/object:Nokogiri::XML::Element {}
     - !ruby/object:Nokogiri::XML::Element {}
@@ -3670,6 +3724,7 @@
     - !ruby/object:Nokogiri::XML::Element {}
     - !ruby/object:Nokogiri::XML::Element {}
     - !ruby/object:Nokogiri::XML::Element {}
+    - !ruby/object:Nokogiri::XML::Element {}
   - !ruby/struct:Topic
     title: ! 'Pair programming: una forma de desarrollar software'
     details: ! '<p>La idea de la charla es dar a conocer el pair programming como
@@ -3731,6 +3786,8 @@
     - 6
     additional_indexes: []
     found_links:
+    - !ruby/object:Nokogiri::XML::Element {}
+    - !ruby/object:Nokogiri::XML::Element {}
     - !ruby/object:Nokogiri::XML::Element {}
     - !ruby/object:Nokogiri::XML::Element {}
 - !ruby/struct:Meeting
@@ -3873,6 +3930,7 @@
     found_links:
     - !ruby/object:Nokogiri::XML::Element {}
     - !ruby/object:Nokogiri::XML::Element {}
+    - !ruby/object:Nokogiri::XML::Element {}
 - !ruby/struct:Meeting
   title: The Javascript Horror Show
   meeting_date: 2013-03-21
@@ -3993,7 +4051,10 @@
     - 2
     resource_indexes: []
     additional_indexes: []
-    found_links: []
+    found_links:
+    - !ruby/object:Nokogiri::XML::Element {}
+    - !ruby/object:Nokogiri::XML::Element {}
+    - !ruby/object:Nokogiri::XML::Element {}
 - !ruby/struct:Meeting
   title: Ordenando las vistas. Decorator y Presenters
   meeting_date: 2014-03-27
@@ -4109,7 +4170,9 @@
     - 2
     resource_indexes: []
     additional_indexes: []
-    found_links: []
+    found_links:
+    - !ruby/object:Nokogiri::XML::Element {}
+    - !ruby/object:Nokogiri::XML::Element {}
 - !ruby/struct:Meeting
   title: ! 'Madrid-rb Cine Club: Rails 3'
   meeting_date: 2010-05-27
@@ -4291,7 +4354,9 @@
     - 2
     resource_indexes: []
     additional_indexes: []
-    found_links: []
+    found_links:
+    - !ruby/object:Nokogiri::XML::Element {}
+    - !ruby/object:Nokogiri::XML::Element {}
   - !ruby/struct:Topic
     title: Introducción a Solr-Lucene en Rails con Sunspot
     details: <p>No tan conocido como Sphinx para montar tu buscador en aplicaciones
@@ -4328,7 +4393,8 @@
     - 4
     resource_indexes: []
     additional_indexes: []
-    found_links: []
+    found_links:
+    - !ruby/object:Nokogiri::XML::Element {}
 - !ruby/struct:Meeting
   title: ! 'MacRuby y RubyMotion: Programando aplicaciones en Ruby para iOS y Mac'
   meeting_date: 2012-05-31
@@ -4587,7 +4653,8 @@
     - 2
     resource_indexes: []
     additional_indexes: []
-    found_links: []
+    found_links:
+    - !ruby/object:Nokogiri::XML::Element {}
 - !ruby/struct:Meeting
   title: ¿TDD como problema?
   meeting_date: 2014-05-29
@@ -4870,6 +4937,11 @@
     found_links:
     - !ruby/object:Nokogiri::XML::Element {}
     - !ruby/object:Nokogiri::XML::Element {}
+    - !ruby/object:Nokogiri::XML::Element {}
+    - !ruby/object:Nokogiri::XML::Element {}
+    - !ruby/object:Nokogiri::XML::Element {}
+    - !ruby/object:Nokogiri::XML::Element {}
+    - !ruby/object:Nokogiri::XML::Element {}
 - !ruby/struct:Meeting
   title: Coding Dojo en Madrid-rb
   meeting_date: 2012-11-29
@@ -4979,6 +5051,7 @@
     resource_indexes: []
     additional_indexes: []
     found_links:
+    - !ruby/object:Nokogiri::XML::Element {}
     - !ruby/object:Nokogiri::XML::Element {}
     - !ruby/object:Nokogiri::XML::Element {}
     - !ruby/object:Nokogiri::XML::Element {}
@@ -5098,7 +5171,9 @@
     - 2
     resource_indexes: []
     additional_indexes: []
-    found_links: []
+    found_links:
+    - !ruby/object:Nokogiri::XML::Element {}
+    - !ruby/object:Nokogiri::XML::Element {}
 - !ruby/struct:Meeting
   title: JRuby en Webpop - Rhino y Akka
   meeting_date: 2011-10-27
@@ -5168,6 +5243,9 @@
     resource_indexes: []
     additional_indexes: []
     found_links:
+    - !ruby/object:Nokogiri::XML::Element {}
+    - !ruby/object:Nokogiri::XML::Element {}
+    - !ruby/object:Nokogiri::XML::Element {}
     - !ruby/object:Nokogiri::XML::Element {}
     - !ruby/object:Nokogiri::XML::Element {}
 - !ruby/struct:Meeting
@@ -5292,6 +5370,8 @@
     resource_indexes: []
     additional_indexes: []
     found_links:
+    - !ruby/object:Nokogiri::XML::Element {}
+    - !ruby/object:Nokogiri::XML::Element {}
     - !ruby/object:Nokogiri::XML::Element {}
     - !ruby/object:Nokogiri::XML::Element {}
     - !ruby/object:Nokogiri::XML::Element {}
@@ -5447,6 +5527,8 @@
     additional_indexes: []
     found_links:
     - !ruby/object:Nokogiri::XML::Element {}
+    - !ruby/object:Nokogiri::XML::Element {}
+    - !ruby/object:Nokogiri::XML::Element {}
 - !ruby/struct:Meeting
   title: ! 'RabbitMQ + Ruby #'
   meeting_date: 2010-09-30
@@ -5509,7 +5591,12 @@
     - 1
     resource_indexes: []
     additional_indexes: []
-    found_links: []
+    found_links:
+    - !ruby/object:Nokogiri::XML::Element {}
+    - !ruby/object:Nokogiri::XML::Element {}
+    - !ruby/object:Nokogiri::XML::Element {}
+    - !ruby/object:Nokogiri::XML::Element {}
+    - !ruby/object:Nokogiri::XML::Element {}
 - !ruby/struct:Meeting
   title: Si yo fuera una API
   meeting_date: 2011-09-29
@@ -5585,6 +5672,7 @@
     resource_indexes: []
     additional_indexes: []
     found_links:
+    - !ruby/object:Nokogiri::XML::Element {}
     - !ruby/object:Nokogiri::XML::Element {}
     - !ruby/object:Nokogiri::XML::Element {}
 - !ruby/struct:Meeting
@@ -5709,6 +5797,7 @@
     resource_indexes: []
     additional_indexes: []
     found_links:
+    - !ruby/object:Nokogiri::XML::Element {}
     - !ruby/object:Nokogiri::XML::Element {}
     - !ruby/object:Nokogiri::XML::Element {}
 - !ruby/struct:Meeting
@@ -6005,6 +6094,10 @@
     - !ruby/object:Nokogiri::XML::Element {}
     - !ruby/object:Nokogiri::XML::Element {}
     - !ruby/object:Nokogiri::XML::Element {}
+    - !ruby/object:Nokogiri::XML::Element {}
+    - !ruby/object:Nokogiri::XML::Element {}
+    - !ruby/object:Nokogiri::XML::Element {}
+    - !ruby/object:Nokogiri::XML::Element {}
 - !ruby/struct:Meeting
   title: Integración Continua fuera de la alargada sombra de Jenkins
   meeting_date: 2014-09-25
@@ -6128,6 +6221,8 @@
     resource_indexes: []
     additional_indexes: []
     found_links:
+    - !ruby/object:Nokogiri::XML::Element {}
+    - !ruby/object:Nokogiri::XML::Element {}
     - !ruby/object:Nokogiri::XML::Element {}
     - !ruby/object:Nokogiri::XML::Element {}
     - !ruby/object:Nokogiri::XML::Element {}
@@ -6593,6 +6688,8 @@
     resource_indexes: []
     additional_indexes: []
     found_links:
+    - !ruby/object:Nokogiri::XML::Element {}
+    - !ruby/object:Nokogiri::XML::Element {}
     - !ruby/object:Nokogiri::XML::Element {}
     - !ruby/object:Nokogiri::XML::Element {}
     - !ruby/object:Nokogiri::XML::Element {}

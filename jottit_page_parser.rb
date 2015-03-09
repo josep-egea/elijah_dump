@@ -153,6 +153,7 @@ class JottitPageParser
       # And the bio
       contents.each do |node|
         bio << node.to_html
+        topic.found_links.concat(node.css('a').to_a)
       end
     end
     # Done
