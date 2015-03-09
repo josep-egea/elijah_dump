@@ -241,6 +241,8 @@ class JottitPageParser
     date = Date.parse_madrid_rb_date(text)
     if date
       @meeting.meeting_date = date
+    else
+      @meeting.meeting_date = get_hardcoded_date
     end
   end
 
@@ -379,6 +381,7 @@ class JottitPageParser
   def node_has_metadata?(node)
     raw_text = node.content.downcase
     return true if raw_text =~ /fecha\:\s/
+    return true if raw_text =~ /día\:\s/
     return true if raw_text =~ /hora\:\s/
     return true if raw_text =~ /lugar\:\s/
     return true if raw_text =~ /date\:\s/
@@ -399,6 +402,14 @@ class JottitPageParser
     return true if @original_url =~ /agosto_2012/
     return true if @original_url =~ /octubre_2013/
     return false
+  end
+  
+  # Some original pages are so messed up that it's better to hardcode the important values
+  
+  def get_hardcoded_date
+    return Date.new(2010, 12, 30) if @original_url =~ /diciembre_2010/
+    return Date.new(2011, 7, 20) if @original_url =~ /tbol.rb_julio_2011/
+    return Date.new(2013, 6, 27) if @original_url =~ /junio_2013/
   end
   
   # Filters out selected meetings that don't have speakers

@@ -519,6 +519,7 @@
 
 '
 - title: Terracismo-rb
+  meeting_date: 2011-08-25
   meeting_time: '20:00'
   venue: Terraza Valle Hermoso
   attendees: []
@@ -539,6 +540,7 @@
 '
     speakers: []
 - title: Una introducción al testing y al TDD.
+  meeting_date: 2012-08-30
   meeting_time: '19:00'
   venue: Utopic_US
   offered_by:
@@ -669,6 +671,7 @@
 
 '
 - title: Terracismo-rb
+  meeting_date: 2013-08-29
   meeting_time: '20:00'
   venue: Terraza Valle HermosoRibera de Curtidores, 28
   attendees:
@@ -696,6 +699,7 @@
 '
     speakers: []
 - title: Coding Dojo
+  meeting_date: 2010-12-30
   meeting_time: '19:45'
   venue: Utopic_US
   attendees:
@@ -2168,6 +2172,7 @@
 
 '
 - title: ¡¡Partido de fútbol!!
+  meeting_date: 2011-07-20
   venue: Polideportivo La Elipa, pista 1-A (entrada por calle Alcalde Garrido Juaristi)
   original_url: http://madridrb.jottit.com/f%C3%BAtbol.rb_julio_2011
   topics:
@@ -2239,6 +2244,7 @@
       cojo de Cáceres) \n18. @amaiac\n19. @floydzy\n"
     speakers: []
 - title: Terracismo-rb
+  meeting_date: 2011-07-28
   meeting_time: '20:00'
   venue: Terraza Valle Hermoso
   map_url: http://maps.google.es/maps?q=Jardines+de+Per%C3%B3n&ie=UTF8&ll=40.452989,-3.695934&spn=0.01365,0.012381&fb=1&gl=es&cid=0,0,1081779755368921360&t=h&z=16&iwloc=A
@@ -2284,6 +2290,7 @@
 '
     speakers: []
 - title: Terracismo-rb
+  meeting_date: 2012-07-26
   meeting_time: '20:00'
   venue: Terraza Valle Hermoso
   attendees:
@@ -2435,6 +2442,7 @@
 
 '
 - title: Terracismo-rb
+  meeting_date: 2011-07-28
   meeting_time: '20:00'
   venue: Terraza Valle Hermoso
   map_url: http://maps.google.es/maps?q=Jardines+de+Per%C3%B3n&ie=UTF8&ll=40.452989,-3.695934&spn=0.01365,0.012381&fb=1&gl=es&cid=0,0,1081779755368921360&t=h&z=16&iwloc=A
@@ -2760,6 +2768,7 @@
 
 '
 - title: Introduction to RubyMotion
+  meeting_date: 2013-06-27
   meeting_time: '19:45'
   venue: Utopic_US (map)
   offered_by:

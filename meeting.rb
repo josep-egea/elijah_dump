@@ -31,6 +31,13 @@ class Meeting < Struct.new(:title, :meeting_date, :meeting_time, :venue, :detail
     self[:topics] = []
   end
   
+  def check_contents
+    raise "Meeting has no date!: #{original_url}" if meeting_date.nil?
+    topics.each do |topic|
+      topic.check_contents
+    end
+  end 
+  
 end
 
 class Date

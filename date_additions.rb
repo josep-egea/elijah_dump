@@ -22,11 +22,11 @@ class Date
   
   def self.parse_madrid_rb_date(text)
     date = nil
-    datereg = text.match(/fecha\: (#{SPANISH_WDAYS_R})\, (\d+) de (#{SPANISH_MONTHS_R}) de (\d\d\d\d)/i)
+    datereg = text.match(/(fecha|día|dia)\: (#{SPANISH_WDAYS_R})\, (\d+) de\s*(#{SPANISH_MONTHS_R}) de (\d\d\d\d)/i)
     if datereg
-      month = SPANISH_MONTHS.index($3.downcase)
+      month = SPANISH_MONTHS.index($4.downcase)
       if month
-        date = self.new($4.to_i, month + 1, $2.to_i)
+        date = self.new($5.to_i, month + 1, $3.to_i)
       end
     else
       datereg = text.match(/date\: (#{ENGLISH_WDAYS_R})\, (#{ENGLISH_MONTHS_R}) (\d+).*(\d\d\d\d)/i)

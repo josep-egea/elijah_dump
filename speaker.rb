@@ -4,4 +4,7 @@ class Speaker < Struct.new(:speaker_name, :speaker_handle, :speaker_bio, :speake
 
   include SparseJson
 
+  def check_contents
+  end 
+
 end

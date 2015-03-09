@@ -68,6 +68,8 @@ class JottitParser
   
   def write_meeting(meeting)
     # puts meeting.to_yaml
+    # Let data check itself
+    meeting.check_contents
   end
   
   # Records some repetitive data, like map urls for venues and speaker handles

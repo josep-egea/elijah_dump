@@ -25,4 +25,10 @@ class Topic < Struct.new(:title, :details, :details_md, :video_url, :slides_url,
             additional_indexes.empty? && found_links.empty?
   end
   
+  def check_contents
+    speakers.each do |speaker|
+      speaker.check_contents
+    end
+  end 
+  
 end
