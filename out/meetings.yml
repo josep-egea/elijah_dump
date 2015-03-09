@@ -1,19 +1,11 @@
 ---
-- !ruby/struct:Meeting
-  title: Por la gloria de REST
+- title: Por la gloria de REST
   meeting_date: 2010-04-29
   meeting_time: '19:45'
   venue: Aula The Cocktail
-  details: 
-  details_md: 
-  offered_by: 
-  offered_by_html: 
-  attendees: 
-  map_url: 
   original_url: http://madridrb.jottit.com/abril_2010
   topics:
-  - !ruby/struct:Topic
-    title: Por la gloria de REST
+  - title: Por la gloria de REST
     details: ! '<p>Hace diez años Roy Fielding describía el concepto REST en la tesis
       de su doctorado. Hace tres, Rails 1.2 abrazaba el concepto y lo convertía en
       una de sus convenciones principales. Hoy, no hay servicio en Internet que se
@@ -77,10 +69,8 @@
 
 '
     video_url: http://vimeo.com/12859503
-    slides_url: 
     speakers:
-    - !ruby/struct:Speaker
-      speaker_name: Luismi Cavallé
+    - speaker_name: Luismi Cavallé
       speaker_handle: ! '@cavalle'
       speaker_bio: <p>Desarrollador de software, lleva casi diez años en el oficio
         de construir aplicaciones web y en la búsqueda del camino con menos fricción
@@ -95,27 +85,10 @@
 
 
 '
-    topic_indexes:
-    - 0
-    speaker_indexes:
-    - 1
-    resource_indexes:
-    - 2
-    additional_indexes: []
-    found_links:
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-- !ruby/struct:Meeting
-  title: Tries, la pronunciación se deja como ejercicio para el lector
+- title: Tries, la pronunciación se deja como ejercicio para el lector
   meeting_date: 2011-04-28
   meeting_time: '19:45'
   venue: Utopic_US
-  details: 
-  details_md: 
-  offered_by: 
-  offered_by_html: 
   attendees:
   - ! '@serabe'
   - ! '@cavalle'
@@ -161,8 +134,7 @@
   map_url: http://maps.google.es/maps?f=q&source=embed&hl=es&geocode=&q=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid&sll=40.396764,-3.713379&sspn=10.504732,23.269043&ie=UTF8&hq=&hnear=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid,+Comunidad+de+Madrid&ll=40.413867,-3.706683&spn=0.036727,0.076818&z=14
   original_url: http://madridrb.jottit.com/abril_2011
   topics:
-  - !ruby/struct:Topic
-    title: Tries, la pronunciación se deja como ejercicio para el lector
+  - title: Tries, la pronunciación se deja como ejercicio para el lector
     details: ! '<p>Que sirva esto como mensaje tranquilizador: no habrá <em>demasiado</em>
       contenido matemático en la charla. Hablaremos de complejidad y de estructuras
       de datos, principalmente del trie.</p>
@@ -190,10 +162,8 @@
 
 '
     video_url: http://vimeo.com/25850180
-    slides_url: 
     speakers:
-    - !ruby/struct:Speaker
-      speaker_name: Sergio Arbeo
+    - speaker_name: Sergio Arbeo
       speaker_handle: ! '@Serabe'
       speaker_bio: ! '<p>Sergio nació en Madrid, se crió en Madrid y vive en Madrid,
         pero por culpa de sus abuelos paternos no es gato puro. Tuvo la <strike>desgracia</strike>
@@ -219,25 +189,10 @@
 
 
 '
-    topic_indexes:
-    - 0
-    speaker_indexes:
-    - 1
-    resource_indexes: []
-    additional_indexes: []
-    found_links:
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-- !ruby/struct:Meeting
-  title: Extending Ruby
+- title: Extending Ruby
   meeting_date: 2012-04-26
   meeting_time: '19:45'
   venue: Utopic_US, Calle Duque de Rivas 5, Madrid.
-  details: 
-  details_md: 
   offered_by:
   - http://www.vizzuality.com/
   - http://www.bebanjo.com/
@@ -274,8 +229,7 @@
   map_url: http://g.co/maps/4ktdg
   original_url: http://madridrb.jottit.com/abril_2012
   topics:
-  - !ruby/struct:Topic
-    title: Extending Ruby
+  - title: Extending Ruby
     details: ! '<p>Esta charla será una introducción a las extensiones en C para Ruby.
       Comenzando por el estilo clásico hasta FFI. Trataremos ventajas, inconvenientes
       y trade-offs de las distintas técnicas.</p>
@@ -293,10 +247,8 @@
 
 '
     video_url: http://vimeo.com/58873830
-    slides_url: 
     speakers:
-    - !ruby/struct:Speaker
-      speaker_name: Raúl Naveiras
+    - speaker_name: Raúl Naveiras
       speaker_handle: ! '@rnaveiras'
       speaker_bio: ! '<p>Raúl comenzó a programar hace más de 15 años, durante los
         cuales ha realizado todo tipo de proyectos y usando todo tipo de lenguajes.
@@ -313,24 +265,10 @@
 
 
 '
-    topic_indexes:
-    - 0
-    speaker_indexes:
-    - 1
-    resource_indexes: []
-    additional_indexes: []
-    found_links:
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-- !ruby/struct:Meeting
-  title: Érase una vez, Ruby
+- title: Érase una vez, Ruby
   meeting_date: 2013-04-25
   meeting_time: '19:45'
   venue: Utopic_US
-  details: 
-  details_md: 
   offered_by:
   - http://www.bebanjo.com/
   - http://www.prorubyteam.com/
@@ -416,8 +354,7 @@
   map_url: http://maps.google.es/maps?f=q&source=embed&hl=es&geocode=&q=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid&sll=40.396764,-3.713379&sspn=10.504732,23.269043&ie=UTF8&hq=&hnear=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid,+Comunidad+de+Madrid&ll=40.413867,-3.706683&spn=0.036727,0.076818&z=14
   original_url: http://madridrb.jottit.com/abril_2013
   topics:
-  - !ruby/struct:Topic
-    title: Érase una vez, Ruby
+  - title: Érase una vez, Ruby
     details: ! '<p>Esta charla es como un cuento de hadas. Es una charla sobre detalles
       internos de la implementación de Ruby (MRI). Bueno, mejor olvídate de las hadas.
       Hay un montón de cosas debajo de los intérpretes de Ruby que se usan en producción.
@@ -440,10 +377,8 @@
 
 '
     video_url: http://vimeo.com/66382610
-    slides_url: 
     speakers:
-    - !ruby/struct:Speaker
-      speaker_name: Vicent Martí
+    - speaker_name: Vicent Martí
       speaker_handle: ! '@vmg'
       speaker_bio: <p>Vicent Martí es un tipo "to reshulón". Trabaja como ingeniero
         de sistemas en <a href="https://github.com/" rel="nofollow">GitHub</a>, el
@@ -460,21 +395,10 @@
 
 
 '
-    topic_indexes:
-    - 1
-    speaker_indexes:
-    - 2
-    resource_indexes: []
-    additional_indexes: []
-    found_links:
-    - !ruby/object:Nokogiri::XML::Element {}
-- !ruby/struct:Meeting
-  title: Finding Restfulness
+- title: Finding Restfulness
   meeting_date: 2014-04-24
   meeting_time: '19:45'
   venue: The Irish Rover
-  details: 
-  details_md: 
   offered_by:
   - http://www.bebanjo.com/
   - http://www.prorubyteam.com/
@@ -543,8 +467,7 @@
   map_url: https://www.google.com/maps/place/The+Irish+Rover/@40.4549437,-3.6936623,17z/data=!4m7!1m4!3m3!1s0xd422902b93a7b4f:0xcdf2773b21bd0810!2sAv+de+Brasil,+7!3b1!3m1!1s0x0:0xac5dccb9e6db0dd5
   original_url: http://madridrb.jottit.com/abril_2014
   topics:
-  - !ruby/struct:Topic
-    title: Finding Restfulness
+  - title: Finding Restfulness
     details: ! "<p>Like me, you may have noticed that something is a little \"off\"
       when creating REST APIs in Ruby and Rails. In this talk we'll take a journey
       to discover some of the confusing parts of the existing popular solutions and
@@ -573,10 +496,8 @@
 
 '
     video_url: http://vimeo.com/96569880
-    slides_url: 
     speakers:
-    - !ruby/struct:Speaker
-      speaker_name: Sam Lown
+    - speaker_name: Sam Lown
       speaker_handle: ! '@samlown'
       speaker_bio: <p>Sam, CTO and co-founder of <a href="http://www.cabify.es/" rel="nofollow">Cabify</a>,
         is obsessed with finding elegant solutions to complex problems. He's been
@@ -597,36 +518,14 @@
 
 
 '
-    topic_indexes:
-    - 2
-    speaker_indexes:
-    - 3
-    resource_indexes: []
-    additional_indexes:
-    - 1
-    found_links:
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-- !ruby/struct:Meeting
-  title: Terracismo-rb
-  meeting_date: 
+- title: Terracismo-rb
   meeting_time: '20:00'
   venue: Terraza Valle Hermoso
-  details: 
-  details_md: 
-  offered_by: 
-  offered_by_html: 
   attendees: []
   map_url: http://maps.google.es/maps?q=Jardines+de+Per%C3%B3n&ie=UTF8&ll=40.452989,-3.695934&spn=0.01365,0.012381&fb=1&gl=es&cid=0,0,1081779755368921360&t=h&z=16&iwloc=A
   original_url: http://madridrb.jottit.com/agosto_2011
   topics:
-  - !ruby/struct:Topic
-    title: Terracismo-rb
+  - title: Terracismo-rb
     details: <p>Siguiendo la tradición, en periodos estivales tratamos de soportar
       los rigores del clima de la capital en una terraza, con una cerveza (o refresco)
       y en compañía de lo más granado del rubismo madrileño (los que no han huido
@@ -638,23 +537,10 @@
 
 
 '
-    video_url: 
-    slides_url: 
     speakers: []
-    topic_indexes:
-    - 0
-    speaker_indexes: []
-    resource_indexes: []
-    additional_indexes: []
-    found_links:
-    - !ruby/object:Nokogiri::XML::Element {}
-- !ruby/struct:Meeting
-  title: Una introducción al testing y al TDD.
-  meeting_date: 
+- title: Una introducción al testing y al TDD.
   meeting_time: '19:00'
   venue: Utopic_US
-  details: 
-  details_md: 
   offered_by:
   - http://www.vizzuality.com/
   - http://www.bebanjo.com/
@@ -726,8 +612,7 @@
   map_url: http://maps.google.es/maps?f=q&source=embed&hl=es&geocode=&q=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid&sll=40.396764,-3.713379&sspn=10.504732,23.269043&ie=UTF8&hq=&hnear=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid,+Comunidad+de+Madrid&ll=40.413867,-3.706683&spn=0.036727,0.076818&z=14
   original_url: http://madridrb.jottit.com/agosto_2012
   topics:
-  - !ruby/struct:Topic
-    title: Una introducción al testing y al TDD.
+  - title: Una introducción al testing y al TDD.
     details: ! '<p>Como continuación del <a href="http://javier-ramirez.com/curso-gratuito-solidario-ruby-on-rails.html"
       rel="nofollow">curso gratuito de Ruby on Rails para programadores en paro</a>
       que han ofrecido Javier Ramírez y cía, vamos a dar una pequeña introducción
@@ -748,11 +633,8 @@
 
 
 '
-    video_url: 
-    slides_url: 
     speakers:
-    - !ruby/struct:Speaker
-      speaker_name: Raúl Naveiras
+    - speaker_name: Raúl Naveiras
       speaker_handle: ! '@rnaveiras'
       speaker_bio: ! '<p>Raúl comenzó a programar hace más de 15 años, durante los
         cuales ha realizado todo tipo de proyectos y usando todo tipo de lenguajes.
@@ -769,8 +651,7 @@
 
 
 '
-    - !ruby/struct:Speaker
-      speaker_name: Fernando Blat
+    - speaker_name: Fernando Blat
       speaker_handle: ! '@ferblape'
       speaker_bio: ! '<p><a href="http://fernando.blat.es" rel="nofollow">Fernando</a>
         lleva más de 7 años trabajando como desarrollador web. Aquí puedes encontrar
@@ -787,30 +668,9 @@
 
 
 '
-    topic_indexes:
-    - 0
-    speaker_indexes:
-    - 1
-    - 2
-    resource_indexes: []
-    additional_indexes: []
-    found_links:
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-- !ruby/struct:Meeting
-  title: Terracismo-rb
-  meeting_date: 
+- title: Terracismo-rb
   meeting_time: '20:00'
   venue: Terraza Valle HermosoRibera de Curtidores, 28
-  details: 
-  details_md: 
-  offered_by: 
-  offered_by_html: 
   attendees:
   - ! '@otikik'
   - ! '@amaiac'
@@ -822,8 +682,7 @@
   map_url: https://maps.google.es/maps? ie=UTF8&q=Restaurante+El+Valle+Hermoso&fb=1&gl=es&hq=Restaurante+El+Valle+Hermoso&hnear=Madrid,+Comunidad+de+Madrid&ll=40.450082,-3.652439&spn=0.113386,0.253029&t=m&z=13&vpsrc=0&iwloc=A&cid=16033649943092139621
   original_url: http://madridrb.jottit.com/agosto_2013
   topics:
-  - !ruby/struct:Topic
-    title: Terracismo-rb
+  - title: Terracismo-rb
     details: <p>En verano no hay charlas de madrid-rb, porque hay muy poca gente y
       está todo el mundo de vacaciones. ¡Pero siempre queda alguien! Los que podamos,
       nos reuniremos para tomar un vermut y unos altramuces con pepinillos en vinagre
@@ -835,27 +694,10 @@
 
 
 '
-    video_url: 
-    slides_url: 
     speakers: []
-    topic_indexes:
-    - 0
-    speaker_indexes: []
-    resource_indexes: []
-    additional_indexes: []
-    found_links:
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-- !ruby/struct:Meeting
-  title: Coding Dojo
-  meeting_date: 
+- title: Coding Dojo
   meeting_time: '19:45'
   venue: Utopic_US
-  details: 
-  details_md: 
-  offered_by: 
-  offered_by_html: 
   attendees:
   - ! '@ecomba'
   - ! '@cavalle'
@@ -891,8 +733,7 @@
   map_url: http://maps.google.es/maps?f=q&source=s_q&hl=es&geocode=&q=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid&sll=40.396764,-3.713379&sspn=10.504732,23.269043&ie=UTF8&hq=&hnear=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid,+Comunidad+de+Madrid&lr=lang_es|lang_en&view=map
   original_url: http://madridrb.jottit.com/diciembre_2010
   topics:
-  - !ruby/struct:Topic
-    title: Coding Dojo
+  - title: Coding Dojo
     details: ! '<p><strong>ZOMG!</strong> Para la quedada de Diciembre del grupo de
       usuarios de Ruby de Madrid, contagiados por el espíritu festivo propio de las
       fechas, proponemos acabar el año con estrella invitada y actividad especial.
@@ -947,31 +788,11 @@
 
 
 '
-    video_url: 
-    slides_url: 
     speakers: []
-    topic_indexes:
-    - 0
-    speaker_indexes: []
-    resource_indexes: []
-    additional_indexes: []
-    found_links:
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-- !ruby/struct:Meeting
-  title: Colaboración usando Eventos en Ruby
+- title: Colaboración usando Eventos en Ruby
   meeting_date: 2011-12-29
   meeting_time: '19:45'
   venue: Utopic_US, Calle de la Concepción Jerónima 22, Madrid.
-  details: 
-  details_md: 
   offered_by:
   - http://www.vizzuality.com/
   - http://www.bebanjo.com/
@@ -1008,8 +829,7 @@
   map_url: http://maps.google.es/maps?f=q&source=embed&hl=es&geocode=&q=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid&sll=40.396764,-3.713379&sspn=10.504732,23.269043&ie=UTF8&hq=&hnear=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid,+Comunidad+de+Madrid&ll=40.413867,-3.706683&spn=0.036727,0.076818&z=14
   original_url: http://madridrb.jottit.com/diciembre_2011
   topics:
-  - !ruby/struct:Topic
-    title: Colaboración usando Eventos en Ruby
+  - title: Colaboración usando Eventos en Ruby
     details: ! '<p>A medida que nuestras aplicaciones evolucionan, resulta más difícil
       gestionar la creciente complejidad y mantener el sistema mantenible. Llega un
       punto en que tu aplicación monolítica es lo suficientemente grande como para
@@ -1045,11 +865,8 @@
 
 
 '
-    video_url: 
-    slides_url: 
     speakers:
-    - !ruby/struct:Speaker
-      speaker_name: Luismi Cavallé
+    - speaker_name: Luismi Cavallé
       speaker_handle: ! '@cavalle'
       speaker_bio: <p>Luismi [<a href="https://twitter.com/cavalle" rel="nofollow">twitter</a>|<a
         href="http://github.com/cavalle" rel="nofollow">github</a>|<a href="http://blog.lmcavalle.com"
@@ -1062,29 +879,10 @@
 
 
 '
-    topic_indexes:
-    - 0
-    speaker_indexes:
-    - 1
-    resource_indexes: []
-    additional_indexes: []
-    found_links:
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-- !ruby/struct:Meeting
-  title: Modelotes ActiveRecord
+- title: Modelotes ActiveRecord
   meeting_date: 2012-12-27
   meeting_time: '19:45'
   venue: Utopic_US
-  details: 
-  details_md: 
   offered_by:
   - http://www.vizzuality.com/
   - http://www.bebanjo.com/
@@ -1163,8 +961,7 @@
   map_url: http://maps.google.es/maps?f=q&source=embed&hl=es&geocode=&q=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid&sll=40.396764,-3.713379&sspn=10.504732,23.269043&ie=UTF8&hq=&hnear=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid,+Comunidad+de+Madrid&ll=40.413867,-3.706683&spn=0.036727,0.076818&z=14
   original_url: http://madridrb.jottit.com/diciembre_2012
   topics:
-  - !ruby/struct:Topic
-    title: Modelotes ActiveRecord
+  - title: Modelotes ActiveRecord
     details: ! '<p>“Skinny Controllers” es una práctica habitual en la comunidad Rails.
       Todo el mundo parece de acuerdo en que resulta beneficioso mantener los controladores
       lo más delgados posible. Sin embargo, lo que no genera tanto acuerdo es cómo
@@ -1193,10 +990,8 @@
 
 '
     video_url: http://vimeo.com/57356569
-    slides_url: 
     speakers:
-    - !ruby/struct:Speaker
-      speaker_name: Luismi Cavallé
+    - speaker_name: Luismi Cavallé
       speaker_handle: ! '@cavalle'
       speaker_bio: <p>Programador en <a href="http://bebanjo.com/" rel="nofollow">BeBanjo</a>.
         Contribuidor Open-Source. Speaker ocasional. Y, claramente, hoy no muy inspirado
@@ -1207,24 +1002,10 @@
 
 
 '
-    topic_indexes:
-    - 0
-    speaker_indexes:
-    - 1
-    resource_indexes: []
-    additional_indexes: []
-    found_links:
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-- !ruby/struct:Meeting
-  title: Catacrockea a cascoporro con redis
+- title: Catacrockea a cascoporro con redis
   meeting_date: 2013-12-26
   meeting_time: '19:45'
   venue: Utopic_US US3 (c/ Colegiata 9)
-  details: 
-  details_md: 
   offered_by:
   - http://www.bebanjo.com/
   - http://www.prorubyteam.com/
@@ -1308,8 +1089,7 @@
   map_url: https://www.google.com/maps/preview#!q=Calle+Colegiata%2C+9%2C+Madrid%2C+Spain&data=!4m10!1m9!4m8!1m3!1d203964!2d-3.6795367!3d40.4378271!3m2!1i1436!2i806!4f13.1
   original_url: http://madridrb.jottit.com/diciembre_2013
   topics:
-  - !ruby/struct:Topic
-    title: Catacrockea a cascoporro con redis
+  - title: Catacrockea a cascoporro con redis
     details: ! '<p>Todo el mundo está usando Redis, y con motivo: Es rápido, es fácil
       y es web scale. Pero Redis puede hacer muchas más cosas de las típicas para
       las que lo usa la comunidad Ruby. En esta charla hablaré sobre lo que se puede
@@ -1326,10 +1106,8 @@
 
 '
     video_url: http://vimeo.com/85642729
-    slides_url: 
     speakers:
-    - !ruby/struct:Speaker
-      speaker_name: Javier Ramírez
+    - speaker_name: Javier Ramírez
       speaker_handle: ! '@supercoco9'
       speaker_bio: ! '<p>Desarrollador web, soñador y en general una persona feliz.
         Interesado en todo lo que tenga que ver con Internet y cómo está cambiando
@@ -1354,25 +1132,10 @@
 
 
 '
-    topic_indexes:
-    - 1
-    speaker_indexes:
-    - 2
-    resource_indexes: []
-    additional_indexes: []
-    found_links:
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-- !ruby/struct:Meeting
-  title: A [git] workflow
+- title: A [git] workflow
   meeting_date: 2011-01-27
   meeting_time: '19:45'
   venue: Vivero de Empresas Puente de Vallecas
-  details: 
-  details_md: 
-  offered_by: 
-  offered_by_html: 
   attendees:
   - ! '@samlown'
   - ! '@bomberstudios'
@@ -1450,8 +1213,7 @@
   map_url: http://maps.google.es/maps?f=q&source=s_q&hl=en&geocode=&q=Calle+de+la+Diligencia,+9,+Madrid&aq=0&sll=40.383103,-3.656814&sspn=0.009186,0.019205&g=Calle+de+la+Diligencia,+9,+28018+Madrid,+Comunidad+de+Madrid&ie=UTF8&hq=&hnear=Calle+de+la+Diligencia,+9,+28018+Madrid,+Comunidad+de+Madrid&ll=40.384164,-3.656602&spn=0.009186,0.019205&z=16
   original_url: http://madridrb.jottit.com/enero_2011
   topics:
-  - !ruby/struct:Topic
-    title: A [git] workflow
+  - title: A [git] workflow
     details: ! '<p>Todos sabemos usar Git (o estamos a un <a href="http://progit.org/"
       rel="nofollow">libro</a> de distancia de ello) pero, ¿cómo sacarle mayor partido?
       </p>
@@ -1517,11 +1279,9 @@
       - [Wallpaper de regalo](http://bit.ly/gnPV10) (cortesía de [@bomberstudios](http://twitter.com/bomberstudios))
 
 '
-    video_url: 
     slides_url: http://slidesha.re/gvbvl5
     speakers:
-    - !ruby/struct:Speaker
-      speaker_name: Sergio Gil
+    - speaker_name: Sergio Gil
       speaker_handle: ! '@porras'
       speaker_bio: <p>Desarrollador, ciclista urbano y del Atlético de Madrid. También
         conocido como <a href="http://twitter.com/porras" rel="nofollow">@porras</a>,
@@ -1539,28 +1299,10 @@
 
 
 '
-    topic_indexes:
-    - 0
-    speaker_indexes:
-    - 1
-    resource_indexes:
-    - 2
-    additional_indexes: []
-    found_links:
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-- !ruby/struct:Meeting
-  title: Backbone + Rails + Handlebars = Éxito
+- title: Backbone + Rails + Handlebars = Éxito
   meeting_date: 2012-01-26
   meeting_time: '19:45'
   venue: Utopic_US, Calle Duque de Rivas 5, Madrid.
-  details: 
-  details_md: 
   offered_by:
   - http://www.vizzuality.com/
   - http://www.bebanjo.com/
@@ -1648,8 +1390,7 @@
   map_url: http://g.co/maps/4ktdg
   original_url: http://madridrb.jottit.com/enero_2012
   topics:
-  - !ruby/struct:Topic
-    title: Backbone + Rails + Handlebars = Éxito
+  - title: Backbone + Rails + Handlebars = Éxito
     details: ! '<p>En esta charla Germán nos contará su experiencia compartiendo plantillas
       <a href="http://handlebarsjs.com/" rel="nofollow">handlebars</a> tanto en el
       servidor (con Rails) como en el cliente (con <a href="http://backbonejs.org/"
@@ -1680,11 +1421,9 @@
 
 
 '
-    video_url: 
     slides_url: http://hbsdemo.heroku.com/slides/
     speakers:
-    - !ruby/struct:Speaker
-      speaker_name: German Del Zotto
+    - speaker_name: German Del Zotto
       speaker_handle: ! '@GermanDZ'
       speaker_bio: ! '<p>Ésto es lo que cuenta German de sí mismo:</p>
 
@@ -1705,29 +1444,10 @@
 
 
 '
-    topic_indexes:
-    - 0
-    speaker_indexes:
-    - 1
-    resource_indexes: []
-    additional_indexes:
-    - 2
-    found_links:
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-- !ruby/struct:Meeting
-  title: Continuous Delivery con Rails, Hudson y Heroku
+- title: Continuous Delivery con Rails, Hudson y Heroku
   meeting_date: 2013-01-31
   meeting_time: '19:45'
   venue: Utopic_US
-  details: 
-  details_md: 
   offered_by:
   - http://www.bebanjo.com/
   - http://www.prorubyteam.com/
@@ -1795,8 +1515,7 @@
   map_url: http://maps.google.es/maps?f=q&source=embed&hl=es&geocode=&q=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid&sll=40.396764,-3.713379&sspn=10.504732,23.269043&ie=UTF8&hq=&hnear=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid,+Comunidad+de+Madrid&ll=40.413867,-3.706683&spn=0.036727,0.076818&z=14
   original_url: http://madridrb.jottit.com/enero_2013
   topics:
-  - !ruby/struct:Topic
-    title: Continuous Delivery con Rails, Hudson y Heroku
+  - title: Continuous Delivery con Rails, Hudson y Heroku
     details: <p><em>Continuous Delivery</em> es una vuelta de tuerca a la práctica
       de integración continua. Busca conseguir la liberación fiable y predecible de
       versiones a través de la automatización total de los pasos implicados. En esta
@@ -1813,10 +1532,8 @@
 
 '
     video_url: http://vimeo.com/60436802
-    slides_url: 
     speakers:
-    - !ruby/struct:Speaker
-      speaker_name: Jorge Manrubia
+    - speaker_name: Jorge Manrubia
       speaker_handle: ! '@jmanrubia'
       speaker_bio: <p>Jorge Manrubia es un desarrollador al que le encanta la programación
         en general y Ruby en particular. Es cofundador de <a href="http://zendone.com"
@@ -1831,26 +1548,10 @@
 
 
 '
-    topic_indexes:
-    - 0
-    speaker_indexes:
-    - 1
-    resource_indexes: []
-    additional_indexes: []
-    found_links:
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-- !ruby/struct:Meeting
-  title: Lua for Rubysts
+- title: Lua for Rubysts
   meeting_date: 2014-01-30
   meeting_time: '19:45'
   venue: Utopic_US US3 (c/ Colegiata 9)
-  details: 
-  details_md: 
   offered_by:
   - http://www.bebanjo.com/
   - http://www.prorubyteam.com/
@@ -1905,8 +1606,7 @@
   map_url: https://www.google.com/maps/preview#!q=Calle+Colegiata%2C+9%2C+Madrid%2C+Spain&data=!4m10!1m9!4m8!1m3!1d203964!2d-3.6795367!3d40.4378271!3m2!1i1436!2i806!4f13.1
   original_url: http://madridrb.jottit.com/enero_2014
   topics:
-  - !ruby/struct:Topic
-    title: Lua for Rubysts
+  - title: Lua for Rubysts
     details: <p>Lua is a small, fast language that is discretely being embedded in
       an increasing number of systems. On this talk, we'll learn what problems does
       it solve, what are its main assumptions, and how it compares with ruby. We'll
@@ -1921,10 +1621,8 @@
 
 '
     video_url: https://vimeo.com/88137764
-    slides_url: 
     speakers:
-    - !ruby/struct:Speaker
-      speaker_name: Enrique García Cota
+    - speaker_name: Enrique García Cota
       speaker_handle: ! '@otikik'
       speaker_bio: ! '<p>I love programming; it''s a profession where you never stop
         learning. I believe that software can change society, and I am fascinated
@@ -1944,25 +1642,10 @@
 
 
 '
-    topic_indexes:
-    - 1
-    speaker_indexes:
-    - 2
-    resource_indexes: []
-    additional_indexes: []
-    found_links:
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-- !ruby/struct:Meeting
-  title: A g[r]eek talking about Heroku
+- title: A g[r]eek talking about Heroku
   meeting_date: 2011-02-24
   meeting_time: '19:45'
   venue: Utopic_US
-  details: 
-  details_md: 
-  offered_by: 
-  offered_by_html: 
   attendees:
   - ! '@christos'
   - ! '@cavalle'
@@ -2015,8 +1698,7 @@
   map_url: http://maps.google.es/maps?f=q&source=embed&hl=es&geocode=&q=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid&sll=40.396764,-3.713379&sspn=10.504732,23.269043&ie=UTF8&hq=&hnear=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid,+Comunidad+de+Madrid&ll=40.413867,-3.706683&spn=0.036727,0.076818&z=14
   original_url: http://madridrb.jottit.com/febrero_2011
   topics:
-  - !ruby/struct:Topic
-    title: A g[r]eek talking about Heroku
+  - title: A g[r]eek talking about Heroku
     details: ! '<p>Undoubtedly, Heroku is the new black. The Salesforce guys sure
       think so, and so do all the cool kids on the ruby-block. So, you wonder, is
       it right for you? </p>
@@ -2061,10 +1743,8 @@
       la charla será español, inglés, griego o _spangreesh_ en función del número
       de cervezas que lleve encima el ponente al comienzo de la misma\n\n### Resources\n\n"
     video_url: http://vimeo.com/20768519
-    slides_url: 
     speakers:
-    - !ruby/struct:Speaker
-      speaker_name: Christos Zisopoulos
+    - speaker_name: Christos Zisopoulos
       speaker_handle: ! '@christos'
       speaker_bio: <p><a href="http://twitter.com/christos" rel="nofollow">Christos</a>
         escapó hace algunos años del endogámico mundo de la television interactiva
@@ -2078,27 +1758,10 @@
 
 
 '
-    topic_indexes:
-    - 0
-    speaker_indexes:
-    - 1
-    resource_indexes:
-    - 2
-    additional_indexes: []
-    found_links:
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-- !ruby/struct:Meeting
-  title: Lightning talks
+- title: Lightning talks
   meeting_date: 2012-02-23
   meeting_time: '19:45'
   venue: Utopic_US, Calle Duque de Rivas 5, Madrid.
-  details: 
-  details_md: 
   offered_by:
   - http://www.vizzuality.com/
   - http://www.bebanjo.com/
@@ -2171,8 +1834,7 @@
   map_url: http://g.co/maps/4ktdg
   original_url: http://madridrb.jottit.com/febrero_2012
   topics:
-  - !ruby/struct:Topic
-    title: Lightning talks
+  - title: Lightning talks
     details: ! '<p>Charlas de poco tiempo (5 minutos) para hablar de cualquier tema
       relacionado con ruby.</p>
 
@@ -2239,21 +1901,8 @@
       - **Indexing Nested Objects** - Paco Guzmán
 
 '
-    video_url: 
-    slides_url: 
     speakers: []
-    topic_indexes:
-    - 0
-    speaker_indexes: []
-    resource_indexes: []
-    additional_indexes: []
-    found_links:
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-- !ruby/struct:Meeting
-  title: ! 'DOUBLE FEATURE:  MongoDB & Rails & Videojuegos 2D con Ruby + Competición'
+- title: ! 'DOUBLE FEATURE:  MongoDB & Rails & Videojuegos 2D con Ruby + Competición'
   meeting_date: 2013-02-28
   meeting_time: '19:45'
   venue: Utopic_US
@@ -2332,8 +1981,7 @@
   map_url: http://maps.google.es/maps?f=q&source=embed&hl=es&geocode=&q=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid&sll=40.396764,-3.713379&sspn=10.504732,23.269043&ie=UTF8&hq=&hnear=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid,+Comunidad+de+Madrid&ll=40.413867,-3.706683&spn=0.036727,0.076818&z=14
   original_url: http://madridrb.jottit.com/febrero_2013
   topics:
-  - !ruby/struct:Topic
-    title: MongoDB & Rails
+  - title: MongoDB & Rails
     details: <p>Introducción a MongoDB y a sus ventajas e inconvenientes respecto
       a una base de datos relacional en aplicaciones Rails.</p>
     details_md: ! 'Introducción a MongoDB y a sus ventajas e inconvenientes respecto
@@ -2342,10 +1990,8 @@
 
 '
     video_url: http://vimeo.com/62438637
-    slides_url: 
     speakers:
-    - !ruby/struct:Speaker
-      speaker_name: Amaia Castro
+    - speaker_name: Amaia Castro
       speaker_handle: ! '@amaiac'
       speaker_bio: ! '<p>MicroBio: Actualmente desarrolladora Rails freelance y poco
         inspirada para escribir bios, puedes ver más sobre mí en <a href="http://amaiacastro.com"
@@ -2361,17 +2007,7 @@
         * * *
 
 '
-    topic_indexes:
-    - 1
-    speaker_indexes:
-    - 2
-    resource_indexes: []
-    additional_indexes: []
-    found_links:
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-  - !ruby/struct:Topic
-    title: Videojuegos 2D con Ruby + Competición
+  - title: Videojuegos 2D con Ruby + Competición
     details: <p>Tradicionalmente no se usa Ruby para el desarrollo de videojuegos,
       pero en esta charla veremos lo fácil que es crear un videojuego 2D con Ruby
       y también las limitaciones que tiene. Al tener esa base, os voy a proponer una
@@ -2388,10 +2024,8 @@
 
 '
     video_url: http://vimeo.com/62488793
-    slides_url: 
     speakers:
-    - !ruby/struct:Speaker
-      speaker_name: Adam Williams
+    - speaker_name: Adam Williams
       speaker_handle: ! '@acw5'
       speaker_bio: ! '<p>Adam Williams nació en Minneapolis, Minnesota y lleva 6 años
         viviendo en España. Usa Ruby profesionalmente para hacer desarrollo con Rails
@@ -2410,22 +2044,10 @@
         * * *
 
 '
-    topic_indexes:
-    - 3
-    speaker_indexes:
-    - 4
-    resource_indexes: []
-    additional_indexes: []
-    found_links:
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-- !ruby/struct:Meeting
-  title: ! 'Hacking social: tras las líneas enemigas'
+- title: ! 'Hacking social: tras las líneas enemigas'
   meeting_date: 2014-02-27
   meeting_time: '19:45'
   venue: Utopic_US US3 (c/ Colegiata 9)
-  details: 
-  details_md: 
   offered_by:
   - http://www.bebanjo.com/
   - http://www.prorubyteam.com/
@@ -2492,8 +2114,7 @@
   map_url: https://www.google.com/maps/preview#!q=Calle+Colegiata%2C+9%2C+Madrid%2C+Spain&data=!4m10!1m9!4m8!1m3!1d203964!2d-3.6795367!3d40.4378271!3m2!1i1436!2i806!4f13.1
   original_url: http://madridrb.jottit.com/febrero_2014
   topics:
-  - !ruby/struct:Topic
-    title: ! 'Hacking social: tras las líneas enemigas'
+  - title: ! 'Hacking social: tras las líneas enemigas'
     details: ! '<p>Como desarrolladores nos pasamos la mayoría del tiempo hackeando:
       optimizando bases de datos, configurando servicios, integrándonos con APIs de
       terceros. Normalmente nos sentimos mucho más cómodos trabajando con máquinas
@@ -2528,10 +2149,8 @@
 
 '
     video_url: http://vimeo.com/88232111
-    slides_url: 
     speakers:
-    - !ruby/struct:Speaker
-      speaker_name: Javier Lafora
+    - speaker_name: Javier Lafora
       speaker_handle: ! '@eLafo'
       speaker_bio: <p>Cervecero y guitarrista aficionado. Tras cuatro años estudiando
         medicina, decidí dejarlo para dedicarme al mundo de la informática. Sin un
@@ -2548,28 +2167,11 @@
 
 
 '
-    topic_indexes:
-    - 1
-    speaker_indexes:
-    - 2
-    resource_indexes: []
-    additional_indexes: []
-    found_links: []
-- !ruby/struct:Meeting
-  title: ¡¡Partido de fútbol!!
-  meeting_date: 
-  meeting_time: 
+- title: ¡¡Partido de fútbol!!
   venue: Polideportivo La Elipa, pista 1-A (entrada por calle Alcalde Garrido Juaristi)
-  details: 
-  details_md: 
-  offered_by: 
-  offered_by_html: 
-  attendees: 
-  map_url: 
   original_url: http://madridrb.jottit.com/f%C3%BAtbol.rb_julio_2011
   topics:
-  - !ruby/struct:Topic
-    title: ¡¡Partido de fútbol!!
+  - title: ¡¡Partido de fútbol!!
     details: ! '<p><em>Formato</em>: Fútbol 7, repasen el libro de táctica</p>
 
       <p><em>Observaciones</em>: Llevad una camiseta negra y otra roja, se hacen los
@@ -2635,30 +2237,14 @@
       (soy bueno llevando el botijo)\n12. @pacoguzman\n13. @ltello\n14. @jjballano\n15.
       @juanyque (soy bueno bebiendo el botijo)\n16. @txarly\n17. @tomasborrella (el
       cojo de Cáceres) \n18. @amaiac\n19. @floydzy\n"
-    video_url: 
-    slides_url: 
     speakers: []
-    topic_indexes:
-    - 0
-    speaker_indexes: []
-    resource_indexes: []
-    additional_indexes: []
-    found_links: []
-- !ruby/struct:Meeting
-  title: Terracismo-rb
-  meeting_date: 
+- title: Terracismo-rb
   meeting_time: '20:00'
   venue: Terraza Valle Hermoso
-  details: 
-  details_md: 
-  offered_by: 
-  offered_by_html: 
-  attendees: 
   map_url: http://maps.google.es/maps?q=Jardines+de+Per%C3%B3n&ie=UTF8&ll=40.452989,-3.695934&spn=0.01365,0.012381&fb=1&gl=es&cid=0,0,1081779755368921360&t=h&z=16&iwloc=A
   original_url: http://madridrb.jottit.com/julio_2011
   topics:
-  - !ruby/struct:Topic
-    title: Terracismo-rb
+  - title: Terracismo-rb
     details: ! '<p>Siguiendo la tradición, en periodos estivales tratamos de soportar
       los rigores del clima de la capital en una terraza, con una cerveza (o refresco)
       y en compañía de lo más granado del rubismo madrileño (los que no han huido
@@ -2696,25 +2282,10 @@
       - @otikik
 
 '
-    video_url: 
-    slides_url: 
     speakers: []
-    topic_indexes:
-    - 0
-    speaker_indexes: []
-    resource_indexes: []
-    additional_indexes: []
-    found_links:
-    - !ruby/object:Nokogiri::XML::Element {}
-- !ruby/struct:Meeting
-  title: Terracismo-rb
-  meeting_date: 
+- title: Terracismo-rb
   meeting_time: '20:00'
   venue: Terraza Valle Hermoso
-  details: 
-  details_md: 
-  offered_by: 
-  offered_by_html: 
   attendees:
   - ! '@otikik'
   - ! '@amaiac'
@@ -2733,8 +2304,7 @@
   map_url: http://maps.google.es/maps?q=Jardines+de+Per%C3%B3n&ie=UTF8&ll=40.452989,-3.695934&spn=0.01365,0.012381&fb=1&gl=es&cid=0,0,1081779755368921360&t=h&z=16&iwloc=A
   original_url: http://madridrb.jottit.com/julio_2012
   topics:
-  - !ruby/struct:Topic
-    title: Terracismo-rb
+  - title: Terracismo-rb
     details: ! '<p>En presencia de luz solar, cuerpo humano es capaz de sintetizar
       vitamina D a partir del colesterol. Y en Julio, en Madrid, hay gran abundancia
       de luz solar. Lo que podría mermar considerablemente las reservas de colesterol
@@ -2762,23 +2332,10 @@
 
 
 '
-    video_url: 
-    slides_url: 
     speakers: []
-    topic_indexes:
-    - 0
-    speaker_indexes: []
-    resource_indexes: []
-    additional_indexes: []
-    found_links:
-    - !ruby/object:Nokogiri::XML::Element {}
-- !ruby/struct:Meeting
-  title: Explotando relaciones de forma escalable con Neo4j
+- title: Explotando relaciones de forma escalable con Neo4j
   meeting_date: 2013-07-25
   meeting_time: '19:45'
-  venue: 
-  details: 
-  details_md: 
   offered_by:
   - http://www.bebanjo.com/
   - http://www.prorubyteam.com/
@@ -2828,8 +2385,7 @@
   map_url: http://maps.google.es/maps?f=q&source=embed&hl=es&geocode=&q=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid&sll=40.396764,-3.713379&sspn=10.504732,23.269043&ie=UTF8&hq=&hnear=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid,+Comunidad+de+Madrid&ll=40.413867,-3.706683&spn=0.036727,0.076818&z=14
   original_url: http://madridrb.jottit.com/julio_2013
   topics:
-  - !ruby/struct:Topic
-    title: Explotando relaciones de forma escalable con Neo4j
+  - title: Explotando relaciones de forma escalable con Neo4j
     details: ! '<p>Las bases de datos de grafos no son tan populares entre otras bases
       de datos NoSQL, pero su adopción está creciendo rápidamente. Este tipo de base
       de datos es una navaja suiza para datos altamente interrelacionados (linked
@@ -2865,10 +2421,8 @@
 
 '
     video_url: https://vimeo.com/71801624
-    slides_url: 
     speakers:
-    - !ruby/struct:Speaker
-      speaker_name: Alberto Perdomo
+    - speaker_name: Alberto Perdomo
       speaker_handle: ! '@albertoperdomo'
       speaker_bio: <p>Co-fundador y desarrollador Ruby en <a href="http://www.aentos.com/"
         rel="nofollow">Aentos</a>. Actualmente trabajando en nuestro producto <a href="http://www.graphenedb.com/"
@@ -2880,33 +2434,13 @@
 
 
 '
-    topic_indexes:
-    - 1
-    speaker_indexes:
-    - 2
-    resource_indexes: []
-    additional_indexes:
-    - 3
-    found_links:
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-- !ruby/struct:Meeting
-  title: Terracismo-rb
-  meeting_date: 
+- title: Terracismo-rb
   meeting_time: '20:00'
   venue: Terraza Valle Hermoso
-  details: 
-  details_md: 
-  offered_by: 
-  offered_by_html: 
-  attendees: 
   map_url: http://maps.google.es/maps?q=Jardines+de+Per%C3%B3n&ie=UTF8&ll=40.452989,-3.695934&spn=0.01365,0.012381&fb=1&gl=es&cid=0,0,1081779755368921360&t=h&z=16&iwloc=A
   original_url: http://madridrb.jottit.com/julio-agosto_2011
   topics:
-  - !ruby/struct:Topic
-    title: Terracismo-rb
+  - title: Terracismo-rb
     details: ! '<p>Siguiendo la tradición, en periodos estivales tratamos de soportar
       los rigores del clima de la capital en una terraza, con una cerveza (o refresco)
       y en compañía de lo más granado del rubismo madrileño (los que no han huido
@@ -2942,31 +2476,14 @@
       - @otikik
 
 '
-    video_url: 
-    slides_url: 
     speakers: []
-    topic_indexes:
-    - 0
-    speaker_indexes: []
-    resource_indexes: []
-    additional_indexes: []
-    found_links:
-    - !ruby/object:Nokogiri::XML::Element {}
-- !ruby/struct:Meeting
-  title: Planetaki powered by MongoDB
+- title: Planetaki powered by MongoDB
   meeting_date: 2010-06-24
   meeting_time: '19:45'
   venue: Aula The Cocktail
-  details: 
-  details_md: 
-  offered_by: 
-  offered_by_html: 
-  attendees: 
-  map_url: 
   original_url: http://madridrb.jottit.com/junio_2010
   topics:
-  - !ruby/struct:Topic
-    title: Planetaki powered by MongoDB
+  - title: Planetaki powered by MongoDB
     details: ! '<p>Durante el último año, Sam Lown ha estado trabajado en la nueva
       versión de Planetaki, agregador de websites para personas que no quieren interfaces
       complejas, y desde hace unos días el fruto de su trabajo está en producción.
@@ -2985,11 +2502,8 @@
 
 
 '
-    video_url: 
-    slides_url: 
     speakers:
-    - !ruby/struct:Speaker
-      speaker_name: Samuel Lown
+    - speaker_name: Samuel Lown
       speaker_handle: ! '@samlown'
       speaker_bio: ! '<p><a href="http://twitter.com/samlown" rel="nofollow">Samuel
         Lown</a> is a 28 year old freelance agile backend developer and information
@@ -3014,21 +2528,10 @@
 
 
 '
-    topic_indexes:
-    - 0
-    speaker_indexes:
-    - 1
-    resource_indexes: []
-    additional_indexes: []
-    found_links:
-    - !ruby/object:Nokogiri::XML::Element {}
-- !ruby/struct:Meeting
-  title: Streaming en Rails 3.1
+- title: Streaming en Rails 3.1
   meeting_date: 2011-06-30
   meeting_time: '19:45'
   venue: Utopic_US
-  details: 
-  details_md: 
   offered_by:
   - http://www.vizzuality.com/
   - http://www.bebanjo.com/
@@ -3114,8 +2617,7 @@
   map_url: http://maps.google.es/maps?f=q&source=embed&hl=es&geocode=&q=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid&sll=40.396764,-3.713379&sspn=10.504732,23.269043&ie=UTF8&hq=&hnear=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid,+Comunidad+de+Madrid&ll=40.413867,-3.706683&spn=0.036727,0.076818&z=14
   original_url: http://madridrb.jottit.com/junio_2011
   topics:
-  - !ruby/struct:Topic
-    title: Streaming en Rails 3.1
+  - title: Streaming en Rails 3.1
     details: ! '<p>Madrid.rb se viste de gala para recibir a un miembro del core de
       Rails [1]</p>
 
@@ -3137,11 +2639,8 @@
 
 
 '
-    video_url: 
-    slides_url: 
     speakers:
-    - !ruby/struct:Speaker
-      speaker_name: Xavier Noria
+    - speaker_name: Xavier Noria
       speaker_handle: ! '@fxn'
       speaker_bio: ! '<p>Xavier es un veterano de nuestra comunidad. Es el autor de
         <a href="http://contributors.rubyonrails.org/" rel="nofollow">Rails Contributors</a>,
@@ -3167,27 +2666,10 @@
 
 
 '
-    topic_indexes:
-    - 0
-    speaker_indexes:
-    - 1
-    resource_indexes: []
-    additional_indexes: []
-    found_links:
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-- !ruby/struct:Meeting
-  title: Metapresentación
+- title: Metapresentación
   meeting_date: 2012-06-28
   meeting_time: '19:45'
   venue: Utopic_US
-  details: 
-  details_md: 
   offered_by:
   - http://www.vizzuality.com/
   - http://www.bebanjo.com/
@@ -3237,8 +2719,7 @@
   map_url: http://maps.google.es/maps?f=q&source=embed&hl=es&geocode=&q=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid&sll=40.396764,-3.713379&sspn=10.504732,23.269043&ie=UTF8&hq=&hnear=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid,+Comunidad+de+Madrid&ll=40.413867,-3.706683&spn=0.036727,0.076818&z=14
   original_url: http://madridrb.jottit.com/junio_2012
   topics:
-  - !ruby/struct:Topic
-    title: Metapresentación
+  - title: Metapresentación
     details: ! '<p>Una presentación técnica sobre presentaciones técnicas.</p>
 
       <p>En esta presentación veremos algunas sencillas pautas para realizar presentaciones
@@ -3256,11 +2737,8 @@
 
 
 '
-    video_url: 
-    slides_url: 
     speakers:
-    - !ruby/struct:Speaker
-      speaker_name: Enrique García Cota
+    - speaker_name: Enrique García Cota
       speaker_handle: ! '@otikik'
       speaker_bio: ! '<p>Enrique lleva 3 años trabajando en Ruby, aunque lleva trabajando
         más tiempo en proyectos web. En su tiempo libre experimenta lenguajes de programación,
@@ -3281,24 +2759,9 @@
 
 
 '
-    topic_indexes:
-    - 0
-    speaker_indexes:
-    - 1
-    resource_indexes: []
-    additional_indexes: []
-    found_links:
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-- !ruby/struct:Meeting
-  title: Introduction to RubyMotion
-  meeting_date: 
+- title: Introduction to RubyMotion
   meeting_time: '19:45'
   venue: Utopic_US (map)
-  details: 
-  details_md: 
   offered_by:
   - http://www.bebanjo.com/
   - http://www.prorubyteam.com/
@@ -3377,8 +2840,7 @@
   map_url: http://maps.google.es/maps?f=q&source=embed&hl=es&geocode=&q=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid&sll=40.396764,-3.713379&sspn=10.504732,23.269043&ie=UTF8&hq=&hnear=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid,+Comunidad+de+Madrid&ll=40.413867,-3.706683&spn=0.036727,0.076818&z=14
   original_url: http://madridrb.jottit.com/junio_2013
   topics:
-  - !ruby/struct:Topic
-    title: Introduction to RubyMotion
+  - title: Introduction to RubyMotion
     details: <p>In this talk, Laurent will introduce what RubyMotion is, how it works,
       and what you can do with it.</p>
     details_md: ! 'In this talk, Laurent will introduce what RubyMotion is, how it
@@ -3386,11 +2848,8 @@
 
 
 '
-    video_url: 
-    slides_url: 
     speakers:
-    - !ruby/struct:Speaker
-      speaker_name: Laurent Sansonetti
+    - speaker_name: Laurent Sansonetti
       speaker_handle: ! '@lrz'
       speaker_bio: <p>Laurent is the founder of <a href="http://www.hipbyte.com/"
         rel="nofollow">HipByte</a> and lead developer of <a href="http://www.rubymotion.com/"
@@ -3412,28 +2871,10 @@
 
 
 '
-    topic_indexes:
-    - 1
-    speaker_indexes:
-    - 2
-    resource_indexes: []
-    additional_indexes: []
-    found_links:
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-- !ruby/struct:Meeting
-  title: RubyMotion, desarrollo móvil en Ruby
+- title: RubyMotion, desarrollo móvil en Ruby
   meeting_date: 2014-06-26
   meeting_time: '19:45'
   venue: The Irish Rover
-  details: 
-  details_md: 
   offered_by:
   - http://www.bebanjo.com/
   - http://www.prorubyteam.com/
@@ -3505,8 +2946,7 @@
   map_url: https://www.google.com/maps/place/The+Irish+Rover/@40.4549437,-3.6936623,17z/data=!4m7!1m4!3m3!1s0xd422902b93a7b4f:0xcdf2773b21bd0810!2sAv+de+Brasil,+7!3b1!3m1!1s0x0:0xac5dccb9e6db0dd5
   original_url: http://madridrb.jottit.com/junio_2014
   topics:
-  - !ruby/struct:Topic
-    title: RubyMotion, desarrollo móvil en Ruby
+  - title: RubyMotion, desarrollo móvil en Ruby
     details: ! "<p>Introducción al desarrollo móvil en RubyMotion, toolchain, primeros
       pasos, y por qué es una herramienta perfecta para desarrolladores de Ruby.</p>\n<p><strong>Lugar:</strong>
       <a href=\"http://www.theirishrover.com/\" rel=\"nofollow\">The Irish Rover</a>\n-
@@ -3526,10 +2966,8 @@
 
 '
     video_url: https://vimeo.com/110196699
-    slides_url: 
     speakers:
-    - !ruby/struct:Speaker
-      speaker_name: Marcos Villacampa
+    - speaker_name: Marcos Villacampa
       speaker_handle: ! '@MarkVillacampa'
       speaker_bio: <p>Developer en <a href="http://www.cabify.es/" rel="nofollow">Cabify</a>,
         lleva trabajando con RubyMotion desde que fue presentado hace 2 años. Apasionado
@@ -3540,20 +2978,7 @@
 
 
 '
-    topic_indexes:
-    - 2
-    speaker_indexes:
-    - 3
-    resource_indexes: []
-    additional_indexes:
-    - 1
-    found_links:
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-- !ruby/struct:Meeting
-  title: ! 'DOUBLE FEATURE:  Sequel + Pair Programming'
+- title: ! 'DOUBLE FEATURE:  Sequel + Pair Programming'
   meeting_date: 2011-03-31
   meeting_time: '19:45'
   venue: Utopic_US
@@ -3562,8 +2987,6 @@
 
 
 '
-  offered_by: 
-  offered_by_html: 
   attendees:
   - ! '@ferblape'
   - ! '@christos'
@@ -3620,8 +3043,7 @@
   map_url: http://maps.google.es/maps?f=q&source=embed&hl=es&geocode=&q=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid&sll=40.396764,-3.713379&sspn=10.504732,23.269043&ie=UTF8&hq=&hnear=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid,+Comunidad+de+Madrid&ll=40.413867,-3.706683&spn=0.036727,0.076818&z=14
   original_url: http://madridrb.jottit.com/marzo_2011
   topics:
-  - !ruby/struct:Topic
-    title: ! 'Sequel: una alternativa a Active Record'
+  - title: ! 'Sequel: una alternativa a Active Record'
     details: ! '<p>Los que trabajamos con Ruby on Rails estamos acostumbrados a utilizar
 
       ActiveRecord para "hablar" con la base de datos. Y con razón, Active
@@ -3682,8 +3104,7 @@
     video_url: http://vimeo.com/madridrb/blat-mar11
     slides_url: http://www.slideshare.net/ferblape/sequel-madridrb
     speakers:
-    - !ruby/struct:Speaker
-      speaker_name: Fernando Blat
+    - speaker_name: Fernando Blat
       speaker_handle: ! '@ferblape'
       speaker_bio: ! '<p>Fernando Blat es un informático criado a base de horchata
         y paellas,
@@ -3701,20 +3122,7 @@
 
 
 '
-    topic_indexes:
-    - 1
-    speaker_indexes:
-    - 2
-    resource_indexes:
-    - 3
-    additional_indexes: []
-    found_links:
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-  - !ruby/struct:Topic
-    title: ! 'Pair programming: una forma de desarrollar software'
+  - title: ! 'Pair programming: una forma de desarrollar software'
     details: ! '<p>La idea de la charla es dar a conocer el pair programming como
       una herramienta de trabajo y como poder aprovecharla en nuestro trabajo en el
       día a día. Intentaré explicar desde mi experiencia personal las ventajas y desventajas
@@ -3748,8 +3156,7 @@
     video_url: http://vimeo.com/madridrb/jorge-mar11
     slides_url: http://diasjorge.github.com/pair-programming-slides
     speakers:
-    - !ruby/struct:Speaker
-      speaker_name: Jorge Dias
+    - speaker_name: Jorge Dias
       speaker_handle: ! '@dias_jorge'
       speaker_bio: ! '<p>Jorge Dias nació en Venezuela, después de graduarse vino
         a España a buscar nuevas oportunidades. Conoció Ruby gracias a un amigo y
@@ -3762,25 +3169,10 @@
         descubrió un mundo distinto de la programación. Le interesan los procesos
         de desarrollo de software y la organización de la información.  \nBlog: [http://mrdias.com](http://mrdias.com).
         Twitter: [@dias\\_jorge](http://twitter.com/dias_jorge)\n\n"
-    topic_indexes:
-    - 4
-    speaker_indexes:
-    - 5
-    resource_indexes:
-    - 6
-    additional_indexes: []
-    found_links:
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-- !ruby/struct:Meeting
-  title: ¡Conquista el mundo con Vim y Tmux!
+- title: ¡Conquista el mundo con Vim y Tmux!
   meeting_date: 2012-03-29
   meeting_time: '19:45'
   venue: Utopic_US, Calle Duque de Rivas 5, Madrid.
-  details: 
-  details_md: 
   offered_by:
   - http://www.vizzuality.com/
   - http://www.bebanjo.com/
@@ -3858,8 +3250,7 @@
   map_url: http://g.co/maps/4ktdg
   original_url: http://madridrb.jottit.com/marzo_2012
   topics:
-  - !ruby/struct:Topic
-    title: ¡Conquista el mundo con Vim y Tmux!
+  - title: ¡Conquista el mundo con Vim y Tmux!
     details: <p>En esta charla intentaré mostrar los motivos que me han hecho considerar
       vim el mejor editor de código que he probado hasta el momento, mostrando todas
       su bondades, y cómo su uso conjunto con Tmux consiguen crear un entorno de desarrollo
@@ -3873,11 +3264,8 @@
 
 
 '
-    video_url: 
-    slides_url: 
     speakers:
-    - !ruby/struct:Speaker
-      speaker_name: Fernando Espinosa Jiménez
+    - speaker_name: Fernando Espinosa Jiménez
       speaker_handle: ! '@ferdev'
       speaker_bio: ! '<p>Fernando empezó a utilizar ordenadores con seis años, y no
         ha parado desde entonces. Esos felices años en la escuela con bocadillos de
@@ -3905,23 +3293,10 @@
 
 
 '
-    topic_indexes:
-    - 0
-    speaker_indexes:
-    - 1
-    resource_indexes: []
-    additional_indexes: []
-    found_links:
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-- !ruby/struct:Meeting
-  title: The Javascript Horror Show
+- title: The Javascript Horror Show
   meeting_date: 2013-03-21
   meeting_time: '19:45'
   venue: Utopic_US
-  details: 
-  details_md: 
   offered_by:
   - http://www.bebanjo.com/
   - http://www.prorubyteam.com/
@@ -3987,8 +3362,7 @@
   map_url: http://maps.google.es/maps?f=q&source=embed&hl=es&geocode=&q=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid&sll=40.396764,-3.713379&sspn=10.504732,23.269043&ie=UTF8&hq=&hnear=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid,+Comunidad+de+Madrid&ll=40.413867,-3.706683&spn=0.036727,0.076818&z=14
   original_url: http://madridrb.jottit.com/marzo_2013
   topics:
-  - !ruby/struct:Topic
-    title: The Javascript Horror Show
+  - title: The Javascript Horror Show
     details: <p>¿Programador de Ruby? ¿Te ves forzado a hacer algunas cosillas con
       JavaScript? ¿Piensas que te basta con saber algo jQuery, backbone o programar
       en CoffeeScript? En esta charla el ponente mostrará los WTFs más comunes e importantes
@@ -4003,10 +3377,8 @@
 
 '
     video_url: http://vimeo.com/63884581
-    slides_url: 
     speakers:
-    - !ruby/struct:Speaker
-      speaker_name: Enrique Amodeo
+    - speaker_name: Enrique Amodeo
       speaker_handle: ! '@eamodeorubio'
       speaker_bio: ! '<p>Freelance independiente con 12 años de experiencia, experto
         en JS y Rubista en sus ratos libres. Lleva practicando TDD/BDD y agilismo
@@ -4029,23 +3401,10 @@
 
 
 '
-    topic_indexes:
-    - 1
-    speaker_indexes:
-    - 2
-    resource_indexes: []
-    additional_indexes: []
-    found_links:
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-- !ruby/struct:Meeting
-  title: Ordenando las vistas. Decorator y Presenters
+- title: Ordenando las vistas. Decorator y Presenters
   meeting_date: 2014-03-27
   meeting_time: '19:45'
   venue: Utopic_US US3 (c/ Colegiata 9)
-  details: 
-  details_md: 
   offered_by:
   - http://www.bebanjo.com/
   - http://www.prorubyteam.com/
@@ -4107,8 +3466,7 @@
   map_url: https://www.google.com/maps/preview#!q=Calle+Colegiata%2C+9%2C+Madrid%2C+Spain&data=!4m10!1m9!4m8!1m3!1d203964!2d-3.6795367!3d40.4378271!3m2!1i1436!2i806!4f13.1
   original_url: http://madridrb.jottit.com/marzo_2014
   topics:
-  - !ruby/struct:Topic
-    title: Ordenando las vistas. Decorator y Presenters
+  - title: Ordenando las vistas. Decorator y Presenters
     details: <p>Todos usamos Vistas en nuestros proyectos, está claro, pero la cuestión
       es, ¿cómo las estamos utilizando? En mi opinión, nos encontramos con vistas
       demasiado sobrecargadas de lógica y las complementamos con helpers para ayudar,
@@ -4126,11 +3484,8 @@
 
 
 '
-    video_url: 
-    slides_url: 
     speakers:
-    - !ruby/struct:Speaker
-      speaker_name: Carlos Sánchez Pérez
+    - speaker_name: Carlos Sánchez Pérez
       speaker_handle: ! '@carlossanchezp'
       speaker_bio: <p>Desarrollador web, intentando ser pragmático con la tecnología
         para poder tomar decisiones correctas en cada proyecto. Me gusta explicar
@@ -4148,30 +3503,13 @@
 
 
 '
-    topic_indexes:
-    - 1
-    speaker_indexes:
-    - 2
-    resource_indexes: []
-    additional_indexes: []
-    found_links:
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-- !ruby/struct:Meeting
-  title: ! 'Madrid-rb Cine Club: Rails 3'
+- title: ! 'Madrid-rb Cine Club: Rails 3'
   meeting_date: 2010-05-27
   meeting_time: '19:45'
   venue: Aula The Cocktail
-  details: 
-  details_md: 
-  offered_by: 
-  offered_by_html: 
-  attendees: 
-  map_url: 
   original_url: http://madridrb.jottit.com/mayo_2010
   topics:
-  - !ruby/struct:Topic
-    title: ! 'Madrid-rb Cine Club: Rails 3'
+  - title: ! 'Madrid-rb Cine Club: Rails 3'
     details: ! '<p>Rails 3 está a la vuelta de la esquina y para preparar su llegada
       en la próxima reunión del grupo proyectaremos y charlaremos acerca de estos
       Railscasts:</p>
@@ -4227,24 +3565,13 @@
 
 
 '
-    video_url: 
-    slides_url: 
     speakers: []
-    topic_indexes:
-    - 0
-    speaker_indexes: []
-    resource_indexes: []
-    additional_indexes: []
-    found_links: []
-- !ruby/struct:Meeting
-  title: Solr vs Sphinx
+- title: Solr vs Sphinx
   meeting_date: 2011-05-26
   meeting_time: '19:45'
   venue: Utopic_US
   details: ''
   details_md: ''
-  offered_by: 
-  offered_by_html: 
   attendees:
   - ! '@supercoco9'
   - ! '@pacoguzman'
@@ -4290,8 +3617,7 @@
   map_url: http://maps.google.es/maps?f=q&source=embed&hl=es&geocode=&q=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid&sll=40.396764,-3.713379&sspn=10.504732,23.269043&ie=UTF8&hq=&hnear=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid,+Comunidad+de+Madrid&ll=40.413867,-3.706683&spn=0.036727,0.076818&z=14
   original_url: http://madridrb.jottit.com/mayo_2011
   topics:
-  - !ruby/struct:Topic
-    title: Cosicas de Sphinx que lo mismo no sabías
+  - title: Cosicas de Sphinx que lo mismo no sabías
     details: ! '<p>Desde que @pablete nos presentó Sphinx en la conferencia rails
       2007, hemos sido muchos los que nos hemos decantado por esta opción a la hora
       de implementar búsqueda de texto libre en nuestra aplicación. Sin embargo, gracias
@@ -4318,11 +3644,8 @@
 
 
 '
-    video_url: 
-    slides_url: 
     speakers:
-    - !ruby/struct:Speaker
-      speaker_name: Javier Ramírez
+    - speaker_name: Javier Ramírez
       speaker_handle: ! '@supercoco9'
       speaker_bio: <p>Javier Ramírez habla mucho… ya os daréis cuenta. Vive en <a
         href="http://javier-ramirez.com" rel="nofollow">http://javier-ramirez.com</a>
@@ -4332,17 +3655,7 @@
 
 
 '
-    topic_indexes:
-    - 1
-    speaker_indexes:
-    - 2
-    resource_indexes: []
-    additional_indexes: []
-    found_links:
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-  - !ruby/struct:Topic
-    title: Introducción a Solr-Lucene en Rails con Sunspot
+  - title: Introducción a Solr-Lucene en Rails con Sunspot
     details: <p>No tan conocido como Sphinx para montar tu buscador en aplicaciones
       Rails pero basado en una solución muy potente y compleja como Solr-Lucene os
       contaré como montar tu buscador utilizando la gema Sunspot en tu aplicación
@@ -4356,11 +3669,8 @@
 
 
 '
-    video_url: 
-    slides_url: 
     speakers:
-    - !ruby/struct:Speaker
-      speaker_name: Paco Guzmán
+    - speaker_name: Paco Guzmán
       speaker_handle: ! '@pacoguzman'
       speaker_bio: <p>Paco Guzmán… (habla poco). De los más rápidos encontrando nuevas
         gemas, early adopter sin complejos, podéis encontrarme diciendo alguna bobada
@@ -4371,21 +3681,10 @@
 
 
 '
-    topic_indexes:
-    - 3
-    speaker_indexes:
-    - 4
-    resource_indexes: []
-    additional_indexes: []
-    found_links:
-    - !ruby/object:Nokogiri::XML::Element {}
-- !ruby/struct:Meeting
-  title: ! 'MacRuby y RubyMotion: Programando aplicaciones en Ruby para iOS y Mac'
+- title: ! 'MacRuby y RubyMotion: Programando aplicaciones en Ruby para iOS y Mac'
   meeting_date: 2012-05-31
   meeting_time: '19:45'
   venue: Utopic_US, Calle Duque de Rivas 5, Madrid.
-  details: 
-  details_md: 
   offered_by:
   - http://www.vizzuality.com/
   - http://www.bebanjo.com/
@@ -4457,8 +3756,7 @@
   map_url: http://g.co/maps/4ktdg
   original_url: http://madridrb.jottit.com/mayo_2012
   topics:
-  - !ruby/struct:Topic
-    title: ! 'MacRuby y RubyMotion: Programando aplicaciones en Ruby para iOS y Mac'
+  - title: ! 'MacRuby y RubyMotion: Programando aplicaciones en Ruby para iOS y Mac'
     details: ! '<p>Esta charla será una introducción a la programación de aplicaciones
       nativas para iOS y Mac con MacRuby y RubyMotion. Introducción a la api de Cocoa,
       ventajas y desventajas, futuro y sobretodo ejemplos de código.</p>
@@ -4479,11 +3777,8 @@
 
 
 '
-    video_url: 
-    slides_url: 
     speakers:
-    - !ruby/struct:Speaker
-      speaker_name: Mark Villacampa
+    - speaker_name: Mark Villacampa
       speaker_handle: ! '@MarkVillacampa'
       speaker_bio: <p>Pese a acabar de cumplir 20 años, Marcos lleva más de 5 años
         en el mundo de la programación, aunque solo hace un año que le picó el gusanillo
@@ -4496,24 +3791,10 @@
 
 
 '
-    topic_indexes:
-    - 0
-    speaker_indexes:
-    - 1
-    resource_indexes: []
-    additional_indexes:
-    - 4
-    found_links:
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-- !ruby/struct:Meeting
-  title: Mi dominio es mío y no lo comparto...
+- title: Mi dominio es mío y no lo comparto...
   meeting_date: 2013-05-30
   meeting_time: '19:45'
   venue: Utopic_US
-  details: 
-  details_md: 
   offered_by:
   - http://www.bebanjo.com/
   - http://www.prorubyteam.com/
@@ -4594,8 +3875,7 @@
   map_url: http://maps.google.es/maps?f=q&source=embed&hl=es&geocode=&q=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid&sll=40.396764,-3.713379&sspn=10.504732,23.269043&ie=UTF8&hq=&hnear=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid,+Comunidad+de+Madrid&ll=40.413867,-3.706683&spn=0.036727,0.076818&z=14
   original_url: http://madridrb.jottit.com/mayo_2013
   topics:
-  - !ruby/struct:Topic
-    title: Mi dominio es mío y no lo comparto...
+  - title: Mi dominio es mío y no lo comparto...
     details: ! '<p>¿Qué es realmente la lógica de negocio? ¿Qué es un modelo de dominio?
       ¿Qué verdades se esconden detrás de patrones como “fat model - skinny controller”?
       ¿Cómo afecta el uso de un framework como Rails a la hora de implementar nuestro
@@ -4617,10 +3897,8 @@
 
 '
     video_url: https://vimeo.com/69157481
-    slides_url: 
     speakers:
-    - !ruby/struct:Speaker
-      speaker_name: Javier Acero
+    - speaker_name: Javier Acero
       speaker_handle: ! '@jacegu'
       speaker_bio: <p>Programador. Enamorado de Ruby y del código limpio. Ha pasado
         los últimos años  ayudando a startups a lanzar la primera versión de sus productos
@@ -4631,21 +3909,10 @@
 
 
 '
-    topic_indexes:
-    - 1
-    speaker_indexes:
-    - 2
-    resource_indexes: []
-    additional_indexes: []
-    found_links:
-    - !ruby/object:Nokogiri::XML::Element {}
-- !ruby/struct:Meeting
-  title: ¿TDD como problema?
+- title: ¿TDD como problema?
   meeting_date: 2014-05-29
   meeting_time: '19:45'
   venue: The Irish Rover
-  details: 
-  details_md: 
   offered_by:
   - http://www.bebanjo.com/
   - http://www.prorubyteam.com/
@@ -4707,8 +3974,7 @@
   map_url: https://www.google.com/maps/place/The+Irish+Rover/@40.4549437,-3.6936623,17z/data=!4m7!1m4!3m3!1s0xd422902b93a7b4f:0xcdf2773b21bd0810!2sAv+de+Brasil,+7!3b1!3m1!1s0x0:0xac5dccb9e6db0dd5
   original_url: http://madridrb.jottit.com/mayo_2014
   topics:
-  - !ruby/struct:Topic
-    title: ¿TDD como problema?
+  - title: ¿TDD como problema?
     details: ! "<p>David Heinemeier(DHH), un importante referente de la comunidad
       de desarrollo de Ruby y creador de Rails, ha generado mucha polémica entorno
       al mundo de los Tests. DHH afirmó que TDD está en vías de extinción  — al menos
@@ -4736,10 +4002,8 @@
 
 '
     video_url: http://vimeo.com/99116904
-    slides_url: 
     speakers:
-    - !ruby/struct:Speaker
-      speaker_name: Gerardo Barcia (gerardobarcia.com)
+    - speaker_name: Gerardo Barcia (gerardobarcia.com)
       speaker_handle: http://www.gerardobarcia.com
       speaker_bio: <p>Gerardo Barcia es  ingeniero en informática, gerente de proyectos,
         orador, instructor, emprendedor, escritor, desarrollador, bloguero, lector,
@@ -4752,32 +4016,13 @@
 
 
 '
-    topic_indexes:
-    - 2
-    speaker_indexes:
-    - 3
-    resource_indexes: []
-    additional_indexes:
-    - 1
-    found_links:
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-- !ruby/struct:Meeting
-  title: Fibers in Ruby 1.9
+- title: Fibers in Ruby 1.9
   meeting_date: 2010-11-25
   meeting_time: '19:45'
   venue: Aula The Cocktail
-  details: 
-  details_md: 
-  offered_by: 
-  offered_by_html: 
-  attendees: 
-  map_url: 
   original_url: http://madridrb.jottit.com/noviembre_2010
   topics:
-  - !ruby/struct:Topic
-    title: Fibers in Ruby 1.9
+  - title: Fibers in Ruby 1.9
     details: ! '<p>In tonight''s talk Murray Steele is going to tell you about fibers,
       a new feature in ruby 1.9 that provides an alternative to threads for doing
       concurrency. He''ll cover some of the background behind what fibers are, the
@@ -4819,12 +4064,8 @@
       - [Some rough fibrous material - Madrid.rb - Nov 2010.pdf](http://dl.dropbox.com/u/645329/Some%20rough%20fibrous%20material%20-%20Madrid.rb%20-%20Nov%202010.pdf)
 
 '
-    video_url: 
-    slides_url: 
     speakers:
-    - !ruby/struct:Speaker
-      speaker_name: Murray Steele
-      speaker_handle: 
+    - speaker_name: Murray Steele
       speaker_bio: ! '<p>Murray Steele has been using ruby for almost 7 years, and
         getting paid to do so for the last 5. In that time he''s become a passionate
         rubyist and this has led him to become the current organiser of the London
@@ -4840,23 +4081,10 @@
 
 
 '
-    topic_indexes:
-    - 0
-    speaker_indexes:
-    - 1
-    resource_indexes:
-    - 2
-    additional_indexes: []
-    found_links:
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-- !ruby/struct:Meeting
-  title: Cómo dejé de preocuparme por ser ágil y ahora no me importa en absoluto
+- title: Cómo dejé de preocuparme por ser ágil y ahora no me importa en absoluto
   meeting_date: 2011-11-24
   meeting_time: '19:45'
   venue: Utopic_US, Calle de la Concepción Jerónima 22, Madrid.
-  details: 
-  details_md: 
   offered_by:
   - http://www.vizzuality.com/
   - http://www.bebanjo.com/
@@ -4881,8 +4109,7 @@
   map_url: http://maps.google.es/maps?f=q&source=embed&hl=es&geocode=&q=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid&sll=40.396764,-3.713379&sspn=10.504732,23.269043&ie=UTF8&hq=&hnear=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid,+Comunidad+de+Madrid&ll=40.413867,-3.706683&spn=0.036727,0.076818&z=14
   original_url: http://madridrb.jottit.com/noviembre_2011
   topics:
-  - !ruby/struct:Topic
-    title: Cómo dejé de preocuparme por ser ágil y ahora no me importa en absoluto
+  - title: Cómo dejé de preocuparme por ser ágil y ahora no me importa en absoluto
     details: ! '<p>En esta charla Calavera nos explicará por qué la agilidad está
       sobrevalorada.</p>
 
@@ -4895,11 +4122,8 @@
 
 
 '
-    video_url: 
-    slides_url: 
     speakers:
-    - !ruby/struct:Speaker
-      speaker_name: David Calavera
+    - speaker_name: David Calavera
       speaker_handle: ! '@calavera'
       speaker_bio: <p><a href="http://twitter.com/#!/calavera" rel="nofollow">David</a>
         Es un miembro del <a href="http://jruby.org/" rel="nofollow">JRuby</a> development
@@ -4914,27 +4138,10 @@
 
 
 '
-    topic_indexes:
-    - 0
-    speaker_indexes:
-    - 1
-    resource_indexes: []
-    additional_indexes: []
-    found_links:
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-- !ruby/struct:Meeting
-  title: Coding Dojo en Madrid-rb
+- title: Coding Dojo en Madrid-rb
   meeting_date: 2012-11-29
   meeting_time: '19:45'
   venue: Utopic_US
-  details: 
-  details_md: 
   offered_by:
   - http://www.vizzuality.com/
   - http://www.bebanjo.com/
@@ -4992,8 +4199,7 @@
   map_url: http://maps.google.es/maps?f=q&source=embed&hl=es&geocode=&q=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid&sll=40.396764,-3.713379&sspn=10.504732,23.269043&ie=UTF8&hq=&hnear=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid,+Comunidad+de+Madrid&ll=40.413867,-3.706683&spn=0.036727,0.076818&z=14
   original_url: http://madridrb.jottit.com/noviembre_2012
   topics:
-  - !ruby/struct:Topic
-    title: Coding Dojo en Madrid-rb
+  - title: Coding Dojo en Madrid-rb
     details: <p>En esta ocasión haremos un <a href="http://codingdojo.org/" rel="nofollow">Coding
       Dojo</a>. Un coding dojo es un tipo de reunión en la cual un grupo de programadores
       resuelve un problema de forma iterativa. El objetivo es pasarlo bien y practicar
@@ -5006,10 +4212,8 @@
 
 '
     video_url: https://vimeo.com/52987852
-    slides_url: 
     speakers:
-    - !ruby/struct:Speaker
-      speaker_name: Enrique García
+    - speaker_name: Enrique García
       speaker_handle: ! '@otikik'
       speaker_bio: ! '<p>Enrique lleva 3 años desarrollando profesionalmente en ruby.
         Si le tiráis un poco de la lengua os hablará de otros lenguajes, o de su oscuro
@@ -5030,25 +4234,10 @@
 
 
 '
-    topic_indexes:
-    - 0
-    speaker_indexes:
-    - 1
-    resource_indexes: []
-    additional_indexes: []
-    found_links:
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-- !ruby/struct:Meeting
-  title: Ruby y Ciencia
+- title: Ruby y Ciencia
   meeting_date: 2013-11-28
   meeting_time: '19:45'
   venue: Utopic_US US3 (c/ Colegiata 9)
-  details: 
-  details_md: 
   offered_by:
   - http://www.bebanjo.com/
   - http://www.prorubyteam.com/
@@ -5108,8 +4297,7 @@
   map_url: https://www.google.com/maps/preview#!q=Calle+Colegiata%2C+9%2C+Madrid%2C+Spain&data=!4m10!1m9!4m8!1m3!1d203964!2d-3.6795367!3d40.4378271!3m2!1i1436!2i806!4f13.1
   original_url: http://madridrb.jottit.com/noviembre_2013
   topics:
-  - !ruby/struct:Topic
-    title: Ruby y Ciencia
+  - title: Ruby y Ciencia
     details: ! "<p>En el mundo científico hoy en día, en todos los campos de investigación
       existen tareas que necesitan programación y desarrollos a medida a la hora de
       analizar datos o producir resultados. Sin embargo cuando un científico sin experiencia
@@ -5130,10 +4318,8 @@
 
 '
     video_url: https://vimeo.com/84568788
-    slides_url: 
     speakers:
-    - !ruby/struct:Speaker
-      speaker_name: Juanjo Bazán
+    - speaker_name: Juanjo Bazán
       speaker_handle: ! '@xuanxu'
       speaker_bio: <p>Juanjo es miembro del equipo de <a href="http://www.prorubyteam.com"
         rel="nofollow">ProRuby</a>. Lleva ya unos cuantos años infiltrado en la comunidad
@@ -5151,22 +4337,10 @@
 
 
 '
-    topic_indexes:
-    - 1
-    speaker_indexes:
-    - 2
-    resource_indexes: []
-    additional_indexes: []
-    found_links:
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-- !ruby/struct:Meeting
-  title: JRuby en Webpop - Rhino y Akka
+- title: JRuby en Webpop - Rhino y Akka
   meeting_date: 2011-10-27
   meeting_time: '19:45'
   venue: Utopic_US, Calle de la Concepción Jerónima 22, Madrid.
-  details: 
-  details_md: 
   offered_by:
   - http://www.vizzuality.com/
   - http://www.bebanjo.com/
@@ -5191,8 +4365,7 @@
   map_url: http://maps.google.es/maps?f=q&source=embed&hl=es&geocode=&q=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid&sll=40.396764,-3.713379&sspn=10.504732,23.269043&ie=UTF8&hq=&hnear=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid,+Comunidad+de+Madrid&ll=40.413867,-3.706683&spn=0.036727,0.076818&z=14
   original_url: http://madridrb.jottit.com/octubre_2011
   topics:
-  - !ruby/struct:Topic
-    title: JRuby en Webpop - Rhino y Akka
+  - title: JRuby en Webpop - Rhino y Akka
     details: <p>Una presentacion sobre como usamos JRuby (y por qué lo usamos) en
       Webpop, con el enfoque en interoperación de librerías de java (o scala) y JRuby.
       </p>
@@ -5202,11 +4375,8 @@
 
 
 '
-    video_url: 
-    slides_url: 
     speakers:
-    - !ruby/struct:Speaker
-      speaker_name: Mathias Biilmann
+    - speaker_name: Mathias Biilmann
       speaker_handle: http://mathias-biilmann.net/
       speaker_bio: <p><a href="http://mathias-biilmann.net/" rel="nofollow">Mathias</a>
         es un desarrollador "full-stack", feliz trasteando con cualquier cosa - desde
@@ -5222,25 +4392,10 @@
 
 
 '
-    topic_indexes:
-    - 0
-    speaker_indexes:
-    - 1
-    resource_indexes: []
-    additional_indexes: []
-    found_links:
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-- !ruby/struct:Meeting
-  title: Making code tastier through Refactoring
+- title: Making code tastier through Refactoring
   meeting_date: 2012-10-25
   meeting_time: '19:45'
   venue: Utopic_US
-  details: 
-  details_md: 
   offered_by:
   - http://www.vizzuality.com/
   - http://www.bebanjo.com/
@@ -5304,8 +4459,7 @@
   map_url: http://maps.google.es/maps?f=q&source=embed&hl=es&geocode=&q=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid&sll=40.396764,-3.713379&sspn=10.504732,23.269043&ie=UTF8&hq=&hnear=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid,+Comunidad+de+Madrid&ll=40.413867,-3.706683&spn=0.036727,0.076818&z=14
   original_url: http://madridrb.jottit.com/octubre_2012
   topics:
-  - !ruby/struct:Topic
-    title: Making code tastier through Refactoring
+  - title: Making code tastier through Refactoring
     details: <p>Todos hemos trabajando alguna vez con una aplicación con código legacy.
       Refactoring es una técnica que nos permite reestructurar y rediseñar el código
       de nuestra aplicación sin modificar su comportamiento de forma que sea más legible
@@ -5321,10 +4475,8 @@
 
 '
     video_url: https://vimeo.com/52987852
-    slides_url: 
     speakers:
-    - !ruby/struct:Speaker
-      speaker_name: Gabriel Ortuño
+    - speaker_name: Gabriel Ortuño
       speaker_handle: ! '@arctarus'
       speaker_bio: ! '<p>Desde que llegué a Madrid a finales de 2006 he hecho un viaje
         por el mundo de la programación que me ha llevado desde el front-end hasta
@@ -5349,25 +4501,10 @@
 
 
 '
-    topic_indexes:
-    - 0
-    speaker_indexes:
-    - 1
-    resource_indexes: []
-    additional_indexes: []
-    found_links:
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-- !ruby/struct:Meeting
-  title: ! 'Bajar del monorraíl: microservicios'
+- title: ! 'Bajar del monorraíl: microservicios'
   meeting_date: 2013-10-24
   meeting_time: '19:45'
   venue: Utopic_US US3 (c/ Colegiata 9)
-  details: 
-  details_md: 
   offered_by:
   - http://www.bebanjo.com/
   - http://www.prorubyteam.com/
@@ -5449,8 +4586,7 @@
   map_url: https://www.google.com/maps/preview#!q=Calle+Colegiata%2C+9%2C+Madrid%2C+Spain&data=!4m10!1m9!4m8!1m3!1d203964!2d-3.6795367!3d40.4378271!3m2!1i1436!2i806!4f13.1
   original_url: http://madridrb.jottit.com/octubre_2013
   topics:
-  - !ruby/struct:Topic
-    title: ! 'Bajar del monorraíl: microservicios'
+  - title: ! 'Bajar del monorraíl: microservicios'
     details: <p>Durante 6 años, <a href="https://soundcloud.com/" rel="nofollow">SoundCloud</a>
       ha corrido sobre Rails, mientras crecía de 0 a millones de usuarios. También,
       de un puñado de gente a más de 200 empleados. Como parte del reto, tuvimos que
@@ -5467,10 +4603,8 @@
 
 '
     video_url: http://vimeo.com/78712143
-    slides_url: 
     speakers:
-    - !ruby/struct:Speaker
-      speaker_name: Sergio Gil
+    - speaker_name: Sergio Gil
       speaker_handle: ! '@porras'
       speaker_bio: <p>Sergio es un viejo conocido del grupo y ya ha hablado en un
         par de ocasiones. Lleva unos cuantos años dándole al Ruby en compañías bien
@@ -5488,8 +4622,7 @@
 
 
 '
-    - !ruby/struct:Speaker
-      speaker_name: Vitor Pellegrino
+    - speaker_name: Vitor Pellegrino
       speaker_handle: ! '@pellegrino'
       speaker_bio: <p>Vitor cambió Brasil por Berlín para trabajar en SoundCloud.
         Tiene un montón de experiencia trabajando con Ruby y Rails para distintas
@@ -5504,32 +4637,13 @@
 
 
 '
-    topic_indexes:
-    - 1
-    speaker_indexes:
-    - 2
-    - 3
-    resource_indexes: []
-    additional_indexes: []
-    found_links:
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-- !ruby/struct:Meeting
-  title: ! 'RabbitMQ + Ruby #'
+- title: ! 'RabbitMQ + Ruby #'
   meeting_date: 2010-09-30
   meeting_time: '19:45'
   venue: ! 'Lugar: Aula The Cocktail'
-  details: 
-  details_md: 
-  offered_by: 
-  offered_by_html: 
-  attendees: 
-  map_url: 
   original_url: http://madridrb.jottit.com/septiembre_2010
   topics:
-  - !ruby/struct:Topic
-    title: ! 'RabbitMQ + Ruby #'
+  - title: ! 'RabbitMQ + Ruby #'
     details: ! '<ul>
 
       <li>RabbitMQ ¿Qué es? ¿Cómo funciona? AMQP, XMPP, y otras siglas</li>
@@ -5546,11 +4660,8 @@
       - Day by day. Integración y uso en aplicaciones. Librerías
 
 '
-    video_url: 
-    slides_url: 
     speakers:
-    - !ruby/struct:Speaker
-      speaker_name: Guillermo Álvarez
+    - speaker_name: Guillermo Álvarez
       speaker_handle: ! '@guillermooo'
       speaker_bio: ! '<p>Madrid, 1983 - 2087. Curioso de la informática/electrónica/robótica/tecnología
         desde los 16 años. Programador ruby/rails desde 2007 en lacoctelera.com y
@@ -5571,25 +4682,10 @@
         \ \n [http://twitter.com/guillermooo](http://twitter.com/guillermooo)  \n
         [http://github.com/guillermo](http://github.com/guillermo)  \n [http://www.flickr.com/photos/cientifico](http://www.flickr.com/photos/cientifico)
         \ \n [http://barrapunto.com/~alvarezzz](http://barrapunto.com/~alvarezzz)\n\n"
-    topic_indexes:
-    - 0
-    speaker_indexes:
-    - 1
-    resource_indexes: []
-    additional_indexes: []
-    found_links:
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-- !ruby/struct:Meeting
-  title: Si yo fuera una API
+- title: Si yo fuera una API
   meeting_date: 2011-09-29
   meeting_time: '19:45'
   venue: Utopic_US
-  details: 
-  details_md: 
   offered_by:
   - http://www.vizzuality.com/
   - http://www.bebanjo.com/
@@ -5620,8 +4716,7 @@
   map_url: http://maps.google.es/maps?f=q&source=embed&hl=es&geocode=&q=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid&sll=40.396764,-3.713379&sspn=10.504732,23.269043&ie=UTF8&hq=&hnear=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid,+Comunidad+de+Madrid&ll=40.413867,-3.706683&spn=0.036727,0.076818&z=14
   original_url: http://madridrb.jottit.com/septiembre_2011
   topics:
-  - !ruby/struct:Topic
-    title: Si yo fuera una API
+  - title: Si yo fuera una API
     details: ! "<p>En esta charla filosofaremos sobre APIs en un mundo Railero.\nSu
       implementación en cliente y en servidor,\nlos entresijos del testing, métodos
       de autenticación,\nbuenas y malas prácticas, como comunicarte con los desarrolladores
@@ -5633,11 +4728,8 @@
 
 
 '
-    video_url: 
-    slides_url: 
     speakers:
-    - !ruby/struct:Speaker
-      speaker_name: Raimond García
+    - speaker_name: Raimond García
       speaker_handle: http://raimondgarcia.com
       speaker_bio: ! "<p><a href=\"http://raimondgarcia.com\" rel=\"nofollow\">Rai</a>
         es un desarrollador web Freelance,\napasionado del testing, Kanban y de la
@@ -5651,23 +4743,10 @@
 
 
 '
-    topic_indexes:
-    - 0
-    speaker_indexes:
-    - 1
-    resource_indexes: []
-    additional_indexes: []
-    found_links:
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-- !ruby/struct:Meeting
-  title: The Ruby Object Model
+- title: The Ruby Object Model
   meeting_date: 2012-09-27
   meeting_time: '19:45'
   venue: Utopic_US
-  details: 
-  details_md: 
   offered_by:
   - http://www.vizzuality.com/
   - http://www.bebanjo.com/
@@ -5742,8 +4821,7 @@
   map_url: http://maps.google.es/maps?f=q&source=embed&hl=es&geocode=&q=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid&sll=40.396764,-3.713379&sspn=10.504732,23.269043&ie=UTF8&hq=&hnear=Calle+de+la+Concepci%C3%B3n+Jer%C3%B3nima,+22,+28012+Madrid,+Comunidad+de+Madrid&ll=40.413867,-3.706683&spn=0.036727,0.076818&z=14
   original_url: http://madridrb.jottit.com/septiembre_2012
   topics:
-  - !ruby/struct:Topic
-    title: The Ruby Object Model
+  - title: The Ruby Object Model
     details: <p>En ruby todo es un objeto, ¿pero es todo el mismo objeto? Con esta
       charla voy a intentar explicar el modelado de objetos de ruby, o lo que es lo
       mismo, explicar qué es lo que está haciendo ruby por debajo cuando defines una
@@ -5755,11 +4833,8 @@
 
 
 '
-    video_url: 
-    slides_url: 
     speakers:
-    - !ruby/struct:Speaker
-      speaker_name: Javier Lafora
+    - speaker_name: Javier Lafora
       speaker_handle: ! '@eLafo'
       speaker_bio: <p>Soy un ex-estudiante de medicina que, tras cuatro años de carrera,
         decidió cambiar de aires y dedicarse a la informática. Llevo programando desde
@@ -5776,23 +4851,10 @@
 
 
 '
-    topic_indexes:
-    - 0
-    speaker_indexes:
-    - 1
-    resource_indexes: []
-    additional_indexes: []
-    found_links:
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-- !ruby/struct:Meeting
-  title: ! 'Croupier: probabilidades, muestras y enumerables.'
+- title: ! 'Croupier: probabilidades, muestras y enumerables.'
   meeting_date: 2013-10-24
   meeting_time: '19:45'
   venue: Utopic_US US3 (c/ Colegiata 9)
-  details: 
-  details_md: 
   offered_by:
   - http://www.bebanjo.com/
   - http://www.prorubyteam.com/
@@ -5850,8 +4912,7 @@
   map_url: https://www.google.com/maps/preview#!q=Calle+Colegiata%2C+9%2C+Madrid%2C+Spain&data=!4m10!1m9!4m8!1m3!1d203964!2d-3.6795367!3d40.4378271!3m2!1i1436!2i806!4f13.1
   original_url: http://madridrb.jottit.com/septiembre_2013
   topics:
-  - !ruby/struct:Topic
-    title: ! 'Croupier: probabilidades, muestras y enumerables.'
+  - title: ! 'Croupier: probabilidades, muestras y enumerables.'
     details: ! '<p>Croupier es una gema que permite trabajar con muestras aleatorias
       de forma fácil. Como no sólo de distribuciones de probabilidad viven los datos
       aleatorios, también cuenta con otro tipo de "distribuciones" (por ejemplo, tarjetas
@@ -5885,10 +4946,8 @@
 
 '
     video_url: http://vimeo.com/78610616
-    slides_url: 
     speakers:
-    - !ruby/struct:Speaker
-      speaker_name: Sergio Arbeo
+    - speaker_name: Sergio Arbeo
       speaker_handle: ! '@serabe'
       speaker_bio: <p>Matemático de formación y programador de vocación, llevo en
         la comunidad Ruby ya unos añitos, dando mi primera charla sobre JRuby en la
@@ -5905,30 +4964,13 @@
 
 
 '
-    topic_indexes:
-    - 1
-    speaker_indexes:
-    - 2
-    resource_indexes: []
-    additional_indexes:
-    - 3
-    found_links:
-    - !ruby/object:Nokogiri::XML::Element {}
-- !ruby/struct:Meeting
-  title: Terracismo-rb
-  meeting_date: 
+- title: Terracismo-rb
   meeting_time: '20:00'
   venue: Terraza Valle Hermoso
-  details: 
-  details_md: 
-  offered_by: 
-  offered_by_html: 
-  attendees: 
   map_url: !ruby/object:Enumerator {}
   original_url: http://madridrb.jottit.com/terracismo.rb
   topics:
-  - !ruby/struct:Topic
-    title: Terracismo-rb
+  - title: Terracismo-rb
     details: <p>Siguiendo la tradición, en periodos estivales tratamos de soportar
       los rigores del clima de la capital en una terraza, con una cerveza (o refresco)
       y en compañía de lo más granado del rubismo madrileño (los que no han huido
@@ -5940,22 +4982,11 @@
 
 
 '
-    video_url: 
-    slides_url: 
     speakers: []
-    topic_indexes:
-    - 0
-    speaker_indexes: []
-    resource_indexes: []
-    additional_indexes: []
-    found_links: []
-- !ruby/struct:Meeting
-  title: Hackeando redacciones con Ruby
+- title: Hackeando redacciones con Ruby
   meeting_date: 2014-10-30
   meeting_time: '20:00'
   venue: The Irish Rover @ Avenida de Brasil, 7
-  details: 
-  details_md: 
   offered_by:
   - http://bebanjo.com
   - http://www.prorubyteam.com/
@@ -6024,8 +5055,7 @@
   map_url: https://www.google.com/maps/place/The+Irish+Rover/@40.454843,-3.693945,17z/data=!3m1!4b1!4m2!3m1!1s0xd422902b93a59c5:0xac5dccb9e6db0dd5
   original_url: https://github.com/madridrb/madridrb.github.io/wiki/2014-10-30:-Hackeando-redacciones-con-Ruby
   topics:
-  - !ruby/struct:Topic
-    title: Hackeando redacciones con Ruby
+  - title: Hackeando redacciones con Ruby
     details: <p>El Open Data prometía abrir las administraciones a los ciudadanos
       y generar una ola de transparencia. Pero los datos más jugosos no están en la
       superficie, esperando para ser tratados de forma estructurada y en formatos
@@ -6048,8 +5078,7 @@
     video_url: https://vimeo.com/111778599
     slides_url: https://dl.dropboxusercontent.com/u/531246/Periodismo%20y%20Ruby.pdf
     speakers:
-    - !ruby/struct:Speaker
-      speaker_name: David Cabo
+    - speaker_name: David Cabo
       speaker_handle: ! '@dcabo'
       speaker_bio: <p>David Cabo es un ingeniero informático que, después de diez
         años en trabajos aburridos para otros, decidió dedicarse a tiempo completo
@@ -6067,30 +5096,10 @@
 
 
 '
-    topic_indexes:
-    - 1
-    speaker_indexes:
-    - 2
-    resource_indexes: []
-    additional_indexes: []
-    found_links:
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-- !ruby/struct:Meeting
-  title: Integración Continua fuera de la alargada sombra de Jenkins
+- title: Integración Continua fuera de la alargada sombra de Jenkins
   meeting_date: 2014-09-25
   meeting_time: '20:00'
   venue: The Irish Rover @ Avenida de Brasil, 7
-  details: 
-  details_md: 
   offered_by:
   - http://bebanjo.com
   - http://www.prorubyteam.com/
@@ -6157,8 +5166,7 @@
   map_url: https://www.google.com/maps/place/The+Irish+Rover/@40.454843,-3.693945,17z/data=!3m1!4b1!4m2!3m1!1s0xd422902b93a59c5:0xac5dccb9e6db0dd5
   original_url: https://github.com/madridrb/madridrb.github.io/wiki/2014-25-09:-Integraci%C3%B3n-Continua-fuera-de-la-alargada-sombra-de-Jenkins
   topics:
-  - !ruby/struct:Topic
-    title: Integración Continua fuera de la alargada sombra de Jenkins
+  - title: Integración Continua fuera de la alargada sombra de Jenkins
     details: <p>En <a href="http://www.bebanjo.com/">BeBanjo</a> algunas de nuestras
       aplicaciones tienen suites de tests, llamémoslas "curiosas", y por unas o por
       otras la agilidad en el desarrollo se estaba viendo afectad por una Integración
@@ -6175,10 +5183,8 @@
 
 '
     video_url: https://vimeo.com/110343463/
-    slides_url: 
     speakers:
-    - !ruby/struct:Speaker
-      speaker_name: Paco Guzmán
+    - speaker_name: Paco Guzmán
       speaker_handle: ! '@pacoguzman'
       speaker_bio: ! '<p>Conozco Rails desde hace unos pocos de años, desde su versión
         1.2.6. Ingeniero Superior de Telecomunicaciones nunca me sentí cómodo con
@@ -6200,28 +5206,10 @@
 
 
 '
-    topic_indexes:
-    - 1
-    speaker_indexes:
-    - 2
-    resource_indexes: []
-    additional_indexes: []
-    found_links:
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-- !ruby/struct:Meeting
-  title: Terracismo.rb
+- title: Terracismo.rb
   meeting_date: 2014-07-31
   meeting_time: '20:00'
   venue: The Irish Rover @ Avenida de Brasil, 7
-  details: 
-  details_md: 
-  offered_by: 
-  offered_by_html: 
   attendees:
   - ! '@vierarb'
   - ! '@based_err3'
@@ -6237,8 +5225,7 @@
   map_url: https://www.google.com/maps/place/The+Irish+Rover/@40.454843,-3.693945,17z/data=!3m1!4b1!4m2!3m1!1s0xd422902b93a59c5:0xac5dccb9e6db0dd5
   original_url: https://github.com/madridrb/madridrb.github.io/wiki/2014-07-31:-Terracismo.rb
   topics:
-  - !ruby/struct:Topic
-    title: Terracismo.rb
+  - title: Terracismo.rb
     details: ! '<p>No todo el mundo se va de vacaciones a la vez. Y los que se quedan
       en Madrid, puede que echen de menos un Madrid.rb.</p>
 
@@ -6267,26 +5254,11 @@
 
 
 '
-    video_url: 
-    slides_url: 
     speakers: []
-    topic_indexes:
-    - 0
-    speaker_indexes: []
-    resource_indexes: []
-    additional_indexes: []
-    found_links:
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-- !ruby/struct:Meeting
-  title: Terracismo.rb
+- title: Terracismo.rb
   meeting_date: 2014-08-28
   meeting_time: '20:00'
   venue: The Irish Rover @ Avenida de Brasil, 7
-  details: 
-  details_md: 
-  offered_by: 
-  offered_by_html: 
   attendees:
   - ! '@otikik'
   - ! '@joseferrer'
@@ -6303,8 +5275,7 @@
   map_url: https://www.google.com/maps/place/The+Irish+Rover/@40.454843,-3.693945,17z/data=!3m1!4b1!4m2!3m1!1s0xd422902b93a59c5:0xac5dccb9e6db0dd5
   original_url: https://github.com/madridrb/madridrb.github.io/wiki/2014-08-28:-Terracismo.rb
   topics:
-  - !ruby/struct:Topic
-    title: Terracismo.rb
+  - title: Terracismo.rb
     details: ! '<p>Madrid está estupendo en Agosto. Lugares que habitualmente están
       masificados de gente y tráfico, tienen unos niveles de ocupación mucho más razonables.</p>
 
@@ -6326,24 +5297,11 @@
 
 
 '
-    video_url: 
-    slides_url: 
     speakers: []
-    topic_indexes:
-    - 0
-    speaker_indexes: []
-    resource_indexes: []
-    additional_indexes: []
-    found_links:
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-- !ruby/struct:Meeting
-  title: ! 'Deuda técnica: achicando agua, que el barco se hunde'
+- title: ! 'Deuda técnica: achicando agua, que el barco se hunde'
   meeting_date: 2014-11-27
   meeting_time: '20:00'
   venue: The Irish Rover @ Avenida de Brasil, 7
-  details: 
-  details_md: 
   offered_by:
   - http://bebanjo.com
   - http://www.prorubyteam.com/
@@ -6407,8 +5365,7 @@
   map_url: https://www.google.com/maps/place/The+Irish+Rover/@40.454843,-3.693945,17z/data=!3m1!4b1!4m2!3m1!1s0xd422902b93a59c5:0xac5dccb9e6db0dd5
   original_url: https://github.com/madridrb/madridrb.github.io/wiki/2014-11-27:-Deuda-t%C3%A9cnica:-achicando-agua,-que-el-barco-se-hunde
   topics:
-  - !ruby/struct:Topic
-    title: ! 'Deuda técnica: achicando agua, que el barco se hunde'
+  - title: ! 'Deuda técnica: achicando agua, que el barco se hunde'
     details: <p>El concepto de deuda técnica no es nuevo. En todos los proyectos quien
       más quien menos, tenemos deuda técnica, pero ¿dónde se encuentra? ¿de dónde
       viene? ¿por qué se crea? y sobre todo, ¿se puede gestionar? Contaré cuáles han
@@ -6423,10 +5380,8 @@
 
 '
     video_url: https://vimeo.com/117102377
-    slides_url: 
     speakers:
-    - !ruby/struct:Speaker
-      speaker_name: Javier Lafora
+    - speaker_name: Javier Lafora
       speaker_handle: ! '@elafo'
       speaker_bio: <p>Músico y cervecero aficionado, ha encontrado en el desarrollo
         web y la programación en general una pasión que le permite costearse sus vicios
@@ -6437,23 +5392,10 @@
 
 
 '
-    topic_indexes:
-    - 1
-    speaker_indexes:
-    - 2
-    resource_indexes: []
-    additional_indexes: []
-    found_links:
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-- !ruby/struct:Meeting
-  title: Event your life with Kafka
+- title: Event your life with Kafka
   meeting_date: 2014-12-29
   meeting_time: '19:45'
   venue: The Irish Rover @ Avenida de Brasil, 7
-  details: 
-  details_md: 
   offered_by:
   - http://bebanjo.com
   - http://www.prorubyteam.com/
@@ -6511,8 +5453,7 @@
   map_url: https://www.google.com/maps/place/The+Irish+Rover/@40.454843,-3.693945,17z/data=!3m1!4b1!4m2!3m1!1s0xd422902b93a59c5:0xac5dccb9e6db0dd5
   original_url: https://github.com/madridrb/madridrb.github.io/wiki/2014-12-29-Event-your-life-with-Kafka
   topics:
-  - !ruby/struct:Topic
-    title: Event your life with Kafka
+  - title: Event your life with Kafka
     details: <p>En esta charla analizaremos un poco qué es <a href="http://kafka.apache.org/">Apache
       Kafka</a>, qué problemas trata de resolver, lo compararemos a alto nivel con
       otras posibles soluciones, veremos algunos ejemplos de configuración y como
@@ -6527,10 +5468,8 @@
 
 '
     video_url: https://vimeo.com/117742863
-    slides_url: 
     speakers:
-    - !ruby/struct:Speaker
-      speaker_name: Mari Carmen Gutierrez De La Ossa
+    - speaker_name: Mari Carmen Gutierrez De La Ossa
       speaker_handle: ! '@valakirka'
       speaker_bio: ! '<p>bio: Me llamo Mari y soy desarrolladora Ruby desde hace 4
         años. Actualmente vivo y trabajo en Berlin, donde paso mi tiempo entre currywursts,
@@ -6543,25 +5482,10 @@
 
 
 '
-    topic_indexes:
-    - 1
-    speaker_indexes:
-    - 2
-    resource_indexes: []
-    additional_indexes: []
-    found_links:
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-- !ruby/struct:Meeting
-  title: Hacking your bank with Ruby and reverse engineering
+- title: Hacking your bank with Ruby and reverse engineering
   meeting_date: 2015-01-29
   meeting_time: '19:45'
   venue: The Irish Rover @ Avenida de Brasil, 7
-  details: 
-  details_md: 
   offered_by:
   - http://bebanjo.com
   - http://www.prorubyteam.com/
@@ -6635,8 +5559,7 @@
   map_url: https://www.google.com/maps/place/The+Irish+Rover/@40.454843,-3.693945,17z/data=!3m1!4b1!4m2!3m1!1s0xd422902b93a59c5:0xac5dccb9e6db0dd5
   original_url: https://github.com/madridrb/madridrb.github.io/wiki/2015-01-29-Hacking-your-bank-with-Ruby-and-reverse-engineering
   topics:
-  - !ruby/struct:Topic
-    title: Hacking your bank with Ruby and reverse engineering
+  - title: Hacking your bank with Ruby and reverse engineering
     details: <p>Os contaremos la historia que hay detrás de <a href="https://github.com/ismaGNU/bank_scrap">bank_scrap</a>,
       una gema Ruby para acceder a información bancaria como transacciones o saldos
       de diferentes bancos. Desde como utilizamos ingeniería inversa sobre una aplicación
@@ -6651,10 +5574,8 @@
 
 '
     video_url: https://vimeo.com/120834134
-    slides_url: 
     speakers:
-    - !ruby/struct:Speaker
-      speaker_name: Javier Cuevas
+    - speaker_name: Javier Cuevas
       speaker_handle: ! '@javier_dev'
       speaker_bio: <p>Javier Cuevas es CEO de <a href="http://diacode.com/">Diacode</a>,
         empresa de consultoría Ruby on Rails fundada en 2010, y CTO de <a href="https://gudog.com/">Gudog</a>,
@@ -6667,16 +5588,3 @@
 
 
 '
-    topic_indexes:
-    - 1
-    speaker_indexes:
-    - 2
-    resource_indexes: []
-    additional_indexes: []
-    found_links:
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}
-    - !ruby/object:Nokogiri::XML::Element {}

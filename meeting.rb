@@ -1,12 +1,23 @@
 
 module SparseJson
-
-  def to_json(*a)
+  
+  def values_hash
     h = {}
     each_pair do |k, v|
       h[k.to_s] = v unless v.nil?
     end
-    h.to_json(a)
+    return h
+  end
+
+  def to_json(*a)
+    values_hash.to_json(a)
+  end
+  
+  def encode_with(coder)
+    coder.tag = nil
+    values_hash.each do |k,v|
+      coder[k] = v
+    end
   end
   
 end
