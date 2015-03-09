@@ -37,6 +37,7 @@ class JottitParser
         begin
           meeting = get_meeting(uri)
           if meeting
+            meeting.check_contents # Let data check itself
             meetings << meeting
             update_master_dict(meeting)
             write_meeting(meeting)
@@ -68,8 +69,6 @@ class JottitParser
   
   def write_meeting(meeting)
     # puts meeting.to_yaml
-    # Let data check itself
-    meeting.check_contents
   end
   
   # Records some repetitive data, like map urls for venues and speaker handles

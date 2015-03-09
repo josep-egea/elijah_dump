@@ -4973,25 +4973,6 @@
 
 
 '
-- title: Terracismo-rb
-  meeting_time: '20:00'
-  venue: Terraza Valle Hermoso
-  map_url: !ruby/object:Enumerator {}
-  original_url: http://madridrb.jottit.com/terracismo.rb
-  topics:
-  - title: Terracismo-rb
-    details: <p>Siguiendo la tradición, en periodos estivales tratamos de soportar
-      los rigores del clima de la capital en una terraza, con una cerveza (o refresco)
-      y en compañía de lo más granado del rubismo madrileño (los que no han huido
-      de Madrid, vaya).</p>
-    details_md: ! 'Siguiendo la tradición, en periodos estivales tratamos de soportar
-      los rigores del clima de la capital en una terraza, con una cerveza (o refresco)
-      y en compañía de lo más granado del rubismo madrileño (los que no han huido
-      de Madrid, vaya).
-
-
-'
-    speakers: []
 - title: Hackeando redacciones con Ruby
   meeting_date: 2014-10-30
   meeting_time: '20:00'
